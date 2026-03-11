@@ -1,0 +1,698 @@
+{
+  "summary": {
+    "update_time": "2026-03-11T16:48:40.823731",
+    "total_compounds": 24,
+    "success": 7,
+    "not_found": 17,
+    "success_rate": "29.2%"
+  },
+  "results": [
+    {
+      "input_name": "THDBH110",
+      "input_smiles": "CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C[C@@H]([C@H](COC2=CC(=CC(=C2)F)F)NC(=O)[C@H](CCSC)NC(=O)[C@H](C(C)C)NC(=O)OC(C)(C)C)O",
+      "input_inchikey": "GEMWRCXJLPOQSU-BLNBCHBNSA-N",
+      "input_iupac": "4-({(S)-2-[(3S",
+      "pubchem_data": {
+        "cid": 44588632,
+        "name": "4-[[[(2S)-2-[[(3S,4S)-5-(3,5-difluorophenoxy)-3-hydroxy-4-[[(2S)-2-[[(2S)-3-methyl-2-[(2-methylpropan-2-yl)oxycarbonylamino]butanoyl]amino]-4-methylsulfanylbutanoyl]amino]pentanoyl]amino]-3-methylbutanoyl]amino]methyl]benzoic acid",
+        "smiles": "CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C[C@@H]([C@H](COC2=CC(=CC(=C2)F)F)NC(=O)[C@H](CCSC)NC(=O)[C@H](C(C)C)NC(=O)OC(C)(C)C)O",
+        "inchikey": "GEMWRCXJLPOQSU-BLNBCHBNSA-N",
+        "molecular_weight": 823.9,
+        "molecular_formula": "C39H55F2N5O10S",
+        "source": "PubChem (by SMILES)",
+        "update_time": "2026-03-11T16:47:32.475027"
+      },
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=THDBH110",
+          "check_time": "2026-03-11T16:47:32.475069"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=THDBH110",
+          "check_time": "2026-03-11T16:47:32.475079"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=THDBH110",
+          "check_time": "2026-03-11T16:47:32.475086"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "input_name": "AZD5004/ECC5004",
+      "input_smiles": "O=C(N1[C@H](C2=C(N3C=CN(C4=CC=C(N(C)N=C5)C5=C4F)C3=O)N(C6=CC(C7CC7)=C(C=C6)F)N=C2CC1)C)C8=C(N9C(C=C([C@H]%10CC(C)(OCC%10)C)C=C9)=C8)C%11(C%12=NOC(N%12)=O)CC%11",
+      "input_inchikey": "JMKBTILBGROESC-LITSAYRRSA-N",
+      "input_iupac": "3-[1-[2-[[(4S)-2-(3-cyclopropyl-4-fluorophenyl)-3-[3-(4-fluoro-1-methyl-1H-indazol-5-yl)-2",
+      "pubchem_data": {
+        "cid": 167350327,
+        "name": "3-[1-[2-[(4S)-2-(3-cyclopropyl-4-fluorophenyl)-3-[3-(4-fluoro-1-methylindazol-5-yl)-2-oxoimidazol-1-yl]-4-methyl-6,7-dihydro-4H-pyrazolo[4,3-c]pyridine-5-carbonyl]-7-[(4R)-2,2-dimethyloxan-4-yl]indolizin-3-yl]cyclopropyl]-4H-1,2,4-oxadiazol-5-one",
+        "smiles": "C[C@H]1C2=C(N(N=C2CCN1C(=O)C3=C(N4C=CC(=CC4=C3)[C@@H]5CCOC(C5)(C)C)C6(CC6)C7=NOC(=O)N7)C8=CC(=C(C=C8)F)C9CC9)N1C=CN(C1=O)C1=C(C2=C(C=C1)N(N=C2)C)F",
+        "inchikey": "JMKBTILBGROESC-LITSAYRRSA-N",
+        "molecular_weight": 880.9,
+        "molecular_formula": "C48H46F2N10O5",
+        "source": "PubChem (by SMILES)",
+        "update_time": "2026-03-11T16:47:36.844057"
+      },
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=AZD5004/ECC5004",
+          "check_time": "2026-03-11T16:47:36.844100"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=AZD5004/ECC5004",
+          "check_time": "2026-03-11T16:47:36.844108"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=AZD5004/ECC5004",
+          "check_time": "2026-03-11T16:47:36.844115"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "input_name": "APH01727",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "2‑((4‑(6‑((4‑chlorobenzofuran‑7‑yl)methoxy)pyridin‑2‑yl)cyclohex‑3‑en‑1‑yl)methyl)‑1‑((S)‑oxetan‑2‑ylmethyl)‑1H‑benzo[d]imidazole‑6‑carboxylic acid，一品红，Preclinical，小分子 GLP-1",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=APH01727",
+          "check_time": "2026-03-11T16:47:39.146267"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=APH01727",
+          "check_time": "2026-03-11T16:47:39.146291"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=APH01727",
+          "check_time": "2026-03-11T16:47:39.146297"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "MDR-001",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=MDR-001",
+          "check_time": "2026-03-11T16:47:41.639697"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=MDR-001",
+          "check_time": "2026-03-11T16:47:41.639724"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=MDR-001",
+          "check_time": "2026-03-11T16:47:41.639731"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "VCT220/CX11",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，闻泰生物/箕星药业，Phase I，双靶点",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=VCT220/CX11",
+          "check_time": "2026-03-11T16:47:44.061980"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=VCT220/CX11",
+          "check_time": "2026-03-11T16:47:44.062003"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=VCT220/CX11",
+          "check_time": "2026-03-11T16:47:44.062011"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "HSK34890",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，海思科，Phase I，口服小分子",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=HSK34890",
+          "check_time": "2026-03-11T16:47:46.366033"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=HSK34890",
+          "check_time": "2026-03-11T16:47:46.366058"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=HSK34890",
+          "check_time": "2026-03-11T16:47:46.366065"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "DA‑302168S",
+      "input_smiles": "ClC1=CC=C(COC2=C(F)C=CC(C3=CC=C(CC4=NC(C=CC(C(O)=O)=C5)=C5N4C[C@@H]6CCO6)C(F)=C3)=N2)C7=C1C=CO7",
+      "input_inchikey": "ZWQNIWWZDWNMQA-QFIPXVFZSA-N",
+      "input_iupac": "(S)-2-(4-(6-((4-chlorobenzofuran-7-yl)methoxy)-5-fluoropyridin-2-yl)-2-fluorobenzyl)-1-(oxetan-2-ylmethyl)-1H-benzo[d]imidazole-6-carboxylic acid，地奥制药，Phase I，小分子 GLP-1",
+      "pubchem_data": {
+        "cid": 172991785,
+        "name": "2-[[4-[6-[(4-chloro-1-benzofuran-7-yl)methoxy]-5-fluoro-2-pyridinyl]-2-fluorophenyl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid",
+        "smiles": "C1CO[C@@H]1CN2C3=C(C=CC(=C3)C(=O)O)N=C2CC4=C(C=C(C=C4)C5=NC(=C(C=C5)F)OCC6=C7C(=C(C=C6)Cl)C=CO7)F",
+        "inchikey": "ZWQNIWWZDWNMQA-QFIPXVFZSA-N",
+        "molecular_weight": 616.0,
+        "molecular_formula": "C33H24ClF2N3O5",
+        "source": "PubChem (by SMILES)",
+        "update_time": "2026-03-11T16:47:50.796760"
+      },
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=DA‑302168S",
+          "check_time": "2026-03-11T16:47:50.796807"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=DA‑302168S",
+          "check_time": "2026-03-11T16:47:50.796815"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=DA‑302168S",
+          "check_time": "2026-03-11T16:47:50.796822"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "input_name": "GZR18",
+      "input_smiles": "CC(O)=O.O=C(N[C@]([H])(C(O)=O)CCC(NCCOCCOCC(NCCOCCOCC(NCCCC[C@]([H])(N)C(O)=O)=O)=O)=O)CCCCCCCCCCCCCCCCCCC",
+      "input_inchikey": "FAXDLCDHLLSCDG-UHFFFAOYSA-N",
+      "input_iupac": "L-histidylglycyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-valyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-α-glutamylglycyl-L-glutaminyl-L-alanyl-L-alanyl-N6-[(22S)-22",
+      "pubchem_data": {
+        "cid": null,
+        "name": "GZR18",
+        "smiles": "CCCCCCCCCCCCCCCCCCCC(=O)N[C@@H](CCC(=O)NCCOCCOCC(=O)NCCOCCOCC(=O)NCCCC[C@@H](C(=O)O)N)C(=O)O.CC(=O)O",
+        "inchikey": null,
+        "molecular_weight": null,
+        "molecular_formula": null,
+        "source": "PubChem (by SMILES)",
+        "update_time": "2026-03-11T16:47:54.970238"
+      },
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=GZR18",
+          "check_time": "2026-03-11T16:47:54.970283"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=GZR18",
+          "check_time": "2026-03-11T16:47:54.970292"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=GZR18",
+          "check_time": "2026-03-11T16:47:54.970298"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "input_name": "LY3549492",
+      "input_smiles": "CC1=CC(=C(C=C1C2=NC(=CC=C2)OCC3=C(C=C(C=C3)C#N)F)F)CC4=NC5=C(N4C[C@@H]6CCO6)C=C(C=C5)C(=O)O",
+      "input_inchikey": "QZQFEJHDNYVBKL-DEOSSOPVSA-N",
+      "input_iupac": "2-[[4-[6-[(4-cyano-2-fluorophenyl)methoxy]-2-pyridinyl]-2-fluoro-5-methylphenyl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid，礼来，Preclinical，小分子 GLP-1",
+      "pubchem_data": {
+        "cid": 155433819,
+        "name": "2-[[4-[6-[(4-cyano-2-fluorophenyl)methoxy]-2-pyridinyl]-2-fluoro-5-methylphenyl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid",
+        "smiles": "CC1=CC(=C(C=C1C2=NC(=CC=C2)OCC3=C(C=C(C=C3)C#N)F)F)CC4=NC5=C(N4C[C@@H]6CCO6)C=C(C=C5)C(=O)O",
+        "inchikey": "QZQFEJHDNYVBKL-DEOSSOPVSA-N",
+        "molecular_weight": 580.6,
+        "molecular_formula": "C33H26F2N4O4",
+        "synonyms": [
+          "Naperiglipron",
+          "2572566-11-9",
+          "Naperiglipron (USAN)",
+          "LY3549492",
+          "LY-3549492",
+          "NAPERIGLIPRON [USAN]",
+          "naperiglipron [INN]",
+          "BJN78TT46S",
+          "CHEMBL5944135",
+          "SCHEMBL22830391"
+        ],
+        "source": "PubChem",
+        "update_time": "2026-03-11T16:47:59.063947"
+      },
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=LY3549492",
+          "check_time": "2026-03-11T16:47:59.064384"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=LY3549492",
+          "check_time": "2026-03-11T16:47:59.064397"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=LY3549492",
+          "check_time": "2026-03-11T16:47:59.064404"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "input_name": "HS‑10501‑2",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，翰森制药，Preclinical，缓释片",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=HS‑10501‑2",
+          "check_time": "2026-03-11T16:48:01.492869"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=HS‑10501‑2",
+          "check_time": "2026-03-11T16:48:01.492889"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=HS‑10501‑2",
+          "check_time": "2026-03-11T16:48:01.492896"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "ZT006",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，质态生物，Preclinical，-",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=ZT006",
+          "check_time": "2026-03-11T16:48:04.084948"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=ZT006",
+          "check_time": "2026-03-11T16:48:04.084971"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=ZT006",
+          "check_time": "2026-03-11T16:48:04.084979"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "MWN109",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "口服 GLP-1/GIP/GCG，民为生物，Phase I，三靶点",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=MWN109",
+          "check_time": "2026-03-11T16:48:06.416154"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=MWN109",
+          "check_time": "2026-03-11T16:48:06.416177"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=MWN109",
+          "check_time": "2026-03-11T16:48:06.416182"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "HS-10501",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，翰森制药，Phase I，-",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=HS-10501",
+          "check_time": "2026-03-11T16:48:08.972210"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=HS-10501",
+          "check_time": "2026-03-11T16:48:08.972276"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=HS-10501",
+          "check_time": "2026-03-11T16:48:08.972283"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "HDM1002",
+      "input_smiles": "C1CO[C@@H]1CN2C3=C(C=CC(=C3)C(=O)O)N=C2CN4CCC(CC4)C5=NC(=CC=C5)OCC6=C(C=C(C=C6)C7COC7)F",
+      "input_inchikey": "SFKAXUUDIGSMBK-SANMLTNESA-N",
+      "input_iupac": "2-[[4-[6-[[2-fluoro-4-(oxetan-3-yl)phenyl]methoxy]-2-pyridinyl]piperidin-1-yl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid，华东医药，Phase I，双靶点",
+      "pubchem_data": {
+        "cid": 166540968,
+        "name": "2-[[4-[6-[[2-fluoro-4-(oxetan-3-yl)phenyl]methoxy]-2-pyridinyl]piperidin-1-yl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid",
+        "smiles": "C1CO[C@@H]1CN2C3=C(C=CC(=C3)C(=O)O)N=C2CN4CCC(CC4)C5=NC(=CC=C5)OCC6=C(C=C(C=C6)C7COC7)F",
+        "inchikey": "SFKAXUUDIGSMBK-SANMLTNESA-N",
+        "molecular_weight": 586.7,
+        "molecular_formula": "C33H35FN4O5",
+        "source": "PubChem (by SMILES)",
+        "update_time": "2026-03-11T16:48:13.280123"
+      },
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=HDM1002",
+          "check_time": "2026-03-11T16:48:13.280171"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=HDM1002",
+          "check_time": "2026-03-11T16:48:13.280180"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=HDM1002",
+          "check_time": "2026-03-11T16:48:13.280187"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "input_name": "SAL0112",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，信立泰，Phase II，有 2 篇 PubMed 论文",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=SAL0112",
+          "check_time": "2026-03-11T16:48:15.917799"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=SAL0112",
+          "check_time": "2026-03-11T16:48:15.917820"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=SAL0112",
+          "check_time": "2026-03-11T16:48:15.917827"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "HRS-7535",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，恒瑞医药/山东盛迪，Phase I，-",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=HRS-7535",
+          "check_time": "2026-03-11T16:48:18.285716"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=HRS-7535",
+          "check_time": "2026-03-11T16:48:18.285737"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=HRS-7535",
+          "check_time": "2026-03-11T16:48:18.285744"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "LY3502970",
+      "input_smiles": "C[C@H]1C[C@]1(C2=NOC(=O)N2)N3C4=C(C=C(C=C4)[C@H]5CCOC(C5)(C)C)C=C3C(=O)N6CCC7=NN(C(=C7[C@@H]6C)N8C=CN(C8=O)C9=C(C1=C(C=C9)N(N=C1)C)F)C1=CC(=C(C(=C1)C)F)C",
+      "input_inchikey": "USUWIEBBBWHKNI-KHIFEHGGSA-N",
+      "input_iupac": "3-[(1S,2S)-1-[5-[(4S)-2,2-dimethyloxan-4-yl]-2-[(4S)-2-(4-fluoro-3,5-dimethylphenyl)-3-[3-(4-fluoro-1-methylindazol-5-yl)-2-oxoimidazol-1-yl]-4-methyl-6,7-dihydro-4H-pyrazolo[4,3-c]pyridine-5-carbonyl]indol-1-yl]-2-methylcyclopropyl]-4H-1,2,4-oxadiazol-5-one",
+      "pubchem_data": {
+        "cid": 137319706,
+        "name": "3-[(1S,2S)-1-[5-[(4S)-2,2-dimethyloxan-4-yl]-2-[(4S)-2-(4-fluoro-3,5-dimethylphenyl)-3-[3-(4-fluoro-1-methylindazol-5-yl)-2-oxoimidazol-1-yl]-4-methyl-6,7-dihydro-4H-pyrazolo[4,3-c]pyridine-5-carbonyl]indol-1-yl]-2-methylcyclopropyl]-4H-1,2,4-oxadiazol-5-one",
+        "smiles": "C[C@H]1C[C@]1(C2=NOC(=O)N2)N3C4=C(C=C(C=C4)[C@H]5CCOC(C5)(C)C)C=C3C(=O)N6CCC7=NN(C(=C7[C@@H]6C)N8C=CN(C8=O)C9=C(C1=C(C=C9)N(N=C1)C)F)C1=CC(=C(C(=C1)C)F)C",
+        "inchikey": "USUWIEBBBWHKNI-KHIFEHGGSA-N",
+        "molecular_weight": 883.0,
+        "molecular_formula": "C48H48F2N10O5",
+        "synonyms": [
+          "Orforglipron",
+          "2212020-52-3",
+          "LY3502970",
+          "LY-3502970",
+          "7ZW40D021M",
+          "RefChem:168463",
+          "GLP-1 receptor agonist 1",
+          "CHEMBL4446782",
+          "3-[(1S,2S)-1-[5-[(4S)-2,2-dimethyloxan-4-yl]-2-[(4S)-2-(4-fluoro-3,5-dimethylphenyl)-3-[3-(4-fluoro-1-methylindazol-5-yl)-2-oxoimidazol-1-yl]-4-methyl-6,7-dihydro-4H-pyrazolo[4,3-c]pyridine-5-carbonyl]indol-1-yl]-2-methylcyclopropyl]-4H-1,2,4-oxadiazol-5-one",
+          "MFCD31807602"
+        ],
+        "source": "PubChem",
+        "update_time": "2026-03-11T16:48:22.642178"
+      },
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=LY3502970",
+          "check_time": "2026-03-11T16:48:22.642658"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=LY3502970",
+          "check_time": "2026-03-11T16:48:22.642670"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=LY3502970",
+          "check_time": "2026-03-11T16:48:22.642676"
+        }
+      },
+      "status": "success"
+    },
+    {
+      "input_name": "NN9487",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "口服 GLP-1/胰淀素复方，诺和诺德，Phase I",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=NN9487",
+          "check_time": "2026-03-11T16:48:25.062033"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=NN9487",
+          "check_time": "2026-03-11T16:48:25.062055"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=NN9487",
+          "check_time": "2026-03-11T16:48:25.062062"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "BGM0504",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "口服 GLP-1/GIP，博瑞生物，Phase I，双靶点",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=BGM0504",
+          "check_time": "2026-03-11T16:48:27.576107"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=BGM0504",
+          "check_time": "2026-03-11T16:48:27.576131"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=BGM0504",
+          "check_time": "2026-03-11T16:48:27.576139"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "SYH2067",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，石药集团，Preclinical，-",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=SYH2067",
+          "check_time": "2026-03-11T16:48:30.019047"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=SYH2067",
+          "check_time": "2026-03-11T16:48:30.019070"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=SYH2067",
+          "check_time": "2026-03-11T16:48:30.019075"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "BPYT-01",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，百极优棠，Preclinical，新增",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=BPYT-01",
+          "check_time": "2026-03-11T16:48:32.479798"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=BPYT-01",
+          "check_time": "2026-03-11T16:48:32.479820"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=BPYT-01",
+          "check_time": "2026-03-11T16:48:32.479827"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "RGT-274",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1，齐鲁锐格，Preclinical，新增",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=RGT-274",
+          "check_time": "2026-03-11T16:48:35.037690"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=RGT-274",
+          "check_time": "2026-03-11T16:48:35.037715"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=RGT-274",
+          "check_time": "2026-03-11T16:48:35.037722"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "RO7795081/CT-996",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "小分子 GLP-1",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=RO7795081/CT-996",
+          "check_time": "2026-03-11T16:48:38.421633"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=RO7795081/CT-996",
+          "check_time": "2026-03-11T16:48:38.421657"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=RO7795081/CT-996",
+          "check_time": "2026-03-11T16:48:38.421664"
+        }
+      },
+      "status": "not_found"
+    },
+    {
+      "input_name": "司美格鲁肽片",
+      "input_smiles": "",
+      "input_inchikey": "",
+      "input_iupac": "口服多肽 GLP-1，诺和诺德，NDA，semaglutide tablet",
+      "pubchem_data": null,
+      "suppliers": {
+        "MCE": {
+          "available": "unknown",
+          "url": "https://www.medchemexpress.com/catalog.html?q=司美格鲁肽片",
+          "check_time": "2026-03-11T16:48:40.823687"
+        },
+        "TCI": {
+          "available": "unknown",
+          "url": "https://www.tcichemicals.com/US/en/search?keyword=司美格鲁肽片",
+          "check_time": "2026-03-11T16:48:40.823711"
+        },
+        "Enamine": {
+          "available": "unknown",
+          "url": "https://enamine.net/chemicals/search?query=司美格鲁肽片",
+          "check_time": "2026-03-11T16:48:40.823719"
+        }
+      },
+      "status": "not_found"
+    }
+  ]
+}

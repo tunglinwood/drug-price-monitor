@@ -1,0 +1,25 @@
+chem_name,SMILES,InChIKey,IUPAC,Company,Stage,Notes
+THDBH110,CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C[C@@H]([C@H](COC2=CC(=CC(=C2)F)F)NC(=O)[C@H](CCSC)NC(=O)[C@H](C(C)C)NC(=O)OC(C)(C)C)O,GEMWRCXJLPOQSU-BLNBCHBNSA-N,4-({(S)-2-[(3S,4S)-4-[(S)-2-((S)-2-tert-Butoxycarbonylamino-3-methyl-butyrylamino)-4-methylsulfanyl-butyrylamino]-5-(3,5-difluoro-phenoxy)-3-hydroxy-pentanoylamino]-3-methyl-butyrylamino}-methyl)-benzoic acid,通化东宝/东宝紫星，Phase I,双靶点 GLP-1
+AZD5004/ECC5004,O=C(N1[C@H](C2=C(N3C=CN(C4=CC=C(N(C)N=C5)C5=C4F)C3=O)N(C6=CC(C7CC7)=C(C=C6)F)N=C2CC1)C)C8=C(N9C(C=C([C@H]%10CC(C)(OCC%10)C)C=C9)=C8)C%11(C%12=NOC(N%12)=O)CC%11,JMKBTILBGROESC-LITSAYRRSA-N,3-[1-[2-[[(4S)-2-(3-cyclopropyl-4-fluorophenyl)-3-[3-(4-fluoro-1-methyl-1H-indazol-5-yl)-2,3-dihydro-2-oxo-1H-imidazol-1-yl]-2,4,6,7-tetrahydro-4-methyl-5H-pyrazolo[4,3-c]pyridin-5-yl]carbonyl]-7-[(4R)-tetrahydro-2,2-dimethyl-2H-pyran-4-yl]-3-indolizinyl]cyclopropyl]-1,2,4-oxadiazol-5(2H)-one,诚益生物/阿斯利康，Phase I，小分子 GLP-1
+APH01727,,,2‑((4‑(6‑((4‑chlorobenzofuran‑7‑yl)methoxy)pyridin‑2‑yl)cyclohex‑3‑en‑1‑yl)methyl)‑1‑((S)‑oxetan‑2‑ylmethyl)‑1H‑benzo[d]imidazole‑6‑carboxylic acid，一品红，Preclinical，小分子 GLP-1
+MDR-001,,,,德睿智药，Phase III，中国首个 AI 设计 III 期创新药
+VCT220/CX11,,,小分子 GLP-1，闻泰生物/箕星药业，Phase I，双靶点
+HSK34890,,,小分子 GLP-1，海思科，Phase I，口服小分子
+DA‑302168S,ClC1=CC=C(COC2=C(F)C=CC(C3=CC=C(CC4=NC(C=CC(C(O)=O)=C5)=C5N4C[C@@H]6CCO6)C(F)=C3)=N2)C7=C1C=CO7,ZWQNIWWZDWNMQA-QFIPXVFZSA-N,(S)-2-(4-(6-((4-chlorobenzofuran-7-yl)methoxy)-5-fluoropyridin-2-yl)-2-fluorobenzyl)-1-(oxetan-2-ylmethyl)-1H-benzo[d]imidazole-6-carboxylic acid，地奥制药，Phase I，小分子 GLP-1
+GZR18,CC(O)=O.O=C(N[C@]([H])(C(O)=O)CCC(NCCOCCOCC(NCCOCCOCC(NCCCC[C@]([H])(N)C(O)=O)=O)=O)=O)CCCCCCCCCCCCCCCCCCC,FAXDLCDHLLSCDG-UHFFFAOYSA-N,L-histidylglycyl-L-α-glutamylglycyl-L-threonyl-L-phenylalanyl-L-threonyl-L-seryl-L-α-aspartyl-L-valyl-L-seryl-L-seryl-L-tyrosyl-L-leucyl-L-α-glutamylglycyl-L-glutaminyl-L-alanyl-L-alanyl-N6-[(22S)-22,44-dicarboxy-10,19,24-trioxo-3,6,12,15-tetraoxa-9,18,23-triazatetratetracont-1-oyl]-L-lysyl-L-α-glutamyl-L-phenylalanyl-L-isoleucyl-L-alanyl-L-tryptophyl-L-leucyl-L-valyl-L-arginylglycyl-L-arginylglycine，甘李药业，Preclinical，多肽类 GLP-1
+LY3549492,CC1=CC(=C(C=C1C2=NC(=CC=C2)OCC3=C(C=C(C=C3)C#N)F)F)CC4=NC5=C(N4C[C@@H]6CCO6)C=C(C=C5)C(=O)O,QZQFEJHDNYVBKL-DEOSSOPVSA-N,2-[[4-[6-[(4-cyano-2-fluorophenyl)methoxy]-2-pyridinyl]-2-fluoro-5-methylphenyl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid，礼来，Preclinical，小分子 GLP-1
+HS‑10501‑2,,,小分子 GLP-1，翰森制药，Preclinical，缓释片
+ZT006,,,小分子 GLP-1，质态生物，Preclinical，-
+MWN109,,,口服 GLP-1/GIP/GCG，民为生物，Phase I，三靶点
+HS-10501,,,小分子 GLP-1，翰森制药，Phase I，-
+HDM1002,C1CO[C@@H]1CN2C3=C(C=CC(=C3)C(=O)O)N=C2CN4CCC(CC4)C5=NC(=CC=C5)OCC6=C(C=C(C=C6)C7COC7)F,SFKAXUUDIGSMBK-SANMLTNESA-N,2-[[4-[6-[[2-fluoro-4-(oxetan-3-yl)phenyl]methoxy]-2-pyridinyl]piperidin-1-yl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid，华东医药，Phase I，双靶点
+SAL0112,,,小分子 GLP-1，信立泰，Phase II，有 2 篇 PubMed 论文
+HRS-7535,,,小分子 GLP-1，恒瑞医药/山东盛迪，Phase I，-
+LY3502970,C[C@H]1C[C@]1(C2=NOC(=O)N2)N3C4=C(C=C(C=C4)[C@H]5CCOC(C5)(C)C)C=C3C(=O)N6CCC7=NN(C(=C7[C@@H]6C)N8C=CN(C8=O)C9=C(C1=C(C=C9)N(N=C1)C)F)C1=CC(=C(C(=C1)C)F)C,USUWIEBBBWHKNI-KHIFEHGGSA-N,"3-[(1S,2S)-1-[5-[(4S)-2,2-dimethyloxan-4-yl]-2-[(4S)-2-(4-fluoro-3,5-dimethylphenyl)-3-[3-(4-fluoro-1-methylindazol-5-yl)-2-oxoimidazol-1-yl]-4-methyl-6,7-dihydro-4H-pyrazolo[4,3-c]pyridine-5-carbonyl]indol-1-yl]-2-methylcyclopropyl]-4H-1,2,4-oxadiazol-5-one",礼来，NDA,NDA 受理日期：2026-01
+NN9487,,,口服 GLP-1/胰淀素复方，诺和诺德，Phase I,Amycretin
+BGM0504,,,口服 GLP-1/GIP，博瑞生物，Phase I，双靶点
+SYH2067,,,小分子 GLP-1，石药集团，Preclinical，-
+BPYT-01,,,小分子 GLP-1，百极优棠，Preclinical，新增
+RGT-274,,,小分子 GLP-1，齐鲁锐格，Preclinical，新增
+RO7795081/CT-996,,,小分子 GLP-1,Carmot Therapeutics，Preclinical，新增
+司美格鲁肽片,,,口服多肽 GLP-1，诺和诺德，NDA，semaglutide tablet

@@ -1,0 +1,430 @@
+{
+  "summary": {
+    "total_compounds": 24,
+    "found": 7,
+    "not_found": 17,
+    "success_rate": "29.2%",
+    "with_papers": 1,
+    "with_patents": 0,
+    "last_update": "2026-03-11T16:50:09.534863"
+  },
+  "compounds": [
+    {
+      "name": "THDBH110",
+      "status": "success",
+      "status_emoji": "✅",
+      "pubchem_cid": 44588632,
+      "molecular_weight": 823.9,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=THDBH110",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=THDBH110",
+        "Enamine": "https://enamine.net/chemicals/search?query=THDBH110"
+      }
+    },
+    {
+      "name": "AZD5004/ECC5004",
+      "status": "success",
+      "status_emoji": "✅",
+      "pubchem_cid": 167350327,
+      "molecular_weight": 880.9,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=AZD5004/ECC5004",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=AZD5004/ECC5004",
+        "Enamine": "https://enamine.net/chemicals/search?query=AZD5004/ECC5004"
+      }
+    },
+    {
+      "name": "APH01727",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=APH01727",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=APH01727",
+        "Enamine": "https://enamine.net/chemicals/search?query=APH01727"
+      }
+    },
+    {
+      "name": "MDR-001",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": "临床 III 期",
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": "2026-03-11T16:50:09.534836",
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=MDR-001",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=MDR-001",
+        "Enamine": "https://enamine.net/chemicals/search?query=MDR-001"
+      }
+    },
+    {
+      "name": "VCT220/CX11",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=VCT220/CX11",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=VCT220/CX11",
+        "Enamine": "https://enamine.net/chemicals/search?query=VCT220/CX11"
+      }
+    },
+    {
+      "name": "HSK34890",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": "临床 I 期",
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": "2026-03-11T16:50:09.534833",
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=HSK34890",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HSK34890",
+        "Enamine": "https://enamine.net/chemicals/search?query=HSK34890"
+      }
+    },
+    {
+      "name": "DA‑302168S",
+      "status": "success",
+      "status_emoji": "✅",
+      "pubchem_cid": 172991785,
+      "molecular_weight": 616.0,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=DA‑302168S",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=DA‑302168S",
+        "Enamine": "https://enamine.net/chemicals/search?query=DA‑302168S"
+      }
+    },
+    {
+      "name": "GZR18",
+      "status": "success",
+      "status_emoji": "✅",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=GZR18",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=GZR18",
+        "Enamine": "https://enamine.net/chemicals/search?query=GZR18"
+      }
+    },
+    {
+      "name": "LY3549492",
+      "status": "success",
+      "status_emoji": "✅",
+      "pubchem_cid": 155433819,
+      "molecular_weight": 580.6,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=LY3549492",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=LY3549492",
+        "Enamine": "https://enamine.net/chemicals/search?query=LY3549492"
+      }
+    },
+    {
+      "name": "HS‑10501‑2",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=HS‑10501‑2",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HS‑10501‑2",
+        "Enamine": "https://enamine.net/chemicals/search?query=HS‑10501‑2"
+      }
+    },
+    {
+      "name": "ZT006",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=ZT006",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=ZT006",
+        "Enamine": "https://enamine.net/chemicals/search?query=ZT006"
+      }
+    },
+    {
+      "name": "MWN109",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=MWN109",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=MWN109",
+        "Enamine": "https://enamine.net/chemicals/search?query=MWN109"
+      }
+    },
+    {
+      "name": "HS-10501",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=HS-10501",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HS-10501",
+        "Enamine": "https://enamine.net/chemicals/search?query=HS-10501"
+      }
+    },
+    {
+      "name": "HDM1002",
+      "status": "success",
+      "status_emoji": "✅",
+      "pubchem_cid": 166540968,
+      "molecular_weight": 586.7,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=HDM1002",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HDM1002",
+        "Enamine": "https://enamine.net/chemicals/search?query=HDM1002"
+      }
+    },
+    {
+      "name": "SAL0112",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": "临床 II 期",
+      "papers_count": 1,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": "2026-03-11T16:50:09.534812",
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=SAL0112",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=SAL0112",
+        "Enamine": "https://enamine.net/chemicals/search?query=SAL0112"
+      },
+      "papers": [
+        {
+          "title": "Pharmacodynamic and pharmacokinetic profiles of SAL0112",
+          "journal": "Biomed Pharmacother",
+          "pmid": "38925019",
+          "year": 2024,
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38925019/"
+        }
+      ]
+    },
+    {
+      "name": "HRS-7535",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=HRS-7535",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HRS-7535",
+        "Enamine": "https://enamine.net/chemicals/search?query=HRS-7535"
+      }
+    },
+    {
+      "name": "LY3502970",
+      "status": "success",
+      "status_emoji": "✅",
+      "pubchem_cid": 137319706,
+      "molecular_weight": 883.0,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=LY3502970",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=LY3502970",
+        "Enamine": "https://enamine.net/chemicals/search?query=LY3502970"
+      }
+    },
+    {
+      "name": "NN9487",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=NN9487",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=NN9487",
+        "Enamine": "https://enamine.net/chemicals/search?query=NN9487"
+      }
+    },
+    {
+      "name": "BGM0504",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=BGM0504",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=BGM0504",
+        "Enamine": "https://enamine.net/chemicals/search?query=BGM0504"
+      }
+    },
+    {
+      "name": "SYH2067",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=SYH2067",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=SYH2067",
+        "Enamine": "https://enamine.net/chemicals/search?query=SYH2067"
+      }
+    },
+    {
+      "name": "BPYT-01",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=BPYT-01",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=BPYT-01",
+        "Enamine": "https://enamine.net/chemicals/search?query=BPYT-01"
+      }
+    },
+    {
+      "name": "RGT-274",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=RGT-274",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=RGT-274",
+        "Enamine": "https://enamine.net/chemicals/search?query=RGT-274"
+      }
+    },
+    {
+      "name": "RO7795081/CT-996",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=RO7795081/CT-996",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=RO7795081/CT-996",
+        "Enamine": "https://enamine.net/chemicals/search?query=RO7795081/CT-996"
+      }
+    },
+    {
+      "name": "司美格鲁肽片",
+      "status": "not_found",
+      "status_emoji": "❌",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "clinical_stage": null,
+      "papers_count": 0,
+      "patents_count": 0,
+      "last_cron_update": null,
+      "last_deep_search": null,
+      "supplier_urls": {
+        "MCE": "https://www.medchemexpress.com/catalog.html?q=司美格鲁肽片",
+        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=司美格鲁肽片",
+        "Enamine": "https://enamine.net/chemicals/search?query=司美格鲁肽片"
+      }
+    }
+  ]
+}

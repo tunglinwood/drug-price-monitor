@@ -1,0 +1,203 @@
+2026-03-11 13:39:27,388 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:27,388 - __main__ - INFO - 开始每日更新：2026-03-11T13:39:27.388600
+2026-03-11 13:39:27,388 - __main__ - INFO - ============================================================
+
+2026-03-11 13:39:27,388 - __main__ - INFO - 加载了 20 个化合物
+2026-03-11 13:39:27,388 - __main__ - INFO - 
+进度：1/20
+2026-03-11 13:39:27,388 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:27,388 - __main__ - INFO - 处理化合物：THDBH110
+2026-03-11 13:39:27,389 - __main__ - INFO - ============================================================
+2026-03-11 13:39:27,389 - __main__ - INFO - 查询 PubChem: THDBH110
+2026-03-11 13:39:28,716 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:28,717 - __main__ - WARNING - PubChem 未找到：THDBH110
+2026-03-11 13:39:28,717 - __main__ - INFO - 尝试用 SMILES 查询： CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C[C@...
+/root/.openclaw/workspace/drug-price-api/compound_monitor.py:223: PubChemPyDeprecationWarning: isomeric_smiles is deprecated: Use smiles instead
+  "smiles": c.isomeric_smiles or c.smiles,
+2026-03-11 13:39:31,585 - __main__ - INFO - 
+进度：2/20
+2026-03-11 13:39:31,585 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:31,585 - __main__ - INFO - 处理化合物：AZD5004/ECC5004
+2026-03-11 13:39:31,585 - __main__ - INFO - ============================================================
+2026-03-11 13:39:31,586 - __main__ - INFO - 查询 PubChem: AZD5004/ECC5004
+2026-03-11 13:39:32,899 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:32,899 - __main__ - WARNING - PubChem 未找到：AZD5004/ECC5004
+2026-03-11 13:39:32,899 - __main__ - INFO - 尝试用 SMILES 查询：O=C(N1[C@H](C2=C(N3C=CN(C4=CC=C(N(C)N=C5)C5=C4F)C3...
+2026-03-11 13:39:35,835 - __main__ - INFO - 
+进度：3/20
+2026-03-11 13:39:35,838 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:35,838 - __main__ - INFO - 处理化合物：APH01727
+2026-03-11 13:39:35,838 - __main__ - INFO - ============================================================
+2026-03-11 13:39:35,838 - __main__ - INFO - 查询 PubChem: APH01727
+2026-03-11 13:39:37,258 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:37,259 - __main__ - WARNING - PubChem 未找到：APH01727
+2026-03-11 13:39:38,260 - __main__ - INFO - 
+进度：4/20
+2026-03-11 13:39:38,261 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:38,261 - __main__ - INFO - 处理化合物：MDR-001
+2026-03-11 13:39:38,261 - __main__ - INFO - ============================================================
+2026-03-11 13:39:38,261 - __main__ - INFO - 查询 PubChem: MDR-001
+2026-03-11 13:39:39,655 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:39,656 - __main__ - WARNING - PubChem 未找到：MDR-001
+2026-03-11 13:39:40,657 - __main__ - INFO - 
+进度：5/20
+2026-03-11 13:39:40,657 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:40,657 - __main__ - INFO - 处理化合物：VCT220 / CX11
+2026-03-11 13:39:40,657 - __main__ - INFO - ============================================================
+2026-03-11 13:39:40,658 - __main__ - INFO - 查询 PubChem: VCT220 / CX11
+2026-03-11 13:39:41,870 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:41,871 - __main__ - WARNING - PubChem 未找到：VCT220 / CX11
+2026-03-11 13:39:42,872 - __main__ - INFO - 
+进度：6/20
+2026-03-11 13:39:42,873 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:42,873 - __main__ - INFO - 处理化合物：HSK34890
+2026-03-11 13:39:42,873 - __main__ - INFO - ============================================================
+2026-03-11 13:39:42,873 - __main__ - INFO - 查询 PubChem: HSK34890
+2026-03-11 13:39:44,174 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:44,174 - __main__ - WARNING - PubChem 未找到：HSK34890
+2026-03-11 13:39:45,176 - __main__ - INFO - 
+进度：7/20
+2026-03-11 13:39:45,176 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:45,176 - __main__ - INFO - 处理化合物：DA‑302168S
+2026-03-11 13:39:45,176 - __main__ - INFO - ============================================================
+2026-03-11 13:39:45,177 - __main__ - INFO - 查询 PubChem: DA‑302168S
+2026-03-11 13:39:46,396 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:46,397 - __main__ - WARNING - PubChem 未找到：DA‑302168S
+2026-03-11 13:39:46,397 - __main__ - INFO - 尝试用 SMILES 查询：ClC1=CC=C(COC2=C(F)C=CC(C3=CC=C(CC4=NC(C=CC(C(O)=O...
+2026-03-11 13:39:49,109 - __main__ - INFO - 
+进度：8/20
+2026-03-11 13:39:49,109 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:49,109 - __main__ - INFO - 处理化合物：GZR18
+2026-03-11 13:39:49,109 - __main__ - INFO - ============================================================
+2026-03-11 13:39:49,109 - __main__ - INFO - 查询 PubChem: GZR18
+2026-03-11 13:39:50,550 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:50,550 - __main__ - WARNING - PubChem 未找到：GZR18
+2026-03-11 13:39:50,551 - __main__ - INFO - 尝试用 SMILES 查询：CC(O)=O.O=C(N[C@]([H])(C(O)=O)CCC(NCCOCCOCC(NCCOCC...
+2026-03-11 13:39:53,361 - __main__ - INFO - 
+进度：9/20
+2026-03-11 13:39:53,362 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:53,362 - __main__ - INFO - 处理化合物：LY3549492
+2026-03-11 13:39:53,362 - __main__ - INFO - ============================================================
+2026-03-11 13:39:53,362 - __main__ - INFO - 查询 PubChem: LY3549492
+/root/.openclaw/workspace/drug-price-api/compound_monitor.py:80: PubChemPyDeprecationWarning: isomeric_smiles is deprecated: Use smiles instead
+  "smiles": c.isomeric_smiles or c.smiles,
+2026-03-11 13:39:56,055 - __main__ - INFO - PubChem 查询成功：2-[[4-[6-[(4-cyano-2-fluorophenyl)methoxy]-2-pyridinyl]-2-fluoro-5-methylphenyl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid
+2026-03-11 13:39:57,056 - __main__ - INFO - 
+进度：10/20
+2026-03-11 13:39:57,057 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:57,057 - __main__ - INFO - 处理化合物：HS‑10501‑2
+2026-03-11 13:39:57,057 - __main__ - INFO - ============================================================
+2026-03-11 13:39:57,057 - __main__ - INFO - 查询 PubChem: HS‑10501‑2
+2026-03-11 13:39:58,215 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:39:58,215 - __main__ - WARNING - PubChem 未找到：HS‑10501‑2
+2026-03-11 13:39:59,216 - __main__ - INFO - 
+进度：11/20
+2026-03-11 13:39:59,216 - __main__ - INFO - 
+============================================================
+2026-03-11 13:39:59,216 - __main__ - INFO - 处理化合物：ZT006
+2026-03-11 13:39:59,216 - __main__ - INFO - ============================================================
+2026-03-11 13:39:59,217 - __main__ - INFO - 查询 PubChem: ZT006
+2026-03-11 13:40:00,413 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:00,413 - __main__ - WARNING - PubChem 未找到：ZT006
+2026-03-11 13:40:01,415 - __main__ - INFO - 
+进度：12/20
+2026-03-11 13:40:01,415 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:01,415 - __main__ - INFO - 处理化合物：MWN109
+2026-03-11 13:40:01,415 - __main__ - INFO - ============================================================
+2026-03-11 13:40:01,415 - __main__ - INFO - 查询 PubChem: MWN109
+2026-03-11 13:40:02,606 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:02,606 - __main__ - WARNING - PubChem 未找到：MWN109
+2026-03-11 13:40:03,607 - __main__ - INFO - 
+进度：13/20
+2026-03-11 13:40:03,608 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:03,608 - __main__ - INFO - 处理化合物：HS-10501
+2026-03-11 13:40:03,608 - __main__ - INFO - ============================================================
+2026-03-11 13:40:03,608 - __main__ - INFO - 查询 PubChem: HS-10501
+2026-03-11 13:40:05,078 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:05,080 - __main__ - WARNING - PubChem 未找到：HS-10501
+2026-03-11 13:40:06,082 - __main__ - INFO - 
+进度：14/20
+2026-03-11 13:40:06,082 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:06,082 - __main__ - INFO - 处理化合物：HDM1002
+2026-03-11 13:40:06,082 - __main__ - INFO - ============================================================
+2026-03-11 13:40:06,083 - __main__ - INFO - 查询 PubChem: HDM1002
+2026-03-11 13:40:07,398 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:07,399 - __main__ - WARNING - PubChem 未找到：HDM1002
+2026-03-11 13:40:07,399 - __main__ - INFO - 尝试用 SMILES 查询：C1CO[C@@H]1CN2C3=C(C=CC(=C3)C(=O)O)N=C2CN4CCC(CC4)...
+2026-03-11 13:40:10,126 - __main__ - INFO - 
+进度：15/20
+2026-03-11 13:40:10,133 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:10,134 - __main__ - INFO - 处理化合物：SAL0112
+2026-03-11 13:40:10,134 - __main__ - INFO - ============================================================
+2026-03-11 13:40:10,134 - __main__ - INFO - 查询 PubChem: SAL0112
+2026-03-11 13:40:11,371 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:11,371 - __main__ - WARNING - PubChem 未找到：SAL0112
+2026-03-11 13:40:12,372 - __main__ - INFO - 
+进度：16/20
+2026-03-11 13:40:12,373 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:12,373 - __main__ - INFO - 处理化合物：HRS-7535
+2026-03-11 13:40:12,373 - __main__ - INFO - ============================================================
+2026-03-11 13:40:12,373 - __main__ - INFO - 查询 PubChem: HRS-7535
+2026-03-11 13:40:13,753 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:13,753 - __main__ - WARNING - PubChem 未找到：HRS-7535
+2026-03-11 13:40:14,754 - __main__ - INFO - 
+进度：17/20
+2026-03-11 13:40:14,754 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:14,754 - __main__ - INFO - 处理化合物：LY3502970
+2026-03-11 13:40:14,754 - __main__ - INFO - ============================================================
+2026-03-11 13:40:14,754 - __main__ - INFO - 查询 PubChem: LY3502970
+2026-03-11 13:40:17,622 - __main__ - INFO - PubChem 查询成功：3-[(1S,2S)-1-[5-[(4S)-2,2-dimethyloxan-4-yl]-2-[(4S)-2-(4-fluoro-3,5-dimethylphenyl)-3-[3-(4-fluoro-1-methylindazol-5-yl)-2-oxoimidazol-1-yl]-4-methyl-6,7-dihydro-4H-pyrazolo[4,3-c]pyridine-5-carbonyl]indol-1-yl]-2-methylcyclopropyl]-4H-1,2,4-oxadiazol-5-one
+2026-03-11 13:40:18,624 - __main__ - INFO - 
+进度：18/20
+2026-03-11 13:40:18,624 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:18,624 - __main__ - INFO - 处理化合物：NN9487
+2026-03-11 13:40:18,625 - __main__ - INFO - ============================================================
+2026-03-11 13:40:18,625 - __main__ - INFO - 查询 PubChem: NN9487
+2026-03-11 13:40:19,867 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:19,867 - __main__ - WARNING - PubChem 未找到：NN9487
+2026-03-11 13:40:20,869 - __main__ - INFO - 
+进度：19/20
+2026-03-11 13:40:20,869 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:20,869 - __main__ - INFO - 处理化合物：BGM0504
+2026-03-11 13:40:20,869 - __main__ - INFO - ============================================================
+2026-03-11 13:40:20,869 - __main__ - INFO - 查询 PubChem: BGM0504
+2026-03-11 13:40:22,083 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:22,083 - __main__ - WARNING - PubChem 未找到：BGM0504
+2026-03-11 13:40:23,085 - __main__ - INFO - 
+进度：20/20
+2026-03-11 13:40:23,085 - __main__ - INFO - 
+============================================================
+2026-03-11 13:40:23,086 - __main__ - INFO - 处理化合物：SYH2067
+2026-03-11 13:40:23,086 - __main__ - INFO - ============================================================
+2026-03-11 13:40:23,086 - __main__ - INFO - 查询 PubChem: SYH2067
+2026-03-11 13:40:24,502 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 13:40:24,503 - __main__ - WARNING - PubChem 未找到：SYH2067
+2026-03-11 13:40:24,507 - __main__ - INFO - 结果已保存到：monitor_output/monitor_results_20260311_134024.json
+2026-03-11 13:40:24,508 - __main__ - INFO - 摘要已保存到：monitor_output/monitor_summary_20260311_134024.csv
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/drug-price-api/compound_monitor.py", line 360, in <module>
+    monitor.run_daily_update()
+  File "/root/.openclaw/workspace/drug-price-api/compound_monitor.py", line 293, in run_daily_update
+    self.save_results(results, summary)
+  File "/root/.openclaw/workspace/drug-price-api/compound_monitor.py", line 355, in save_results
+    self._generate_markdown_report(results, summary, md_path)
+AttributeError: 'CompoundMonitor' object has no attribute '_generate_markdown_report'

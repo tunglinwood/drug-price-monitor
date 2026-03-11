@@ -1,0 +1,15 @@
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+chemprice==1.1.0
+pubchempy==1.0.4
+python-dotenv==1.0.0
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# 爬虫依赖
+playwright==1.40.0
+playwright-stealth==1.0.6
+
+# 监控依赖
+python-crontab==3.0.0
+requests==2.31.0

@@ -1,0 +1,262 @@
+2026-03-11 16:47:28,564 - __main__ - INFO - 
+============================================================
+2026-03-11 16:47:28,564 - __main__ - INFO - 化合物监控系统启动
+2026-03-11 16:47:28,564 - __main__ - INFO - 运行模式：full
+2026-03-11 16:47:28,564 - __main__ - INFO - 时间：2026-03-11T16:47:28.564488
+2026-03-11 16:47:28,564 - __main__ - INFO - ============================================================
+
+2026-03-11 16:47:28,564 - __main__ - INFO - 加载了 24 个化合物
+2026-03-11 16:47:28,564 - __main__ - INFO - 
+============================================================
+2026-03-11 16:47:28,564 - __main__ - INFO - 运行 Cron 日常监控
+2026-03-11 16:47:28,564 - __main__ - INFO - ============================================================
+2026-03-11 16:47:28,650 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:28,650 - compound_monitor - INFO - 开始每日更新：2026-03-11T16:47:28.650179
+2026-03-11 16:47:28,650 - compound_monitor - INFO - ============================================================
+
+2026-03-11 16:47:28,650 - compound_monitor - INFO - 加载了 24 个化合物
+2026-03-11 16:47:28,650 - compound_monitor - INFO - 
+进度：1/24
+2026-03-11 16:47:28,650 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:28,650 - compound_monitor - INFO - 处理化合物：THDBH110
+2026-03-11 16:47:28,650 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:28,650 - compound_monitor - INFO - 查询 PubChem: THDBH110
+2026-03-11 16:47:30,518 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:47:30,519 - compound_monitor - WARNING - PubChem 未找到：THDBH110
+2026-03-11 16:47:30,519 - compound_monitor - INFO - 尝试用 SMILES 查询：CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C[C@@...
+/root/.openclaw/workspace/drug-price-api/compound_monitor.py:223: PubChemPyDeprecationWarning: isomeric_smiles is deprecated: Use smiles instead
+  "smiles": c.isomeric_smiles or c.smiles,
+2026-03-11 16:47:33,476 - compound_monitor - INFO - 
+进度：2/24
+2026-03-11 16:47:33,476 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:33,477 - compound_monitor - INFO - 处理化合物：AZD5004/ECC5004
+2026-03-11 16:47:33,477 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:33,477 - compound_monitor - INFO - 查询 PubChem: AZD5004/ECC5004
+2026-03-11 16:47:34,943 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:47:34,943 - compound_monitor - WARNING - PubChem 未找到：AZD5004/ECC5004
+2026-03-11 16:47:34,943 - compound_monitor - INFO - 尝试用 SMILES 查询：O=C(N1[C@H](C2=C(N3C=CN(C4=CC=C(N(C)N=C5)C5=C4F)C3...
+2026-03-11 16:47:37,845 - compound_monitor - INFO - 
+进度：3/24
+2026-03-11 16:47:37,845 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:37,845 - compound_monitor - INFO - 处理化合物：APH01727
+2026-03-11 16:47:37,846 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:37,846 - compound_monitor - INFO - 查询 PubChem: APH01727
+2026-03-11 16:47:39,145 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:47:39,146 - compound_monitor - WARNING - PubChem 未找到：APH01727
+2026-03-11 16:47:40,147 - compound_monitor - INFO - 
+进度：4/24
+2026-03-11 16:47:40,147 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:40,147 - compound_monitor - INFO - 处理化合物：MDR-001
+2026-03-11 16:47:40,148 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:40,148 - compound_monitor - INFO - 查询 PubChem: MDR-001
+2026-03-11 16:47:41,639 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:47:41,639 - compound_monitor - WARNING - PubChem 未找到：MDR-001
+2026-03-11 16:47:42,640 - compound_monitor - INFO - 
+进度：5/24
+2026-03-11 16:47:42,641 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:42,641 - compound_monitor - INFO - 处理化合物：VCT220/CX11
+2026-03-11 16:47:42,641 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:42,641 - compound_monitor - INFO - 查询 PubChem: VCT220/CX11
+2026-03-11 16:47:44,061 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:47:44,061 - compound_monitor - WARNING - PubChem 未找到：VCT220/CX11
+2026-03-11 16:47:45,062 - compound_monitor - INFO - 
+进度：6/24
+2026-03-11 16:47:45,062 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:45,062 - compound_monitor - INFO - 处理化合物：HSK34890
+2026-03-11 16:47:45,063 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:45,063 - compound_monitor - INFO - 查询 PubChem: HSK34890
+2026-03-11 16:47:46,365 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:47:46,365 - compound_monitor - WARNING - PubChem 未找到：HSK34890
+2026-03-11 16:47:47,367 - compound_monitor - INFO - 
+进度：7/24
+2026-03-11 16:47:47,367 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:47,367 - compound_monitor - INFO - 处理化合物：DA‑302168S
+2026-03-11 16:47:47,367 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:47,367 - compound_monitor - INFO - 查询 PubChem: DA‑302168S
+2026-03-11 16:47:48,765 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:47:48,765 - compound_monitor - WARNING - PubChem 未找到：DA‑302168S
+2026-03-11 16:47:48,765 - compound_monitor - INFO - 尝试用 SMILES 查询：ClC1=CC=C(COC2=C(F)C=CC(C3=CC=C(CC4=NC(C=CC(C(O)=O...
+2026-03-11 16:47:51,798 - compound_monitor - INFO - 
+进度：8/24
+2026-03-11 16:47:51,804 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:51,805 - compound_monitor - INFO - 处理化合物：GZR18
+2026-03-11 16:47:51,805 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:51,805 - compound_monitor - INFO - 查询 PubChem: GZR18
+2026-03-11 16:47:53,186 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:47:53,187 - compound_monitor - WARNING - PubChem 未找到：GZR18
+2026-03-11 16:47:53,187 - compound_monitor - INFO - 尝试用 SMILES 查询：CC(O)=O.O=C(N[C@]([H])(C(O)=O)CCC(NCCOCCOCC(NCCOCC...
+2026-03-11 16:47:55,971 - compound_monitor - INFO - 
+进度：9/24
+2026-03-11 16:47:55,972 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:47:55,972 - compound_monitor - INFO - 处理化合物：LY3549492
+2026-03-11 16:47:55,972 - compound_monitor - INFO - ============================================================
+2026-03-11 16:47:55,972 - compound_monitor - INFO - 查询 PubChem: LY3549492
+/root/.openclaw/workspace/drug-price-api/compound_monitor.py:80: PubChemPyDeprecationWarning: isomeric_smiles is deprecated: Use smiles instead
+  "smiles": c.isomeric_smiles or c.smiles,
+2026-03-11 16:47:59,064 - compound_monitor - INFO - PubChem 查询成功：2-[[4-[6-[(4-cyano-2-fluorophenyl)methoxy]-2-pyridinyl]-2-fluoro-5-methylphenyl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid
+2026-03-11 16:48:00,065 - compound_monitor - INFO - 
+进度：10/24
+2026-03-11 16:48:00,065 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:00,065 - compound_monitor - INFO - 处理化合物：HS‑10501‑2
+2026-03-11 16:48:00,065 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:00,066 - compound_monitor - INFO - 查询 PubChem: HS‑10501‑2
+2026-03-11 16:48:01,492 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:01,492 - compound_monitor - WARNING - PubChem 未找到：HS‑10501‑2
+2026-03-11 16:48:02,494 - compound_monitor - INFO - 
+进度：11/24
+2026-03-11 16:48:02,494 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:02,494 - compound_monitor - INFO - 处理化合物：ZT006
+2026-03-11 16:48:02,494 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:02,494 - compound_monitor - INFO - 查询 PubChem: ZT006
+2026-03-11 16:48:04,084 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:04,084 - compound_monitor - WARNING - PubChem 未找到：ZT006
+2026-03-11 16:48:05,086 - compound_monitor - INFO - 
+进度：12/24
+2026-03-11 16:48:05,086 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:05,086 - compound_monitor - INFO - 处理化合物：MWN109
+2026-03-11 16:48:05,086 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:05,086 - compound_monitor - INFO - 查询 PubChem: MWN109
+2026-03-11 16:48:06,415 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:06,416 - compound_monitor - WARNING - PubChem 未找到：MWN109
+2026-03-11 16:48:07,416 - compound_monitor - INFO - 
+进度：13/24
+2026-03-11 16:48:07,416 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:07,417 - compound_monitor - INFO - 处理化合物：HS-10501
+2026-03-11 16:48:07,417 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:07,417 - compound_monitor - INFO - 查询 PubChem: HS-10501
+2026-03-11 16:48:08,970 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:08,971 - compound_monitor - WARNING - PubChem 未找到：HS-10501
+2026-03-11 16:48:09,973 - compound_monitor - INFO - 
+进度：14/24
+2026-03-11 16:48:09,973 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:09,974 - compound_monitor - INFO - 处理化合物：HDM1002
+2026-03-11 16:48:09,974 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:09,974 - compound_monitor - INFO - 查询 PubChem: HDM1002
+2026-03-11 16:48:11,392 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:11,393 - compound_monitor - WARNING - PubChem 未找到：HDM1002
+2026-03-11 16:48:11,393 - compound_monitor - INFO - 尝试用 SMILES 查询：C1CO[C@@H]1CN2C3=C(C=CC(=C3)C(=O)O)N=C2CN4CCC(CC4)...
+2026-03-11 16:48:14,281 - compound_monitor - INFO - 
+进度：15/24
+2026-03-11 16:48:14,289 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:14,289 - compound_monitor - INFO - 处理化合物：SAL0112
+2026-03-11 16:48:14,289 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:14,289 - compound_monitor - INFO - 查询 PubChem: SAL0112
+2026-03-11 16:48:15,917 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:15,917 - compound_monitor - WARNING - PubChem 未找到：SAL0112
+2026-03-11 16:48:16,918 - compound_monitor - INFO - 
+进度：16/24
+2026-03-11 16:48:16,919 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:16,919 - compound_monitor - INFO - 处理化合物：HRS-7535
+2026-03-11 16:48:16,919 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:16,919 - compound_monitor - INFO - 查询 PubChem: HRS-7535
+2026-03-11 16:48:18,285 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:18,285 - compound_monitor - WARNING - PubChem 未找到：HRS-7535
+2026-03-11 16:48:19,286 - compound_monitor - INFO - 
+进度：17/24
+2026-03-11 16:48:19,287 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:19,287 - compound_monitor - INFO - 处理化合物：LY3502970
+2026-03-11 16:48:19,287 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:19,287 - compound_monitor - INFO - 查询 PubChem: LY3502970
+2026-03-11 16:48:22,642 - compound_monitor - INFO - PubChem 查询成功：3-[(1S,2S)-1-[5-[(4S)-2,2-dimethyloxan-4-yl]-2-[(4S)-2-(4-fluoro-3,5-dimethylphenyl)-3-[3-(4-fluoro-1-methylindazol-5-yl)-2-oxoimidazol-1-yl]-4-methyl-6,7-dihydro-4H-pyrazolo[4,3-c]pyridine-5-carbonyl]indol-1-yl]-2-methylcyclopropyl]-4H-1,2,4-oxadiazol-5-one
+2026-03-11 16:48:23,643 - compound_monitor - INFO - 
+进度：18/24
+2026-03-11 16:48:23,644 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:23,644 - compound_monitor - INFO - 处理化合物：NN9487
+2026-03-11 16:48:23,644 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:23,644 - compound_monitor - INFO - 查询 PubChem: NN9487
+2026-03-11 16:48:25,061 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:25,061 - compound_monitor - WARNING - PubChem 未找到：NN9487
+2026-03-11 16:48:26,063 - compound_monitor - INFO - 
+进度：19/24
+2026-03-11 16:48:26,063 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:26,063 - compound_monitor - INFO - 处理化合物：BGM0504
+2026-03-11 16:48:26,063 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:26,063 - compound_monitor - INFO - 查询 PubChem: BGM0504
+2026-03-11 16:48:27,575 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:27,575 - compound_monitor - WARNING - PubChem 未找到：BGM0504
+2026-03-11 16:48:28,577 - compound_monitor - INFO - 
+进度：20/24
+2026-03-11 16:48:28,577 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:28,577 - compound_monitor - INFO - 处理化合物：SYH2067
+2026-03-11 16:48:28,577 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:28,578 - compound_monitor - INFO - 查询 PubChem: SYH2067
+2026-03-11 16:48:30,018 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:30,018 - compound_monitor - WARNING - PubChem 未找到：SYH2067
+2026-03-11 16:48:31,020 - compound_monitor - INFO - 
+进度：21/24
+2026-03-11 16:48:31,020 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:31,020 - compound_monitor - INFO - 处理化合物：BPYT-01
+2026-03-11 16:48:31,020 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:31,021 - compound_monitor - INFO - 查询 PubChem: BPYT-01
+2026-03-11 16:48:32,479 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:32,479 - compound_monitor - WARNING - PubChem 未找到：BPYT-01
+2026-03-11 16:48:33,481 - compound_monitor - INFO - 
+进度：22/24
+2026-03-11 16:48:33,481 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:33,481 - compound_monitor - INFO - 处理化合物：RGT-274
+2026-03-11 16:48:33,481 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:33,481 - compound_monitor - INFO - 查询 PubChem: RGT-274
+2026-03-11 16:48:35,036 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:35,037 - compound_monitor - WARNING - PubChem 未找到：RGT-274
+2026-03-11 16:48:36,038 - compound_monitor - INFO - 
+进度：23/24
+2026-03-11 16:48:36,039 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:36,039 - compound_monitor - INFO - 处理化合物：RO7795081/CT-996
+2026-03-11 16:48:36,039 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:36,039 - compound_monitor - INFO - 查询 PubChem: RO7795081/CT-996
+2026-03-11 16:48:38,421 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:38,421 - compound_monitor - WARNING - PubChem 未找到：RO7795081/CT-996
+2026-03-11 16:48:39,422 - compound_monitor - INFO - 
+进度：24/24
+2026-03-11 16:48:39,423 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:39,423 - compound_monitor - INFO - 处理化合物：司美格鲁肽片
+2026-03-11 16:48:39,423 - compound_monitor - INFO - ============================================================
+2026-03-11 16:48:39,423 - compound_monitor - INFO - 查询 PubChem: 司美格鲁肽片
+2026-03-11 16:48:40,823 - pubchempy - INFO - PubChem HTTP Error 404 PUGREST.NotFound: No CID found (No CID found that matches the given name)
+2026-03-11 16:48:40,823 - compound_monitor - WARNING - PubChem 未找到：司美格鲁肽片
+2026-03-11 16:48:40,828 - compound_monitor - INFO - 结果已保存到：monitor_output/monitor_results_20260311_164840.json
+2026-03-11 16:48:40,829 - compound_monitor - INFO - 摘要已保存到：monitor_output/monitor_summary_20260311_164840.csv
+2026-03-11 16:48:40,833 - compound_monitor - INFO - 
+============================================================
+2026-03-11 16:48:40,834 - compound_monitor - INFO - 更新完成！
+2026-03-11 16:48:40,834 - compound_monitor - INFO - 总计：24 | 成功：7 | 未找到：17
+2026-03-11 16:48:40,834 - compound_monitor - INFO - 成功率：29.2%
+2026-03-11 16:48:40,834 - compound_monitor - INFO - ============================================================
+
+2026-03-11 16:48:40,834 - __main__ - INFO - 
+============================================================
+2026-03-11 16:48:40,834 - __main__ - INFO - 运行 Subagent 深度搜索 (最多 5 个化合物)
+2026-03-11 16:48:40,835 - __main__ - INFO - ============================================================
+Traceback (most recent call last):
+  File "/root/.openclaw/workspace/drug-price-api/main_monitor.py", line 213, in <module>
+    main()
+  File "/root/.openclaw/workspace/drug-price-api/main_monitor.py", line 185, in main
+    subagent_result = run_subagent_search(cron_results, args.max_subagent)
+  File "/root/.openclaw/workspace/drug-price-api/main_monitor.py", line 55, in run_subagent_search
+    from sessions_spawn import sessions_spawn
+ModuleNotFoundError: No module named 'sessions_spawn'

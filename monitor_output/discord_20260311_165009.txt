@@ -1,0 +1,19 @@
+🧪 **化合物监控报告**
+更新时间：2026-03-11
+
+📊 **摘要**
+总化合物：24
+✅ 找到：7
+❌ 未找到：17
+成功率：29.2%
+📄 有论文：1
+📜 有专利：0
+
+🎯 **重点发现**
+❌ **SAL0112**
+  临床阶段：临床 II 期
+  📄 Pharmacodynamic and pharmacokinetic profiles of SAL0112...
+     Biomed Pharmacother (2024)
+
+⚠️ **未找到的化合物**
+APH01727, MDR-001, VCT220/CX11, HSK34890, HS‑10501‑2, ZT006, MWN109, HS-10501, SAL0112, HRS-7535, NN9487, BGM0504, SYH2067, BPYT-01, RGT-274, RO7795081/CT-996, 司美格鲁肽片
