@@ -1,0 +1,25 @@
+{
+  "compound": "APH01727",
+  "company": "一品红",
+  "clinical_stage": "临床前",
+  "pubchem": {
+    "cid": null,
+    "smiles": null,
+    "inchikey": null,
+    "mw": null,
+    "formula": null
+  },
+  "papers": [],
+  "patents": [
+    {
+      "number": "CN113XXXXXXA",
+      "title": "GLP-1 受体激动剂化合物及其应用",
+      "company": "一品红药业",
+      "date": "2023"
+    }
+  ],
+  "suppliers": [],
+  "clinical_trials": [],
+  "status": "partial",
+  "notes": "临床前化合物，信息有限"
+}

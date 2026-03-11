@@ -6,8 +6,8 @@
     "success_rate": "45.8%",
     "with_papers": 2,
     "with_patents": 2,
-    "last_update": "2026-03-11T21:00:31.590017",
-    "last_subagent_update": "2026-03-11T21:00:31.590019"
+    "last_update": "2026-03-12T01:20:45.116897",
+    "last_subagent_update": "2026-03-12T01:20:45.116899"
   },
   "compounds": [
     {
@@ -71,7 +71,7 @@
       "papers_count": 0,
       "patents_count": 0,
       "last_cron_update": null,
-      "last_deep_search": "2026-03-11T21:00:31.589963",
+      "last_deep_search": "2026-03-12T01:20:45.116843",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=MDR-001",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=MDR-001",
@@ -92,7 +92,7 @@
       "papers_count": 0,
       "patents_count": 0,
       "last_cron_update": null,
-      "last_deep_search": "2026-03-11T21:00:31.589989",
+      "last_deep_search": "2026-03-12T01:20:45.116867",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=VCT220/CX11",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=VCT220/CX11",
@@ -113,7 +113,7 @@
       "papers_count": 0,
       "patents_count": 1,
       "last_cron_update": null,
-      "last_deep_search": "2026-03-11T21:00:31.589985",
+      "last_deep_search": "2026-03-12T01:20:45.116863",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=HSK34890",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HSK34890",
@@ -282,7 +282,7 @@
       "papers_count": 2,
       "patents_count": 1,
       "last_cron_update": null,
-      "last_deep_search": "2026-03-11T21:00:31.589999",
+      "last_deep_search": "2026-03-12T01:20:45.116878",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=SAL0112",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=SAL0112",
@@ -329,7 +329,7 @@
       "papers_count": 1,
       "patents_count": 0,
       "last_cron_update": null,
-      "last_deep_search": "2026-03-11T21:00:31.589994",
+      "last_deep_search": "2026-03-12T01:20:45.116872",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=HRS-7535",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HRS-7535",
