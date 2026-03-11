@@ -1,12 +1,13 @@
 {
   "summary": {
     "total_compounds": 24,
-    "found": 7,
-    "not_found": 17,
-    "success_rate": "29.2%",
-    "with_papers": 1,
-    "with_patents": 0,
-    "last_update": "2026-03-11T16:50:09.534863"
+    "found": 11,
+    "not_found": 13,
+    "success_rate": "45.8%",
+    "with_papers": 2,
+    "with_patents": 2,
+    "last_update": "2026-03-11T21:00:31.590017",
+    "last_subagent_update": "2026-03-11T21:00:31.590019"
   },
   "compounds": [
     {
@@ -62,20 +63,24 @@
     },
     {
       "name": "MDR-001",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "status": "partial",
+      "status_emoji": "⚠️",
       "pubchem_cid": null,
       "molecular_weight": null,
       "clinical_stage": "临床 III 期",
       "papers_count": 0,
       "patents_count": 0,
       "last_cron_update": null,
-      "last_deep_search": "2026-03-11T16:50:09.534836",
+      "last_deep_search": "2026-03-11T21:00:31.589963",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=MDR-001",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=MDR-001",
         "Enamine": "https://enamine.net/chemicals/search?query=MDR-001"
-      }
+      },
+      "papers": [],
+      "patents": [],
+      "clinical_trials": [],
+      "notes": "中国首个 AI 设计 III 期创新药"
     },
     {
       "name": "VCT220/CX11",
@@ -87,29 +92,49 @@
       "papers_count": 0,
       "patents_count": 0,
       "last_cron_update": null,
-      "last_deep_search": null,
+      "last_deep_search": "2026-03-11T21:00:31.589989",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=VCT220/CX11",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=VCT220/CX11",
         "Enamine": "https://enamine.net/chemicals/search?query=VCT220/CX11"
-      }
+      },
+      "papers": [],
+      "patents": [],
+      "clinical_trials": [],
+      "notes": "公开数据库无信息"
     },
     {
       "name": "HSK34890",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "status": "partial",
+      "status_emoji": "⚠️",
       "pubchem_cid": null,
       "molecular_weight": null,
       "clinical_stage": "临床 I 期",
       "papers_count": 0,
-      "patents_count": 0,
+      "patents_count": 1,
       "last_cron_update": null,
-      "last_deep_search": "2026-03-11T16:50:09.534833",
+      "last_deep_search": "2026-03-11T21:00:31.589985",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=HSK34890",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HSK34890",
         "Enamine": "https://enamine.net/chemicals/search?query=HSK34890"
-      }
+      },
+      "papers": [],
+      "patents": [
+        {
+          "number": "CN114591296A",
+          "title": "GLP-1R 激动剂及其在医药上的应用",
+          "date": "2022-06-07",
+          "status": "Withdrawn"
+        }
+      ],
+      "clinical_trials": [
+        {
+          "status": "临床 I 期",
+          "approval_date": "2023-08"
+        }
+      ],
+      "notes": "2023 年 8 月获批临床"
     },
     {
       "name": "DA‑302168S",
@@ -249,15 +274,15 @@
     },
     {
       "name": "SAL0112",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "status": "partial",
+      "status_emoji": "⚠️",
       "pubchem_cid": null,
       "molecular_weight": null,
       "clinical_stage": "临床 II 期",
-      "papers_count": 1,
-      "patents_count": 0,
+      "papers_count": 2,
+      "patents_count": 1,
       "last_cron_update": null,
-      "last_deep_search": "2026-03-11T16:50:09.534812",
+      "last_deep_search": "2026-03-11T21:00:31.589999",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=SAL0112",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=SAL0112",
@@ -265,30 +290,71 @@
       },
       "papers": [
         {
-          "title": "Pharmacodynamic and pharmacokinetic profiles of SAL0112",
-          "journal": "Biomed Pharmacother",
           "pmid": "38925019",
+          "title": "Pharmacodynamic and pharmacokinetic profiles of a novel GLP-1 receptor biased agonist-SAL0112",
+          "journal": "Biomed Pharmacother",
           "year": 2024,
+          "doi": "10.1016/j.biopha.2024.116965",
           "url": "https://pubmed.ncbi.nlm.nih.gov/38925019/"
+        },
+        {
+          "pmid": "39395609",
+          "title": "Toxicology profile of a novel GLP-1 receptor biased agonist-SAL0112 in nonhuman primates",
+          "journal": "Toxicol Appl Pharmacol",
+          "year": 2024,
+          "doi": "10.1016/j.taap.2024.117125",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39395609/"
         }
-      ]
+      ],
+      "patents": [
+        {
+          "owner": "深圳信立泰药业",
+          "status": "Patent owner confirmed"
+        }
+      ],
+      "clinical_trials": [
+        {
+          "status": "临床 II 期"
+        }
+      ],
+      "notes": "偏向性激动剂，心血管安全性优于 Danuglipron"
     },
     {
       "name": "HRS-7535",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "status": "partial",
+      "status_emoji": "⚠️",
       "pubchem_cid": null,
       "molecular_weight": null,
       "clinical_stage": null,
-      "papers_count": 0,
+      "papers_count": 1,
       "patents_count": 0,
       "last_cron_update": null,
-      "last_deep_search": null,
+      "last_deep_search": "2026-03-11T21:00:31.589994",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=HRS-7535",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HRS-7535",
         "Enamine": "https://enamine.net/chemicals/search?query=HRS-7535"
-      }
+      },
+      "papers": [
+        {
+          "pmid": "38100147",
+          "title": "Safety, pharmacokinetics and pharmacodynamics of HRS-7535...",
+          "journal": "Diabetes Obes Metab",
+          "year": 2024,
+          "doi": "10.1111/dom.15383",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38100147/",
+          "key_findings": "体重降低 6.63%，每日一次口服"
+        }
+      ],
+      "patents": [],
+      "clinical_trials": [
+        {
+          "phase": "Phase 1",
+          "status": "completed",
+          "results": "体重降低 6.63%"
+        }
+      ],
+      "notes": "Phase 1 完成，疗效显著"
     },
     {
       "name": "LY3502970",
