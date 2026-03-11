@@ -1,20 +1,11 @@
-# Streamlit Cloud 专用依赖
-# 只包含 Dashboard 需要的包
+# Streamlit Cloud 专用依赖 (Python 3.14 兼容)
 
-# 核心依赖
-streamlit==1.31.0
-pandas==2.2.0
-plotly==5.19.0
+# 核心依赖 - 不指定版本，让 Streamlit 自动选择
+streamlit
+pandas
+pubchempy
+python-dotenv
 
-# 数据处理
-pubchempy==1.0.4
-python-dotenv==1.0.0
-
-# 注意：以下包在 Streamlit Cloud 可能无法使用
-# 已注释掉以避免依赖冲突
-# chemprice==1.1.0  # 依赖冲突
-# playwright==1.40.0  # 需要系统级安装
-# playwright-stealth==1.0.6
-# python-crontab==3.0.0
-# fastapi==0.109.0  # 不需要
-# uvicorn==0.27.0  # 不需要
+# 注意：plotly 在 Python 3.14 可能无法编译
+# 已移除，使用纯文本 Dashboard
+# plotly
