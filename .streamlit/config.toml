@@ -1,0 +1,26 @@
+# Streamlit Cloud 配置
+
+[server]
+# 端口配置（Streamlit Cloud 会自动处理）
+port = 8501
+address = "0.0.0.0"
+
+# 性能优化
+maxUploadSize = 200
+maxMessageSize = 200
+
+# 安全设置
+enableXsrfProtection = true
+enableCORS = false
+
+[browser]
+# 禁用自动打开浏览器（服务器环境不需要）
+gatherUsageStats = false
+
+[theme]
+# 自定义主题
+primaryColor = "#667eea"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f2f6"
+textColor = "#262730"
+font = "sans serif"

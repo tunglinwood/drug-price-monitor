@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# 数据文件
+monitor_output/*.json
+monitor_output/*.csv
+monitor_output/*.md
+monitor_output/*.txt
+!monitor_output/.gitkeep
+*.log
+compound_monitor.log
+
+# 敏感信息
+.env
+.env.local
+*.key
+*.pem
+credentials.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 大型文件
+*.png
+*.jpg
+*.jpeg
+*.gif
+!*.md
+
+# 测试文件
+test_*.py
+*_test.py
