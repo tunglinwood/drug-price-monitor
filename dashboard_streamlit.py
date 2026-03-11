@@ -54,10 +54,49 @@ st.markdown(f"**更新时间:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 @st.cache_data
 def load_data():
     """加载最新的监控数据"""
+    import os
+    
+    # 尝试从本地文件加载（本地开发）
+    if os.path.exists('monitor_output/latest_dashboard.json'):
+        try:
+            with open('monitor_output/latest_dashboard.json', 'r', encoding='utf-8') as f:
+                return json.load(f)
+        except Exception as e:
+            st.error(f"加载本地数据失败：{e}")
+    
+    # 尝试从 GitHub 加载（Streamlit Cloud）
     try:
-        with open('monitor_output/latest_dashboard.json', 'r', encoding='utf-8') as f:
-            return json.load(f)
-    except FileNotFoundError:
+        import pandas as pd
+        url = "https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.csv"
+        df = pd.read_csv(url)
+        
+        # 转换为 Dashboard 格式
+        compounds = []
+        for _, row in df.iterrows():
+            compounds.append({
+                "name": row.get('chem_name', ''),
+                "status": "partial" if row.get('SMILES') else "not_found",
+                "clinical_stage": row.get('Stage', '未知'),
+                "pubchem_cid": None,
+                "molecular_weight": None,
+                "papers_count": 0,
+                "patents_count": 0,
+            })
+        
+        return {
+            "summary": {
+                "total_compounds": len(compounds),
+                "found": sum(1 for c in compounds if c['status'] == 'success'),
+                "not_found": sum(1 for c in compounds if c['status'] == 'not_found'),
+                "success_rate": f"{sum(1 for c in compounds if c['status'] != 'not_found')/len(compounds)*100:.1f}%",
+                "with_papers": 0,
+                "with_patents": 0,
+                "last_update": datetime.now().isoformat()
+            },
+            "compounds": compounds
+        }
+    except Exception as e:
+        st.error(f"加载 GitHub 数据失败：{e}")
         return None
 
 dashboard = load_data()
