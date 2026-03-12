@@ -6,6 +6,7 @@ pandas
 pubchempy
 python-dotenv
 
-# 注意：plotly 在 Python 3.14 可能无法编译
-# 已移除，使用纯文本 Dashboard
-# plotly
+# 认证和权限
+streamlit-authenticator>=0.3.3
+bcrypt>=4.0.0
+extra-streamlit-components>=0.1.60

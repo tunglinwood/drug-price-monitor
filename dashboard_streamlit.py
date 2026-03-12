@@ -1,6 +1,7 @@
 """
 化合物监控系统 - Streamlit Dashboard
 交互式 Web 界面
+带认证和权限控制
 """
 import streamlit as st
 import json
@@ -8,10 +9,13 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
+# 导入认证模块
+from auth import check_auth, login_page, has_permission, get_current_user, get_current_role
+
 # 页面配置
 st.set_page_config(
-    page_title="化合物监控系统",
-    page_icon="🧪",
+    page_title="化合物监控系统 - 登录",
+    page_icon="🔐",
     layout="wide",
     initial_sidebar_state="expanded"
 )
@@ -43,8 +47,38 @@ st.markdown("""
         border-radius: 5px;
         background-color: #f8f9fa;
     }
+    .login-container {
+        max-width: 400px;
+        margin: 100px auto;
+        padding: 40px;
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
 </style>
 """, unsafe_allow_html=True)
+
+# ========== 认证检查 ==========
+if not check_auth():
+    # 显示登录页面
+    config = load_auth_config()
+    if config:
+        authenticator = stauth.Authenticate(
+            config['credentials'],
+            config['cookie']['name'],
+            config['cookie']['key'],
+            config['cookie']['expiry_days'],
+        )
+        st.session_state['authenticator'] = authenticator
+        
+        if login_page(authenticator):
+            st.rerun()
+    else:
+        st.error("认证配置错误，请联系管理员")
+    st.stop()
+
+# 用户已登录，继续加载 Dashboard
+st.session_state['page_title'] = "化合物监控系统"
 
 # 标题
 st.title("🧪 化合物监控系统")
