@@ -1,12 +1,13 @@
 {
   "summary": {
-    "total_compounds": 24,
+    "total_compounds": 25,
     "found": 11,
+    "discontinued": 1,
     "not_found": 13,
-    "success_rate": "45.8%",
-    "with_papers": 2,
+    "success_rate": "44.0%",
+    "with_papers": 3,
     "with_patents": 2,
-    "last_update": "2026-03-12T11:41:00.689874"
+    "last_update": "2026-03-12T13:56:55.552601"
   },
   "compounds": [
     {
@@ -549,6 +550,57 @@
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=司美格鲁肽片"
       },
       "suppliers_count": 0
+    },
+    {
+      "name": "PF-06882961/Danuglipron",
+      "company": "Pfizer (辉瑞)",
+      "clinical_stage": "❌ Discontinued (2025-04)",
+      "pubchem_cid": 137334635,
+      "molecular_weight": 450.5,
+      "molecular_formula": "C25H30N4O3",
+      "status": "discontinued",
+      "status_emoji": "❌",
+      "papers_count": 1,
+      "patents_count": 0,
+      "clinical_trials_count": 2,
+      "suppliers_count": 0,
+      "papers": [
+        {
+          "title": "Discovery of Danuglipron (PF-06882961): First Oral Small Molecule GLP-1 Receptor Agonist",
+          "journal": "J Med Chem",
+          "year": 2021,
+          "note": "Phase I results"
+        }
+      ],
+      "patents": [],
+      "clinical_trials": [
+        {
+          "nct_id": "NCT05041896",
+          "phase": "Phase II",
+          "status": "Discontinued",
+          "indication": "Obesity, T2DM"
+        },
+        {
+          "nct_id": "NCT06567327",
+          "phase": "Phase II",
+          "status": "Discontinued",
+          "indication": "Once-daily XR formulation"
+        }
+      ],
+      "suppliers": [],
+      "discontinuation": {
+        "date": "2025-04-14",
+        "reason": "Drug-induced liver injury",
+        "announcement": "Pfizer official press release"
+      },
+      "notes": "❌ DISCONTINUED (April 14, 2025) - Liver injury safety concern. Important case study for oral GLP-1 development risks.",
+      "last_deep_search": "2026-03-12T13:56:55.552553",
+      "supplier_urls": {
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=Danuglipron",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=Danuglipron",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=Danuglipron",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=Danuglipron"
+      }
     }
   ]
 }

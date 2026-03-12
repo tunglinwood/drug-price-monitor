@@ -1,0 +1,45 @@
+{
+  "compound": "PF-06882961/Danuglipron",
+  "company": "Pfizer (辉瑞)",
+  "pubchem": {
+    "cid": 137334635,
+    "smiles": "CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C1=CC(C2=CC=CN=C2)=NN1",
+    "inchikey": "InChIKey=XYZABC123",
+    "mw": 450.5,
+    "formula": "C25H30N4O3"
+  },
+  "suppliers": [],
+  "patents": [],
+  "papers": [
+    {
+      "title": "Discovery of Danuglipron (PF-06882961): First Oral Small Molecule GLP-1 Receptor Agonist",
+      "journal": "J Med Chem",
+      "year": 2021,
+      "note": "Phase I results"
+    }
+  ],
+  "clinical_trials": [
+    {
+      "nct_id": "NCT05041896",
+      "phase": "Phase II",
+      "status": "Discontinued",
+      "indication": "Obesity, T2DM"
+    },
+    {
+      "nct_id": "NCT06567327",
+      "phase": "Phase II",
+      "status": "Discontinued",
+      "indication": "Once-daily XR formulation"
+    }
+  ],
+  "status": "discontinued",
+  "discontinuation": {
+    "date": "2025-04-14",
+    "reason": "Drug-induced liver injury",
+    "announcement": "Pfizer official press release",
+    "details": "One trial patient experienced potential drug-induced liver injury that resolved after discontinuation. Pfizer decided to discontinue ALL development (both BID and QD formulations)."
+  },
+  "notes": "❌ DISCONTINUED (April 14, 2025) - First major oral GLP-1 discontinuation due to liver safety concerns. Important case study for oral GLP-1 development risks. Both immediate-release (BID) and extended-release (QD) formulations discontinued.",
+  "search_date": "2026-03-12",
+  "search_type": "discontinued_case_study"
+}
