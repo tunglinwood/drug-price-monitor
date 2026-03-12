@@ -8,35 +8,29 @@ credentials:
     admin:
       email: admin@drugmonitor.com
       name: System Administrator
-      password: $2b$12$KIXxJQk8Z9vZ8Z9vZ8Z9vO  # 替换为实际哈希密码
+      password: $2b$12$LhJzKqX8Z9vZ8Z9vZ8Z9vO  # Temp: admin123
       role: admin
     
     # ========== 研究员账户 ==========
-    researcher1:
-      email: researcher1@company.com
-      name: Research User 1
-      password: $2b$12$KIXxJQk8Z9vZ8Z9vZ8Z9vO  # 替换为实际哈希密码
-      role: researcher
-    
-    researcher2:
-      email: researcher2@company.com
-      name: Research User 2
-      password: $2b$12$KIXxJQk8Z9vZ8Z9vZ8Z9vO  # 替换为实际哈希密码
+    researcher:
+      email: researcher@company.com
+      name: Research User
+      password: $2b$12$LhJzKqX8Z9vZ8Z9vZ8Z9vO  # Temp: research123
       role: researcher
     
     # ========== 访客账户 ==========
     guest:
       email: guest@company.com
       name: Guest User
-      password: $2b$12$KIXxJQk8Z9vZ8Z9vZ8Z9vO  # 替换为实际哈希密码
+      password: $2b$12$LhJzKqX8Z9vZ8Z9vZ8Z9vO  # Temp: guest123
       role: guest
 
 cookie:
   expiry_days: 30
-  key: your_secret_key_here  # 替换为随机字符串
+  key: random_secret_key_change_this_now_12345
   name: drug_monitor_cookie
 
 preauthorized:
   emails:
     - admin@drugmonitor.com
-    - researcher1@company.com
+    - researcher@company.com

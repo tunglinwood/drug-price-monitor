@@ -10,7 +10,8 @@ from datetime import datetime
 from pathlib import Path
 
 # 导入认证模块
-from auth import check_auth, login_page, has_permission, get_current_user, get_current_role
+from auth import check_auth, login_page, has_permission, get_current_user, get_current_role, load_auth_config
+import streamlit_authenticator as stauth
 
 # 页面配置
 st.set_page_config(
