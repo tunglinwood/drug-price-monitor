@@ -101,8 +101,8 @@ def login_page(authenticator):
     """)
     
     try:
-        # 使用简化的登录流程（不使用 cookie）
-        authentication_status, name, user_info = authenticator.login('Login', 'main')
+        # 使用简化的登录流程（不使用 cookie）- 使用 keyword arguments
+        authentication_status, name, user_info = authenticator.login(location='main')
         
         if authentication_status:
             # 登录成功 - 使用 session state 存储
@@ -111,7 +111,7 @@ def login_page(authenticator):
             st.session_state['name'] = name
             
             # 显示登出按钮
-            if authenticator.logout('Logout', 'sidebar'):
+            if authenticator.logout(location='sidebar'):
                 st.session_state['authentication_status'] = False
                 st.session_state['user_info'] = None
                 st.rerun()

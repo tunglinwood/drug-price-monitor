@@ -68,12 +68,22 @@ if not st.session_state['authentication_status']:
     config = load_auth_config()
     if config:
         # 简化配置 - 移除 cookie 相关参数
-        authenticator = stauth.Authenticate(
-            config['credentials'],
-            'drug_monitor_cookie',
-            'secret_key',
-            30,
-        )
+        try:
+            authenticator = stauth.Authenticate(
+                config['credentials'],
+                'drug_monitor_cookie',
+                'secret_key',
+                30,
+            )
+        except Exception as e:
+            # 兼容新 API - 使用 keyword arguments
+            authenticator = stauth.Authenticate(
+                credentials=config['credentials'],
+                cookie_name='drug_monitor_cookie',
+                cookie_key='secret_key',
+                cookie_expiry_days=30,
+            )
+        
         st.session_state['authenticator'] = authenticator
         
         if login_page(authenticator):
