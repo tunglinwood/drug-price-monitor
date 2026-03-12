@@ -6,7 +6,7 @@ pandas
 pubchempy
 python-dotenv
 
-# 认证和权限
+# 认证和权限 (简化版 - 移除 extra-streamlit-components)
 streamlit-authenticator>=0.3.3
 bcrypt>=4.0.0
-extra-streamlit-components>=0.1.60
+pyyaml>=6.0

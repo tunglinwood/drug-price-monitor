@@ -60,15 +60,19 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ========== 认证检查 ==========
-if not check_auth():
+if 'authentication_status' not in st.session_state:
+    st.session_state['authentication_status'] = False
+
+if not st.session_state['authentication_status']:
     # 显示登录页面
     config = load_auth_config()
     if config:
+        # 简化配置 - 移除 cookie 相关参数
         authenticator = stauth.Authenticate(
             config['credentials'],
-            config['cookie']['name'],
-            config['cookie']['key'],
-            config['cookie']['expiry_days'],
+            'drug_monitor_cookie',
+            'secret_key',
+            30,
         )
         st.session_state['authenticator'] = authenticator
         

@@ -25,10 +25,9 @@ credentials:
       password: $2b$12$UzT9CP13Hx4ALn1KbHSugOF5sJqrJhcamlpb.cmal6OmpWhiggdAe
       role: guest
 
+# Cookie 配置 (简化 - 使用 session state)
 cookie:
   expiry_days: 30
-  key: drug_monitor_secret_key_2026_change_in_production
-  name: drug_monitor_cookie
 
 preauthorized:
   emails:

@@ -5,7 +5,7 @@ Authentication and Authorization Module
 功能:
 - 用户登录/登出
 - 角色权限控制
-- 会话管理
+- 会话管理 (使用 Streamlit session state)
 """
 import streamlit as st
 import streamlit_authenticator as stauth
@@ -13,6 +13,7 @@ import yaml
 from yaml.loader import SafeLoader
 from pathlib import Path
 import bcrypt
+import hashlib
 
 # 配置文件路径
 AUTH_CONFIG_PATH = Path(__file__).parent / "auth_config.yaml"
@@ -100,12 +101,21 @@ def login_page(authenticator):
     """)
     
     try:
+        # 使用简化的登录流程（不使用 cookie）
         authentication_status, name, user_info = authenticator.login('Login', 'main')
         
         if authentication_status:
-            # 登录成功
+            # 登录成功 - 使用 session state 存储
             st.session_state['user_info'] = user_info
-            authenticator.logout('Logout', 'sidebar')
+            st.session_state['authentication_status'] = True
+            st.session_state['name'] = name
+            
+            # 显示登出按钮
+            if authenticator.logout('Logout', 'sidebar'):
+                st.session_state['authentication_status'] = False
+                st.session_state['user_info'] = None
+                st.rerun()
+            
             st.sidebar.success(f"👤 欢迎，{name}!")
             st.sidebar.info(f"🎯 角色：{user_info.get('role', 'guest')}")
             return True
