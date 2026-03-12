@@ -7,7 +7,7 @@
     "success_rate": "44.0%",
     "with_papers": 3,
     "with_patents": 2,
-    "last_update": "2026-03-12T13:56:55.552601"
+    "last_update": "2026-03-12T14:45:25.100847"
   },
   "compounds": [
     {
@@ -38,7 +38,13 @@
       "clinical_trials": [],
       "suppliers": [],
       "chembl_id": "CHEMBL447563",
-      "notes": "PubChem CID 44588632 confirmed. Chemical structure verified."
+      "notes": "PubChem CID 44588632 confirmed. Chemical structure verified.",
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=THDBH110",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=THDBH110",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=THDBH110",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=THDBH110"
+      }
     },
     {
       "name": "AZD5004/ECC5004",
@@ -57,7 +63,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=AZD5004/ECC5004",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=AZD5004/ECC5004"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=AZD5004/ECC5004",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=AZD5004/ECC5004",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=AZD5004/ECC5004",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=AZD5004/ECC5004"
+      }
     },
     {
       "name": "APH01727",
@@ -76,7 +88,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=APH01727",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=APH01727"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=APH01727",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=APH01727",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=APH01727",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=APH01727"
+      }
     },
     {
       "name": "MDR-001",
@@ -99,7 +117,13 @@
       "patents": [],
       "clinical_trials": [],
       "notes": "中国首个 AI 设计 III 期创新药",
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=MDR-001",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=MDR-001",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=MDR-001",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=MDR-001"
+      }
     },
     {
       "name": "VCT220/CX11",
@@ -122,7 +146,13 @@
       "patents": [],
       "clinical_trials": [],
       "notes": "公开数据库无信息",
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=VCT220/CX11",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=VCT220/CX11",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=VCT220/CX11",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=VCT220/CX11"
+      }
     },
     {
       "name": "HSK34890",
@@ -157,7 +187,13 @@
         }
       ],
       "notes": "2023 年 8 月获批临床",
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HSK34890",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HSK34890",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HSK34890",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HSK34890"
+      }
     },
     {
       "name": "DA‑302168S",
@@ -176,7 +212,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=DA‑302168S",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=DA‑302168S"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=DA%E2%80%91302168S",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=DA%E2%80%91302168S",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=DA%E2%80%91302168S",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=DA%E2%80%91302168S"
+      }
     },
     {
       "name": "GZR18",
@@ -195,7 +237,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=GZR18",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=GZR18"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=GZR18",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=GZR18",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=GZR18",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=GZR18"
+      }
     },
     {
       "name": "LY3549492",
@@ -214,7 +262,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=LY3549492",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=LY3549492"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=LY3549492",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=LY3549492",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=LY3549492",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=LY3549492"
+      }
     },
     {
       "name": "HS‑10501‑2",
@@ -233,7 +287,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=HS‑10501‑2",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HS‑10501‑2"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HS%E2%80%9110501%E2%80%912",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HS%E2%80%9110501%E2%80%912",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HS%E2%80%9110501%E2%80%912",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HS%E2%80%9110501%E2%80%912"
+      }
     },
     {
       "name": "ZT006",
@@ -252,7 +312,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=ZT006",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=ZT006"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=ZT006",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=ZT006",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=ZT006",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=ZT006"
+      }
     },
     {
       "name": "MWN109",
@@ -271,7 +337,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=MWN109",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=MWN109"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=MWN109",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=MWN109",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=MWN109",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=MWN109"
+      }
     },
     {
       "name": "HS-10501",
@@ -290,7 +362,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=HS-10501",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HS-10501"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HS-10501",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HS-10501",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HS-10501",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HS-10501"
+      }
     },
     {
       "name": "HDM1002",
@@ -309,7 +387,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=HDM1002",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HDM1002"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HDM1002",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HDM1002",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HDM1002",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HDM1002"
+      }
     },
     {
       "name": "SAL0112",
@@ -358,7 +442,13 @@
         }
       ],
       "notes": "偏向性激动剂，心血管安全性优于 Danuglipron",
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=SAL0112",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=SAL0112",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=SAL0112",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=SAL0112"
+      }
     },
     {
       "name": "HRS-7535",
@@ -397,7 +487,13 @@
         }
       ],
       "notes": "Phase 1 完成，疗效显著",
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HRS-7535",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HRS-7535",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HRS-7535",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HRS-7535"
+      }
     },
     {
       "name": "LY3502970",
@@ -416,7 +512,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=LY3502970",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=LY3502970"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=LY3502970",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=LY3502970",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=LY3502970",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=LY3502970"
+      }
     },
     {
       "name": "NN9487",
@@ -435,7 +537,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=NN9487",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=NN9487"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=NN9487",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=NN9487",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=NN9487",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=NN9487"
+      }
     },
     {
       "name": "BGM0504",
@@ -454,7 +562,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=BGM0504",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=BGM0504"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=BGM0504",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=BGM0504",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=BGM0504",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=BGM0504"
+      }
     },
     {
       "name": "SYH2067",
@@ -473,7 +587,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=SYH2067",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=SYH2067"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=SYH2067",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=SYH2067",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=SYH2067",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=SYH2067"
+      }
     },
     {
       "name": "BPYT-01",
@@ -492,7 +612,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=BPYT-01",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=BPYT-01"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=BPYT-01",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=BPYT-01",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=BPYT-01",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=BPYT-01"
+      }
     },
     {
       "name": "RGT-274",
@@ -511,7 +637,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=RGT-274",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=RGT-274"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=RGT-274",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=RGT-274",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=RGT-274",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=RGT-274"
+      }
     },
     {
       "name": "RO7795081/CT-996",
@@ -530,7 +662,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=RO7795081/CT-996",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=RO7795081/CT-996"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=RO7795081/CT-996",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=RO7795081/CT-996",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=RO7795081/CT-996",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=RO7795081/CT-996"
+      }
     },
     {
       "name": "司美格鲁肽片",
@@ -549,7 +687,13 @@
         "Enamine Search": "https://enamine.net/chemicals/search?query=司美格鲁肽片",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=司美格鲁肽片"
       },
-      "suppliers_count": 0
+      "suppliers_count": 0,
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%89%87",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%89%87",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%89%87",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%89%87"
+      }
     },
     {
       "name": "PF-06882961/Danuglipron",
@@ -600,6 +744,14 @@
         "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=Danuglipron",
         "Enamine Search": "https://enamine.net/chemicals/search?query=Danuglipron",
         "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=Danuglipron"
+      },
+      "clinical_trial_links": {
+        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=PF-06882961/Danuglipron",
+        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=PF-06882961/Danuglipron",
+        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=PF-06882961/Danuglipron",
+        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=PF-06882961/Danuglipron",
+        "📋 NCT05041896": "https://clinicaltrials.gov/ct2/show/NCT05041896",
+        "📋 NCT06567327": "https://clinicaltrials.gov/ct2/show/NCT06567327"
       }
     }
   ]
