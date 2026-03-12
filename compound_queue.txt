@@ -1,28 +1,38 @@
-# 夜间自动搜索化合物队列
-# Overnight Compound Search Queue
+# 夜间自动搜索化合物队列 - 完整 25 个化合物
+# Overnight Compound Search Queue - ALL 25 COMPOUNDS DAILY
 # 格式：每行一个化合物名称 (One compound per line)
 # 搜索顺序：从上到下 (Search order: top to bottom)
-# 间隔时间：10 分钟 (Delay: 10 minutes between searches)
+# 每晚执行全部 25 个化合物 (All 25 compounds searched EVERY NIGHT)
 
-# ========== P1 优先级 (临床 I 期) ==========
-HS-10501
-MWN109
-BGM0504
-
-# ========== P2 优先级 (临床前/其他) ==========
-HS-10501-2
-ZT006
-SYH2067
-BPYT-01
-RGT-274
-RO7795081/CT-996
+# ========== 已批准/NDA (2 个) ==========
 司美格鲁肽片
+LY3502970
 
-# ========== 已完成搜索 (已注释) ==========
-# MDR-001
-# SAL0112
-# HSK34890
-# VCT220/CX11
-# HRS-7535
-# APH01727
-# NN9487
+# ========== 临床 II/III 期 (4 个) ==========
+GZR18
+AZD5004/ECC5004
+RO7795081/CT-996
+MDR-001
+
+# ========== 临床 I 期 (14 个) ==========
+NN9487
+SAL0112
+BGM0504
+HRS-7535
+THDBH110
+HSK34890
+VCT220/CX11
+HS-10501
+HS-10501-2
+HDM1002
+DA-302168S
+PF-06882961
+APH01727
+RGT-274
+
+# ========== 临床前/早期 (5 个) ==========
+ZT006
+MWN109
+BPYT-01
+SYH2067
+AZD5004
