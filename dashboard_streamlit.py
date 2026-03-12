@@ -1,7 +1,7 @@
 """
 化合物监控系统 - Streamlit Dashboard
 交互式 Web 界面
-带认证和权限控制
+带简单认证
 """
 import streamlit as st
 import json
@@ -9,9 +9,8 @@ import pandas as pd
 from datetime import datetime
 from pathlib import Path
 
-# 导入认证模块
-from auth import check_auth, login_page, has_permission, get_current_user, get_current_role, load_auth_config
-import streamlit_authenticator as stauth
+# 导入简单认证模块
+from simple_auth import require_login, show_user_info, has_permission
 
 # 页面配置
 st.set_page_config(
@@ -60,40 +59,13 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ========== 认证检查 ==========
-if 'authentication_status' not in st.session_state:
-    st.session_state['authentication_status'] = False
-
-if not st.session_state['authentication_status']:
-    # 显示登录页面
-    config = load_auth_config()
-    if config:
-        # 简化配置 - 移除 cookie 相关参数
-        try:
-            authenticator = stauth.Authenticate(
-                config['credentials'],
-                'drug_monitor_cookie',
-                'secret_key',
-                30,
-            )
-        except Exception as e:
-            # 兼容新 API - 使用 keyword arguments
-            authenticator = stauth.Authenticate(
-                credentials=config['credentials'],
-                cookie_name='drug_monitor_cookie',
-                cookie_key='secret_key',
-                cookie_expiry_days=30,
-            )
-        
-        st.session_state['authenticator'] = authenticator
-        
-        if login_page(authenticator):
-            st.rerun()
-    else:
-        st.error("认证配置错误，请联系管理员")
+if not require_login():
     st.stop()
 
+# 显示用户信息
+show_user_info()
+
 # 用户已登录，继续加载 Dashboard
-st.session_state['page_title'] = "化合物监控系统"
 
 # 标题
 st.title("🧪 化合物监控系统")
