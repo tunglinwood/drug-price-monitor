@@ -6,7 +6,7 @@
     "success_rate": "45.8%",
     "with_papers": 2,
     "with_patents": 2,
-    "last_update": "2026-03-12T10:54:31.916232"
+    "last_update": "2026-03-12T11:41:00.689874"
   },
   "compounds": [
     {
@@ -21,9 +21,10 @@
       "last_cron_update": null,
       "last_deep_search": "2026-03-12T10:54:31.916173",
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=THDBH110",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=THDBH110",
-        "Enamine": "https://enamine.net/chemicals/search?query=THDBH110"
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=THDBH110",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=THDBH110",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=THDBH110",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=THDBH110"
       },
       "company": "通化东宝/东宝紫星",
       "molecular_formula": "C39H55F2N5O10S",
@@ -50,10 +51,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=AZD5004/ECC5004",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=AZD5004/ECC5004",
-        "Enamine": "https://enamine.net/chemicals/search?query=AZD5004/ECC5004"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=AZD5004/ECC5004",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=AZD5004/ECC5004",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=AZD5004/ECC5004",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=AZD5004/ECC5004"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "APH01727",
@@ -67,10 +70,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=APH01727",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=APH01727",
-        "Enamine": "https://enamine.net/chemicals/search?query=APH01727"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=APH01727",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=APH01727",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=APH01727",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=APH01727"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "MDR-001",
@@ -84,14 +89,16 @@
       "last_cron_update": null,
       "last_deep_search": "2026-03-12T01:20:45.116843",
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=MDR-001",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=MDR-001",
-        "Enamine": "https://enamine.net/chemicals/search?query=MDR-001"
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=MDR-001",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=MDR-001",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=MDR-001",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=MDR-001"
       },
       "papers": [],
       "patents": [],
       "clinical_trials": [],
-      "notes": "中国首个 AI 设计 III 期创新药"
+      "notes": "中国首个 AI 设计 III 期创新药",
+      "suppliers_count": 0
     },
     {
       "name": "VCT220/CX11",
@@ -105,14 +112,16 @@
       "last_cron_update": null,
       "last_deep_search": "2026-03-12T01:20:45.116867",
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=VCT220/CX11",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=VCT220/CX11",
-        "Enamine": "https://enamine.net/chemicals/search?query=VCT220/CX11"
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=VCT220/CX11",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=VCT220/CX11",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=VCT220/CX11",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=VCT220/CX11"
       },
       "papers": [],
       "patents": [],
       "clinical_trials": [],
-      "notes": "公开数据库无信息"
+      "notes": "公开数据库无信息",
+      "suppliers_count": 0
     },
     {
       "name": "HSK34890",
@@ -126,9 +135,10 @@
       "last_cron_update": null,
       "last_deep_search": "2026-03-12T01:20:45.116863",
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=HSK34890",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HSK34890",
-        "Enamine": "https://enamine.net/chemicals/search?query=HSK34890"
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HSK34890",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HSK34890",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=HSK34890",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HSK34890"
       },
       "papers": [],
       "patents": [
@@ -145,7 +155,8 @@
           "approval_date": "2023-08"
         }
       ],
-      "notes": "2023 年 8 月获批临床"
+      "notes": "2023 年 8 月获批临床",
+      "suppliers_count": 0
     },
     {
       "name": "DA‑302168S",
@@ -159,10 +170,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=DA‑302168S",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=DA‑302168S",
-        "Enamine": "https://enamine.net/chemicals/search?query=DA‑302168S"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=DA‑302168S",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=DA‑302168S",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=DA‑302168S",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=DA‑302168S"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "GZR18",
@@ -176,10 +189,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=GZR18",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=GZR18",
-        "Enamine": "https://enamine.net/chemicals/search?query=GZR18"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=GZR18",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=GZR18",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=GZR18",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=GZR18"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "LY3549492",
@@ -193,10 +208,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=LY3549492",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=LY3549492",
-        "Enamine": "https://enamine.net/chemicals/search?query=LY3549492"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=LY3549492",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=LY3549492",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=LY3549492",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=LY3549492"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "HS‑10501‑2",
@@ -210,10 +227,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=HS‑10501‑2",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HS‑10501‑2",
-        "Enamine": "https://enamine.net/chemicals/search?query=HS‑10501‑2"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HS‑10501‑2",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HS‑10501‑2",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=HS‑10501‑2",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HS‑10501‑2"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "ZT006",
@@ -227,10 +246,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=ZT006",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=ZT006",
-        "Enamine": "https://enamine.net/chemicals/search?query=ZT006"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=ZT006",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=ZT006",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=ZT006",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=ZT006"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "MWN109",
@@ -244,10 +265,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=MWN109",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=MWN109",
-        "Enamine": "https://enamine.net/chemicals/search?query=MWN109"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=MWN109",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=MWN109",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=MWN109",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=MWN109"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "HS-10501",
@@ -261,10 +284,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=HS-10501",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HS-10501",
-        "Enamine": "https://enamine.net/chemicals/search?query=HS-10501"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HS-10501",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HS-10501",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=HS-10501",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HS-10501"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "HDM1002",
@@ -278,10 +303,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=HDM1002",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HDM1002",
-        "Enamine": "https://enamine.net/chemicals/search?query=HDM1002"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HDM1002",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HDM1002",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=HDM1002",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HDM1002"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "SAL0112",
@@ -295,9 +322,10 @@
       "last_cron_update": null,
       "last_deep_search": "2026-03-12T01:20:45.116878",
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=SAL0112",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=SAL0112",
-        "Enamine": "https://enamine.net/chemicals/search?query=SAL0112"
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=SAL0112",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=SAL0112",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=SAL0112",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=SAL0112"
       },
       "papers": [
         {
@@ -328,7 +356,8 @@
           "status": "临床 II 期"
         }
       ],
-      "notes": "偏向性激动剂，心血管安全性优于 Danuglipron"
+      "notes": "偏向性激动剂，心血管安全性优于 Danuglipron",
+      "suppliers_count": 0
     },
     {
       "name": "HRS-7535",
@@ -342,9 +371,10 @@
       "last_cron_update": null,
       "last_deep_search": "2026-03-12T01:20:45.116872",
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=HRS-7535",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=HRS-7535",
-        "Enamine": "https://enamine.net/chemicals/search?query=HRS-7535"
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HRS-7535",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HRS-7535",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=HRS-7535",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HRS-7535"
       },
       "papers": [
         {
@@ -365,7 +395,8 @@
           "results": "体重降低 6.63%"
         }
       ],
-      "notes": "Phase 1 完成，疗效显著"
+      "notes": "Phase 1 完成，疗效显著",
+      "suppliers_count": 0
     },
     {
       "name": "LY3502970",
@@ -379,10 +410,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=LY3502970",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=LY3502970",
-        "Enamine": "https://enamine.net/chemicals/search?query=LY3502970"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=LY3502970",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=LY3502970",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=LY3502970",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=LY3502970"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "NN9487",
@@ -396,10 +429,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=NN9487",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=NN9487",
-        "Enamine": "https://enamine.net/chemicals/search?query=NN9487"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=NN9487",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=NN9487",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=NN9487",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=NN9487"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "BGM0504",
@@ -413,10 +448,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=BGM0504",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=BGM0504",
-        "Enamine": "https://enamine.net/chemicals/search?query=BGM0504"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=BGM0504",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=BGM0504",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=BGM0504",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=BGM0504"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "SYH2067",
@@ -430,10 +467,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=SYH2067",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=SYH2067",
-        "Enamine": "https://enamine.net/chemicals/search?query=SYH2067"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=SYH2067",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=SYH2067",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=SYH2067",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=SYH2067"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "BPYT-01",
@@ -447,10 +486,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=BPYT-01",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=BPYT-01",
-        "Enamine": "https://enamine.net/chemicals/search?query=BPYT-01"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=BPYT-01",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=BPYT-01",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=BPYT-01",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=BPYT-01"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "RGT-274",
@@ -464,10 +505,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=RGT-274",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=RGT-274",
-        "Enamine": "https://enamine.net/chemicals/search?query=RGT-274"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=RGT-274",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=RGT-274",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=RGT-274",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=RGT-274"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "RO7795081/CT-996",
@@ -481,10 +524,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=RO7795081/CT-996",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=RO7795081/CT-996",
-        "Enamine": "https://enamine.net/chemicals/search?query=RO7795081/CT-996"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=RO7795081/CT-996",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=RO7795081/CT-996",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=RO7795081/CT-996",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=RO7795081/CT-996"
+      },
+      "suppliers_count": 0
     },
     {
       "name": "司美格鲁肽片",
@@ -498,10 +543,12 @@
       "last_cron_update": null,
       "last_deep_search": null,
       "supplier_urls": {
-        "MCE": "https://www.medchemexpress.com/catalog.html?q=司美格鲁肽片",
-        "TCI": "https://www.tcichemicals.com/US/en/search?keyword=司美格鲁肽片",
-        "Enamine": "https://enamine.net/chemicals/search?query=司美格鲁肽片"
-      }
+        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=司美格鲁肽片",
+        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=司美格鲁肽片",
+        "Enamine Search": "https://enamine.net/chemicals/search?query=司美格鲁肽片",
+        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=司美格鲁肽片"
+      },
+      "suppliers_count": 0
     }
   ]
 }
