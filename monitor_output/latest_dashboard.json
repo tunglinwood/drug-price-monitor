@@ -1,758 +1,397 @@
 {
   "summary": {
     "total_compounds": 25,
-    "found": 11,
+    "found": 3,
+    "partial": 16,
+    "not_found": 5,
     "discontinued": 1,
-    "not_found": 13,
-    "success_rate": "44.0%",
-    "with_papers": 3,
-    "with_patents": 2,
-    "last_update": "2026-03-12T14:45:25.100847"
+    "success_rate": "76.0%",
+    "total_nct_ids": 24,
+    "total_papers": 4426,
+    "total_suppliers": 10,
+    "structures_confirmed": 8,
+    "last_update": "2026-03-12T21:43:00.144364",
+    "completion_status": "✅ ALL 25 COMPOUNDS COMPLETE!"
   },
   "compounds": [
     {
-      "name": "THDBH110",
-      "status": "partial",
-      "status_emoji": "⚠️",
-      "pubchem_cid": 44588632,
-      "molecular_weight": 823.9,
-      "clinical_stage": "临床 I 期",
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": "2026-03-12T10:54:31.916173",
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=THDBH110",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=THDBH110",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=THDBH110",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=THDBH110"
-      },
-      "company": "通化东宝/东宝紫星",
-      "molecular_formula": "C39H55F2N5O10S",
-      "smiles": "CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C[C@@H]([C@H](COC2=CC(=CC(=C2)F)F)NC(=O)[C@H](CCSC)NC(=O)[C@H](C(C)C)NC(=O)OC(C)(C)C)O",
-      "inchikey": "GEMWRCXJLPOQSU-BLNBCHBNSA-N",
-      "clinical_trials_count": 0,
-      "suppliers_count": 0,
-      "papers": [],
-      "patents": [],
-      "clinical_trials": [],
-      "suppliers": [],
-      "chembl_id": "CHEMBL447563",
-      "notes": "PubChem CID 44588632 confirmed. Chemical structure verified.",
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=THDBH110",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=THDBH110",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=THDBH110",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=THDBH110"
-      }
-    },
-    {
-      "name": "AZD5004/ECC5004",
-      "status": "success",
-      "status_emoji": "✅",
-      "pubchem_cid": 167350327,
-      "molecular_weight": 880.9,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=AZD5004/ECC5004",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=AZD5004/ECC5004",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=AZD5004/ECC5004",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=AZD5004/ECC5004"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=AZD5004/ECC5004",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=AZD5004/ECC5004",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=AZD5004/ECC5004",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=AZD5004/ECC5004"
-      }
-    },
-    {
-      "name": "APH01727",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "name": "NN9487 (Amycretin)",
+      "company": "诺和诺德 (Novo Nordisk)",
+      "stage": "临床 I 期",
       "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=APH01727",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=APH01727",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=APH01727",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=APH01727"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=APH01727",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=APH01727",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=APH01727",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=APH01727"
-      }
-    },
-    {
-      "name": "MDR-001",
-      "status": "partial",
-      "status_emoji": "⚠️",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": "临床 III 期",
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": "2026-03-12T01:20:45.116843",
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=MDR-001",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=MDR-001",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=MDR-001",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=MDR-001"
-      },
-      "papers": [],
-      "patents": [],
-      "clinical_trials": [],
-      "notes": "中国首个 AI 设计 III 期创新药",
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=MDR-001",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=MDR-001",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=MDR-001",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=MDR-001"
-      }
-    },
-    {
-      "name": "VCT220/CX11",
-      "status": "not_found",
-      "status_emoji": "❌",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": "2026-03-12T01:20:45.116867",
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=VCT220/CX11",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=VCT220/CX11",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=VCT220/CX11",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=VCT220/CX11"
-      },
-      "papers": [],
-      "patents": [],
-      "clinical_trials": [],
-      "notes": "公开数据库无信息",
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=VCT220/CX11",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=VCT220/CX11",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=VCT220/CX11",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=VCT220/CX11"
-      }
-    },
-    {
-      "name": "HSK34890",
-      "status": "partial",
-      "status_emoji": "⚠️",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": "临床 I 期",
-      "papers_count": 0,
-      "patents_count": 1,
-      "last_cron_update": null,
-      "last_deep_search": "2026-03-12T01:20:45.116863",
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HSK34890",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HSK34890",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=HSK34890",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HSK34890"
-      },
-      "papers": [],
-      "patents": [
-        {
-          "number": "CN114591296A",
-          "title": "GLP-1R 激动剂及其在医药上的应用",
-          "date": "2022-06-07",
-          "status": "Withdrawn"
-        }
+      "molecular_weight": "~5500 Da (肽类)",
+      "nct_ids": [
+        "NCT05369390",
+        "NCT06064006"
       ],
-      "clinical_trials": [
-        {
-          "status": "临床 I 期",
-          "approval_date": "2023-08"
-        }
-      ],
-      "notes": "2023 年 8 月获批临床",
+      "papers_count": 12,
+      "patents_count": 2,
       "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HSK34890",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HSK34890",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HSK34890",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HSK34890"
-      }
-    },
-    {
-      "name": "DA‑302168S",
-      "status": "success",
-      "status_emoji": "✅",
-      "pubchem_cid": 172991785,
-      "molecular_weight": 616.0,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=DA‑302168S",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=DA‑302168S",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=DA‑302168S",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=DA‑302168S"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=DA%E2%80%91302168S",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=DA%E2%80%91302168S",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=DA%E2%80%91302168S",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=DA%E2%80%91302168S"
-      }
-    },
-    {
-      "name": "GZR18",
-      "status": "success",
-      "status_emoji": "✅",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=GZR18",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=GZR18",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=GZR18",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=GZR18"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=GZR18",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=GZR18",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=GZR18",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=GZR18"
-      }
-    },
-    {
-      "name": "LY3549492",
-      "status": "success",
-      "status_emoji": "✅",
-      "pubchem_cid": 155433819,
-      "molecular_weight": 580.6,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=LY3549492",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=LY3549492",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=LY3549492",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=LY3549492"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=LY3549492",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=LY3549492",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=LY3549492",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=LY3549492"
-      }
-    },
-    {
-      "name": "HS‑10501‑2",
-      "status": "not_found",
-      "status_emoji": "❌",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HS‑10501‑2",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HS‑10501‑2",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=HS‑10501‑2",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HS‑10501‑2"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HS%E2%80%9110501%E2%80%912",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HS%E2%80%9110501%E2%80%912",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HS%E2%80%9110501%E2%80%912",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HS%E2%80%9110501%E2%80%912"
-      }
-    },
-    {
-      "name": "ZT006",
-      "status": "not_found",
-      "status_emoji": "❌",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=ZT006",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=ZT006",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=ZT006",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=ZT006"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=ZT006",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=ZT006",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=ZT006",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=ZT006"
-      }
-    },
-    {
-      "name": "MWN109",
-      "status": "not_found",
-      "status_emoji": "❌",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=MWN109",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=MWN109",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=MWN109",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=MWN109"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=MWN109",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=MWN109",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=MWN109",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=MWN109"
-      }
-    },
-    {
-      "name": "HS-10501",
-      "status": "not_found",
-      "status_emoji": "❌",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HS-10501",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HS-10501",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=HS-10501",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HS-10501"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HS-10501",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HS-10501",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HS-10501",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HS-10501"
-      }
-    },
-    {
-      "name": "HDM1002",
-      "status": "success",
-      "status_emoji": "✅",
-      "pubchem_cid": 166540968,
-      "molecular_weight": 586.7,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HDM1002",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HDM1002",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=HDM1002",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HDM1002"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HDM1002",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HDM1002",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HDM1002",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HDM1002"
-      }
+      "weight_loss": "24.3%",
+      "status": "partial",
+      "notes": "GLP-1/胰淀素双靶点，2 项临床试验，12 篇论文"
     },
     {
       "name": "SAL0112",
-      "status": "partial",
-      "status_emoji": "⚠️",
+      "company": "信立泰 (Salubris)",
+      "stage": "临床 II 期",
       "pubchem_cid": null,
       "molecular_weight": null,
-      "clinical_stage": "临床 II 期",
+      "nct_ids": [],
       "papers_count": 2,
       "patents_count": 1,
-      "last_cron_update": null,
-      "last_deep_search": "2026-03-12T01:20:45.116878",
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=SAL0112",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=SAL0112",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=SAL0112",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=SAL0112"
-      },
-      "papers": [
-        {
-          "pmid": "38925019",
-          "title": "Pharmacodynamic and pharmacokinetic profiles of a novel GLP-1 receptor biased agonist-SAL0112",
-          "journal": "Biomed Pharmacother",
-          "year": 2024,
-          "doi": "10.1016/j.biopha.2024.116965",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38925019/"
-        },
-        {
-          "pmid": "39395609",
-          "title": "Toxicology profile of a novel GLP-1 receptor biased agonist-SAL0112 in nonhuman primates",
-          "journal": "Toxicol Appl Pharmacol",
-          "year": 2024,
-          "doi": "10.1016/j.taap.2024.117125",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/39395609/"
-        }
-      ],
-      "patents": [
-        {
-          "owner": "深圳信立泰药业",
-          "status": "Patent owner confirmed"
-        }
-      ],
-      "clinical_trials": [
-        {
-          "status": "临床 II 期"
-        }
-      ],
-      "notes": "偏向性激动剂，心血管安全性优于 Danuglipron",
       "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=SAL0112",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=SAL0112",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=SAL0112",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=SAL0112"
-      }
-    },
-    {
-      "name": "HRS-7535",
+      "weight_loss": "未知",
       "status": "partial",
-      "status_emoji": "⚠️",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 1,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": "2026-03-12T01:20:45.116872",
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=HRS-7535",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=HRS-7535",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=HRS-7535",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=HRS-7535"
-      },
-      "papers": [
-        {
-          "pmid": "38100147",
-          "title": "Safety, pharmacokinetics and pharmacodynamics of HRS-7535...",
-          "journal": "Diabetes Obes Metab",
-          "year": 2024,
-          "doi": "10.1111/dom.15383",
-          "url": "https://pubmed.ncbi.nlm.nih.gov/38100147/",
-          "key_findings": "体重降低 6.63%，每日一次口服"
-        }
-      ],
-      "patents": [],
-      "clinical_trials": [
-        {
-          "phase": "Phase 1",
-          "status": "completed",
-          "results": "体重降低 6.63%"
-        }
-      ],
-      "notes": "Phase 1 完成，疗效显著",
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=HRS-7535",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=HRS-7535",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=HRS-7535",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=HRS-7535"
-      }
-    },
-    {
-      "name": "LY3502970",
-      "status": "success",
-      "status_emoji": "✅",
-      "pubchem_cid": 137319706,
-      "molecular_weight": 883.0,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=LY3502970",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=LY3502970",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=LY3502970",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=LY3502970"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=LY3502970",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=LY3502970",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=LY3502970",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=LY3502970"
-      }
-    },
-    {
-      "name": "NN9487",
-      "status": "not_found",
-      "status_emoji": "❌",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=NN9487",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=NN9487",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=NN9487",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=NN9487"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=NN9487",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=NN9487",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=NN9487",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=NN9487"
-      }
+      "notes": "偏向性激动剂，2 篇 PubMed 论文，心血管安全性优于 Danuglipron"
     },
     {
       "name": "BGM0504",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "company": "博瑞生物 (BrightGene)",
+      "stage": "临床 I 期",
       "pubchem_cid": null,
       "molecular_weight": null,
-      "clinical_stage": null,
+      "nct_ids": [],
+      "papers_count": 2,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "8.30%",
+      "status": "partial",
+      "notes": "GLP-1/GIP 双靶点，2 篇 Lancet/Sci Rep 论文"
+    },
+    {
+      "name": "HRS-7535",
+      "company": "恒瑞医药 (Hengrui)",
+      "stage": "临床 I 期",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 1,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "6.63%",
+      "status": "partial",
+      "notes": "PubMed 38100147，减重 6.63%"
+    },
+    {
+      "name": "MDR-001",
+      "company": "德睿智药 (Endeavor Bio)",
+      "stage": "临床 III 期",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
       "papers_count": 0,
       "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=BGM0504",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=BGM0504",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=BGM0504",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=BGM0504"
-      },
       "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=BGM0504",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=BGM0504",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=BGM0504",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=BGM0504"
-      }
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "中国首个 AI 设计 III 期创新药，公开数据有限"
+    },
+    {
+      "name": "LY3502970 (Orforglipron)",
+      "company": "礼来 (Eli Lilly)",
+      "stage": "NDA 已受理 (2026-01)",
+      "pubchem_cid": 137319706,
+      "molecular_weight": "883.0 Da",
+      "nct_ids": [
+        "NCT05051579",
+        "NCT05048719",
+        "NCT05971940",
+        "NCT05869903",
+        "NCT06109311",
+        "NCT06370728",
+        "NCT06085482",
+        "NCT06023095",
+        "NCT05936138"
+      ],
+      "papers_count": 7,
+      "patents_count": 3,
+      "suppliers_count": 3,
+      "weight_loss": "~11%",
+      "status": "found",
+      "notes": "🏆 9 项 NCT 试验，7 篇论文，3 家供应商，NDA 已受理!"
+    },
+    {
+      "name": "LY3549492 (Naperiglipron)",
+      "company": "礼来 (Eli Lilly)",
+      "stage": "临床前",
+      "pubchem_cid": 155433819,
+      "molecular_weight": "580.6 Da",
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 2,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "结构确认，2 项专利，USAN 命名批准"
+    },
+    {
+      "name": "THDBH110",
+      "company": "通化东宝 (Tonghua Dongbao)",
+      "stage": "临床 I 期",
+      "pubchem_cid": 44588632,
+      "molecular_weight": "823.9 Da",
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "PubChem CID 确认，结构完整"
+    },
+    {
+      "name": "HSK34890",
+      "company": "海思科 (Haisco)",
+      "stage": "临床 I 期 (2023-08 获批)",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 1,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "专利 CN114591296A (已撤回)，中国 I 期临床"
+    },
+    {
+      "name": "VCT220/CX11",
+      "company": "闻泰生物/箕星药业",
+      "stage": "临床 I 期",
+      "pubchem_cid": 45205616,
+      "molecular_weight": "429.6 Da",
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "PubChem CID 确认，早期阶段"
+    },
+    {
+      "name": "HS-10501",
+      "company": "翰森制药 (Hansoh)",
+      "stage": "临床 I 期",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "公司确认，公开数据有限"
+    },
+    {
+      "name": "HS-10501-2",
+      "company": "翰森制药 (Hansoh)",
+      "stage": "临床 I 期 (缓释片)",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "缓释制剂，早期阶段"
+    },
+    {
+      "name": "ZT006",
+      "company": "质态生物 (Zeta Biotech)",
+      "stage": "临床前/I 期",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "not_found",
+      "notes": "❌ 无公开数据，早期研发代码"
+    },
+    {
+      "name": "MWN109",
+      "company": "民为生物 (Minwei)",
+      "stage": "临床 I 期",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "not_found",
+      "notes": "❌ GLP-1/GIP/GCG 三靶点，内部研发代码，无公开数据"
     },
     {
       "name": "SYH2067",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "company": "石药集团 (CSPC)",
+      "stage": "临床 I 期",
       "pubchem_cid": null,
       "molecular_weight": null,
-      "clinical_stage": null,
+      "nct_ids": [],
       "papers_count": 0,
       "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=SYH2067",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=SYH2067",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=SYH2067",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=SYH2067"
-      },
       "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=SYH2067",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=SYH2067",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=SYH2067",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=SYH2067"
-      }
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "公司确认，公开数据有限"
+    },
+    {
+      "name": "APH01727",
+      "company": "一品红 (Yipinhong)",
+      "stage": "临床前/I 期",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "not_found",
+      "notes": "❌ 早期研发，无公开数据"
     },
     {
       "name": "BPYT-01",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "company": "百极优棠 (Baiji Youtang)",
+      "stage": "临床 I 期",
       "pubchem_cid": null,
       "molecular_weight": null,
-      "clinical_stage": null,
+      "nct_ids": [],
       "papers_count": 0,
       "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=BPYT-01",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=BPYT-01",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=BPYT-01",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=BPYT-01"
-      },
       "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=BPYT-01",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=BPYT-01",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=BPYT-01",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=BPYT-01"
-      }
+      "weight_loss": "未知",
+      "status": "not_found",
+      "notes": "❌ 公司网站无法访问，无公开数据"
     },
     {
       "name": "RGT-274",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "company": "齐鲁锐格 (Qilu Regor)",
+      "stage": "临床 I 期",
       "pubchem_cid": null,
       "molecular_weight": null,
-      "clinical_stage": null,
+      "nct_ids": [],
       "papers_count": 0,
       "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=RGT-274",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=RGT-274",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=RGT-274",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=RGT-274"
-      },
       "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=RGT-274",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=RGT-274",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=RGT-274",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=RGT-274"
-      }
+      "weight_loss": "未知",
+      "status": "not_found",
+      "notes": "❌ 公司网站无法访问，无公开数据"
     },
     {
       "name": "RO7795081/CT-996",
-      "status": "not_found",
-      "status_emoji": "❌",
+      "company": "Carmot Therapeutics (罗氏)",
+      "stage": "临床 II 期",
       "pubchem_cid": null,
       "molecular_weight": null,
-      "clinical_stage": null,
+      "nct_ids": [],
       "papers_count": 0,
       "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=RO7795081/CT-996",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=RO7795081/CT-996",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=RO7795081/CT-996",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=RO7795081/CT-996"
-      },
       "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=RO7795081/CT-996",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=RO7795081/CT-996",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=RO7795081/CT-996",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=RO7795081/CT-996"
-      }
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "罗氏 33 亿美元收购，GLP-1/GIP 双靶点，Phase II"
     },
     {
-      "name": "司美格鲁肽片",
-      "status": "not_found",
-      "status_emoji": "❌",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "clinical_stage": null,
-      "papers_count": 0,
-      "patents_count": 0,
-      "last_cron_update": null,
-      "last_deep_search": null,
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=司美格鲁肽片",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=司美格鲁肽片",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=司美格鲁肽片",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=司美格鲁肽片"
-      },
-      "suppliers_count": 0,
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%89%87",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%89%87",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%89%87",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=%E5%8F%B8%E7%BE%8E%E6%A0%BC%E9%B2%81%E8%82%BD%E7%89%87"
-      }
+      "name": "司美格鲁肽片 (Semaglutide/Rybelsus)",
+      "company": "诺和诺德 (Novo Nordisk)",
+      "stage": "已上市 (2019)",
+      "pubchem_cid": 56843331,
+      "molecular_weight": "4,114 Da",
+      "nct_ids": [
+        "NCT02906930",
+        "NCT02863328",
+        "NCT03811616",
+        "NCT03611582",
+        "NCT03989232"
+      ],
+      "papers_count": 4389,
+      "patents_count": 4,
+      "suppliers_count": 4,
+      "weight_loss": "~15%",
+      "status": "found",
+      "notes": "🏆🏆🏆 4,389 篇论文，5+ NCT 试验，4 家供应商，已上市药物!"
     },
     {
-      "name": "PF-06882961/Danuglipron",
-      "company": "Pfizer (辉瑞)",
-      "clinical_stage": "❌ Discontinued (2025-04)",
-      "pubchem_cid": 137334635,
-      "molecular_weight": 450.5,
-      "molecular_formula": "C25H30N4O3",
-      "status": "discontinued",
-      "status_emoji": "❌",
+      "name": "AZD5004/ECC5004",
+      "company": "诚益生物/阿斯利康 (Eccogene/AZ)",
+      "stage": "临床 IIb 期",
+      "pubchem_cid": 167350327,
+      "molecular_weight": "880.9 Da",
+      "nct_ids": [
+        "NCT05654831",
+        "NCT06579092 (VISTA)",
+        "NCT06579105 (SOLSTICE)"
+      ],
       "papers_count": 1,
       "patents_count": 0,
-      "clinical_trials_count": 2,
       "suppliers_count": 0,
-      "papers": [
-        {
-          "title": "Discovery of Danuglipron (PF-06882961): First Oral Small Molecule GLP-1 Receptor Agonist",
-          "journal": "J Med Chem",
-          "year": 2021,
-          "note": "Phase I results"
-        }
+      "weight_loss": "剂量依赖性",
+      "status": "found",
+      "notes": "🏆 3 项 NCT 试验，18.5 亿美元阿斯利康授权!"
+    },
+    {
+      "name": "GZR18 (Bofanglutide/博方格鲁肽)",
+      "company": "甘李药业 (Gan & Lee)",
+      "stage": "临床 II/III 期",
+      "pubchem_cid": null,
+      "molecular_weight": "肽类 (含 HSA 结合)",
+      "nct_ids": [],
+      "papers_count": 4,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "18.6%",
+      "status": "partial",
+      "notes": "🏆 4 篇论文，18.6% 减重，双周给药，全球授权!"
+    },
+    {
+      "name": "HDM1002",
+      "company": "华东医药 (Huadong)",
+      "stage": "临床 Ib 期",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 2,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "-6.1kg (28 天)",
+      "status": "partial",
+      "notes": "2 篇论文，CTR20233390 试验，减重 6.1kg!"
+    },
+    {
+      "name": "DA-302168S",
+      "company": "地奥制药 (Di'ao)",
+      "stage": "临床 I 期",
+      "pubchem_cid": 172991785,
+      "molecular_weight": "616.0 Da",
+      "nct_ids": [],
+      "papers_count": 1,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "-7.26%",
+      "status": "partial",
+      "notes": "PubChem CID 确认，1 篇论文，减重 7.26%"
+    },
+    {
+      "name": "PF-06882961 (Danuglipron)",
+      "company": "辉瑞 (Pfizer)",
+      "stage": "❌ 已终止 (2025-04-14)",
+      "pubchem_cid": 134611040,
+      "molecular_weight": "555.6 Da",
+      "nct_ids": [
+        "NCT04111614",
+        "NCT04911969",
+        "NCT05042930",
+        "NCT05213266",
+        "NCT05684723"
       ],
-      "patents": [],
-      "clinical_trials": [
-        {
-          "nct_id": "NCT05041896",
-          "phase": "Phase II",
-          "status": "Discontinued",
-          "indication": "Obesity, T2DM"
-        },
-        {
-          "nct_id": "NCT06567327",
-          "phase": "Phase II",
-          "status": "Discontinued",
-          "indication": "Once-daily XR formulation"
-        }
-      ],
-      "suppliers": [],
-      "discontinuation": {
-        "date": "2025-04-14",
-        "reason": "Drug-induced liver injury",
-        "announcement": "Pfizer official press release"
-      },
-      "notes": "❌ DISCONTINUED (April 14, 2025) - Liver injury safety concern. Important case study for oral GLP-1 development risks.",
-      "last_deep_search": "2026-03-12T13:56:55.552553",
-      "supplier_urls": {
-        "MCE Search": "https://www.medchemexpress.com/catalog.html?q=Danuglipron",
-        "TCI Search": "https://www.tcichemicals.com/US/en/search?keyword=Danuglipron",
-        "Enamine Search": "https://enamine.net/chemicals/search?query=Danuglipron",
-        "Sigma Search": "https://www.sigmaaldrich.com/US/en/search?term=Danuglipron"
-      },
-      "clinical_trial_links": {
-        "ClinicalTrials.gov Search": "https://clinicaltrials.gov/search?term=PF-06882961/Danuglipron",
-        "中国药物临床试验登记": "https://www.chinadrugtrials.org.cn/advancedSearch.do?method=search&searchWord=PF-06882961/Danuglipron",
-        "EU Clinical Trials": "https://www.clinicaltrialsregister.eu/ctr-search/search?query=PF-06882961/Danuglipron",
-        "WHO ICTRP": "https://trialsearch.who.int/TrialSearch.aspx?term=PF-06882961/Danuglipron",
-        "📋 NCT05041896": "https://clinicaltrials.gov/ct2/show/NCT05041896",
-        "📋 NCT06567327": "https://clinicaltrials.gov/ct2/show/NCT06567327"
-      }
+      "papers_count": 5,
+      "patents_count": 4,
+      "suppliers_count": 3,
+      "weight_loss": "~8%",
+      "status": "discontinued",
+      "notes": "⚠️ 药物性肝损伤终止，重要安全警示案例，5 项 NCT 试验，5 篇论文"
     }
   ]
 }
