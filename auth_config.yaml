@@ -8,26 +8,26 @@ credentials:
     admin:
       email: admin@drugmonitor.com
       name: System Administrator
-      password: $2b$12$LhJzKqX8Z9vZ8Z9vZ8Z9vO  # Temp: admin123
+      password: $2b$12$UzT9CP13Hx4ALn1KbHSugOF5sJqrJhcamlpb.cmal6OmpWhiggdAe
       role: admin
     
     # ========== 研究员账户 ==========
     researcher:
       email: researcher@company.com
       name: Research User
-      password: $2b$12$LhJzKqX8Z9vZ8Z9vZ8Z9vO  # Temp: research123
+      password: $2b$12$UzT9CP13Hx4ALn1KbHSugOF5sJqrJhcamlpb.cmal6OmpWhiggdAe
       role: researcher
     
     # ========== 访客账户 ==========
     guest:
       email: guest@company.com
       name: Guest User
-      password: $2b$12$LhJzKqX8Z9vZ8Z9vZ8Z9vO  # Temp: guest123
+      password: $2b$12$UzT9CP13Hx4ALn1KbHSugOF5sJqrJhcamlpb.cmal6OmpWhiggdAe
       role: guest
 
 cookie:
   expiry_days: 30
-  key: random_secret_key_change_this_now_12345
+  key: drug_monitor_secret_key_2026_change_in_production
   name: drug_monitor_cookie
 
 preauthorized:
