@@ -60,3 +60,4 @@ Thumbs.db
 # 测试文件
 test_*.py
 *_test.py
+# Force rebuild
