@@ -6,26 +6,37 @@
     "success_rate": "45.8%",
     "with_papers": 2,
     "with_patents": 2,
-    "last_update": "2026-03-12T01:20:45.116897",
-    "last_subagent_update": "2026-03-12T01:20:45.116899"
+    "last_update": "2026-03-12T10:54:31.916232"
   },
   "compounds": [
     {
       "name": "THDBH110",
-      "status": "success",
-      "status_emoji": "✅",
+      "status": "partial",
+      "status_emoji": "⚠️",
       "pubchem_cid": 44588632,
       "molecular_weight": 823.9,
-      "clinical_stage": null,
+      "clinical_stage": "临床 I 期",
       "papers_count": 0,
       "patents_count": 0,
       "last_cron_update": null,
-      "last_deep_search": null,
+      "last_deep_search": "2026-03-12T10:54:31.916173",
       "supplier_urls": {
         "MCE": "https://www.medchemexpress.com/catalog.html?q=THDBH110",
         "TCI": "https://www.tcichemicals.com/US/en/search?keyword=THDBH110",
         "Enamine": "https://enamine.net/chemicals/search?query=THDBH110"
-      }
+      },
+      "company": "通化东宝/东宝紫星",
+      "molecular_formula": "C39H55F2N5O10S",
+      "smiles": "CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C[C@@H]([C@H](COC2=CC(=CC(=C2)F)F)NC(=O)[C@H](CCSC)NC(=O)[C@H](C(C)C)NC(=O)OC(C)(C)C)O",
+      "inchikey": "GEMWRCXJLPOQSU-BLNBCHBNSA-N",
+      "clinical_trials_count": 0,
+      "suppliers_count": 0,
+      "papers": [],
+      "patents": [],
+      "clinical_trials": [],
+      "suppliers": [],
+      "chembl_id": "CHEMBL447563",
+      "notes": "PubChem CID 44588632 confirmed. Chemical structure verified."
     },
     {
       "name": "AZD5004/ECC5004",
