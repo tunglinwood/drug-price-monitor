@@ -242,8 +242,20 @@ df = pd.DataFrame(filtered)
 
 if not df.empty:
     # 状态图标映射
-    status_emoji = {"success": "✅", "partial": "⚠️", "not_found": "❌"}
+    status_emoji = {"success": "✅", "partial": "⚠️", "not_found": "❌", "discontinued": "❌"}
     df['status_icon'] = df['status'].map(status_emoji)
+    
+    # Handle different data structures - add missing fields with defaults
+    if 'stage' in df.columns and 'clinical_stage' not in df.columns:
+        df['clinical_stage'] = df['stage']
+    if 'clinical_stage' not in df.columns:
+        df['clinical_stage'] = '未知'
+    if 'pubchem_cid' not in df.columns:
+        df['pubchem_cid'] = None
+    if 'molecular_weight' not in df.columns:
+        df['molecular_weight'] = None
+    if 'papers_count' not in df.columns:
+        df['papers_count'] = df.get('papers', 0) if 'papers' in df.columns else 0
     
     # 显示表格
     display_df = df[['status_icon', 'name', 'clinical_stage', 'pubchem_cid', 'molecular_weight', 'papers_count']].copy()
@@ -258,7 +270,7 @@ if not df.empty:
             "化合物名称": st.column_config.TextColumn(width="medium"),
             "临床阶段": st.column_config.TextColumn(width="medium"),
             "PubChem CID": st.column_config.NumberColumn(format="%d", width="medium"),
-            "分子量": st.column_config.NumberColumn(format="%.1f", width="small"),
+            "分子量": st.column_config.TextColumn(width="small"),
             "论文数": st.column_config.NumberColumn(format="%d", width="small")
         }
     )
