@@ -97,9 +97,15 @@ def load_data(_cache_buster):
     try:
         import pandas as pd
         import time
-        # Add cache-busting timestamp to force reload
-        url = f"https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.csv?t={int(time.time())}"
+        # Aggressive cache-busting with random number
+        cache_buster = f"{int(time.time())}_{int(time.time()*1000) % 10000}"
+        url = f"https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.csv?cb={cache_buster}"
         df = pd.read_csv(url)
+        
+        # DEBUG: Show what we loaded
+        st.write(f"🔍 **DEBUG:** Loaded {len(df)} rows from CSV")
+        st.write(f"🔍 **DEBUG:** First compound: {df.iloc[0]['chem_name']}")
+        st.write(f"🔍 **DEBUG:** Last compound: {df.iloc[-1]['chem_name']}")
         
         # 转换为 Dashboard 格式
         compounds = []
