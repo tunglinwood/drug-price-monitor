@@ -71,6 +71,14 @@ show_user_info()
 st.title("🧪 化合物监控系统")
 st.markdown(f"**更新时间:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
+# Load version info
+try:
+    version_url = "https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/version.json?t=" + str(int(datetime.now().timestamp()))
+    version_data = pd.read_json(version_url, typ='series')
+    st.info(f"📌 **Data Version:** {version_data.get('version', 'unknown')} | **Compounds:** {version_data.get('compounds', '?')}")
+except:
+    pass
+
 # 加载数据
 @st.cache_data(ttl=300)  # Cache for 5 minutes max
 def load_data(_cache_buster):
