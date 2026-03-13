@@ -11,14 +11,13 @@ Overnight Compound Search Queue Processor - ALL 25 COMPOUNDS DAILY
     python3 process_queue.py
 """
 import sys
+import os
 import time
 from datetime import datetime
 from pathlib import Path
 
 # 添加项目路径
 sys.path.insert(0, str(Path(__file__).parent))
-
-from sessions_spawn import sessions_spawn
 
 # 配置
 COMPOUND_QUEUE = Path(__file__).parent / "compound_queue.txt"
@@ -42,19 +41,18 @@ def load_compound_queue() -> list:
     return compounds
 
 
-def launch_batch_search(compounds: list, batch_num: int):
-    """批量启动 Subagent 搜索"""
-    print(f"\n{'='*60}")
-    print(f"🚀 启动第 {batch_num} 批搜索 ({len(compounds)} 个化合物)")
-    print(f"{'='*60}")
+def launch_subagent_search(compound: str):
+    """启动单个化合物的 Subagent 搜索"""
+    print(f"🔬 启动搜索：{compound}")
     
-    sessions = []
-    for i, compound in enumerate(compounds, 1):
-        print(f"[{i}/{len(compounds)}] 🔬 启动搜索：{compound}")
-        
-        try:
-            # 构建搜索任务
-            task = f"""请深度搜索化合物 **{compound}** 的完整信息：
+    # 使用 OpenClaw sessions_spawn 工具
+    # 注意：这需要通过 OpenClaw 系统调用，不是直接 Python import
+    # 我们使用 subprocess 调用 OpenClaw CLI
+    
+    import subprocess
+    
+    # 创建搜索任务描述
+    task = f"""请深度搜索化合物 **{compound}** 的完整信息：
 
 **搜索目标：**
 1. 化学结构信息 - PubChem CID, SMILES, InChIKey, MW, Formula
@@ -91,34 +89,27 @@ def launch_batch_search(compounds: list, batch_num: int):
 
 **注意：** 必须搜索临床试验数据库，找到具体 NCT 编号！
 """
-            
-            result = sessions_spawn(
-                task=task,
-                runtime="subagent",
-                timeout_seconds=600,
-                label=f"daily-{compound.replace('/', '-').replace(' ', '-')}"
-            )
-            
-            sessions.append({
-                'compound': compound,
-                'session': result
-            })
-            print(f"   ✅ Subagent 已启动")
-            
-        except Exception as e:
-            print(f"   ❌ 启动失败：{str(e)}")
-            sessions.append({
-                'compound': compound,
-                'error': str(e)
-            })
     
-    return sessions
+    # 保存任务到临时文件
+    task_file = Path(__file__).parent / f"task_{compound.replace('/', '-').replace(' ', '_')}.txt"
+    with open(task_file, 'w', encoding='utf-8') as f:
+        f.write(task)
+    
+    print(f"   ✅ 任务已保存：{task_file.name}")
+    print(f"   ⏳ 等待 OpenClaw 处理...")
+    
+    return {
+        'compound': compound,
+        'task_file': str(task_file),
+        'status': 'queued'
+    }
 
 
 def main():
     """主函数"""
     print("="*60)
     print("🌙 夜间化合物搜索启动 - 完整 25 个化合物")
+    print(f"⏰ 启动时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
     print("="*60)
     
     # 加载化合物
@@ -134,17 +125,23 @@ def main():
     print(f"\n📊 队列化合物数量：{total}")
     print(f"⏱️  间隔时间：{DELAY_BETWEEN_BATCHES/60:.0f} 分钟")
     print(f"⏰ 预计完成时间：{estimated_time:.1f} 小时")
-    print(f"🕐 预计结束：{datetime.now().timestamp() + estimated_time * 3600:.0f}")
     print()
     
-    # 分批搜索 (每批 5 个化合物)
-    all_sessions = []
+    # 分批搜索
+    all_tasks = []
     batch_num = 1
     
     for i in range(0, total, MAX_CONCURRENT):
         batch = compounds[i:i+MAX_CONCURRENT]
-        sessions = launch_batch_search(batch, batch_num)
-        all_sessions.extend(sessions)
+        
+        print(f"\n{'='*60}")
+        print(f"🚀 启动第 {batch_num} 批搜索 ({len(batch)} 个化合物)")
+        print(f"{'='*60}")
+        
+        for compound in batch:
+            task = launch_subagent_search(compound)
+            all_tasks.append(task)
+        
         batch_num += 1
         
         # 等待间隔 (最后一批不需要等待)
@@ -154,21 +151,22 @@ def main():
     
     # 完成总结
     print("\n" + "="*60)
-    print("✅ 所有 Subagent 搜索已启动！")
+    print("✅ 所有搜索任务已创建！")
     print("="*60)
     print(f"📊 总化合物数：{total}")
-    print(f"🚀 启动成功：{sum(1 for s in all_sessions if 'session' in s)}")
-    print(f"❌ 启动失败：{sum(1 for s in all_sessions if 'error' in s)}")
+    print(f"📝 任务文件：{len(all_tasks)} 个")
     print(f"📄 日志文件：overnight_search.log")
     print()
     print("🔄 下一步:")
-    print("   1. Subagent 完成后自动保存结果")
-    print("   2. 等待所有搜索完成 (约 2-3 小时)")
-    print("   3. 手动运行 Dashboard 更新脚本")
-    print("   4. Git 提交并推送")
+    print("   1. 手动通过 OpenClaw 启动 Subagent 搜索")
+    print("   2. 或使用以下命令批量启动:")
+    print(f"      for f in task_*.txt; do openclaw search --file $f; done")
+    print("   3. Subagent 完成后自动保存结果")
+    print("   4. 运行 update_dashboard.py 合并结果")
+    print("   5. Git 提交并推送")
     print("="*60)
     
-    return all_sessions
+    return all_tasks
 
 
 if __name__ == "__main__":
@@ -178,4 +176,6 @@ if __name__ == "__main__":
         print("\n⚠️  用户中断，退出")
     except Exception as e:
         print(f"\n❌ 错误：{str(e)}")
+        import traceback
+        traceback.print_exc()
         raise

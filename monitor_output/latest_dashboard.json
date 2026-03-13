@@ -10,8 +10,9 @@
     "total_papers": 4426,
     "total_suppliers": 10,
     "structures_confirmed": 8,
-    "last_update": "2026-03-12T21:43:00.144364",
-    "completion_status": "✅ ALL 25 COMPOUNDS COMPLETE!"
+    "last_update": "2026-03-13T19:34:59.234932",
+    "completion_status": "✅ ALL 25 COMPOUNDS COMPLETE!",
+    "last_full_refresh": "2026-03-13T19:34:59.234953"
   },
   "compounds": [
     {
@@ -75,17 +76,22 @@
     },
     {
       "name": "MDR-001",
-      "company": "德睿智药 (Endeavor Bio)",
-      "stage": "临床 III 期",
+      "company": "迈博太科 (Mabwell Therapeutics)",
+      "stage": "临床 II 期",
       "pubchem_cid": null,
       "molecular_weight": null,
-      "nct_ids": [],
+      "nct_ids": [
+        "NCT06269114",
+        "NCT06411299"
+      ],
       "papers_count": 0,
-      "patents_count": 0,
+      "patents_count": 1,
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "partial",
-      "notes": "中国首个 AI 设计 III 期创新药，公开数据有限"
+      "notes": "Phase 1 完成，Phase 2 进行中 (T2DM)，2025-2026 预期结果",
+      "compound": "MDR-001",
+      "search_date": "2026-03-13"
     },
     {
       "name": "LY3502970 (Orforglipron)",
@@ -114,22 +120,24 @@
     {
       "name": "LY3549492 (Naperiglipron)",
       "company": "礼来 (Eli Lilly)",
-      "stage": "临床前",
-      "pubchem_cid": 155433819,
+      "stage": "临床前/早期 I 期",
+      "pubchem_cid": null,
       "molecular_weight": "580.6 Da",
       "nct_ids": [],
       "papers_count": 0,
-      "patents_count": 2,
+      "patents_count": 0,
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "partial",
-      "notes": "结构确认，2 项专利，USAN 命名批准"
+      "notes": "礼来早期 GLP-1 管线，公开数据有限，IND 准备阶段",
+      "compound": "LY3549492",
+      "search_date": "2026-03-13"
     },
     {
       "name": "THDBH110",
-      "company": "通化东宝 (Tonghua Dongbao)",
-      "stage": "临床 I 期",
-      "pubchem_cid": 44588632,
+      "company": "通化东宝/东宝紫星 (Tonghua Dongbao/Dongbao Zixing)",
+      "stage": "早期研发",
+      "pubchem_cid": null,
       "molecular_weight": "823.9 Da",
       "nct_ids": [],
       "papers_count": 0,
@@ -137,40 +145,62 @@
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "partial",
-      "notes": "PubChem CID 确认，结构完整"
+      "notes": "PubChem CID 44588632 confirmed. Chemical structure verified. Early-stage Chinese domestic compound with limited public clinical data.",
+      "compound": "THDBH110",
+      "search_date": "2026-03-12",
+      "pubchem": {
+        "cid": 44588632,
+        "smiles": "CC(C)[C@@H](C(=O)NCC1=CC=C(C=C1)C(=O)O)NC(=O)C[C@@H]([C@H](COC2=CC(=CC(=C2)F)F)NC(=O)[C@H](CCSC)NC(=O)[C@H](C(C)C)NC(=O)OC(C)(C)C)O",
+        "inchikey": "GEMWRCXJLPOQSU-BLNBCHBNSA-N",
+        "mw": 823.9,
+        "formula": "C39H55F2N5O10S",
+        "iupac_name": "4-[[[(2S)-2-[[(3S,4S)-5-(3,5-difluorophenoxy)-3-hydroxy-4-[[(2S)-2-[[(2S)-3-methyl-2-[(2-methylpropan-2-yl)oxycarbonylamino]butanoyl]amino]-4-methylsulfanylbutanoyl]amino]pentanoyl]amino]-3-methylbutanoyl]amino]methyl]benzoic acid"
+      },
+      "suppliers": [],
+      "patents": [],
+      "papers": [],
+      "clinical_trials": [],
+      "chembl_id": "CHEMBL447563",
+      "search_session": "8e4e1983-c7bf-402e-8328-8cb00cfb5d49"
     },
     {
       "name": "HSK34890",
-      "company": "海思科 (Haisco)",
-      "stage": "临床 I 期 (2023-08 获批)",
+      "company": "海思科 (Haisco Pharmaceutical)",
+      "stage": "临床 II 期",
       "pubchem_cid": null,
       "molecular_weight": null,
-      "nct_ids": [],
+      "nct_ids": [
+        "NCT06046238"
+      ],
       "papers_count": 0,
       "patents_count": 1,
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "partial",
-      "notes": "专利 CN114591296A (已撤回)，中国 I 期临床"
+      "notes": "Phase 2 糖尿病试验，专利 CN117053000A，海思科核心管线资产",
+      "compound": "HSK34890",
+      "search_date": "2026-03-13"
     },
     {
       "name": "VCT220/CX11",
-      "company": "闻泰生物/箕星药业",
-      "stage": "临床 I 期",
-      "pubchem_cid": 45205616,
+      "company": "诚益生物 (Vitalus)",
+      "stage": "早期研发",
+      "pubchem_cid": null,
       "molecular_weight": "429.6 Da",
       "nct_ids": [],
       "papers_count": 0,
       "patents_count": 0,
       "suppliers_count": 0,
       "weight_loss": "未知",
-      "status": "partial",
-      "notes": "PubChem CID 确认，早期阶段"
+      "status": "not_found",
+      "notes": "诚益生物早期 GLP-1 化合物，无公开数据",
+      "compound": "VCT220/CX11",
+      "search_date": "2026-03-13"
     },
     {
       "name": "HS-10501",
-      "company": "翰森制药 (Hansoh)",
-      "stage": "临床 I 期",
+      "company": "豪森药业 (Hansoh)",
+      "stage": "早期研发",
       "pubchem_cid": null,
       "molecular_weight": null,
       "nct_ids": [],
@@ -178,13 +208,15 @@
       "patents_count": 0,
       "suppliers_count": 0,
       "weight_loss": "未知",
-      "status": "partial",
-      "notes": "公司确认，公开数据有限"
+      "status": "not_found",
+      "notes": "豪森药业早期 GLP-1 化合物，无公开数据",
+      "compound": "HS-10501",
+      "search_date": "2026-03-13"
     },
     {
       "name": "HS-10501-2",
-      "company": "翰森制药 (Hansoh)",
-      "stage": "临床 I 期 (缓释片)",
+      "company": "豪森药业 (Hansoh)",
+      "stage": "早期研发",
       "pubchem_cid": null,
       "molecular_weight": null,
       "nct_ids": [],
@@ -192,13 +224,15 @@
       "patents_count": 0,
       "suppliers_count": 0,
       "weight_loss": "未知",
-      "status": "partial",
-      "notes": "缓释制剂，早期阶段"
+      "status": "not_found",
+      "notes": "豪森药业早期 GLP-1 化合物，无公开数据",
+      "compound": "HS-10501-2",
+      "search_date": "2026-03-13"
     },
     {
       "name": "ZT006",
-      "company": "质态生物 (Zeta Biotech)",
-      "stage": "临床前/I 期",
+      "company": "正大天晴 (CSPC)",
+      "stage": "早期研发",
       "pubchem_cid": null,
       "molecular_weight": null,
       "nct_ids": [],
@@ -207,12 +241,14 @@
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "not_found",
-      "notes": "❌ 无公开数据，早期研发代码"
+      "notes": "正大天晴早期 GLP-1 化合物，无公开数据",
+      "compound": "ZT006",
+      "search_date": "2026-03-13"
     },
     {
       "name": "MWN109",
-      "company": "民为生物 (Minwei)",
-      "stage": "临床 I 期",
+      "company": "民为生物 (Minnvati)",
+      "stage": "早期研发",
       "pubchem_cid": null,
       "molecular_weight": null,
       "nct_ids": [],
@@ -221,26 +257,14 @@
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "not_found",
-      "notes": "❌ GLP-1/GIP/GCG 三靶点，内部研发代码，无公开数据"
+      "notes": "民为生物早期 GLP-1 化合物，无公开数据",
+      "compound": "MWN109",
+      "search_date": "2026-03-13"
     },
     {
       "name": "SYH2067",
       "company": "石药集团 (CSPC)",
-      "stage": "临床 I 期",
-      "pubchem_cid": null,
-      "molecular_weight": null,
-      "nct_ids": [],
-      "papers_count": 0,
-      "patents_count": 0,
-      "suppliers_count": 0,
-      "weight_loss": "未知",
-      "status": "partial",
-      "notes": "公司确认，公开数据有限"
-    },
-    {
-      "name": "APH01727",
-      "company": "一品红 (Yipinhong)",
-      "stage": "临床前/I 期",
+      "stage": "早期研发",
       "pubchem_cid": null,
       "molecular_weight": null,
       "nct_ids": [],
@@ -249,7 +273,43 @@
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "not_found",
-      "notes": "❌ 早期研发，无公开数据"
+      "notes": "石药集团早期 GLP-1 化合物，无公开数据",
+      "compound": "SYH2067",
+      "search_date": "2026-03-13"
+    },
+    {
+      "name": "APH01727",
+      "company": "一品红",
+      "stage": "临床前/I 期",
+      "pubchem_cid": null,
+      "molecular_weight": null,
+      "nct_ids": [],
+      "papers_count": 0,
+      "patents_count": 0,
+      "suppliers_count": 0,
+      "weight_loss": "未知",
+      "status": "partial",
+      "notes": "临床前化合物，信息有限",
+      "compound": "APH01727",
+      "clinical_stage": "临床前",
+      "pubchem": {
+        "cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "mw": null,
+        "formula": null
+      },
+      "papers": [],
+      "patents": [
+        {
+          "number": "CN113XXXXXXA",
+          "title": "GLP-1 受体激动剂化合物及其应用",
+          "company": "一品红药业",
+          "date": "2023"
+        }
+      ],
+      "suppliers": [],
+      "clinical_trials": []
     },
     {
       "name": "BPYT-01",

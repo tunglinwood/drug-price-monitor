@@ -1,0 +1,14 @@
+{
+  "compound": "MDR-001",
+  "company": "迈博太科 (Mabwell Therapeutics)",
+  "stage": "临床 II 期",
+  "pubchem_cid": null,
+  "nct_ids": ["NCT06269114", "NCT06411299"],
+  "papers_count": 0,
+  "patents_count": 1,
+  "suppliers_count": 0,
+  "weight_loss": "未知",
+  "status": "partial",
+  "notes": "Phase 1 完成，Phase 2 进行中 (T2DM)，2025-2026 预期结果",
+  "search_date": "2026-03-13"
+}
