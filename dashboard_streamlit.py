@@ -244,7 +244,7 @@ with col1:
 with col2:
     status_filter = st.selectbox(
         "状态",
-        ["全部", "success", "partial", "not_found"]
+        ["全部", "found", "partial", "not_found", "discontinued"]
     )
 
 with col3:
@@ -274,12 +274,14 @@ df = pd.DataFrame(filtered)
 
 if not df.empty:
     # 状态图标映射
-    status_emoji = {"success": "✅", "partial": "⚠️", "not_found": "❌", "discontinued": "❌"}
+    status_emoji = {"found": "✅", "partial": "⚠️", "not_found": "❌", "discontinued": "❌"}
     df['status_icon'] = df['status'].map(status_emoji)
     
     # Handle different data structures - add missing fields with defaults
     if 'stage' in df.columns and 'clinical_stage' not in df.columns:
         df['clinical_stage'] = df['stage']
+    if 'Stage' in df.columns and 'clinical_stage' not in df.columns:
+        df['clinical_stage'] = df['Stage']
     if 'clinical_stage' not in df.columns:
         df['clinical_stage'] = '未知'
     if 'pubchem_cid' not in df.columns:
@@ -289,9 +291,9 @@ if not df.empty:
     if 'papers_count' not in df.columns:
         df['papers_count'] = df.get('papers', 0) if 'papers' in df.columns else 0
     
-    # 显示表格
-    display_df = df[['status_icon', 'name', 'clinical_stage', 'pubchem_cid', 'molecular_weight', 'papers_count']].copy()
-    display_df.columns = ['状态', '化合物名称', '临床阶段', 'PubChem CID', '分子量', '论文数']
+    # 显示表格 - include Notes column
+    display_df = df[['status_icon', 'name', 'clinical_stage', 'notes']].copy()
+    display_df.columns = ['状态', '化合物名称', '临床阶段', '备注']
     
     st.dataframe(
         display_df,
