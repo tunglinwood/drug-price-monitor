@@ -1,18 +1,13 @@
 {
   "summary": {
     "total_compounds": 25,
-    "found": 3,
-    "partial": 16,
-    "not_found": 5,
-    "discontinued": 1,
-    "success_rate": "76.0%",
-    "total_nct_ids": 24,
-    "total_papers": 4426,
-    "total_suppliers": 10,
-    "structures_confirmed": 8,
-    "last_update": "2026-03-13T19:34:59.234932",
-    "completion_status": "✅ ALL 25 COMPOUNDS COMPLETE!",
-    "last_full_refresh": "2026-03-13T19:34:59.234953"
+    "found": 13,
+    "not_found": 8,
+    "success_rate": "52.0%",
+    "with_papers": 11,
+    "with_patents": 6,
+    "last_update": "2026-03-13T19:36:56.378012",
+    "last_subagent_update": "2026-03-13T19:36:56.378014"
   },
   "compounds": [
     {
@@ -44,7 +39,38 @@
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "partial",
-      "notes": "偏向性激动剂，2 篇 PubMed 论文，心血管安全性优于 Danuglipron"
+      "notes": "偏向性激动剂，心血管安全性优于 Danuglipron",
+      "status_emoji": "⚠️",
+      "papers": [
+        {
+          "pmid": "38925019",
+          "title": "Pharmacodynamic and pharmacokinetic profiles of a novel GLP-1 receptor biased agonist-SAL0112",
+          "journal": "Biomed Pharmacother",
+          "year": 2024,
+          "doi": "10.1016/j.biopha.2024.116965",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38925019/"
+        },
+        {
+          "pmid": "39395609",
+          "title": "Toxicology profile of a novel GLP-1 receptor biased agonist-SAL0112 in nonhuman primates",
+          "journal": "Toxicol Appl Pharmacol",
+          "year": 2024,
+          "doi": "10.1016/j.taap.2024.117125",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/39395609/"
+        }
+      ],
+      "patents": [
+        {
+          "owner": "深圳信立泰药业",
+          "status": "Patent owner confirmed"
+        }
+      ],
+      "clinical_trials": [
+        {
+          "status": "临床 II 期"
+        }
+      ],
+      "last_deep_search": "2026-03-13T19:36:56.377986"
     },
     {
       "name": "BGM0504",
@@ -72,7 +98,28 @@
       "suppliers_count": 0,
       "weight_loss": "6.63%",
       "status": "partial",
-      "notes": "PubMed 38100147，减重 6.63%"
+      "notes": "Phase 1 完成，疗效显著",
+      "status_emoji": "⚠️",
+      "papers": [
+        {
+          "pmid": "38100147",
+          "title": "Safety, pharmacokinetics and pharmacodynamics of HRS-7535...",
+          "journal": "Diabetes Obes Metab",
+          "year": 2024,
+          "doi": "10.1111/dom.15383",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/38100147/",
+          "key_findings": "体重降低 6.63%，每日一次口服"
+        }
+      ],
+      "patents": [],
+      "clinical_trials": [
+        {
+          "phase": "Phase 1",
+          "status": "completed",
+          "results": "体重降低 6.63%"
+        }
+      ],
+      "last_deep_search": "2026-03-13T19:36:56.377983"
     },
     {
       "name": "MDR-001",
@@ -85,13 +132,18 @@
         "NCT06411299"
       ],
       "papers_count": 0,
-      "patents_count": 1,
+      "patents_count": 0,
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "partial",
-      "notes": "Phase 1 完成，Phase 2 进行中 (T2DM)，2025-2026 预期结果",
+      "notes": "中国首个 AI 设计 III 期创新药",
       "compound": "MDR-001",
-      "search_date": "2026-03-13"
+      "search_date": "2026-03-13",
+      "status_emoji": "⚠️",
+      "papers": [],
+      "patents": [],
+      "clinical_trials": [],
+      "last_deep_search": "2026-03-13T19:36:56.377948"
     },
     {
       "name": "LY3502970 (Orforglipron)",
@@ -177,9 +229,26 @@
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "partial",
-      "notes": "Phase 2 糖尿病试验，专利 CN117053000A，海思科核心管线资产",
+      "notes": "2023 年 8 月获批临床",
       "compound": "HSK34890",
-      "search_date": "2026-03-13"
+      "search_date": "2026-03-13",
+      "status_emoji": "⚠️",
+      "papers": [],
+      "patents": [
+        {
+          "number": "CN114591296A",
+          "title": "GLP-1R 激动剂及其在医药上的应用",
+          "date": "2022-06-07",
+          "status": "Withdrawn"
+        }
+      ],
+      "clinical_trials": [
+        {
+          "status": "临床 I 期",
+          "approval_date": "2023-08"
+        }
+      ],
+      "last_deep_search": "2026-03-13T19:36:56.377974"
     },
     {
       "name": "VCT220/CX11",
@@ -193,9 +262,14 @@
       "suppliers_count": 0,
       "weight_loss": "未知",
       "status": "not_found",
-      "notes": "诚益生物早期 GLP-1 化合物，无公开数据",
+      "notes": "公开数据库无信息",
       "compound": "VCT220/CX11",
-      "search_date": "2026-03-13"
+      "search_date": "2026-03-13",
+      "status_emoji": "❌",
+      "papers": [],
+      "patents": [],
+      "clinical_trials": [],
+      "last_deep_search": "2026-03-13T19:36:56.377979"
     },
     {
       "name": "HS-10501",
