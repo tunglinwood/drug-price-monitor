@@ -72,8 +72,8 @@ st.title("🧪 化合物监控系统")
 st.markdown(f"**更新时间:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
 # 加载数据
-@st.cache_data
-def load_data():
+@st.cache_data(ttl=300)  # Cache for 5 minutes max
+def load_data(_cache_buster):
     """加载最新的监控数据"""
     import os
     
@@ -88,7 +88,9 @@ def load_data():
     # 尝试从 GitHub 加载（Streamlit Cloud）
     try:
         import pandas as pd
-        url = "https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.csv"
+        import time
+        # Add cache-busting timestamp to force reload
+        url = f"https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.csv?t={int(time.time())}"
         df = pd.read_csv(url)
         
         # 转换为 Dashboard 格式
@@ -139,7 +141,9 @@ def load_data():
         st.error(f"加载 GitHub 数据失败：{e}")
         return None
 
-dashboard = load_data()
+# Cache buster - changes every hour to force periodic reload
+cache_buster = datetime.now().strftime('%Y-%m-%d-%H')
+dashboard = load_data(cache_buster)
 
 if dashboard is None:
     st.error("❌ 未找到监控数据，请先运行监控系统")
@@ -151,7 +155,8 @@ st.sidebar.title("🔧 控制面板")
 # 数据刷新
 if st.sidebar.button("🔄 刷新数据"):
     st.cache_data.clear()
-    dashboard = load_data()
+    cache_buster = datetime.now().strftime('%Y-%m-%d-%H-%M')
+    dashboard = load_data(cache_buster)
     st.rerun()
 
 # 导出选项
