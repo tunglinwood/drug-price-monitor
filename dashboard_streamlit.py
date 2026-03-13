@@ -94,9 +94,23 @@ def load_data():
         # 转换为 Dashboard 格式
         compounds = []
         for _, row in df.iterrows():
+            notes = row.get('Notes', '')
+            # Determine status from notes emoji
+            if '✅' in notes:
+                status = 'found'
+            elif '❌ 已终止' in notes:
+                status = 'discontinued'
+            elif '❌' in notes:
+                status = 'not_found'
+            else:
+                status = 'partial'
+            
             compounds.append({
                 "name": row.get('chem_name', ''),
-                "status": "partial" if row.get('SMILES') else "not_found",
+                "company": row.get('Company', ''),
+                "stage": row.get('Stage', '未知'),
+                "status": status,
+                "notes": notes,
                 "clinical_stage": row.get('Stage', '未知'),
                 "pubchem_cid": None,
                 "molecular_weight": None,
@@ -104,12 +118,17 @@ def load_data():
                 "patents_count": 0,
             })
         
+        found_count = sum(1 for c in compounds if c['status'] == 'found')
+        not_found_count = sum(1 for c in compounds if c['status'] == 'not_found')
+        discontinued_count = sum(1 for c in compounds if c['status'] == 'discontinued')
+        
         return {
             "summary": {
                 "total_compounds": len(compounds),
-                "found": sum(1 for c in compounds if c['status'] == 'success'),
-                "not_found": sum(1 for c in compounds if c['status'] == 'not_found'),
-                "success_rate": f"{sum(1 for c in compounds if c['status'] != 'not_found')/len(compounds)*100:.1f}%",
+                "found": found_count,
+                "not_found": not_found_count,
+                "discontinued": discontinued_count,
+                "success_rate": f"{(found_count + sum(1 for c in compounds if c['status'] == 'partial'))/len(compounds)*100:.1f}%",
                 "with_papers": 0,
                 "with_patents": 0,
                 "last_update": datetime.now().isoformat()
