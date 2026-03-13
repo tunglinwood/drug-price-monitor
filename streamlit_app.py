@@ -283,19 +283,24 @@ if not df.empty:
     status_emoji = {"found": "✅", "partial": "⚠️", "not_found": "❌", "discontinued": "❌"}
     df['status_icon'] = df['status'].map(status_emoji)
     
-    # Handle different data structures - add missing fields with defaults
-    if 'stage' in df.columns and 'clinical_stage' not in df.columns:
-        df['clinical_stage'] = df['stage']
-    if 'Stage' in df.columns and 'clinical_stage' not in df.columns:
-        df['clinical_stage'] = df['Stage']
+    # Ensure clinical_stage column exists and has data
+    # The compounds list already has 'clinical_stage' from CSV 'Stage' column
     if 'clinical_stage' not in df.columns:
         df['clinical_stage'] = '未知'
+    else:
+        # Fill any None/NaN values with '未知'
+        df['clinical_stage'] = df['clinical_stage'].fillna('未知')
+        # Convert empty strings to '未知'
+        df.loc[df['clinical_stage'] == '', 'clinical_stage'] = '未知'
+    
     if 'pubchem_cid' not in df.columns:
         df['pubchem_cid'] = None
     if 'molecular_weight' not in df.columns:
         df['molecular_weight'] = None
     if 'papers_count' not in df.columns:
-        df['papers_count'] = df.get('papers', 0) if 'papers' in df.columns else 0
+        df['papers_count'] = 0
+    if 'notes' not in df.columns:
+        df['notes'] = ''
     
     # 显示表格 - include Notes column
     display_df = df[['status_icon', 'name', 'clinical_stage', 'notes']].copy()
