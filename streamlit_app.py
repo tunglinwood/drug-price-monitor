@@ -191,7 +191,7 @@ if st.sidebar.button("📄 导出 JSON"):
 
 # 摘要卡片
 st.markdown("### 📊 监控摘要")
-col1, col2, col3, col4, col5 = st.columns(5)
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.markdown(f"""
@@ -214,23 +214,6 @@ with col3:
     <div class="metric-card">
         <div class="metric-value" style="color: #dc3545;">{dashboard['summary']['not_found']}</div>
         <div class="metric-label">未找到</div>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col4:
-    st.markdown(f"""
-    <div class="metric-card">
-        <div class="metric-value">{dashboard['summary']['success_rate']}</div>
-        <div class="metric-label">成功率</div>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col5:
-    papers = dashboard['summary'].get('with_papers', 0)
-    st.markdown(f"""
-    <div class="metric-card">
-        <div class="metric-value" style="color: #17a2b8;">{papers}</div>
-        <div class="metric-label">📄 有论文</div>
     </div>
     """, unsafe_allow_html=True)
 
