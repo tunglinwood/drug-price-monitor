@@ -317,21 +317,8 @@ if not df.empty:
     display_df = df[['status_icon', 'name', 'clinical_stage', 'clinical_trials', 'smiles', 'inchikey', 'iupac', 'notes']].copy()
     display_df.columns = ['状态', '化合物名称', '临床阶段', '临床试验', 'SMILES', 'InChIKey', 'IUPAC', '备注']
     
-    st.dataframe(
-        display_df,
-        use_container_width=True,
-        hide_index=True,
-        column_config={
-            "状态": st.column_config.TextColumn(width="small"),
-            "化合物名称": st.column_config.TextColumn(width="large"),
-            "临床阶段": st.column_config.TextColumn(width="medium"),
-            "临床试验": st.column_config.TextColumn(width="large"),
-            "SMILES": st.column_config.TextColumn(width="large"),
-            "InChIKey": st.column_config.TextColumn(width="large"),
-            "IUPAC": st.column_config.TextColumn(width="large"),
-            "备注": st.column_config.TextColumn(width="large")
-        }
-    )
+    # Convert DataFrame to HTML with clickable links
+    st.markdown(display_df.to_html(escape=False, index=False), unsafe_allow_html=True)
 else:
     st.warning("⚠️ 没有符合条件的化合物")
 
