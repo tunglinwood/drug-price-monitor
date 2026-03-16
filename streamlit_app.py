@@ -96,13 +96,6 @@ def load_data(_cache_buster):
         url = f"https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.csv?cb={cache_buster}"
         df = pd.read_csv(url)
         
-        # DEBUG: Show what we loaded
-        st.write(f"🔍 **DEBUG:** Loaded {len(df)} rows from CSV")
-        st.write(f"🔍 **DEBUG:** CSV Columns: {list(df.columns)}")
-        st.write(f"🔍 **DEBUG:** First compound: {df.iloc[0]['chem_name']}")
-        st.write(f"🔍 **DEBUG:** First Stage value: '{df.iloc[0].get('Stage', 'MISSING')}'")
-        st.write(f"🔍 **DEBUG:** Last compound: {df.iloc[-1]['chem_name']}")
-        
         # 转换为 Dashboard 格式
         compounds = []
         for idx, row in df.iterrows():
@@ -138,12 +131,6 @@ def load_data(_cache_buster):
         found_count = sum(1 for c in compounds if c['status'] == 'found')
         not_found_count = sum(1 for c in compounds if c['status'] == 'not_found')
         discontinued_count = sum(1 for c in compounds if c['status'] == 'discontinued')
-        
-        # DEBUG: Show clinical_stage values
-        st.write(f"🔍 **DEBUG:** Compounds created: {len(compounds)}")
-        st.write(f"🔍 **DEBUG:** First 5 clinical_stage values:")
-        for i, c in enumerate(compounds[:5]):
-            st.write(f"  {i+1}. {c['name'][:30]}: '{c['clinical_stage']}'")
         
         return {
             "summary": {
@@ -284,14 +271,6 @@ st.markdown(f"### 📋 化合物列表 ({len(filtered)}/{len(compounds)})")
 
 # 创建 DataFrame
 df = pd.DataFrame(filtered)
-
-# DEBUG: Check DataFrame before processing
-st.write(f"🔍 **DEBUG TABLE:** DataFrame columns: {list(df.columns)}")
-if 'clinical_stage' in df.columns:
-    st.write(f"🔍 **DEBUG TABLE:** clinical_stage dtype: {df['clinical_stage'].dtype}")
-    st.write(f"🔍 **DEBUG TABLE:** First 3 clinical_stage values: {df['clinical_stage'].head(3).tolist()}")
-else:
-    st.write(f"🔍 **DEBUG TABLE:** ❌ clinical_stage column MISSING!")
 
 if not df.empty:
     # 状态图标映射
