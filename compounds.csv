@@ -1,12 +1,12 @@
 ﻿chem_name,SMILES,InChIKey,IUPAC,Company,Stage,clinical_trials,Notes
 NN9487 (Amycretin),Proprietary peptide - not disclosed,Proprietary peptide - not disclosed,Proprietary peptide - not disclosed,诺和诺德 (Novo Nordisk),临床 I 期,Clinical trials pending verification - Novo Nordisk Phase 2 program,"PubChem CID 168438219, Triple agonist GLP-1R/GIPR/GCGR, 3 NCT IDs, Phase 2, 13.1% weight loss at 12 weeks"
 SAL0112,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,信立泰 (Salubris),临床 II 期,Phase 2 (China) - NCT ID pending verification,"Biased GLP-1 agonist, cardiovascular safety better than Danuglipron, Phase 2"
-BGM0504,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,博瑞生物 (BrightGene),临床 I 期,No ClinicalTrials.gov entries found (verified search 2026-03-16) - China CTR pending,"GLP-1/GIP dual agonist, 2 Lancet/Sci Rep papers, Phase 1"
+BGM0504,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,博瑞生物 (BrightGene),临床 I 期,No ClinicalTrials.gov entries found (verified 2026-03-16) - China CTR pending,"GLP-1/GIP dual agonist, 2 Lancet/Sci Rep papers, Phase 1"
 HRS-7535,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,恒瑞医药 (Hengrui),临床 I 期,Phase 1 Completed - PubMed 38100147 - NCT ID pending,"Phase 1 completed, 6.63% weight loss, PubMed 38100147"
 MDR-001,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,迈博太科 (Mabwell Therapeutics),临床 II 期,Clinical trials pending verification - Mabwell Phase 1/2 program,"China first AI-designed Phase 3 innovative drug, 2 NCT IDs"
-LY3502970 (Orforglipron),,,,礼来 (Eli Lilly),NDA 已受理 (2026-01),Clinical trials pending verification - Eli Lilly Phase 3 (Orforglipron),9 项 NCT 试验，7 篇论文，3 家供应商，NDA 已受理!
-LY3549492 (Naperiglipron),,,,礼来 (Eli Lilly),临床前/早期 I 期,Preclinical - No trials yet - Eli Lilly early pipeline,礼来早期 GLP-1 管线，公开数据有限，IND 准备阶段
-THDBH110,,,,通化东宝/东宝紫星 (Tonghua Dongbao/Dongbao Zixing),早期研发,Early stage - No trials registered - 通化东宝,PubChem CID 44588632 confirmed. Chemical structure verified. Early-stage Chinese domestic compound with limited public clinical data.
+LY3502970 (Orforglipron),,,,礼来 (Eli Lilly),NDA 已受理 (2026-01),Clinical trials pending verification - Eli Lilly Phase 3 oral GLP-1 (Orforglipron),9 项 NCT 试验，7 篇论文，3 家供应商，NDA 已受理!
+LY3549492 (Naperiglipron),,,,礼来 (Eli Lilly),临床前/早期 I 期,Preclinical - No trials yet - Eli Lilly early pipeline (Naperiglipron),礼来早期 GLP-1 管线，公开数据有限，IND 准备阶段
+THDBH110,,,,通化东宝/东宝紫星 (Tonghua Dongbao/Dongbao Zixing),早期研发,Early stage - No trials registered - 通化东宝/Tonghua Dongbao,PubChem CID 44588632 confirmed. Chemical structure verified. Early-stage Chinese domestic compound with limited public clinical data.
 HSK34890,,,,海思科 (Haisco Pharmaceutical),临床 II 期,Clinical trials pending verification - 海思科/Haisco Phase 2,2023 年 8 月获批临床
 VCT220/CX11,,,,诚益生物 (Vitalus),早期研发,Early stage - No trials registered - 诚益生物/Vitalus,公开数据库无信息
 HS-10501,,,,豪森药业 (Hansoh),早期研发,Early stage - No trials registered - 豪森药业/Hansoh,豪森药业早期 GLP-1 化合物，无公开数据
