@@ -84,20 +84,14 @@ except:
 def load_data(_cache_buster):
     """加载最新的监控数据"""
     import os
+    import sys
     
-    # 尝试从本地文件加载（本地开发）
-    if os.path.exists('monitor_output/latest_dashboard.json'):
-        try:
-            with open('monitor_output/latest_dashboard.json', 'r', encoding='utf-8') as f:
-                return json.load(f)
-        except Exception as e:
-            st.error(f"加载本地数据失败：{e}")
-    
-    # 尝试从 GitHub 加载（Streamlit Cloud）
+    # ALWAYS load from CSV - it's the source of truth
+    # Local JSON file is outdated
     try:
         import pandas as pd
         import time
-        # Aggressive cache-busting with random number
+        # Aggressive cache-busting
         cache_buster = f"{int(time.time())}_{int(time.time()*1000) % 10000}"
         url = f"https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.csv?cb={cache_buster}"
         df = pd.read_csv(url)
