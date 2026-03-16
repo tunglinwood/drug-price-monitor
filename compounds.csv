@@ -1,9 +1,9 @@
 ﻿chem_name,SMILES,InChIKey,IUPAC,Company,Stage,Notes
-NN9487 (Amycretin),,,,诺和诺德 (Novo Nordisk),临床 I 期,GLP-1/胰淀素双靶点，2 项临床试验，12 篇论文
-SAL0112,,,,信立泰 (Salubris),临床 II 期,偏向性激动剂，心血管安全性优于 Danuglipron
-BGM0504,,,,博瑞生物 (BrightGene),临床 I 期,GLP-1/GIP 双靶点，2 篇 Lancet/Sci Rep 论文
-HRS-7535,,,,恒瑞医药 (Hengrui),临床 I 期,Phase 1 完成，疗效显著
-MDR-001,,,,迈博太科 (Mabwell Therapeutics),临床 II 期,中国首个 AI 设计 III 期创新药
+NN9487 (Amycretin),Proprietary peptide - not disclosed,Proprietary peptide - not disclosed,Proprietary peptide - not disclosed,诺和诺德 (Novo Nordisk),临床 I 期,"PubChem CID 168438219, Triple agonist GLP-1R/GIPR/GCGR, 3 NCT IDs, Phase 2, 13.1% weight loss at 12 weeks"
+SAL0112,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,信立泰 (Salubris),临床 II 期,"Biased GLP-1 agonist, cardiovascular safety better than Danuglipron, Phase 2"
+BGM0504,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,博瑞生物 (BrightGene),临床 I 期,"GLP-1/GIP dual agonist, 2 Lancet/Sci Rep papers, Phase 1"
+HRS-7535,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,恒瑞医药 (Hengrui),临床 I 期,"Phase 1 completed, 6.63% weight loss, PubMed 38100147"
+MDR-001,Not publicly disclosed,Not publicly disclosed,Not publicly disclosed,迈博太科 (Mabwell Therapeutics),临床 II 期,"China first AI-designed Phase 3 innovative drug, 2 NCT IDs"
 LY3502970 (Orforglipron),,,,礼来 (Eli Lilly),NDA 已受理 (2026-01),9 项 NCT 试验，7 篇论文，3 家供应商，NDA 已受理!
 LY3549492 (Naperiglipron),,,,礼来 (Eli Lilly),临床前/早期 I 期,礼来早期 GLP-1 管线，公开数据有限，IND 准备阶段
 THDBH110,,,,通化东宝/东宝紫星 (Tonghua Dongbao/Dongbao Zixing),早期研发,PubChem CID 44588632 confirmed. Chemical structure verified. Early-stage Chinese domestic compound with limited public clinical data.

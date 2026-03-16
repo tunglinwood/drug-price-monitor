@@ -1,0 +1,36 @@
+请深度搜索化合物 **RGT-274** 的完整信息：
+
+**搜索目标：**
+1. 化学结构信息 - PubChem CID, SMILES, InChIKey, MW, Formula
+2. 供应商信息 - MCE, TCI, Enamine, Sigma
+3. 专利信息 - CN/US/WO 专利
+4. 研究论文 - PubMed 论文 (PMID, DOI, 期刊)
+5. 🏥 临床试验信息 (重要！) - ClinicalTrials.gov NCT 编号，中国药物临床试验登记号
+6. 公司信息 - 公司官网研发管线
+
+**返回格式**（严格 JSON）：
+```json
+{
+  "compound": "RGT-274",
+  "company": "...",
+  "pubchem": {"cid": ..., "smiles": "...", "mw": ..., "formula": "..."},
+  "suppliers": [...],
+  "patents": [...],
+  "papers": [...],
+  "clinical_trials": [
+    {
+      "registry": "ClinicalTrials.gov",
+      "trial_id": "NCT 编号",
+      "phase": "试验阶段",
+      "status": "招募中/已完成",
+      "indication": "适应症",
+      "enrollment": 受试者人数，
+      "url": "https://clinicaltrials.gov/ct2/show/NCT..."
+    }
+  ],
+  "status": "found|partial|not_found",
+  "notes": "..."
+}
+```
+
+**注意：** 必须搜索临床试验数据库，找到具体 NCT 编号！

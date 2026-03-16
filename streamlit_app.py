@@ -278,10 +278,16 @@ if not df.empty:
         df['papers_count'] = 0
     if 'notes' not in df.columns:
         df['notes'] = ''
+    if 'smiles' not in df.columns:
+        df['smiles'] = ''
+    if 'inchikey' not in df.columns:
+        df['inchikey'] = ''
+    if 'iupac' not in df.columns:
+        df['iupac'] = ''
     
-    # 显示表格 - include Notes column
-    display_df = df[['status_icon', 'name', 'clinical_stage', 'notes']].copy()
-    display_df.columns = ['状态', '化合物名称', '临床阶段', '备注']
+    # 显示表格 - include chemical structure columns
+    display_df = df[['status_icon', 'name', 'clinical_stage', 'smiles', 'inchikey', 'iupac', 'notes']].copy()
+    display_df.columns = ['状态', '化合物名称', '临床阶段', 'SMILES', 'InChIKey', 'IUPAC', '备注']
     
     st.dataframe(
         display_df,
@@ -289,11 +295,12 @@ if not df.empty:
         hide_index=True,
         column_config={
             "状态": st.column_config.TextColumn(width="small"),
-            "化合物名称": st.column_config.TextColumn(width="medium"),
+            "化合物名称": st.column_config.TextColumn(width="large"),
             "临床阶段": st.column_config.TextColumn(width="medium"),
-            "PubChem CID": st.column_config.NumberColumn(format="%d", width="medium"),
-            "分子量": st.column_config.TextColumn(width="small"),
-            "论文数": st.column_config.NumberColumn(format="%d", width="small")
+            "SMILES": st.column_config.TextColumn(width="large"),
+            "InChIKey": st.column_config.TextColumn(width="large"),
+            "IUPAC": st.column_config.TextColumn(width="large"),
+            "备注": st.column_config.TextColumn(width="large")
         }
     )
 else:
