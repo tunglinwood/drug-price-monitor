@@ -119,6 +119,7 @@ def load_data(_cache_buster):
             smiles_val = row.get('SMILES', '')
             inchikey_val = row.get('InChIKey', '')
             iupac_val = row.get('IUPAC', '')
+            clinical_trials_val = row.get('clinical_trials', '')
             
             compounds.append({
                 "name": row.get('chem_name', ''),
@@ -130,6 +131,7 @@ def load_data(_cache_buster):
                 "smiles": str(smiles_val) if smiles_val else '',
                 "inchikey": str(inchikey_val) if inchikey_val else '',
                 "iupac": str(iupac_val) if iupac_val else '',
+                "clinical_trials_raw": str(clinical_trials_val) if clinical_trials_val else '',
                 "pubchem_cid": None,
                 "molecular_weight": None,
                 "papers_count": 0,
@@ -286,11 +288,34 @@ if not df.empty:
         df['papers_count'] = 0
     if 'notes' not in df.columns:
         df['notes'] = ''
-    # smiles, inchikey, iupac are now populated from CSV in compounds list
+    # smiles, inchikey, iupac, clinical_trials_raw are populated from CSV in compounds list
     
-    # 显示表格 - include chemical structure columns
-    display_df = df[['status_icon', 'name', 'clinical_stage', 'smiles', 'inchikey', 'iupac', 'notes']].copy()
-    display_df.columns = ['状态', '化合物名称', '临床阶段', 'SMILES', 'InChIKey', 'IUPAC', '备注']
+    # Format clinical trials as clickable hyperlinks
+    def format_trials(trials_str):
+        if not trials_str or trials_str == '' or 'No trials' in trials_str or 'pending' in trials_str.lower():
+            return trials_str if trials_str else 'No trials registered'
+        
+        # Parse trial data (format: NCT_ID|Phase|Status|URL;NCT_ID|Phase|Status|URL)
+        trials = trials_str.split(';')
+        formatted = []
+        for trial in trials:
+            parts = trial.split('|')
+            if len(parts) >= 4:
+                nct_id, phase, status, url = parts[0], parts[1], parts[2], parts[3]
+                formatted.append(f'<a href="{url}" target="_blank">🔬 {nct_id}</a> ({phase}, {status})')
+            elif len(parts) == 1:
+                formatted.append(trial)
+        
+        # Show first 3 trials + count if more
+        if len(formatted) > 3:
+            return f"{'<br>'.join(formatted[:3])}<br><em>...and {len(formatted)-3} more trials</em>"
+        return '<br>'.join(formatted) if formatted else 'No trials registered'
+    
+    df['clinical_trials'] = df['clinical_trials_raw'].apply(format_trials)
+    
+    # 显示表格 - include clinical trials column with hyperlinks
+    display_df = df[['status_icon', 'name', 'clinical_stage', 'clinical_trials', 'smiles', 'inchikey', 'iupac', 'notes']].copy()
+    display_df.columns = ['状态', '化合物名称', '临床阶段', '临床试验', 'SMILES', 'InChIKey', 'IUPAC', '备注']
     
     st.dataframe(
         display_df,
@@ -300,6 +325,7 @@ if not df.empty:
             "状态": st.column_config.TextColumn(width="small"),
             "化合物名称": st.column_config.TextColumn(width="large"),
             "临床阶段": st.column_config.TextColumn(width="medium"),
+            "临床试验": st.column_config.TextColumn(width="large"),
             "SMILES": st.column_config.TextColumn(width="large"),
             "InChIKey": st.column_config.TextColumn(width="large"),
             "IUPAC": st.column_config.TextColumn(width="large"),
