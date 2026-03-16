@@ -115,6 +115,11 @@ def load_data(_cache_buster):
             if stage_val is None or (isinstance(stage_val, float) and str(stage_val) == 'nan'):
                 stage_val = '未知'
             
+            # Get chemical structure data from CSV (case-sensitive column names)
+            smiles_val = row.get('SMILES', '')
+            inchikey_val = row.get('InChIKey', '')
+            iupac_val = row.get('IUPAC', '')
+            
             compounds.append({
                 "name": row.get('chem_name', ''),
                 "company": row.get('Company', ''),
@@ -122,6 +127,9 @@ def load_data(_cache_buster):
                 "status": status,
                 "notes": str(notes),
                 "clinical_stage": stage_val,
+                "smiles": str(smiles_val) if smiles_val else '',
+                "inchikey": str(inchikey_val) if inchikey_val else '',
+                "iupac": str(iupac_val) if iupac_val else '',
                 "pubchem_cid": None,
                 "molecular_weight": None,
                 "papers_count": 0,
@@ -278,12 +286,7 @@ if not df.empty:
         df['papers_count'] = 0
     if 'notes' not in df.columns:
         df['notes'] = ''
-    if 'smiles' not in df.columns:
-        df['smiles'] = ''
-    if 'inchikey' not in df.columns:
-        df['inchikey'] = ''
-    if 'iupac' not in df.columns:
-        df['iupac'] = ''
+    # smiles, inchikey, iupac are now populated from CSV in compounds list
     
     # 显示表格 - include chemical structure columns
     display_df = df[['status_icon', 'name', 'clinical_stage', 'smiles', 'inchikey', 'iupac', 'notes']].copy()
