@@ -1,26 +1,26 @@
 ﻿chem_name,SMILES,InChIKey,IUPAC,Company,Stage,Notes
-NN9487 (Amycretin),,,,诺和诺德 (Novo Nordisk),临床 I 期,⚠️ GLP-1/胰淀素双靶点，2 项临床试验，12 篇论文
-SAL0112,,,,信立泰 (Salubris),临床 II 期,⚠️ 偏向性激动剂，心血管安全性优于 Danuglipron
-BGM0504,,,,博瑞生物 (BrightGene),临床 I 期,⚠️ GLP-1/GIP 双靶点，2 篇 Lancet/Sci Rep 论文
-HRS-7535,,,,恒瑞医药 (Hengrui),临床 I 期,⚠️ Phase 1 完成，疗效显著
-MDR-001,,,,迈博太科 (Mabwell Therapeutics),临床 II 期,⚠️ 中国首个 AI 设计 III 期创新药
-LY3502970 (Orforglipron),,,,礼来 (Eli Lilly),NDA 已受理 (2026-01),✅ 🏆 9 项 NCT 试验，7 篇论文，3 家供应商，NDA 已受理!
-LY3549492 (Naperiglipron),,,,礼来 (Eli Lilly),临床前/早期 I 期,⚠️ 礼来早期 GLP-1 管线，公开数据有限，IND 准备阶段
-THDBH110,,,,通化东宝/东宝紫星 (Tonghua Dongbao/Dongbao Zixing),早期研发,⚠️ PubChem CID 44588632 confirmed. Chemical structure verified. Early-stage Chinese domestic compound with limited public clinical data.
-HSK34890,,,,海思科 (Haisco Pharmaceutical),临床 II 期,⚠️ 2023 年 8 月获批临床
-VCT220/CX11,,,,诚益生物 (Vitalus),早期研发,❌ 公开数据库无信息
-HS-10501,,,,豪森药业 (Hansoh),早期研发,❌ 豪森药业早期 GLP-1 化合物，无公开数据
-HS-10501-2,,,,豪森药业 (Hansoh),早期研发,❌ 豪森药业早期 GLP-1 化合物，无公开数据
-ZT006,,,,正大天晴 (CSPC),早期研发,❌ 正大天晴早期 GLP-1 化合物，无公开数据
-MWN109,,,,民为生物 (Minnvati),早期研发,❌ 民为生物早期 GLP-1 化合物，无公开数据
-SYH2067,,,,石药集团 (CSPC),早期研发,❌ 石药集团早期 GLP-1 化合物，无公开数据
-APH01727,,,,一品红,临床前/I 期,⚠️ 临床前化合物，信息有限
-BPYT-01,,,,百极优棠 (Baiji Youtang),临床 I 期,❌ ❌ 公司网站无法访问，无公开数据
-RGT-274,,,,齐鲁锐格 (Qilu Regor),临床 I 期,❌ ❌ 公司网站无法访问，无公开数据
-RO7795081/CT-996,,,,Carmot Therapeutics (罗氏),临床 II 期,⚠️ 罗氏 33 亿美元收购，GLP-1/GIP 双靶点，Phase II
-司美格鲁肽片 (Semaglutide/Rybelsus),,,,诺和诺德 (Novo Nordisk),已上市 (2019),"✅ 🏆🏆🏆 4,389 篇论文，5+ NCT 试验，4 家供应商，已上市药物!"
-AZD5004/ECC5004,,,,诚益生物/阿斯利康 (Eccogene/AZ),临床 IIb 期,✅ 🏆 3 项 NCT 试验，18.5 亿美元阿斯利康授权!
-GZR18 (Bofanglutide/博方格鲁肽),,,,甘李药业 (Gan & Lee),临床 II/III 期,⚠️ 🏆 4 篇论文，18.6% 减重，双周给药，全球授权!
-HDM1002,,,,华东医药 (Huadong),临床 Ib 期,⚠️ 2 篇论文，CTR20233390 试验，减重 6.1kg!
-DA-302168S,,,,地奥制药 (Di'ao),临床 I 期,⚠️ PubChem CID 确认，1 篇论文，减重 7.26%
-PF-06882961 (Danuglipron),,,,辉瑞 (Pfizer),❌ 已终止 (2025-04-14),❌ 已终止 - ⚠️ 药物性肝损伤终止，重要安全警示案例，5 项 NCT 试验，5 篇论文
+NN9487 (Amycretin),,,,诺和诺德 (Novo Nordisk),临床 I 期,GLP-1/胰淀素双靶点，2 项临床试验，12 篇论文
+SAL0112,,,,信立泰 (Salubris),临床 II 期,偏向性激动剂，心血管安全性优于 Danuglipron
+BGM0504,,,,博瑞生物 (BrightGene),临床 I 期,GLP-1/GIP 双靶点，2 篇 Lancet/Sci Rep 论文
+HRS-7535,,,,恒瑞医药 (Hengrui),临床 I 期,Phase 1 完成，疗效显著
+MDR-001,,,,迈博太科 (Mabwell Therapeutics),临床 II 期,中国首个 AI 设计 III 期创新药
+LY3502970 (Orforglipron),,,,礼来 (Eli Lilly),NDA 已受理 (2026-01),9 项 NCT 试验，7 篇论文，3 家供应商，NDA 已受理!
+LY3549492 (Naperiglipron),,,,礼来 (Eli Lilly),临床前/早期 I 期,礼来早期 GLP-1 管线，公开数据有限，IND 准备阶段
+THDBH110,,,,通化东宝/东宝紫星 (Tonghua Dongbao/Dongbao Zixing),早期研发,PubChem CID 44588632 confirmed. Chemical structure verified. Early-stage Chinese domestic compound with limited public clinical data.
+HSK34890,,,,海思科 (Haisco Pharmaceutical),临床 II 期,2023 年 8 月获批临床
+VCT220/CX11,,,,诚益生物 (Vitalus),早期研发,公开数据库无信息
+HS-10501,,,,豪森药业 (Hansoh),早期研发,豪森药业早期 GLP-1 化合物，无公开数据
+HS-10501-2,,,,豪森药业 (Hansoh),早期研发,豪森药业早期 GLP-1 化合物，无公开数据
+ZT006,,,,正大天晴 (CSPC),早期研发,正大天晴早期 GLP-1 化合物，无公开数据
+MWN109,,,,民为生物 (Minnvati),早期研发,民为生物早期 GLP-1 化合物，无公开数据
+SYH2067,,,,石药集团 (CSPC),早期研发,石药集团早期 GLP-1 化合物，无公开数据
+APH01727,,,,一品红,临床前/I 期,临床前化合物，信息有限
+BPYT-01,,,,百极优棠 (Baiji Youtang),临床 I 期,公司网站无法访问，无公开数据
+RGT-274,,,,齐鲁锐格 (Qilu Regor),临床 I 期,公司网站无法访问，无公开数据
+RO7795081/CT-996,,,,Carmot Therapeutics (罗氏),临床 II 期,罗氏 33 亿美元收购，GLP-1/GIP 双靶点，Phase II
+司美格鲁肽片 (Semaglutide/Rybelsus),,,,诺和诺德 (Novo Nordisk),已上市 (2019),"4,389 篇论文，5+ NCT 试验，4 家供应商，已上市药物!"
+AZD5004/ECC5004,,,,诚益生物/阿斯利康 (Eccogene/AZ),临床 IIb 期,3 项 NCT 试验，18.5 亿美元阿斯利康授权!
+GZR18 (Bofanglutide/博方格鲁肽),,,,甘李药业 (Gan & Lee),临床 II/III 期,4 篇论文，18.6% 减重，双周给药，全球授权!
+HDM1002,,,,华东医药 (Huadong),临床 Ib 期,2 篇论文，CTR20233390 试验，减重 6.1kg!
+DA-302168S,,,,地奥制药 (Di'ao),临床 I 期,PubChem CID 确认，1 篇论文，减重 7.26%
+PF-06882961 (Danuglipron),,,,辉瑞 (Pfizer),❌ 已终止 (2025-04-14),已终止 - 药物性肝损伤终止，重要安全警示案例，5 项 NCT 试验，5 篇论文
