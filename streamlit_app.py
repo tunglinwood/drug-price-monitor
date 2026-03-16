@@ -104,30 +104,37 @@ def load_data(_cache_buster):
         
         # DEBUG: Show what we loaded
         st.write(f"🔍 **DEBUG:** Loaded {len(df)} rows from CSV")
+        st.write(f"🔍 **DEBUG:** CSV Columns: {list(df.columns)}")
         st.write(f"🔍 **DEBUG:** First compound: {df.iloc[0]['chem_name']}")
+        st.write(f"🔍 **DEBUG:** First Stage value: '{df.iloc[0].get('Stage', 'MISSING')}'")
         st.write(f"🔍 **DEBUG:** Last compound: {df.iloc[-1]['chem_name']}")
         
         # 转换为 Dashboard 格式
         compounds = []
-        for _, row in df.iterrows():
+        for idx, row in df.iterrows():
             notes = row.get('Notes', '')
             # Determine status from notes emoji
-            if '✅' in notes:
+            if '✅' in str(notes):
                 status = 'found'
-            elif '❌ 已终止' in notes:
+            elif '❌ 已终止' in str(notes):
                 status = 'discontinued'
-            elif '❌' in notes:
+            elif '❌' in str(notes):
                 status = 'not_found'
             else:
                 status = 'partial'
             
+            # Get Stage value with explicit fallback
+            stage_val = row.get('Stage', '未知')
+            if stage_val is None or (isinstance(stage_val, float) and str(stage_val) == 'nan'):
+                stage_val = '未知'
+            
             compounds.append({
                 "name": row.get('chem_name', ''),
                 "company": row.get('Company', ''),
-                "stage": row.get('Stage', '未知'),
+                "stage": stage_val,
                 "status": status,
-                "notes": notes,
-                "clinical_stage": row.get('Stage', '未知'),
+                "notes": str(notes),
+                "clinical_stage": stage_val,
                 "pubchem_cid": None,
                 "molecular_weight": None,
                 "papers_count": 0,
@@ -137,6 +144,12 @@ def load_data(_cache_buster):
         found_count = sum(1 for c in compounds if c['status'] == 'found')
         not_found_count = sum(1 for c in compounds if c['status'] == 'not_found')
         discontinued_count = sum(1 for c in compounds if c['status'] == 'discontinued')
+        
+        # DEBUG: Show clinical_stage values
+        st.write(f"🔍 **DEBUG:** Compounds created: {len(compounds)}")
+        st.write(f"🔍 **DEBUG:** First 5 clinical_stage values:")
+        for i, c in enumerate(compounds[:5]):
+            st.write(f"  {i+1}. {c['name'][:30]}: '{c['clinical_stage']}'")
         
         return {
             "summary": {
