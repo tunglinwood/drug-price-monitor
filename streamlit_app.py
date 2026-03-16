@@ -281,15 +281,11 @@ if not df.empty:
     # The compounds list already has 'clinical_stage' from CSV 'Stage' column
     if 'clinical_stage' not in df.columns:
         df['clinical_stage'] = '未知'
-        st.write(f"🔍 **DEBUG TABLE:** ⚠️ Had to create clinical_stage column!")
     else:
         # Fill any None/NaN values with '未知'
         df['clinical_stage'] = df['clinical_stage'].fillna('未知')
         # Convert empty strings to '未知'
         df.loc[df['clinical_stage'] == '', 'clinical_stage'] = '未知'
-    
-    # DEBUG: After processing
-    st.write(f"🔍 **DEBUG TABLE:** After fillna - First 3 values: {df['clinical_stage'].head(3).tolist()}")
     
     if 'pubchem_cid' not in df.columns:
         df['pubchem_cid'] = None
