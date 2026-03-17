@@ -10,20 +10,6 @@ credentials:
       name: System Administrator
       password: $2b$12$P4RDqRH84y9VrarHomoXPO0XNrtjtOSjFn3dJUUaNp5pdFJB2lTm2
       role: admin
-    
-    # ========== 研究员账户 ==========
-    researcher:
-      email: researcher@company.com
-      name: Research User
-      password: $2b$12$azNCBqEPLaK7JVq/YmQobeUs0wTjvINT7A70N36QdgJggzmd9lLw2
-      role: researcher
-    
-    # ========== 访客账户 ==========
-    guest:
-      email: guest@company.com
-      name: Guest User
-      password: $2b$12$qmmEMschBddijh8b2R4UgeHvwpfdQPP1OAxh7n1.buphgFZG3Us/6
-      role: guest
 
 # Cookie 配置 (简化 - 使用 session state)
 cookie:
@@ -32,4 +18,3 @@ cookie:
 preauthorized:
   emails:
     - admin@drugmonitor.com
-    - researcher@company.com
