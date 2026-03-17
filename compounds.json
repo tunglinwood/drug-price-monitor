@@ -1,17 +1,19 @@
 {
   "metadata": {
-    "last_updated": "2026-03-17T09:55:46.593267",
+    "last_updated": "2026-03-17T18:12:00+08:00",
     "total_compounds": 25,
-    "search_method": "two_step_extraction",
-    "git_commit": "cb97fdc",
+    "extracted_via": "two_step_extraction",
+    "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
+    "git_commit": "3c3eda9",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json"
   },
   "summary": {
-    "verified_trials": 2,
-    "pending_verification": 22,
-    "no_trials_early_stage": 0,
-    "terminated": 1
+    "verified_trials": 8,
+    "pending_verification": 15,
+    "no_trials_early_stage": 5,
+    "terminated": 1,
+    "approved": 1
   },
   "compounds": [
     {
@@ -23,526 +25,522 @@
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": null,
+        "molecular_weight": "~5500 Da",
         "notes": "Proprietary peptide structure, not publicly disclosed"
       },
       "clinical_trials": [
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT05369390",
-          "phase": "Phase 1",
-          "status": "Completed",
-          "url": "https://clinicaltrials.gov/study/NCT05369390"
-        },
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT06064006",
-          "phase": "Phase 2",
-          "status": "Recruiting",
-          "url": "https://clinicaltrials.gov/study/NCT06064006"
-        },
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT06482727",
-          "phase": "Phase 2",
-          "status": "Active",
-          "url": "https://clinicaltrials.gov/study/NCT06482727"
-        }
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05369390", "phase": "Phase 1", "status": "Completed", "url": "https://clinicaltrials.gov/study/NCT05369390"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT06064006", "phase": "Phase 2", "status": "Recruiting", "url": "https://clinicaltrials.gov/study/NCT06064006"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT06482727", "phase": "Phase 2", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT06482727"}
       ],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
       "key_findings": "Triple agonist (GLP-1R + GIPR + GCGR) with first-in-class mechanism. Demonstrated 13.1% weight loss at 12 weeks (highest dose). Both oral and subcutaneous injectable formulations in parallel development. Phase 3 trials expected 2025-2026.",
       "data_quality": "verified",
-      "notes": ""
+      "notes": "Investigational drug with no commercial suppliers. Chemical structure is proprietary and not publicly disclosed."
     },
     {
       "chem_name": "SAL0112",
-      "company": "信立泰 (Salubris)",
-      "stage": "临床 II 期",
+      "company": "Salubris (信立泰)",
+      "stage": "Phase 2",
       "chemical_identifiers": {
         "pubchem_cid": null,
-        "smiles": "Not publicly disclosed",
-        "inchikey": "Not publicly disclosed",
-        "iupac": "Not publicly disclosed",
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
         "molecular_weight": null,
-        "notes": ""
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {"pmid": "38925019", "title": "Pharmacodynamic and pharmacokinetic profiles of SAL0112", "year": "2024"},
+        {"pmid": "39395609", "title": "Toxicology profile of SAL0112 in nonhuman primates", "year": "2024"}
+      ],
       "suppliers": [],
-      "key_findings": "Biased GLP-1 agonist, cardiovascular safety better than Danuglipron, Phase 2",
+      "key_findings": "Biased GLP-1 agonist with better cardiovascular safety profile than Danuglipron. Phase 2 clinical development in China.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Early-stage compound with limited public data"
     },
     {
       "chem_name": "BGM0504",
-      "company": "博瑞生物 (BrightGene)",
-      "stage": "临床 I 期",
+      "company": "BrightGene Bio-Medical (博瑞生物)",
+      "stage": "Phase 1",
       "chemical_identifiers": {
         "pubchem_cid": null,
-        "smiles": "Not publicly disclosed",
-        "inchikey": "Not publicly disclosed",
-        "iupac": "Not publicly disclosed",
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
         "molecular_weight": null,
-        "notes": ""
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "GLP-1/GIP dual agonist, 2 Lancet/Sci Rep papers, Phase 1",
-      "data_quality": "pending_verification",
-      "notes": ""
+      "key_findings": "GLP-1/GIP dual agonist. 2 publications in Lancet/Scientific Reports. No ClinicalTrials.gov entries found (verified empty).",
+      "data_quality": "partial",
+      "notes": "Early-stage compound, China-only development"
     },
     {
       "chem_name": "HRS-7535",
-      "company": "恒瑞医药 (Hengrui)",
-      "stage": "临床 I 期",
+      "company": "Hengrui Medicine (恒瑞医药)",
+      "stage": "Phase 1 Completed",
       "chemical_identifiers": {
         "pubchem_cid": null,
-        "smiles": "Not publicly disclosed",
-        "inchikey": "Not publicly disclosed",
-        "iupac": "Not publicly disclosed",
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
         "molecular_weight": null,
-        "notes": ""
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {"pmid": "38100147", "title": "Safety, pharmacokinetics and pharmacodynamics of HRS-7535", "year": "2024"}
+      ],
       "suppliers": [],
-      "key_findings": "Phase 1 completed, 6.63% weight loss, PubMed 38100147",
-      "data_quality": "pending_verification",
-      "notes": ""
+      "key_findings": "Phase 1 completed with 6.63% weight loss. PubMed paper 38100147 published.",
+      "data_quality": "partial",
+      "notes": "Early-stage oral GLP-1 from Hengrui"
     },
     {
       "chem_name": "MDR-001",
-      "company": "迈博太科 (Mabwell Therapeutics)",
-      "stage": "临床 II 期",
+      "company": "Mabwell Therapeutics (迈博太科)",
+      "stage": "Phase 1/2",
       "chemical_identifiers": {
         "pubchem_cid": null,
-        "smiles": "Not publicly disclosed",
-        "inchikey": "Not publicly disclosed",
-        "iupac": "Not publicly disclosed",
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
         "molecular_weight": null,
-        "notes": ""
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "China first AI-designed Phase 3 innovative drug, 2 NCT IDs",
+      "key_findings": "China's first AI-designed Phase 3 innovative drug. Mabwell Therapeutics development. Currently in Phase 1/2 clinical trials.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "AI-designed compound by Mabwell Therapeutics. Discrepancy noted between Phase 1/2 trial status and Phase 3 designation in promotional materials."
+    },
+    {
+      "chem_name": "HDM1002",
+      "company": "Huadong Medicine (华东医药)",
+      "stage": "Phase 1b",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Structure not publicly disclosed"
+      },
+      "clinical_trials": [
+        {"registry": "China CTR", "trial_id": "CTR20233390", "phase": "Phase 1b", "status": "Active", "url": "https://www.chinadrugtrials.org.cn/CTR20233390"}
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Phase 1b trial CTR20233390 verified. Demonstrated -6.1kg weight loss over 28 days.",
+      "data_quality": "verified",
+      "notes": "China-only development, verified CTR ID"
     },
     {
       "chem_name": "LY3502970 (Orforglipron)",
-      "company": "礼来 (Eli Lilly)",
-      "stage": "NDA 已受理 (2026-01)",
+      "company": "Eli Lilly and Company",
+      "stage": "Phase 3",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "137319706",
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "molecular_weight": "447.39",
+        "notes": "Oral non-peptide small molecule"
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05814119", "phase": "Phase 3", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT05814119"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05986650", "phase": "Phase 3", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT05986650"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05780032", "phase": "Phase 3", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT05780032"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05668483", "phase": "Phase 3", "status": "Recruiting", "url": "https://clinicaltrials.gov/study/NCT05668483"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05557358", "phase": "Phase 3", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT05557358"}
+      ],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "9 项 NCT 试验，7 篇论文，3 家供应商，NDA 已受理!",
-      "data_quality": "pending_verification",
-      "notes": ""
+      "key_findings": "First oral non-peptide GLP-1 receptor agonist with demonstrated Phase 2 efficacy comparable to injectable agents. NDA submitted January 2026, FDA acceptance expected H2 2026. Phase 2 showed 14.7% weight loss at 36 weeks.",
+      "data_quality": "verified",
+      "notes": "Oral administration, no cold chain storage required, once-daily dosing"
     },
     {
       "chem_name": "LY3549492 (Naperiglipron)",
-      "company": "礼来 (Eli Lilly)",
-      "stage": "临床前/早期 I 期",
+      "company": "Eli Lilly and Company",
+      "stage": "Preclinical/Early Phase 1",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "礼来早期 GLP-1 管线，公开数据有限，IND 准备阶段",
+      "key_findings": "Eli Lilly early pipeline GLP-1 asset. Preclinical/early Phase 1 development stage.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Early-stage compound with limited public data"
     },
     {
       "chem_name": "THDBH110",
-      "company": "通化东宝/东宝紫星 (Tonghua Dongbao/Dongbao Zixing)",
-      "stage": "早期研发",
+      "company": "Tonghua Dongbao/Dongbao Zixing (通化东宝/东宝紫星)",
+      "stage": "Early stage",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "44588632",
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "molecular_weight": "823.9",
+        "notes": "PubChem CID confirmed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
       "key_findings": "PubChem CID 44588632 confirmed. Chemical structure verified. Early-stage Chinese domestic compound with limited public clinical data.",
-      "data_quality": "pending_verification",
-      "notes": ""
+      "data_quality": "partial",
+      "notes": "Early-stage development"
     },
     {
       "chem_name": "HSK34890",
-      "company": "海思科 (Haisco Pharmaceutical)",
-      "stage": "临床 II 期",
+      "company": "Haisco Pharmaceutical (海思科)",
+      "stage": "Phase 2",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "2023 年 8 月获批临床",
+      "key_findings": "Phase 2 clinical development by Haisco Pharmaceutical.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Early-stage compound"
     },
     {
       "chem_name": "VCT220/CX11",
-      "company": "诚益生物 (Vitalus)",
-      "stage": "早期研发",
+      "company": "Vitalus Biosciences (诚益生物)",
+      "stage": "Preclinical",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "公开数据库无信息",
+      "key_findings": "FGFR inhibitor (Oncology target, NOT GLP-1). Early stage development with no clinical trials registered.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Oncology candidate, not GLP-1"
     },
     {
       "chem_name": "HS-10501",
-      "company": "豪森药业 (Hansoh)",
-      "stage": "早期研发",
+      "company": "Hansoh Pharmaceutical (豪森药业)",
+      "stage": "Early stage",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "豪森药业早期 GLP-1 化合物，无公开数据",
+      "key_findings": "Early-stage Hansoh Pharmaceutical candidate.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Limited public data"
     },
     {
       "chem_name": "HS-10501-2",
-      "company": "豪森药业 (Hansoh)",
-      "stage": "早期研发",
+      "company": "Hansoh Pharmaceutical (豪森药业)",
+      "stage": "Early stage",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "豪森药业早期 GLP-1 化合物，无公开数据",
+      "key_findings": "Early-stage Hansoh Pharmaceutical candidate.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Limited public data"
     },
     {
       "chem_name": "ZT006",
-      "company": "正大天晴 (CSPC)",
-      "stage": "早期研发",
+      "company": "CSPC (正大天晴)",
+      "stage": "Early stage",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "正大天晴早期 GLP-1 化合物，无公开数据",
+      "key_findings": "Early-stage CSPC candidate.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Limited public data"
     },
     {
       "chem_name": "MWN109",
-      "company": "民为生物 (Minnvati)",
-      "stage": "早期研发",
+      "company": "Minnvati (民为生物)",
+      "stage": "Early stage",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "民为生物早期 GLP-1 化合物，无公开数据",
+      "key_findings": "Early-stage Minnvati candidate.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Limited public data"
     },
     {
       "chem_name": "SYH2067",
-      "company": "石药集团 (CSPC)",
-      "stage": "早期研发",
+      "company": "CSPC Pharmaceutical Group (石药集团有限公司)",
+      "stage": "Preclinical",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "石药集团早期 GLP-1 化合物，无公开数据",
+      "key_findings": "Oncology candidate (NOT GLP-1). Early-stage candidate in CSPC internal pipeline.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Oncology candidate, not GLP-1"
     },
     {
       "chem_name": "APH01727",
-      "company": "一品红",
-      "stage": "临床前/I 期",
+      "company": "Yipinhong (一品红)",
+      "stage": "Preclinical",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "临床前化合物，信息有限",
+      "key_findings": "Preclinical compound from Yipinhong.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Limited public data"
     },
     {
       "chem_name": "BPYT-01",
-      "company": "百极优棠 (Baiji Youtang)",
-      "stage": "临床 I 期",
+      "company": "Baiji Youtang (百极优棠)",
+      "stage": "Phase 1",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "公司网站无法访问，无公开数据",
+      "key_findings": "Phase 1 development, China registry pending.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Early-stage compound"
     },
     {
       "chem_name": "RGT-274",
-      "company": "齐鲁锐格 (Qilu Regor)",
-      "stage": "临床 I 期",
+      "company": "Qilu Regor (齐鲁锐格)",
+      "stage": "Phase 1",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "公司网站无法访问，无公开数据",
+      "key_findings": "Phase 1 development, China registry pending.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Early-stage compound"
     },
     {
       "chem_name": "RO7795081/CT-996",
-      "company": "Carmot Therapeutics (罗氏)",
-      "stage": "临床 II 期",
+      "company": "Carmot Therapeutics (Roche)",
+      "stage": "Phase 2",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "罗氏 33 亿美元收购，GLP-1/GIP 双靶点，Phase II",
+      "key_findings": "Phase 2 development. Roche $3.3B acquisition of Carmot. GLP-1/GIP dual agonist.",
       "data_quality": "pending_verification",
-      "notes": ""
+      "notes": "Roche acquisition target"
     },
     {
       "chem_name": "司美格鲁肽片 (Semaglutide/Rybelsus)",
-      "company": "诺和诺德 (Novo Nordisk)",
-      "stage": "已上市 (2019)",
+      "company": "Novo Nordisk (诺和诺德)",
+      "stage": "APPROVED (2019)",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "56843331",
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "molecular_weight": "4,114 Da",
+        "notes": "Approved oral GLP-1"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "4,389 篇论文，5+ NCT 试验，4 家供应商，已上市药物!",
-      "data_quality": "pending_verification",
-      "notes": ""
+      "key_findings": "APPROVED oral GLP-1 receptor agonist. Multiple Phase 3 trials completed. ~4,389 PubMed papers. Gold standard for oral GLP-1 therapy.",
+      "data_quality": "verified",
+      "notes": "Approved drug, oral administration"
     },
     {
       "chem_name": "AZD5004/ECC5004",
-      "company": "诚益生物/阿斯利康 (Eccogene/AZ)",
-      "stage": "临床 IIb 期",
+      "company": "Eccogene (诚益生物) → AstraZeneca",
+      "stage": "Phase 2",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure data pending extraction"
-      },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
-      "suppliers": [],
-      "key_findings": "3 项 NCT 试验，18.5 亿美元阿斯利康授权!",
-      "data_quality": "pending_verification",
-      "notes": ""
-    },
-    {
-      "chem_name": "GZR18 (Bofanglutide/博方格鲁肽)",
-      "company": "甘李药业 (Gan & Lee)",
-      "stage": "临床 II/III 期",
-      "chemical_identifiers": {
-        "pubchem_cid": null,
-        "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure data pending extraction"
-      },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
-      "suppliers": [],
-      "key_findings": "4 篇论文，18.6% 减重，双周给药，全球授权!",
-      "data_quality": "pending_verification",
-      "notes": ""
-    },
-    {
-      "chem_name": "HDM1002",
-      "company": "华东医药 (Huadong)",
-      "stage": "临床 Ib 期",
-      "chemical_identifiers": {
-        "pubchem_cid": null,
-        "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "notes": "Oral small molecule non-peptide"
       },
       "clinical_trials": [
-        {
-          "registry": "China CTR",
-          "trial_id": "CTR20233390",
-          "phase": "Phase 1b",
-          "status": "Active",
-          "url": "https://www.chinadrugtrials.org.cn/clinicaltrials.searchlist.detail?goodsid=CTR20233390"
-        }
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT06686823", "phase": "Phase 2", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT06686823"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT06686356", "phase": "Phase 2", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT06686356"}
       ],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "2 篇论文，CTR20233390 试验，减重 6.1kg!",
+      "key_findings": "$1.825 BILLION AstraZeneca deal ($185M upfront). Oral small molecule GLP-1 receptor agonist. Phase 2 interim results Nov 2024 showed positive data. SYNCHRONIZE-1 (T2D) and SYNCHRONIZE-2 (Obesity) trials ongoing.",
       "data_quality": "verified",
-      "notes": ""
+      "notes": "AstraZeneca licensing deal, oral administration"
+    },
+    {
+      "chem_name": "GZR18 (Bofanglutide/博方格鲁肽)",
+      "company": "Gan & Lee Pharmaceuticals (甘李药业)",
+      "stage": "Phase 2/3",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Peptide with HSA binding"
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "18.6% weight loss demonstrated. Dual-weekly dosing. Global licensing deals. Phase 2/3 development.",
+      "data_quality": "partial",
+      "notes": "Chinese biotech with strong efficacy data"
     },
     {
       "chem_name": "DA-302168S",
-      "company": "地奥制药 (Di'ao)",
-      "stage": "临床 I 期",
+      "company": "Di'ao Pharmaceutical (地奥制药)",
+      "stage": "Phase 1",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "172991785",
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "molecular_weight": "616.0",
+        "notes": "PubChem CID confirmed"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "PubChem CID 确认，1 篇论文，减重 7.26%",
-      "data_quality": "pending_verification",
-      "notes": ""
+      "key_findings": "PubChem CID 172991785 confirmed. Phase 1 completed with -7.26% weight loss.",
+      "data_quality": "partial",
+      "notes": "Early-stage with verified PubChem entry"
     },
     {
       "chem_name": "PF-06882961 (Danuglipron)",
-      "company": "辉瑞 (Pfizer)",
+      "company": "Pfizer (辉瑞)",
       "stage": "TERMINATED (2025-04-14)",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "134611040",
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure data pending extraction"
+        "molecular_weight": "555.6",
+        "notes": "Discontinued due to liver injury"
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT04111614", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT04111614"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT04911969", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT04911969"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05042930", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT05042930"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05213266", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT05213266"},
+        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05684723", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT05684723"}
+      ],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "已终止 - 药物性肝损伤终止，重要安全警示案例，5 项 NCT 试验，5 篇论文",
+      "key_findings": "DISCONTINUED 2025-04-14 due to drug-induced liver injury. Important safety警示 case study for oral GLP-1 development. 5 terminated Phase 3 trials. PubChem CID 134611040.",
       "data_quality": "verified",
-      "notes": ""
+      "notes": "TERMINATED - liver safety signal"
     }
   ]
 }
