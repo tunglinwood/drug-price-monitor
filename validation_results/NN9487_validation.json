@@ -1,0 +1,83 @@
+{
+  "compound": "NN9487 (Amycretin)",
+  "validation_status": "pass_with_merge",
+  "conflicts": [
+    {
+      "field": "clinical_trials",
+      "existing_value": "3 NCT IDs",
+      "new_value": "2 NCT IDs",
+      "recommendation": "merge",
+      "reason": "New data missing 1 trial(s): NCT06482727 - merge to prevent data loss",
+      "missing_trials": [
+        "NCT06482727"
+      ],
+      "added_trials": []
+    },
+    {
+      "field": "chemical_identifiers.pubchem_cid",
+      "existing_value": "168438219",
+      "new_value": null,
+      "recommendation": "keep_existing",
+      "reason": "Don't overwrite verified CID with null"
+    },
+    {
+      "field": "key_findings",
+      "existing_value": "Triple agonist (GLP-1R + GIPR + GCGR) with first-i...",
+      "new_value": "NN9487 (Amycretin) is a novel unimolecular GLP-1 a...",
+      "recommendation": "accept_new",
+      "reason": "Similar detail level, prefer newer data"
+    },
+    {
+      "field": "data_quality",
+      "existing_value": "verified",
+      "new_value": "partial",
+      "recommendation": "flag",
+      "reason": "Quality regression: verified → partial"
+    }
+  ],
+  "final_decision": "merge",
+  "merged_data": {
+    "chem_name": "NN9487 (Amycretin)",
+    "company": "Novo Nordisk (诺和诺德)",
+    "stage": "Phase 2",
+    "chemical_identifiers": {
+      "pubchem_cid": "168438219",
+      "smiles": null,
+      "inchikey": null,
+      "iupac": null,
+      "molecular_weight": "~5500 Da",
+      "notes": "Proprietary peptide structure, not publicly disclosed"
+    },
+    "clinical_trials": [
+      {
+        "registry": "ClinicalTrials.gov",
+        "trial_id": "NCT05369390",
+        "phase": "Phase 1",
+        "status": "Completed",
+        "url": "https://clinicaltrials.gov/study/NCT05369390"
+      },
+      {
+        "registry": "ClinicalTrials.gov",
+        "trial_id": "NCT06064006",
+        "phase": "Phase 2",
+        "status": "Recruiting",
+        "url": "https://clinicaltrials.gov/study/NCT06064006"
+      },
+      {
+        "registry": "ClinicalTrials.gov",
+        "trial_id": "NCT06482727",
+        "phase": "Phase 2",
+        "status": "Active",
+        "url": "https://clinicaltrials.gov/study/NCT06482727"
+      }
+    ],
+    "patents": [],
+    "pubmed_papers": [],
+    "suppliers": [],
+    "key_findings": "NN9487 (Amycretin) is a novel unimolecular GLP-1 and amylin receptor agonist. Phase 1b/2a trials showed dose-dependent weight loss: 24.3% at 60mg (week 36), 22.0% at 20mg (week 36), 16.2% at 5mg (week 28), 9.7% at 1.25mg (week 20). Published in Lancet (July 2025).",
+    "data_quality": "verified",
+    "notes": "Investigational drug with no commercial suppliers. Chemical structure is proprietary and not publicly disclosed."
+  },
+  "notes": "Validation completed with 4 field comparison(s)",
+  "validation_timestamp": "2026-03-20T08:34:38.779109"
+}

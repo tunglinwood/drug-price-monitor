@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-夜间化合物搜索队列处理器 - 完整 25 个化合物版本
-Overnight Compound Search Queue Processor - ALL 25 COMPOUNDS DAILY
+夜间化合物搜索队列处理器 - 完整 25 个化合物版本 (带验证代理)
+Overnight Compound Search Queue Processor - ALL 25 COMPOUNDS DAILY (with Validation Agent)
 
 从 compound_queue.txt 读取化合物列表
 批量启动 Subagent 进行搜索
+验证代理比较新数据与现有库存
 自动保存结果并更新 Dashboard
 
 使用方法:
@@ -13,16 +14,21 @@ Overnight Compound Search Queue Processor - ALL 25 COMPOUNDS DAILY
 import sys
 import os
 import time
+import json
 from datetime import datetime
 from pathlib import Path
 
 # 添加项目路径
 sys.path.insert(0, str(Path(__file__).parent))
 
+# 导入验证代理
+from subagent_validator import DataValidator
+
 # 配置
 COMPOUND_QUEUE = Path(__file__).parent / "compound_queue.txt"
 DELAY_BETWEEN_BATCHES = 300  # 5 分钟间隔
 MAX_CONCURRENT = 5  # 最多 5 个并发搜索
+VALIDATION_ENABLED = True  # 启用验证代理
 
 def load_compound_queue() -> list:
     """从队列文件加载化合物列表"""

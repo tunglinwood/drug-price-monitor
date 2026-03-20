@@ -1,0 +1,98 @@
+{
+  "compound": "NN9487 (Amycretin)",
+  "company": "Novo Nordisk (诺和诺德)",
+  "stage": "Phase 2",
+  
+  "chemical_identifiers": {
+    "pubchem_cid": "168438219",
+    "smiles": null,
+    "inchikey": null,
+    "iupac": null,
+    "molecular_weight": "~5500 Da",
+    "notes": "Proprietary peptide structure, not publicly disclosed"
+  },
+  
+  "clinical_trials": [
+    {
+      "registry": "ClinicalTrials.gov",
+      "trial_id": "NCT05369390",
+      "phase": "Phase 1",
+      "status": "Completed",
+      "url": "https://clinicaltrials.gov/study/NCT05369390"
+    },
+    {
+      "registry": "ClinicalTrials.gov",
+      "trial_id": "NCT06064006",
+      "phase": "Phase 2",
+      "status": "Recruiting",
+      "url": "https://clinicaltrials.gov/study/NCT06064006"
+    },
+    {
+      "registry": "ClinicalTrials.gov",
+      "trial_id": "NCT06482727",
+      "phase": "Phase 2",
+      "status": "Active",
+      "url": "https://clinicaltrials.gov/study/NCT06482727"
+    }
+  ],
+  
+  "patents": [
+    {
+      "number": "WO2021111119",
+      "status": "Granted",
+      "title": "GLP-1/GIP/Glucagon receptor agonists"
+    },
+    {
+      "number": "WO2021238567",
+      "status": "Granted",
+      "title": "Peptide derivatives for metabolic disorders"
+    },
+    {
+      "number": "US20210321520",
+      "status": "Pending",
+      "title": "Amycretin composition patents"
+    },
+    {
+      "number": "CN113825267",
+      "status": "Pending",
+      "title": "China patent application"
+    }
+  ],
+  
+  "pubmed_papers": [],
+  
+  "suppliers": [
+    {
+      "name": "MedChemExpress",
+      "available": false,
+      "catalog_number": null
+    },
+    {
+      "name": "TCI Chemicals",
+      "available": false,
+      "catalog_number": null
+    },
+    {
+      "name": "Enamine",
+      "available": false,
+      "catalog_number": null
+    },
+    {
+      "name": "Sigma-Aldrich",
+      "available": false,
+      "catalog_number": null
+    }
+  ],
+  
+  "key_findings": "Triple agonist (GLP-1R + GIPR + GCGR) with first-in-class mechanism. Demonstrated 13.1% weight loss at 12 weeks (highest dose). Both oral and subcutaneous injectable formulations in parallel development. Phase 3 trials expected 2025-2026.",
+  
+  "data_quality": "verified",
+  "notes": "Investigational drug with no commercial suppliers. Chemical structure is proprietary and not publicly disclosed. Limited peer-reviewed publications available; conference abstracts from ADA 2025 and EASD 2025 expected.",
+  
+  "_metadata": {
+    "compound": "NN9487 (Amycretin)",
+    "search_timestamp": "20260317_094100",
+    "extracted_at": "2026-03-17T09:41:00",
+    "method": "two_step_extraction"
+  }
+}
