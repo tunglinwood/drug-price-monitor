@@ -1,6 +1,11 @@
 """
 数据验证代理 - 比较新搜索数据与现有库存数据
 Data Validation Agent - Compare newly searched data against existing inventory
+
+工作流程：
+1. 搜索代理 → 保存原始搜索结果到文本文件
+2. 提取代理 → 从原始文本提取结构化 JSON
+3. 验证代理 → 比较提取的 JSON vs 现有库存
 """
 import json
 from pathlib import Path
