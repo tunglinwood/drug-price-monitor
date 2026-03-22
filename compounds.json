@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-22T11:38:35.383733",
+    "last_updated": "2026-03-22T22:22:31.980454",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "UPDATE_SAL0112",
+    "git_commit": "UPDATE_HRS7535",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json"
   },
@@ -143,18 +143,38 @@
     },
     {
       "chem_name": "HRS-7535",
-      "company": "Hengrui Medicine (恒瑞医药)",
-      "stage": "Phase 1 Completed",
+      "company": "Jiangsu Hengrui Medicine Co., Ltd. (恒瑞医药)",
+      "stage": "Phase 1 Completed (Phase 3 trials ongoing)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "Structure not publicly disclosed; not indexed in PubChem"
       },
-      "clinical_trials": [],
-      "patents": [],
+      "clinical_trials": [
+        {
+          "nct": "NCT06904105",
+          "phase": "Phase 3",
+          "title": "HRS-7535 Tablets in Overweight/Obesity"
+        },
+        {
+          "nct": "NCT06671821",
+          "phase": "Phase 3",
+          "title": "Long-term Efficacy in Obese Subjects"
+        },
+        {
+          "nct": "NCT06589765",
+          "phase": "Phase 2",
+          "title": "vs Placebo in T2DM"
+        }
+      ],
+      "patents": [
+        {
+          "note": "Patent data exists in Synapse database (login required), not publicly accessible"
+        }
+      ],
       "pubmed_papers": [
         {
           "pmid": "38100147",
@@ -163,9 +183,9 @@
         }
       ],
       "suppliers": [],
-      "key_findings": "Phase 1 completed with 6.63% weight loss. PubMed paper 38100147 published.",
+      "key_findings": "Phase 1: 6.63% weight loss (4.38kg) in 28 days at 120mg. Phase 2/3 ongoing. Tmax 5.98-10.98h, half-life 5.28-9.08h. Nausea/vomiting most common AEs.",
       "data_quality": "partial",
-      "notes": "Early-stage oral GLP-1 from Hengrui"
+      "notes": "Oral small molecule GLP-1 RA. Partnered with Kailera Therapeutics. Developed by Shandong Suncadia Medicine (originator), licensed to Jiangsu Hengrui."
     },
     {
       "chem_name": "MDR-001",
