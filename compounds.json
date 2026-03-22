@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-17T18:12:00+08:00",
+    "last_updated": "2026-03-22T11:38:35.383733",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "3c3eda9",
+    "git_commit": "UPDATE_SAL0112",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json"
   },
@@ -29,9 +29,27 @@
         "notes": "Proprietary peptide structure, not publicly disclosed"
       },
       "clinical_trials": [
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05369390", "phase": "Phase 1", "status": "Completed", "url": "https://clinicaltrials.gov/study/NCT05369390"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT06064006", "phase": "Phase 2", "status": "Recruiting", "url": "https://clinicaltrials.gov/study/NCT06064006"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT06482727", "phase": "Phase 2", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT06482727"}
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05369390",
+          "phase": "Phase 1",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT05369390"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06064006",
+          "phase": "Phase 2",
+          "status": "Recruiting",
+          "url": "https://clinicaltrials.gov/study/NCT06064006"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06482727",
+          "phase": "Phase 2",
+          "status": "Active",
+          "url": "https://clinicaltrials.gov/study/NCT06482727"
+        }
       ],
       "patents": [],
       "pubmed_papers": [],
@@ -42,26 +60,66 @@
     },
     {
       "chem_name": "SAL0112",
-      "company": "Salubris (信立泰)",
-      "stage": "Phase 2",
+      "company": "Shenzhen Salubris Pharmaceuticals Co., Ltd. (信立泰)",
+      "stage": "Early clinical (Phase I; reported highest global phase up to Phase II in industry reports)",
       "chemical_identifiers": {
-        "pubchem_cid": null,
-        "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "pubchem_cid": "",
+        "smiles": "",
+        "inchikey": "",
+        "iupac": "",
+        "molecular_weight": "",
+        "notes": "SAL0112 is a small‑molecule, orally active GLP‑1 receptor biased agonist developed by Shenzhen Salubris. Publicly available sources do not disclose a definitive chemical structure, SMILES, InChIKey, IUPAC name, or molecular weight. A secondary description notes that SAL‑0112 adds a benzyl methyl substituent on the aromatic ring to modify lipophilicity and pharmacokinetics, but the full structure is not reported."
       },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [
-        {"pmid": "38925019", "title": "Pharmacodynamic and pharmacokinetic profiles of SAL0112", "year": "2024"},
-        {"pmid": "39395609", "title": "Toxicology profile of SAL0112 in nonhuman primates", "year": "2024"}
+      "clinical_trials": [
+        {
+          "trial_id": "GDCT0472028",
+          "phase": "Phase I",
+          "status": "Planned",
+          "title": "First-In-Human Clinical Study of SAL0112 Tablets in Chinese Healthy Subjects and Patients with Type 2 Diabetes",
+          "sponsor": "Beijing Hospital",
+          "indications": "Type 2 diabetes (metabolic disorders)",
+          "country": "China"
+        },
+        {
+          "trial_id": "CTR20233948",
+          "phase": "Phase I",
+          "status": "Planned",
+          "title": "SAL0112 GLP-1R agonist for overweight/obesity (China, oral)",
+          "sponsor": "Not clearly specified; linked to Salubris pipeline and NMPA",
+          "indications": "Overweight/obesity",
+          "country": "China"
+        }
       ],
-      "suppliers": [],
-      "key_findings": "Biased GLP-1 agonist with better cardiovascular safety profile than Danuglipron. Phase 2 clinical development in China.",
-      "data_quality": "pending_verification",
-      "notes": "Early-stage compound with limited public data"
+      "patents": [
+        {
+          "patent_number": "Not specifically disclosed for SAL0112",
+          "title": "Listed as a GLP‑1 receptor agonist option in combination-therapy patents",
+          "year": "",
+          "notes": "SAL0112 is mentioned by name as a suitable GLP‑1 receptor agonist in at least one patent describing combination therapy with THRβ agonists and other agents, but no dedicated SAL0112 composition-of-matter patent number was identified in the accessible text."
+        }
+      ],
+      "pubmed_papers": [
+        {
+          "pmid": "38925019",
+          "title": "Pharmacodynamic and pharmacokinetic profiles of a novel GLP-1 receptor biased agonist SAL0112",
+          "year": "2024"
+        },
+        {
+          "pmid": "39395609",
+          "title": "Toxicology profile of a novel GLP-1 receptor biased agonist SAL0112 in nonhuman primates",
+          "year": "2024"
+        }
+      ],
+      "suppliers": [
+        {
+          "company": "Shenzhen Salubris Pharmaceuticals Co., Ltd.",
+          "role": "Originator / developer; only clearly identified organization associated with supplying or developing SAL0112",
+          "country": "China"
+        }
+      ],
+      "key_findings": "SAL0112 is a novel, oral, small‑molecule GLP‑1 receptor biased agonist developed by Shenzhen Salubris for type 2 diabetes and obesity.\n\nPreclinical pharmacodynamics and pharmacokinetics (rodent models):\n- SAL0112 shows potent and selective GLP‑1 receptor biased agonism and effectively alleviates signs of type 2 diabetes in mouse models, with efficacy comparable to the injectable GLP‑1 analog liraglutide and to the small‑molecule GLP‑1 agonist danuglipron in rodent type 2 diabetes and obesity models.\n- It offers a more favorable pharmacokinetic profile than danuglipron in preclinical studies.\n\nNonclinical safety and toxicology (cynomolgus monkey studies):\n- SAL0112 exhibits high potency at the monkey GLP‑1 receptor and minimal activation of rodent GLP‑1 receptors, indicating species‑selective pharmacology.\n- In hERG assays, SAL0112 has an IC50 >100 μM compared with danuglipron's ≈6.9 μM, suggesting lower potential for hERG‑mediated cardiotoxicity.\n- Cardiovascular safety pharmacology in cynomolgus monkeys (single doses up to 250 mg/kg) showed no significant changes in ECG, heart rate, or blood pressure versus vehicle controls.\n- In a 13‑week repeat‑dose toxicity study in cynomolgus monkeys, SAL0112 produced moderate anorexigenic effects and reduced body weight; these effects were reversible and not associated with pathological organ changes.\n- No liver toxicity was observed and overall tolerance was good during repeated dosing.\n- The NOAEL in cynomolgus monkeys was 150 mg/kg, corresponding to an approximate 3‑fold safety margin.\n\nDevelopment status:\n- Industry and clinical‑trials databases identify SAL0112 as a Salubris pipeline asset for type 2 diabetes and overweight/obesity, administered orally.\n- At least one first‑in‑human Phase I study in healthy volunteers and type 2 diabetes patients is registered/planned in China (Beijing Hospital), and industry reports describe SAL0112 as reaching up to Phase II globally for metabolic indications.\n\nOverall, available data support SAL0112 as a promising oral small‑molecule GLP‑1 receptor biased agonist with:\n- Preclinical efficacy in rodent models of type 2 diabetes and obesity comparable to existing GLP‑1 therapies.\n- A favorable nonclinical safety profile in nonhuman primates, including a wide therapeutic window and low hERG inhibition risk.\n- Advancement into early clinical development in China for type 2 diabetes and obesity.",
+      "data_quality": "Moderate. Preclinical pharmacology and toxicology are described in peer‑reviewed journals with clear study designs and quantitative findings. Multiple independent industry and pipeline reports consistently list SAL0112 as a GLP‑1 receptor biased agonist in early clinical development for metabolic indications. However, critical chemistry data (exact structure, SMILES, InChIKey, molecular weight) and detailed clinical outcomes are not yet publicly disclosed, and specific composition‑of‑matter patent numbers for SAL0112 could not be confirmed from open text sources.",
+      "notes": "1) All chemical‑identifier fields (PubChem CID, SMILES, InChIKey, IUPAC name, molecular weight) remain blank because no reliable open source currently provides this information for SAL0112; any attempt to infer structure would be speculative.\n2) There is some discrepancy between sources on development stage: a GlobalData listing describes a planned Phase I first‑in‑human study in China, while an industry market report and pipeline overviews describe SAL0112 as having reached Phase II in China for type 2 diabetes. This likely reflects recent or region‑specific trial progress.\n3) The compound is consistently described as an oral, small‑molecule GLP‑1 receptor biased agonist intended for type 2 diabetes and obesity/overweight, with Shenzhen Salubris as originator.\n4) Combination‑therapy patents and reviews list SAL0112 alongside other GLP‑1 receptor agonists as a candidate agent but do not provide additional structural details."
     },
     {
       "chem_name": "BGM0504",
@@ -98,7 +156,11 @@
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [
-        {"pmid": "38100147", "title": "Safety, pharmacokinetics and pharmacodynamics of HRS-7535", "year": "2024"}
+        {
+          "pmid": "38100147",
+          "title": "Safety, pharmacokinetics and pharmacodynamics of HRS-7535",
+          "year": "2024"
+        }
       ],
       "suppliers": [],
       "key_findings": "Phase 1 completed with 6.63% weight loss. PubMed paper 38100147 published.",
@@ -138,7 +200,13 @@
         "notes": "Structure not publicly disclosed"
       },
       "clinical_trials": [
-        {"registry": "China CTR", "trial_id": "CTR20233390", "phase": "Phase 1b", "status": "Active", "url": "https://www.chinadrugtrials.org.cn/CTR20233390"}
+        {
+          "registry": "China CTR",
+          "trial_id": "CTR20233390",
+          "phase": "Phase 1b",
+          "status": "Active",
+          "url": "https://www.chinadrugtrials.org.cn/CTR20233390"
+        }
       ],
       "patents": [],
       "pubmed_papers": [],
@@ -160,11 +228,41 @@
         "notes": "Oral non-peptide small molecule"
       },
       "clinical_trials": [
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05814119", "phase": "Phase 3", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT05814119"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05986650", "phase": "Phase 3", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT05986650"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05780032", "phase": "Phase 3", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT05780032"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05668483", "phase": "Phase 3", "status": "Recruiting", "url": "https://clinicaltrials.gov/study/NCT05668483"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05557358", "phase": "Phase 3", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT05557358"}
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05814119",
+          "phase": "Phase 3",
+          "status": "Active",
+          "url": "https://clinicaltrials.gov/study/NCT05814119"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05986650",
+          "phase": "Phase 3",
+          "status": "Active",
+          "url": "https://clinicaltrials.gov/study/NCT05986650"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05780032",
+          "phase": "Phase 3",
+          "status": "Active",
+          "url": "https://clinicaltrials.gov/study/NCT05780032"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05668483",
+          "phase": "Phase 3",
+          "status": "Recruiting",
+          "url": "https://clinicaltrials.gov/study/NCT05668483"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05557358",
+          "phase": "Phase 3",
+          "status": "Active",
+          "url": "https://clinicaltrials.gov/study/NCT05557358"
+        }
       ],
       "patents": [],
       "pubmed_papers": [],
@@ -466,8 +564,20 @@
         "notes": "Oral small molecule non-peptide"
       },
       "clinical_trials": [
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT06686823", "phase": "Phase 2", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT06686823"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT06686356", "phase": "Phase 2", "status": "Active", "url": "https://clinicaltrials.gov/study/NCT06686356"}
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06686823",
+          "phase": "Phase 2",
+          "status": "Active",
+          "url": "https://clinicaltrials.gov/study/NCT06686823"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06686356",
+          "phase": "Phase 2",
+          "status": "Active",
+          "url": "https://clinicaltrials.gov/study/NCT06686356"
+        }
       ],
       "patents": [],
       "pubmed_papers": [],
@@ -529,11 +639,41 @@
         "notes": "Discontinued due to liver injury"
       },
       "clinical_trials": [
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT04111614", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT04111614"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT04911969", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT04911969"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05042930", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT05042930"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05213266", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT05213266"},
-        {"registry": "ClinicalTrials.gov", "trial_id": "NCT05684723", "phase": "Phase 3", "status": "Terminated", "url": "https://clinicaltrials.gov/study/NCT05684723"}
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT04111614",
+          "phase": "Phase 3",
+          "status": "Terminated",
+          "url": "https://clinicaltrials.gov/study/NCT04111614"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT04911969",
+          "phase": "Phase 3",
+          "status": "Terminated",
+          "url": "https://clinicaltrials.gov/study/NCT04911969"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05042930",
+          "phase": "Phase 3",
+          "status": "Terminated",
+          "url": "https://clinicaltrials.gov/study/NCT05042930"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05213266",
+          "phase": "Phase 3",
+          "status": "Terminated",
+          "url": "https://clinicaltrials.gov/study/NCT05213266"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05684723",
+          "phase": "Phase 3",
+          "status": "Terminated",
+          "url": "https://clinicaltrials.gov/study/NCT05684723"
+        }
       ],
       "patents": [],
       "pubmed_papers": [],
