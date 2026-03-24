@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "last_updated": "2026-03-24T11:54:51.874832",
+    "last_updated": "2026-03-24T12:19:41.997420",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "BATCH3_UPDATE",
+    "git_commit": "BATCH4_UPDATE",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
-    "batch": "3 of 5"
+    "batch": "4 of 5"
   },
   "summary": {
     "verified_trials": 8,
@@ -628,7 +628,142 @@
     },
     {
       "chem_name": "RGT-274",
-      "company": "Qilu Regor (齐鲁锐格)",
+      "company": "Shanghai Qilu Regor Therapeutics (上海齐鲁锐格医药研发有限公司)",
+      "stage": "Phase I (ongoing)",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Chemical Drug Class 1 (First-in-class), likely oral small molecule GLP-1 RA"
+      },
+      "clinical_trials": [
+        {
+          "registry": "China CDE",
+          "trial_id": "CXHL2500266",
+          "phase": "Phase I",
+          "status": "Approved 2025-05-25",
+          "url": "",
+          "indication": "Weight management for adult obesity/overweight",
+          "trial_site": "Anhui Medical University Second Hospital, Hefei"
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "RGT-274-CR Capsule is a first-in-class chemical drug from Shanghai Qilu Regor. CDE approved on 2025-05-25 (CXHL2500266) for weight management in adult obesity/overweight. Phase I ongoing as of July 2025 at Anhui Medical University Second Hospital. Company founded 2018, Qilu Pharmaceutical is Series A investor, currently Series B. Related asset RGT-075 (Phase 2 oral GLP-1RA) has Eli Lilly partnership ($50M upfront + $1.5B milestones).",
+      "data_quality": "partial",
+      "notes": "CDE approved 2025-05-25. Phase I ongoing. Qilu Regor with Eli Lilly partnership on related asset."
+    },
+    {
+      "chem_name": "RO7795081/CT-996",
+      "company": "Carmot Therapeutics → Roche (罗氏)",
+      "stage": "Preclinical/Early Phase I",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Early-stage compound, Roche acquired Carmot for ~$3.1B (2024)"
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "RO7795081/CT-996 is an early-stage compound from Carmot Therapeutics (acquired by Roche in 2024 for ~$3.1B). Not indexed in PubChem or ClinicalTrials.gov as of search date, suggesting preclinical or early Phase I development. CT-996 follows Carmot naming convention (CT-XXX). No publications specifically mention RO7795081 or CT-996. Related compound CT-388 (dual GLP-1/GIP agonist) published in Molecular Metabolism 2026.",
+      "data_quality": "not_found",
+      "notes": "Early-stage Roche/Carmot asset. No public database entries yet. Flag for future monitoring."
+    },
+    {
+      "chem_name": "司美格鲁肽片 (Semaglutide/Rybelsus)",
+      "company": "Novo Nordisk (诺和诺德)",
+      "stage": "APPROVED (FDA 2019-09-20)",
+      "chemical_identifiers": {
+        "pubchem_cid": "56843331",
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "molecular_formula": "C187H291N45O59",
+        "notes": "First oral GLP-1 receptor agonist, 94% homology to human GLP-1, SNAC absorption enhancer"
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "PIONEER Program",
+          "phase": "Phase 3a",
+          "status": "Completed",
+          "patients": "5,500+",
+          "indication": "T2DM"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "OASIS Program",
+          "phase": "Phase 3",
+          "status": "Completed",
+          "indication": "Obesity"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "SOUL Trial",
+          "phase": "CV Outcomes",
+          "status": "Published NEJM 2025",
+          "indication": "Cardiovascular"
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "note": "742+ publications",
+          "key_2025": "3 major NEJM/Circulation papers on CV outcomes",
+          "landmark_2019": "PIONEER 6 (NEJM), PIONEER 1 (Diabetes Care)"
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "First oral GLP-1 RA approved by FDA on 2019-09-20. 742+ PubMed publications. HbA1c reduction 0.6-1.4% (dose-dependent). Weight loss up to 15.1% at 50mg (OASIS 1). CV safety established (SOUL 2025). Dosing: 3mg→7mg→14mg once daily on empty stomach. Side effects: nausea, diarrhea, hypoglycemia (>10%); retinopathy monitoring required.",
+      "data_quality": "verified",
+      "notes": "APPROVED drug with extensive clinical evidence. EMA approved 2020-04-03. China NMPA approved 2020-2021."
+    },
+    {
+      "chem_name": "AZD5004/ECC5004",
+      "company": "Eccogene (诚益生物) → AstraZeneca (阿斯利康)",
+      "stage": "Phase I Completed",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Oral small-molecule GLP-1 receptor agonist, first-in-class"
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05654831",
+          "phase": "Phase I",
+          "status": "Completed",
+          "url": ""
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": "39495140",
+          "journal": "Diabetes Obes Metab",
+          "year": "2025",
+          "doi": "10.1111/dom.16047"
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Oral small-molecule GLP-1 RA from Eccogene, licensed to AstraZeneca ($1.825B deal). Phase I completed with 52 participants. Potent GLP-1R binding (IC50 = 2.4 nM). Well tolerated with no SAEs. KEY ADVANTAGE: Once-daily dosing WITHOUT fasting requirements (unlike oral semaglutide). Dose-dependent glucose and weight reductions demonstrated. 9-month NHP study showed NOAEL at 50 mg/kg/day.",
+      "data_quality": "verified",
+      "notes": "Phase I published 2025. Major differentiator: no fasting required vs Rybelsus."
+    },
+    {
+      "chem_name": "GZR18 (Bofanglutide/博方格鲁肽)",
+      "company": "Gan & Lee Pharmaceuticals (甘李药业)",
       "stage": "Phase 1",
       "chemical_identifiers": {
         "pubchem_cid": null,
@@ -636,110 +771,34 @@
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "Long-acting GLP-1 analog, once-weekly subcutaneous"
       },
       "clinical_trials": [],
       "patents": [],
-      "pubmed_papers": [],
-      "suppliers": [],
-      "key_findings": "Phase 1 development, China registry pending.",
-      "data_quality": "pending_verification",
-      "notes": "Early-stage compound"
-    },
-    {
-      "chem_name": "RO7795081/CT-996",
-      "company": "Carmot Therapeutics (Roche)",
-      "stage": "Phase 2",
-      "chemical_identifiers": {
-        "pubchem_cid": null,
-        "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
-      },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
-      "suppliers": [],
-      "key_findings": "Phase 2 development. Roche $3.3B acquisition of Carmot. GLP-1/GIP dual agonist.",
-      "data_quality": "pending_verification",
-      "notes": "Roche acquisition target"
-    },
-    {
-      "chem_name": "司美格鲁肽片 (Semaglutide/Rybelsus)",
-      "company": "Novo Nordisk (诺和诺德)",
-      "stage": "APPROVED (2019)",
-      "chemical_identifiers": {
-        "pubchem_cid": "56843331",
-        "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": "4,114 Da",
-        "notes": "Approved oral GLP-1"
-      },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
-      "suppliers": [],
-      "key_findings": "APPROVED oral GLP-1 receptor agonist. Multiple Phase 3 trials completed. ~4,389 PubMed papers. Gold standard for oral GLP-1 therapy.",
-      "data_quality": "verified",
-      "notes": "Approved drug, oral administration"
-    },
-    {
-      "chem_name": "AZD5004/ECC5004",
-      "company": "Eccogene (诚益生物) → AstraZeneca",
-      "stage": "Phase 2",
-      "chemical_identifiers": {
-        "pubchem_cid": null,
-        "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": null,
-        "notes": "Oral small molecule non-peptide"
-      },
-      "clinical_trials": [
+      "pubmed_papers": [
         {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT06686823",
-          "phase": "Phase 2",
-          "status": "Active",
-          "url": "https://clinicaltrials.gov/study/NCT06686823"
+          "pmid": "35718129",
+          "journal": "Eur J Pharmacol",
+          "year": "2022",
+          "note": "Preclinical: half-life 61.3h in monkeys"
         },
         {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT06686356",
-          "phase": "Phase 2",
-          "status": "Active",
-          "url": "https://clinicaltrials.gov/study/NCT06686356"
+          "pmid": "40028667",
+          "journal": "Diabetes Obes Metab",
+          "year": "2025",
+          "note": "Phase 1: half-life ~7 days in humans"
+        },
+        {
+          "pmid": "41813513",
+          "journal": "Eur J Pharmacol",
+          "year": "2026",
+          "note": "Corrigendum"
         }
       ],
-      "patents": [],
-      "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "$1.825 BILLION AstraZeneca deal ($185M upfront). Oral small molecule GLP-1 receptor agonist. Phase 2 interim results Nov 2024 showed positive data. SYNCHRONIZE-1 (T2D) and SYNCHRONIZE-2 (Obesity) trials ongoing.",
+      "key_findings": "Long-acting GLP-1 analog from Gan & Lee. Once-weekly subcutaneous injection (1-50 μg/kg). Half-life ~7 days in humans. Phase 1 (2025): body weight reduction -1.25 to -1.86 kg (-1.88% to -3.11%) by Day 15. Good tolerability with common AEs being decreased appetite and nausea (mild). No ethnic PK differences between American and Chinese subjects.",
       "data_quality": "verified",
-      "notes": "AstraZeneca licensing deal, oral administration"
-    },
-    {
-      "chem_name": "GZR18 (Bofanglutide/博方格鲁肽)",
-      "company": "Gan & Lee Pharmaceuticals (甘李药业)",
-      "stage": "Phase 2/3",
-      "chemical_identifiers": {
-        "pubchem_cid": null,
-        "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": null,
-        "notes": "Peptide with HSA binding"
-      },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
-      "suppliers": [],
-      "key_findings": "18.6% weight loss demonstrated. Dual-weekly dosing. Global licensing deals. Phase 2/3 development.",
-      "data_quality": "partial",
-      "notes": "Chinese biotech with strong efficacy data"
+      "notes": "Phase 1 published 2025. Once-weekly dosing. -3.11% weight loss by Day 15."
     },
     {
       "chem_name": "DA-302168S",
