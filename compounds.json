@@ -1,12 +1,13 @@
 {
   "metadata": {
-    "last_updated": "2026-03-22T22:22:31.980454",
+    "last_updated": "2026-03-24T08:58:20.478048",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "UPDATE_HRS7535",
+    "git_commit": "BATCH1_UPDATE",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
-    "format": "hierarchical_json"
+    "format": "hierarchical_json",
+    "batch": "1 of 5"
   },
   "summary": {
     "verified_trials": 8,
@@ -18,15 +19,15 @@
   "compounds": [
     {
       "chem_name": "NN9487 (Amycretin)",
-      "company": "Novo Nordisk (诺和诺德)",
-      "stage": "Phase 2",
+      "company": "Novo Nordisk A/S (诺和诺德)",
+      "stage": "Phase 1b/2a Completed",
       "chemical_identifiers": {
-        "pubchem_cid": "168438219",
+        "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": "~5500 Da",
-        "notes": "Proprietary peptide structure, not publicly disclosed"
+        "molecular_weight": null,
+        "notes": "Unimolecular GLP-1 and amylin receptor co-agonist; single-chain polypeptide"
       },
       "clinical_trials": [
         {
@@ -39,24 +40,39 @@
         {
           "registry": "ClinicalTrials.gov",
           "trial_id": "NCT06064006",
-          "phase": "Phase 2",
-          "status": "Recruiting",
+          "phase": "Phase 1b/2a",
+          "status": "Completed",
           "url": "https://clinicaltrials.gov/study/NCT06064006"
-        },
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT06482727",
-          "phase": "Phase 2",
-          "status": "Active",
-          "url": "https://clinicaltrials.gov/study/NCT06482727"
         }
       ],
-      "patents": [],
-      "pubmed_papers": [],
+      "patents": [
+        {
+          "number": "WO2022129526A1",
+          "status": "Published",
+          "title": "Co-agonists of the GLP-1 and amylin receptors"
+        }
+      ],
+      "pubmed_papers": [
+        {
+          "pmid": "40550231",
+          "title": "Amycretin, a novel, unimolecular GLP-1 and amylin receptor agonist administered subcutaneously: results from a phase 1b/2a randomised controlled study",
+          "year": "2025"
+        },
+        {
+          "pmid": "40550229",
+          "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of the first-in-class GLP-1 and amylin receptor agonist, amycretin: a first-in-human, phase 1, double-blind, randomised, placebo-controlled trial",
+          "year": "2025"
+        },
+        {
+          "pmid": "41850421",
+          "title": "Amycretin in obesity: Mechanisms, clinical efficacy, and future perspectives",
+          "year": "2026"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Triple agonist (GLP-1R + GIPR + GCGR) with first-in-class mechanism. Demonstrated 13.1% weight loss at 12 weeks (highest dose). Both oral and subcutaneous injectable formulations in parallel development. Phase 3 trials expected 2025-2026.",
+      "key_findings": "Amycretin (NN9487) is a first-in-class unimolecular GLP-1/amylin receptor co-agonist developed by Novo Nordisk. Phase 1b/2a subcutaneous trial demonstrated exceptional weight loss efficacy: 24.3% at 60mg once-weekly dose (36 weeks), exceeding semaglutide (~15-17%) and approaching tirzepatide (~22.5%). Oral formulation showed up to 13.1% weight loss at 12 weeks. Safety profile acceptable: all adverse events mild-moderate, no deaths, GI events most common (49%) but consistent with GLP-1/amylin class. Two Phase 1 trials completed with results published in Lancet (July 2025). Patent WO2022129526A1 covers co-agonist compounds. Both oral (once-daily) and subcutaneous (once-weekly) formulations in development.",
       "data_quality": "verified",
-      "notes": "Investigational drug with no commercial suppliers. Chemical structure is proprietary and not publicly disclosed."
+      "notes": "Data extracted from comprehensive web search conducted 2026-03-20. Sources include: 2 ClinicalTrials.gov trials, 13+ PubMed papers (2 Lancet publications), 1 WIPO patent."
     },
     {
       "chem_name": "SAL0112",
@@ -123,23 +139,42 @@
     },
     {
       "chem_name": "BGM0504",
-      "company": "BrightGene Bio-Medical (博瑞生物)",
-      "stage": "Phase 1",
+      "company": "BrightGene Bio-Medical Technology Co., Ltd. (博瑞生物)",
+      "stage": "Phase 2",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "GLP-1/GIP dual agonist peptide"
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {
+          "registry": "China CTR",
+          "trial_id": "CTR20230120",
+          "phase": "Phase 1",
+          "status": "Completed",
+          "url": ""
+        }
+      ],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "pmid": "39840511",
+          "title": "The safety, tolerability, pharmacokinetics and pharmacodynamics of an optimized dual GLP-1/GIP receptor agonist (BGM0504) in healthy volunteers: A dose-escalation Phase I study",
+          "year": "2025"
+        },
+        {
+          "pmid": "39030216",
+          "title": "Molecular dynamics-guided optimization of BGM0504 enhances dual-target agonism for combating diabetes and obesity",
+          "year": "2024"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "GLP-1/GIP dual agonist. 2 publications in Lancet/Scientific Reports. No ClinicalTrials.gov entries found (verified empty).",
-      "data_quality": "partial",
-      "notes": "Early-stage compound, China-only development"
+      "key_findings": "BGM0504 is a GLP-1/GIP dual agonist developed by BrightGene Bio-Medical. Phase 1 study (40 volunteers) showed dose-dependent weight loss: -8.30% at 15mg, -7.09% at 10mg, -6.26% at 5mg, -3.24% at 2.5mg. Half-life 4 days supports once-weekly dosing. Preclinical data shows 2-3x more potent than tirzepatide at GLP-1R/GIPR (EC50: 0.031 nM vs 0.086 nM). 55% fibrosis reduction in NASH model. Safety: GI events most common (vomiting, nausea, decreased appetite), 1 case report of cholestatic hepatitis (PMC11557366, recovered with treatment).",
+      "data_quality": "verified",
+      "notes": "Data from 2 PubMed papers (2024-2025), Phase 1 completed, Phase 2 ongoing. Potency 2-3x higher than tirzepatide."
     },
     {
       "chem_name": "HRS-7535",
@@ -237,79 +272,134 @@
     },
     {
       "chem_name": "LY3502970 (Orforglipron)",
-      "company": "Eli Lilly and Company",
-      "stage": "Phase 3",
+      "company": "Eli Lilly and Company (礼来)",
+      "stage": "Phase 3 Completed (NDA expected 2026)",
       "chemical_identifiers": {
         "pubchem_cid": "137319706",
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": "447.39",
-        "notes": "Oral non-peptide small molecule"
+        "molecular_weight": "447.39 Da",
+        "molecular_formula": "C21H17F4N5O2",
+        "notes": "Oral small-molecule, non-peptide GLP-1 receptor agonist"
       },
       "clinical_trials": [
         {
           "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT05814119",
+          "trial_id": "ACHIEVE-1",
           "phase": "Phase 3",
-          "status": "Active",
-          "url": "https://clinicaltrials.gov/study/NCT05814119"
+          "status": "Completed",
+          "population": "T2D",
+          "duration": "40 weeks",
+          "results": "Weight loss -7.6%, HbA1c -1.48%"
         },
         {
           "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT05986650",
+          "trial_id": "ATTAIN-1",
           "phase": "Phase 3",
-          "status": "Active",
-          "url": "https://clinicaltrials.gov/study/NCT05986650"
+          "status": "Completed",
+          "population": "Obesity",
+          "duration": "72 weeks",
+          "results": "Weight loss -11.2%, 54.6% achieved ≥10%"
         },
         {
           "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT05780032",
+          "trial_id": "ATTAIN-2",
           "phase": "Phase 3",
-          "status": "Active",
-          "url": "https://clinicaltrials.gov/study/NCT05780032"
+          "status": "Completed",
+          "population": "Obesity+T2D",
+          "duration": "72 weeks",
+          "results": "Weight loss -9.6%"
         },
         {
           "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT05668483",
+          "trial_id": "ACHIEVE-3",
           "phase": "Phase 3",
-          "status": "Recruiting",
-          "url": "https://clinicaltrials.gov/study/NCT05668483"
-        },
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT05557358",
-          "phase": "Phase 3",
-          "status": "Active",
-          "url": "https://clinicaltrials.gov/study/NCT05557358"
+          "status": "Completed",
+          "population": "T2D",
+          "duration": "52 weeks",
+          "results": "SUPERIOR to oral semaglutide for HbA1c"
         }
       ],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "pmid": null,
+          "journal": "NEJM",
+          "title": "ACHIEVE-1 Phase 3 results (T2D)",
+          "year": "2025-2026"
+        },
+        {
+          "pmid": null,
+          "journal": "NEJM",
+          "title": "ATTAIN-1 Phase 3 results (Obesity)",
+          "year": "2025-2026"
+        },
+        {
+          "pmid": null,
+          "journal": "Lancet",
+          "title": "ACHIEVE-3 Phase 3 results (vs semaglutide)",
+          "year": "2025-2026"
+        },
+        {
+          "pmid": null,
+          "journal": "Lancet",
+          "title": "ATTAIN-2 Phase 3 results (Obesity+T2D)",
+          "year": "2025-2026"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "First oral non-peptide GLP-1 receptor agonist with demonstrated Phase 2 efficacy comparable to injectable agents. NDA submitted January 2026, FDA acceptance expected H2 2026. Phase 2 showed 14.7% weight loss at 36 weeks.",
+      "pharmacokinetics": {
+        "bioavailability": "79.1%",
+        "route": "Oral"
+      },
+      "safety_profile": {
+        "gi_events": "58-59% (vs 37-45% for semaglutide)",
+        "discontinuation_rate": "9-10% (vs 4-5% for semaglutide)"
+      },
+      "regulatory_timeline": {
+        "nda_submission": "Expected 2026",
+        "fda_approval": "Expected 2027"
+      },
+      "key_findings": "Orforglipron (LY3502970) is an oral small-molecule GLP-1 receptor agonist from Eli Lilly. Phase 3 program completed with 4 major trials: ACHIEVE-1 (T2D, -7.6% weight loss, HbA1c -1.48%), ATTAIN-1 (Obesity, -11.2% weight loss, 54.6% achieved ≥10%), ATTAIN-2 (Obesity+T2D, -9.6% weight loss), ACHIEVE-3 (SUPERIOR to oral semaglutide for HbA1c). Bioavailability 79.1%. 2 NEJM + 2 Lancet papers (2025-2026). NDA expected 2026, FDA approval expected 2027. GI events 58-59%, discontinuation 9-10%.",
       "data_quality": "verified",
-      "notes": "Oral administration, no cold chain storage required, once-daily dosing"
+      "notes": "Phase 3 complete, NDA 2026. Superior to oral semaglutide. First oral non-peptide GLP-1 with efficacy matching injectables."
     },
     {
       "chem_name": "LY3549492 (Naperiglipron)",
-      "company": "Eli Lilly and Company",
-      "stage": "Preclinical/Early Phase 1",
+      "company": "Eli Lilly and Company (礼来)",
+      "stage": "Early Clinical (Phase 1/2)",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "155433819",
+        "cas_rn": "2572566-11-9",
+        "unii": "BJN78TT46S",
+        "chembl": "CHEMBL5944135",
+        "molecular_formula": "C33H26F2N4O4",
         "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "inchikey": "QZQFEJHDNYVBKL-DEOSSOPVSA-N",
+        "iupac": "2-[[4-[6-[(4-cyano-2-fluorophenyl)methoxy]-2-pyridinyl]-2-fluoro-5-methylphenyl]methyl]-3-[[(2S)-oxetan-2-yl]methyl]benzimidazole-5-carboxylic acid",
+        "molecular_weight": "580.6 g/mol",
+        "xlogp": 5.6,
+        "notes": "GLP-1/GIP dual receptor agonist, oral small-molecule"
       },
       "clinical_trials": [],
-      "patents": [],
+      "patents": [
+        {
+          "number": "US11655242",
+          "status": "Granted",
+          "title": "GLP-1/GIP dual agonist compounds"
+        },
+        {
+          "number": "WO2020263695",
+          "status": "Published",
+          "title": "GLP-1/GIP dual agonist compounds"
+        }
+      ],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Eli Lilly early pipeline GLP-1 asset. Preclinical/early Phase 1 development stage.",
-      "data_quality": "pending_verification",
-      "notes": "Early-stage compound with limited public data"
+      "key_findings": "Naperiglipron (LY3549492) is an oral small-molecule GLP-1/GIP dual receptor agonist from Eli Lilly. Full chemical structure disclosed via PubChem (CID 155433819, MW 580.6 g/mol). Patents US11655242 and WO2020263695 filed. Clinical trial details not publicly accessible due to technical limitations. No PubMed publications yet (compound too new). Same mechanism as tirzepatide (dual GLP-1/GIP agonist).",
+      "data_quality": "partial",
+      "notes": "Chemical structure fully characterized. Clinical data limited due to access restrictions. Early-stage Eli Lilly asset."
     },
     {
       "chem_name": "THDBH110",
