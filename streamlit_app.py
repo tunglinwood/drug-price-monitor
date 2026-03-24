@@ -70,6 +70,10 @@ show_user_info()
 st.title("🧪 GLP-1 化合物监控系统")
 st.markdown(f"**更新时间:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
+# Display data version info
+if 'data_loaded_at' in st.session_state:
+    st.info(f"📊 **Data Loaded:** {st.session_state['data_loaded_at']} | **Git Commit:** `{st.session_state.get('git_commit', 'Unknown')}`")
+
 # 加载数据
 @st.cache_data
 def load_data():
@@ -86,13 +90,19 @@ def load_data():
             st.error(f"加载 JSON 数据失败：{e}")
             return None
     
-    # 尝试从 GitHub 加载（Streamlit Cloud）
+    # 尝试从 GitHub 加载（Streamlit Cloud）- with cache-busting
     try:
         import requests
-        url = "https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.json"
-        response = requests.get(url)
+        import time
+        # Add timestamp to prevent caching
+        url = f"https://raw.githubusercontent.com/tunglinwood/drug-price-monitor/main/compounds.json?t={int(time.time())}"
+        response = requests.get(url, timeout=30)
         if response.status_code == 200:
-            return response.json()
+            data = response.json()
+            # Store metadata for display
+            st.session_state['data_loaded_at'] = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            st.session_state['git_commit'] = data.get('metadata', {}).get('git_commit', 'Unknown')
+            return data
         else:
             st.error(f"从 GitHub 加载失败：{response.status_code}")
             return None
