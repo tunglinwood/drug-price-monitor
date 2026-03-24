@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "last_updated": "2026-03-24T11:16:40.895437",
+    "last_updated": "2026-03-24T11:54:51.874832",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "BATCH2_UPDATE",
+    "git_commit": "BATCH3_UPDATE",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
-    "batch": "2 of 5"
+    "batch": "3 of 5"
   },
   "summary": {
     "verified_trials": 8,
@@ -512,102 +512,119 @@
     {
       "chem_name": "ZT006",
       "company": "CSPC (正大天晴)",
-      "stage": "Early stage",
+      "stage": "Preclinical/Undisclosed",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "No public data found. Very early-stage CSPC compound."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Early-stage CSPC candidate.",
-      "data_quality": "pending_verification",
-      "notes": "Limited public data"
+      "key_findings": "No public data found for ZT006. CSPC compound with minimal public disclosure. Likely preclinical or early clinical without international registration.",
+      "data_quality": "not_found",
+      "notes": "Not found in PubChem, ClinicalTrials.gov, PubMed, or patents. Flag for manual review."
     },
     {
       "chem_name": "MWN109",
       "company": "Minnvati (民为生物)",
-      "stage": "Early stage",
+      "stage": "Preclinical/China-focused",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "No public data found. China-focused development with limited international disclosure."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Early-stage Minnvati candidate.",
-      "data_quality": "pending_verification",
-      "notes": "Limited public data"
+      "key_findings": "No public data found for MWN109. Minnvati compound with minimal Western database presence. Likely China-focused early-stage development.",
+      "data_quality": "not_found",
+      "notes": "Not found in any public databases. Flag for manual review."
     },
     {
       "chem_name": "SYH2067",
-      "company": "CSPC Pharmaceutical Group (石药集团有限公司)",
-      "stage": "Preclinical",
+      "company": "CSPC Pharmaceutical Group (石药集团)",
+      "stage": "Preclinical/Confidential",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "No public data found. Very early-stage or confidential CSPC investigational compound."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Oncology candidate (NOT GLP-1). Early-stage candidate in CSPC internal pipeline.",
-      "data_quality": "pending_verification",
-      "notes": "Oncology candidate, not GLP-1"
+      "key_findings": "No public data found for SYH2067. CSPC compound with minimal public information. May be preclinical, internal code, or known by different identifier.",
+      "data_quality": "not_found",
+      "notes": "Not found in any public databases. Flag for manual review."
     },
     {
       "chem_name": "APH01727",
-      "company": "Yipinhong (一品红)",
-      "stage": "Preclinical",
+      "company": "Yipinhong Pharmaceutical (一品红)",
+      "stage": "Preclinical/Proprietary",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "No public data found. Proprietary drug candidate code from Yipinhong."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Preclinical compound from Yipinhong.",
-      "data_quality": "pending_verification",
-      "notes": "Limited public data"
+      "key_findings": "No public data found for APH01727. Yipinhong proprietary compound not registered in public international databases. Likely early-stage or under confidentiality.",
+      "data_quality": "not_found",
+      "notes": "Not found in PubChem, ClinicalTrials.gov, PubMed. Chinese databases require paid access. Flag for manual review."
     },
     {
       "chem_name": "BPYT-01",
-      "company": "Baiji Youtang (百极优棠)",
-      "stage": "Phase 1",
+      "company": "百极优棠 (广东) 医药科技有限公司 (BPYT / Baiji Youtang)",
+      "stage": "Phase I",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "First-in-class oral small molecule GLP-1 secretagogue (not receptor agonist)"
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {
+          "registry": "China CDE",
+          "trial_id": "T2D IND 2023-07-18",
+          "phase": "Phase I",
+          "status": "Approved",
+          "url": "",
+          "indication": "Type 2 Diabetes"
+        },
+        {
+          "registry": "China CDE",
+          "trial_id": "CXHL2400268",
+          "phase": "Phase I",
+          "status": "Approved 2024-05-21",
+          "url": "",
+          "indication": "Overweight/Obesity"
+        }
+      ],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Phase 1 development, China registry pending.",
-      "data_quality": "pending_verification",
-      "notes": "Early-stage compound"
+      "key_findings": "BPYT-01 is a first-in-class oral small molecule GLP-1 secretagogue developed by 百极优棠 (BPYT) with CAS institutes. Unlike GLP-1 receptor agonists, BPYT-01 selectively distributes to intestine and promotes endogenous GLP-1 secretion from L-cells. Discovered from medicinal plant research. China IND approved for T2D (2023-07-18) and Obesity (2024-05-21). Phase I trials actively recruiting. Novel mechanism distinguishes from receptor agonists.",
+      "data_quality": "partial",
+      "notes": "IND approved for 2 indications (T2D + Obesity). Phase I recruiting. Novel GLP-1 secretagogue mechanism. 5 patents held but numbers not public."
     },
     {
       "chem_name": "RGT-274",
