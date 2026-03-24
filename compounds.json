@@ -1,13 +1,13 @@
 {
   "metadata": {
-    "last_updated": "2026-03-24T08:58:20.478048",
+    "last_updated": "2026-03-24T11:16:40.895437",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "BATCH1_UPDATE",
+    "git_commit": "BATCH2_UPDATE",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
-    "batch": "1 of 5"
+    "batch": "2 of 5"
   },
   "summary": {
     "verified_trials": 8,
@@ -403,103 +403,111 @@
     },
     {
       "chem_name": "THDBH110",
-      "company": "Tonghua Dongbao/Dongbao Zixing (通化东宝/东宝紫星)",
-      "stage": "Early stage",
-      "chemical_identifiers": {
-        "pubchem_cid": "44588632",
-        "smiles": null,
-        "inchikey": null,
-        "iupac": null,
-        "molecular_weight": "823.9",
-        "notes": "PubChem CID confirmed"
-      },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
-      "suppliers": [],
-      "key_findings": "PubChem CID 44588632 confirmed. Chemical structure verified. Early-stage Chinese domestic compound with limited public clinical data.",
-      "data_quality": "partial",
-      "notes": "Early-stage development"
-    },
-    {
-      "chem_name": "HSK34890",
-      "company": "Haisco Pharmaceutical (海思科)",
-      "stage": "Phase 2",
+      "company": "Tonghua Dongbao Pharmaceutical (通化东宝)",
+      "stage": "Preclinical/Undisclosed",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "No direct data found. Related compound THDBH120 (GIPR/GLP-1R dual agonist) has 2026 publication (PMID: 41690462)."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Phase 2 clinical development by Haisco Pharmaceutical.",
-      "data_quality": "pending_verification",
-      "notes": "Early-stage compound"
+      "key_findings": "No direct public data for THDBH110. Related compound THDBH120 (GIPR/GLP-1R dual agonist) published in J Adv Res 2026 with preclinical data showing superior weight loss in rodents and nonhuman primates.",
+      "data_quality": "not_found",
+      "notes": "THDBH110 not found in public databases. THDBH120 (related dual agonist) has 2026 publication."
+    },
+    {
+      "chem_name": "HSK34890",
+      "company": "Haisco Pharmaceutical (海思科医药集团)",
+      "stage": "Phase I",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Oral small molecule GLP-1 receptor agonist, Class 1 innovative drug (化药 1 类)"
+      },
+      "clinical_trials": [
+        {
+          "registry": "China CDE",
+          "trial_id": "IND Approved 2023-08-14",
+          "phase": "Phase I",
+          "status": "Active",
+          "url": ""
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "HSK34890 is an oral GLP-1 receptor agonist developed by Haisco Pharmaceutical. China IND accepted 2023-06-02, approved 2023-08-14. Currently in Phase I for Type 2 Diabetes Mellitus. Haisco's second Class 1 innovative drug in diabetes (after HSK7653 DPP-4 inhibitor).",
+      "data_quality": "partial",
+      "notes": "IND approved 2023-08-14, Phase I ongoing. No PubMed publications yet. Chemical structure not disclosed."
     },
     {
       "chem_name": "VCT220/CX11",
       "company": "Vitalus Biosciences (诚益生物)",
-      "stage": "Preclinical",
+      "stage": "Preclinical/Undisclosed",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "No public data found. Company website exists but pipeline page returns 404."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "FGFR inhibitor (Oncology target, NOT GLP-1). Early stage development with no clinical trials registered.",
-      "data_quality": "pending_verification",
-      "notes": "Oncology candidate, not GLP-1"
+      "key_findings": "No public data found for VCT220/CX11. Preclinical or very early-stage compound with no public disclosure.",
+      "data_quality": "not_found",
+      "notes": "No data in PubChem, ClinicalTrials.gov, PubMed, or patents. Flag for manual review."
     },
     {
       "chem_name": "HS-10501",
       "company": "Hansoh Pharmaceutical (豪森药业)",
-      "stage": "Early stage",
+      "stage": "Preclinical/Internal Code",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "Internal/early-stage development compound not yet publicly disclosed."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Early-stage Hansoh Pharmaceutical candidate.",
-      "data_quality": "pending_verification",
-      "notes": "Limited public data"
+      "key_findings": "No public data found. HS-10501 appears to be an internal Hansoh Pharmaceutical code for early-stage compound.",
+      "data_quality": "not_found",
+      "notes": "Not found in any public databases. Flag for manual review."
     },
     {
       "chem_name": "HS-10501-2",
       "company": "Hansoh Pharmaceutical (豪森药业)",
-      "stage": "Early stage",
+      "stage": "Preclinical/Internal Code",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "Internal/early-stage development compound. '-2' suffix may indicate salt form or formulation variant."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Early-stage Hansoh Pharmaceutical candidate.",
-      "data_quality": "pending_verification",
-      "notes": "Limited public data"
+      "key_findings": "No public data found. HS-10501-2 appears to be an internal Hansoh code for early-stage compound or formulation variant.",
+      "data_quality": "not_found",
+      "notes": "Not found in any public databases. Flag for manual review."
     },
     {
       "chem_name": "ZT006",
