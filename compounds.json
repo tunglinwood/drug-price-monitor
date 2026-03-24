@@ -1,14 +1,15 @@
 {
   "metadata": {
-    "last_updated": "2026-03-24T17:21:14.167697",
+    "last_updated": "2026-03-24T19:13:36.808868",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "BATCH5_FINAL_UPDATE",
+    "git_commit": "MDR-001_CORRECTED_MindRank_AI",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "batch": "5 of 5 - COMPLETE!",
-    "total_compounds_processed": 25
+    "total_compounds_processed": 25,
+    "correction_note": "MDR-001 company corrected from Mabwell to MindRank AI (MiroThinker verification)"
   },
   "summary": {
     "verified_trials": 8,
@@ -188,23 +189,46 @@
     },
     {
       "chem_name": "MDR-001",
-      "company": "Mabwell Therapeutics (迈博太科)",
-      "stage": "Phase 1/2",
+      "company": "MindRank Ltd. (MindRank AI)",
+      "stage": "Phase III (obesity), Phase II (type 2 diabetes)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "AI-designed oral GLP-1 RA. Chemical structure is proprietary and confidential"
       },
-      "clinical_trials": [],
-      "patents": [],
+      "clinical_trials": [
+        {
+          "nct": "NCT07274137",
+          "phase": "Phase III",
+          "title": "MOBILE trial for overweight/obesity (52 weeks)"
+        },
+        {
+          "nct": "NCT07110766",
+          "phase": "Phase Ib",
+          "title": "Efficacy and safety in overweight/obesity (12 weeks)"
+        },
+        {
+          "nct": "NCT06606483",
+          "phase": "Phase IIb",
+          "title": "24-week efficacy and safety vs placebo"
+        },
+        {
+          "nct": "CTR20244449",
+          "phase": "Phase I",
+          "title": "Mass balance study with [14C]-MDR-001"
+        }
+      ],
+      "patents": [
+        "100 patents associated (Synapse - requires subscription)"
+      ],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "China's first AI-designed Phase 3 innovative drug. Mabwell Therapeutics development. Currently in Phase 1/2 clinical trials.",
-      "data_quality": "pending_verification",
-      "notes": "AI-designed compound by Mabwell Therapeutics. Discrepancy noted between Phase 1/2 trial status and Phase 3 designation in promotional materials."
+      "key_findings": "AI-designed oral GLP-1 RA from MindRank AI. Phase IIb: 10.3% mean weight reduction at 24 weeks, 7.8% placebo-adjusted. First Phase III patient dosed Feb 25, 2026. One of first AI-designed molecules in Phase 3. China-based MindRank AI achieved 4.5 years from project to Phase 3.",
+      "data_quality": "partial",
+      "notes": "MindRank AI (NOT Mabwell Therapeutics). Phase III dosed Feb 25, 2026. 10.3% WL at 24 weeks."
     },
     {
       "chem_name": "HDM1002",
