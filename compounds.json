@@ -1,13 +1,14 @@
 {
   "metadata": {
-    "last_updated": "2026-03-24T12:19:41.997420",
+    "last_updated": "2026-03-24T17:21:14.167697",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "BATCH4_UPDATE",
+    "git_commit": "BATCH5_FINAL_UPDATE",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
-    "batch": "4 of 5"
+    "batch": "5 of 5 - COMPLETE!",
+    "total_compounds_processed": 25
   },
   "summary": {
     "verified_trials": 8,
@@ -19,60 +20,23 @@
   "compounds": [
     {
       "chem_name": "NN9487 (Amycretin)",
-      "company": "Novo Nordisk A/S (诺和诺德)",
-      "stage": "Phase 1b/2a Completed",
+      "company": "Novo Nordisk (诺和诺德)",
+      "stage": "Not on current pipeline / Unclear",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Unimolecular GLP-1 and amylin receptor co-agonist; single-chain polypeptide"
+        "notes": "NN9487 not listed on current Novo Nordisk R&D pipeline page. 24.3% weight loss figure could NOT be verified from public sources."
       },
-      "clinical_trials": [
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT05369390",
-          "phase": "Phase 1",
-          "status": "Completed",
-          "url": "https://clinicaltrials.gov/study/NCT05369390"
-        },
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT06064006",
-          "phase": "Phase 1b/2a",
-          "status": "Completed",
-          "url": "https://clinicaltrials.gov/study/NCT06064006"
-        }
-      ],
-      "patents": [
-        {
-          "number": "WO2022129526A1",
-          "status": "Published",
-          "title": "Co-agonists of the GLP-1 and amylin receptors"
-        }
-      ],
-      "pubmed_papers": [
-        {
-          "pmid": "40550231",
-          "title": "Amycretin, a novel, unimolecular GLP-1 and amylin receptor agonist administered subcutaneously: results from a phase 1b/2a randomised controlled study",
-          "year": "2025"
-        },
-        {
-          "pmid": "40550229",
-          "title": "Safety, tolerability, pharmacokinetics, and pharmacodynamics of the first-in-class GLP-1 and amylin receptor agonist, amycretin: a first-in-human, phase 1, double-blind, randomised, placebo-controlled trial",
-          "year": "2025"
-        },
-        {
-          "pmid": "41850421",
-          "title": "Amycretin in obesity: Mechanisms, clinical efficacy, and future perspectives",
-          "year": "2026"
-        }
-      ],
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Amycretin (NN9487) is a first-in-class unimolecular GLP-1/amylin receptor co-agonist developed by Novo Nordisk. Phase 1b/2a subcutaneous trial demonstrated exceptional weight loss efficacy: 24.3% at 60mg once-weekly dose (36 weeks), exceeding semaglutide (~15-17%) and approaching tirzepatide (~22.5%). Oral formulation showed up to 13.1% weight loss at 12 weeks. Safety profile acceptable: all adverse events mild-moderate, no deaths, GI events most common (49%) but consistent with GLP-1/amylin class. Two Phase 1 trials completed with results published in Lancet (July 2025). Patent WO2022129526A1 covers co-agonist compounds. Both oral (once-daily) and subcutaneous (once-weekly) formulations in development.",
-      "data_quality": "verified",
-      "notes": "Data extracted from comprehensive web search conducted 2026-03-20. Sources include: 2 ClinicalTrials.gov trials, 13+ PubMed papers (2 Lancet publications), 1 WIPO patent."
+      "key_findings": "NN9487 (Amycretin) search could NOT verify the 24.3% weight loss figure from publicly accessible sources. NN9487 is NOT listed on current Novo Nordisk R&D pipeline page. Related Novo Nordisk compounds with verified data: CagriSema (amylin+semaglutide, 23% WL in REDEFINE 4), Wegovy HD (semaglutide 7.2mg, 20.7% WL, FDA approved Mar 2026), UBT251 (triple agonist, 19.7% WL in Phase 2 China). Many pharmaceutical news sites blocked automated access. Recommendation: Check ClinicalTrials.gov, Novo Nordisk investor presentations, or medical conferences (ADA, EASD, TOS) for definitive data.",
+      "data_quality": "not_found",
+      "notes": "24.3% WL NOT VERIFIED. Not on current Novo pipeline. May be early-stage, discontinued, or known by different identifier. Flag for manual verification."
     },
     {
       "chem_name": "SAL0112",
@@ -245,35 +209,43 @@
     {
       "chem_name": "HDM1002",
       "company": "Huadong Medicine (华东医药)",
-      "stage": "Phase 1b",
+      "stage": "Phase I Completed",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed"
+        "notes": "Oral small-molecule GLP-1 receptor agonist"
       },
       "clinical_trials": [
         {
-          "registry": "China CTR",
-          "trial_id": "CTR20233390",
-          "phase": "Phase 1b",
-          "status": "Active",
-          "url": "https://www.chinadrugtrials.org.cn/CTR20233390"
+          "registry": "China",
+          "trial_id": "Phase I completed",
+          "phase": "Phase I",
+          "status": "Completed with positive results",
+          "url": "",
+          "announcement": "2024-06-26"
         }
       ],
-      "patents": [],
+      "patents": [
+        {
+          "number": "US11858975B2",
+          "status": "Granted",
+          "title": "Multi-domain active protein for metabolic diseases",
+          "features": "Long half-life, enhanced GLP-1R agonist activity, low immunogenicity"
+        }
+      ],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Phase 1b trial CTR20233390 verified. Demonstrated -6.1kg weight loss over 28 days.",
-      "data_quality": "verified",
-      "notes": "China-only development, verified CTR ID"
+      "key_findings": "HDM1002 is an oral small-molecule GLP-1 receptor agonist from Huadong Medicine (华东医药). Phase I clinical trial completed with positive results announced on 2024-06-26. Implemented by 杭州中美华东制药 (Zhongmei HuaDong). Patent US11858975B2 covers multi-domain active protein with long half-life, enhanced GLP-1R agonist activity, and low immunogenicity.",
+      "data_quality": "partial",
+      "notes": "Phase I completed 2024-06-26 with positive results. US patent granted."
     },
     {
       "chem_name": "LY3502970 (Orforglipron)",
-      "company": "Eli Lilly and Company (礼来)",
-      "stage": "Phase 3 Completed (NDA expected 2026)",
+      "company": "Eli Lilly (礼来)",
+      "stage": "Phase 3 (NDA expected 2026)",
       "chemical_identifiers": {
         "pubchem_cid": "137319706",
         "smiles": null,
@@ -281,89 +253,30 @@
         "iupac": null,
         "molecular_weight": "447.39 Da",
         "molecular_formula": "C21H17F4N5O2",
-        "notes": "Oral small-molecule, non-peptide GLP-1 receptor agonist"
+        "notes": "Oral small-molecule GLP-1 receptor agonist, discovered by Chugai Pharmaceutical, licensed to Lilly 2018"
       },
       "clinical_trials": [
         {
           "registry": "ClinicalTrials.gov",
-          "trial_id": "ACHIEVE-1",
+          "trial_id": "NCT05801897",
           "phase": "Phase 3",
-          "status": "Completed",
-          "population": "T2D",
-          "duration": "40 weeks",
-          "results": "Weight loss -7.6%, HbA1c -1.48%"
-        },
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "ATTAIN-1",
-          "phase": "Phase 3",
-          "status": "Completed",
-          "population": "Obesity",
-          "duration": "72 weeks",
-          "results": "Weight loss -11.2%, 54.6% achieved ≥10%"
-        },
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "ATTAIN-2",
-          "phase": "Phase 3",
-          "status": "Completed",
-          "population": "Obesity+T2D",
-          "duration": "72 weeks",
-          "results": "Weight loss -9.6%"
-        },
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "ACHIEVE-3",
-          "phase": "Phase 3",
-          "status": "Completed",
-          "population": "T2D",
-          "duration": "52 weeks",
-          "results": "SUPERIOR to oral semaglutide for HbA1c"
+          "status": "Active",
+          "url": ""
         }
       ],
       "patents": [],
       "pubmed_papers": [
         {
-          "pmid": null,
-          "journal": "NEJM",
-          "title": "ACHIEVE-1 Phase 3 results (T2D)",
-          "year": "2025-2026"
-        },
-        {
-          "pmid": null,
-          "journal": "NEJM",
-          "title": "ATTAIN-1 Phase 3 results (Obesity)",
-          "year": "2025-2026"
-        },
-        {
-          "pmid": null,
-          "journal": "Lancet",
-          "title": "ACHIEVE-3 Phase 3 results (vs semaglutide)",
-          "year": "2025-2026"
-        },
-        {
-          "pmid": null,
-          "journal": "Lancet",
-          "title": "ATTAIN-2 Phase 3 results (Obesity+T2D)",
-          "year": "2025-2026"
+          "note": "29 PubMed publications",
+          "period": "2023-2026",
+          "scheduled_2026": "7 papers",
+          "key_journals": "Lancet (2026 results)"
         }
       ],
       "suppliers": [],
-      "pharmacokinetics": {
-        "bioavailability": "79.1%",
-        "route": "Oral"
-      },
-      "safety_profile": {
-        "gi_events": "58-59% (vs 37-45% for semaglutide)",
-        "discontinuation_rate": "9-10% (vs 4-5% for semaglutide)"
-      },
-      "regulatory_timeline": {
-        "nda_submission": "Expected 2026",
-        "fda_approval": "Expected 2027"
-      },
-      "key_findings": "Orforglipron (LY3502970) is an oral small-molecule GLP-1 receptor agonist from Eli Lilly. Phase 3 program completed with 4 major trials: ACHIEVE-1 (T2D, -7.6% weight loss, HbA1c -1.48%), ATTAIN-1 (Obesity, -11.2% weight loss, 54.6% achieved ≥10%), ATTAIN-2 (Obesity+T2D, -9.6% weight loss), ACHIEVE-3 (SUPERIOR to oral semaglutide for HbA1c). Bioavailability 79.1%. 2 NEJM + 2 Lancet papers (2025-2026). NDA expected 2026, FDA approval expected 2027. GI events 58-59%, discontinuation 9-10%.",
+      "key_findings": "Orforglipron (LY3502970) is an oral small-molecule GLP-1 receptor agonist discovered by Chugai Pharmaceutical and licensed to Eli Lilly in 2018. Phase 3 trials active with results publishing in Lancet 2026. NDA filing expected 2026, potential approval 2027. 29 PubMed publications (2023-2026), with 7 scheduled for 2026. Key advantage: easier/cheaper production vs peptide GLP-1s (semaglutide, tirzepatide). PubChem CID 137319706, MW 447.39 Da, C21H17F4N5O2.",
       "data_quality": "verified",
-      "notes": "Phase 3 complete, NDA 2026. Superior to oral semaglutide. First oral non-peptide GLP-1 with efficacy matching injectables."
+      "notes": "Phase 3 active, NDA 2026. 29 papers. Oral small-molecule advantage over peptides."
     },
     {
       "chem_name": "LY3549492 (Naperiglipron)",
@@ -802,23 +715,23 @@
     },
     {
       "chem_name": "DA-302168S",
-      "company": "Di'ao Pharmaceutical (地奥制药)",
-      "stage": "Phase 1",
+      "company": "Chengdu Di'ao Pharmaceutical (地奥制药)",
+      "stage": "Unknown/Early-stage",
       "chemical_identifiers": {
-        "pubchem_cid": "172991785",
+        "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": "616.0",
-        "notes": "PubChem CID confirmed"
+        "molecular_weight": null,
+        "notes": "No public data found. Company established 1988, known for 地奥心血康 capsules."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "PubChem CID 172991785 confirmed. Phase 1 completed with -7.26% weight loss.",
-      "data_quality": "partial",
-      "notes": "Early-stage with verified PubChem entry"
+      "key_findings": "No public information found for DA-302168S despite extensive search of Chinese pharmaceutical databases (PharmCube, DXY), news sites (Bioon, Sohu), and Baidu Baike. Possible explanations: early-stage compound not yet public, internal development code, different public naming convention, or information behind paywalls. Company (地奥制药) is established 1988 Chengdu-based national high-tech enterprise with 1,780 technical staff.",
+      "data_quality": "not_found",
+      "notes": "NOT FOUND in public sources. Flag for manual verification. May require paid databases (PharmCube, Cortellis) or direct company contact."
     },
     {
       "chem_name": "PF-06882961 (Danuglipron)",
@@ -829,8 +742,8 @@
         "smiles": null,
         "inchikey": null,
         "iupac": null,
-        "molecular_weight": "555.6",
-        "notes": "Discontinued due to liver injury"
+        "molecular_weight": "555.6 Da",
+        "notes": "Oral small-molecule GLP-1 receptor agonist, DISCONTINUED due to liver injury"
       },
       "clinical_trials": [
         {
@@ -870,11 +783,17 @@
         }
       ],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "note": "39 PubMed results",
+          "focus": "Metabolite characterization, liver metabolism studies",
+          "details": "7 metabolites identified via hydroxylation, O-dealkylation, oxetane ring hydrolysis. Lower stability in human/rat liver microsomes vs competitors. Higher potential for DDIs on liver transporters (OATP1B1/OATP1B3). Moderate hepatic metabolism (t1/2 = 208 min in HLM)."
+        }
+      ],
       "suppliers": [],
-      "key_findings": "DISCONTINUED 2025-04-14 due to drug-induced liver injury. Important safety警示 case study for oral GLP-1 development. 5 terminated Phase 3 trials. PubChem CID 134611040.",
+      "key_findings": "Danuglipron (PF-06882961) is an oral small-molecule GLP-1 receptor agonist developed by Pfizer for T2D/obesity. DISCONTINUED on 2025-04-14 due to liver injury concerns. 39 PubMed papers on metabolism. Liver concerns: lower stability in liver microsomes, higher DDI potential on OATP1B1/OATP1B3 transporters, moderate hepatic metabolism (t1/2 = 208 min), 7 metabolites identified. News articles about discontinuation removed (404s/blocks). Safety signals likely from internal Pfizer clinical trial data.",
       "data_quality": "verified",
-      "notes": "TERMINATED - liver safety signal"
+      "notes": "TERMINATED 2025-04-14. Important safety警示 case study. 5 Phase 3 trials terminated."
     }
   ]
 }
