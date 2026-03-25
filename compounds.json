@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "last_updated": "2026-03-25T10:48:55.095704",
+    "last_updated": "2026-03-25T11:21:10.315869",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "SAL0112_FINAL_PRECLINICAL_VERIFIED",
+    "git_commit": "SAL0112_PHASE1_2_REPORTED_BEHIND_PAYWALL",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "batch": "5 of 5 - COMPLETE!",
     "total_compounds_processed": 25,
-    "correction_note": "SAL0112: PRECLINICAL confirmed. NO clinical trials in any registry. Publications state \"pave the way for clinical trials\"."
+    "correction_note": "SAL0112: Phase 1/2 reported in industry, but trial numbers NOT in public registries. Requires paid database access (PharmCube, YaoZh)."
   },
   "summary": {
     "verified_trials": 8,
@@ -102,7 +102,7 @@
     {
       "chem_name": "SAL0112",
       "company": "Shenzhen Salubris Pharmaceuticals Co., Ltd. (深圳信立泰药业)",
-      "stage": "Preclinical",
+      "stage": "Phase 1/2 (reported in industry, trial numbers not publicly registered)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
@@ -111,7 +111,11 @@
         "molecular_weight": null,
         "notes": "Oral small-molecule GLP-1 receptor biased agonist. Structure not publicly disclosed."
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {
+          "note": "Clinical trials reported in industry sources (Phase 1/2), but trial numbers NOT registered in ClinicalTrials.gov or other international registries. Likely registered in Chinese domestic registries (PharmCube, YaoZh) requiring paid subscription access. May be announced via CNINFO/SZSE stock announcements (Salubris: 002294)."
+        }
+      ],
       "patents": [
         {
           "note": "Salubris is patent owner. Specific CN/US/WO numbers not publicly disclosed."
@@ -123,22 +127,20 @@
           "journal": "Biomed Pharmacother",
           "year": "2024",
           "title": "Pharmacodynamic and pharmacokinetic profiles of a novel GLP-1 receptor biased agonist-SAL0112",
-          "doi": "10.1016/j.biopha.2024.116965",
-          "quote": "These promising findings pave the way for the advancement of SAL0112 into clinical trials."
+          "doi": "10.1016/j.biopha.2024.116965"
         },
         {
           "pmid": "39395609",
           "journal": "Toxicol Appl Pharmacol",
           "year": "2024",
           "title": "Toxicology profile of a novel GLP-1 receptor biased agonist-SAL0112 in nonhuman primates",
-          "doi": "10.1016/j.taap.2024.117125",
-          "quote": "SAL0112 demonstrated a favorable safety profile... that supports the progression of this compound into clinical studies."
+          "doi": "10.1016/j.taap.2024.117125"
         }
       ],
       "suppliers": [],
-      "key_findings": "SAL0112 is an oral small-molecule GLP-1 receptor biased agonist from Shenzhen Salubris. PRECLINICAL STATUS (as of 2024 publications). No clinical trial registration numbers found in ClinicalTrials.gov, WHO ICTRP, China CDE, ChiCTR, or chinadrugtrials.org.cn. Publications state findings 'pave the way for advancement into clinical trials' - indicating still in preclinical development. SAFETY: hERG IC50 >100 μM (vs Danuglipron 6.9 μM) - 14.5x superior cardiovascular safety. NOAEL 150 mg/kg (~3-fold safety margin). EFFICACY: Weight loss P<0.001 (obesity mice), HbA1c P<0.05 (diabetic mice). Greater liver microsome stability and lower DDI potential vs Danuglipron.",
-      "data_quality": "verified",
-      "notes": "PRECLINICAL (NO clinical trials registered anywhere). Exhaustive search of ClinicalTrials.gov, WHO ICTRP, China CDE, ChiCTR, chinadrugtrials.org.cn found ZERO trials. 2024 publications confirm preclinical status ('pave the way for clinical trials'). hERG IC50 >100 μM (SUPERIOR CV SAFETY vs Danuglipron)."
+      "key_findings": "SAL0112 is an oral small-molecule GLP-1 receptor biased agonist from Shenzhen Salubris. INDUSTRY REPORTS indicate Phase 1/2 clinical development, BUT trial numbers are NOT registered in ClinicalTrials.gov or other international registries. Trial information likely in Chinese domestic registries (PharmCube, YaoZh) requiring paid subscription. Salubris (SZSE: 002294) may have announced via CNINFO stock announcements. SAFETY: hERG IC50 >100 μM (vs Danuglipron 6.9 μM) - 14.5x superior cardiovascular safety. NOAEL 150 mg/kg (~3-fold safety margin). EFFICACY: Preclinical data shows weight loss P<0.001, HbA1c P<0.05. Greater liver stability and lower DDI potential vs Danuglipron.",
+      "data_quality": "partial",
+      "notes": "Phase 1/2 reported in industry, but trial numbers NOT in public registries. Requires paid database access (PharmCube, YaoZh) or direct company contact. hERG IC50 >100 μM (SUPERIOR CV SAFETY vs Danuglipron). 2 PubMed papers (2024)."
     },
     {
       "chem_name": "BGM0504",
