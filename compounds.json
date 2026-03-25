@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "last_updated": "2026-03-25T11:21:10.315869",
+    "last_updated": "2026-03-25T16:36:12.314082",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "SAL0112_PHASE1_2_REPORTED_BEHIND_PAYWALL",
+    "git_commit": "SAL0112_VERIFIED_WITH_CTR20233948",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "batch": "5 of 5 - COMPLETE!",
     "total_compounds_processed": 25,
-    "correction_note": "SAL0112: Phase 1/2 reported in industry, but trial numbers NOT in public registries. Requires paid database access (PharmCube, YaoZh)."
+    "correction_note": "SAL0112: Phase 1 confirmed (NMPA 2022). CTR20233948 confirmed for obesity trial. Not in ClinicalTrials.gov. Comprehensive verification from multiple sources."
   },
   "summary": {
     "verified_trials": 8,
@@ -102,7 +102,7 @@
     {
       "chem_name": "SAL0112",
       "company": "Shenzhen Salubris Pharmaceuticals Co., Ltd. (深圳信立泰药业)",
-      "stage": "Phase 1/2 (reported in industry, trial numbers not publicly registered)",
+      "stage": "Phase 1 (China; T2DM and obesity/overweight). Some industry sources describe early Phase 2 planning, but public registries list Phase 1 with CTR20233948 for obesity/overweight.",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
@@ -113,12 +113,24 @@
       },
       "clinical_trials": [
         {
-          "note": "Clinical trials reported in industry sources (Phase 1/2), but trial numbers NOT registered in ClinicalTrials.gov or other international registries. Likely registered in Chinese domestic registries (PharmCube, YaoZh) requiring paid subscription access. May be announced via CNINFO/SZSE stock announcements (Salubris: 002294)."
+          "indication": "Type 2 Diabetes Mellitus (T2DM)",
+          "phase": "Phase I",
+          "status": "Approved 2022",
+          "registry": "China NMPA",
+          "note": "NMPA approval granted 2022 for oral SAL0112 tablets in adult T2DM patients."
+        },
+        {
+          "indication": "Overweight/Obesity (weight management)",
+          "phase": "Phase I",
+          "status": "Approved 2022",
+          "registry": "China NMPA",
+          "trial_id": "CTR20233948",
+          "note": "NMPA approval granted Aug 2022 for obesity/overweight weight-management trial. Trial ID CTR20233948 (Phase I, oral, NMPA). Not in ClinicalTrials.gov."
         }
       ],
       "patents": [
         {
-          "note": "Salubris is patent owner. Specific CN/US/WO numbers not publicly disclosed."
+          "note": "SAL0112 is described by Salubris as a self-developed Class 1 innovative small-molecule GLP-1R agonist. Company filings state that important R&D projects are covered by core patents, but specific CN/US/WO patent numbers linked directly to SAL0112 are not clearly disclosed in open-access documents; detailed mapping appears only in subscription patent reports (e.g., YaoZh)."
         }
       ],
       "pubmed_papers": [
@@ -138,9 +150,9 @@
         }
       ],
       "suppliers": [],
-      "key_findings": "SAL0112 is an oral small-molecule GLP-1 receptor biased agonist from Shenzhen Salubris. INDUSTRY REPORTS indicate Phase 1/2 clinical development, BUT trial numbers are NOT registered in ClinicalTrials.gov or other international registries. Trial information likely in Chinese domestic registries (PharmCube, YaoZh) requiring paid subscription. Salubris (SZSE: 002294) may have announced via CNINFO stock announcements. SAFETY: hERG IC50 >100 μM (vs Danuglipron 6.9 μM) - 14.5x superior cardiovascular safety. NOAEL 150 mg/kg (~3-fold safety margin). EFFICACY: Preclinical data shows weight loss P<0.001, HbA1c P<0.05. Greater liver stability and lower DDI potential vs Danuglipron.",
-      "data_quality": "partial",
-      "notes": "Phase 1/2 reported in industry, but trial numbers NOT in public registries. Requires paid database access (PharmCube, YaoZh) or direct company contact. hERG IC50 >100 μM (SUPERIOR CV SAFETY vs Danuglipron). 2 PubMed papers (2024)."
+      "key_findings": "SAL0112 is an oral small-molecule GLP-1 receptor biased agonist from Shenzhen Salubris (SZSE: 002294). NMPA approvals granted 2022 for Phase I trials in T2DM and obesity/overweight. Trial CTR20233948 (Phase I, obesity) identified in Chinese registries. SAFETY: hERG IC50 >100 μM (vs Danuglipron 6.9 μM) - 14.5x superior cardiovascular safety. NOAEL 150 mg/kg (~3-fold safety margin). EFFICACY: Preclinical data shows weight loss P<0.001, HbA1c P<0.05 in mouse models. Greater liver microsome stability and lower DDI potential vs Danuglipron. Company filings indicate SAL0112 is covered by core patents but specific numbers not publicly disclosed.",
+      "data_quality": "verified",
+      "notes": "Phase 1 confirmed (China NMPA 2022 approvals for T2DM and obesity). CTR20233948 confirmed for obesity trial. Not in ClinicalTrials.gov. hERG IC50 >100 μM (SUPERIOR CV SAFETY vs Danuglipron). 2 PubMed papers (2024). Some industry sources mention early Phase 2 planning."
     },
     {
       "chem_name": "BGM0504",
