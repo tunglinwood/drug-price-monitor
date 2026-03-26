@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T01:11:11.220460",
+    "last_updated": "2026-03-27T01:14:11.152641",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_KPC000154_PARTIAL",
+    "git_commit": "THR_BETA_HEC169584_MINIMAL",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -257,23 +257,23 @@
     },
     {
       "chem_name": "HEC169584",
-      "company": "Sunshine Lake Pharma",
-      "stage": "Phase I",
+      "company": "Sunshine Lake Pharma (HEC, SEHK:6887)",
+      "stage": "Unknown (likely preclinical/early-stage)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "THR-β selective agonist for NASH/MASH. Partnership with Apollo Therapeutics (Cambridge, England)."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "HEC169584 is a THR-β selective agonist from Sunshine Lake Pharma (HEC, SEHK:6887, Dongguan, China) for NASH/MASH. Partnership announced with Apollo Therapeutics Group Limited (Cambridge, England). No PubChem CID, clinical trials, publications, or patents found in public databases. Likely very early-stage/preclinical compound. Many searches blocked by CAPTCHA.",
+      "data_quality": "not_found",
+      "notes": "Minimal data. SEHK:6887. Apollo Therapeutics partnership."
     },
     {
       "chem_name": "ASC-43F",
