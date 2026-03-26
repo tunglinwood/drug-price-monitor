@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:26:22.167058",
+    "last_updated": "2026-03-27T00:38:01.121668",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_ALG-055009_VERIFIED",
+    "git_commit": "THR_BETA_HSK-31679_VERIFIED",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
-    "note": "Resmetirom, VK2809, and ALG-055009 fully verified."
+    "note": "Resmetirom, VK2809, ALG-055009, and HSK-31679 fully verified."
   },
   "summary": {
-    "verified_trials": 5,
+    "verified_trials": 6,
     "pending_verification": 17,
     "no_trials_early_stage": 0,
     "terminated": 0,
@@ -483,23 +483,44 @@
     },
     {
       "chem_name": "HSK-31679",
-      "company": "Haisco Pharmaceutical",
-      "stage": "Phase II",
+      "company": "Haisco Pharmaceutical Group",
+      "stage": "Phase 2a",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "THR-β Agonist"
+        "notes": "THR-β agonist for MASLD/NASH"
       },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05795517",
+          "phase": "Phase 2a",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT05795517",
+          "note": "12-week efficacy trial in Asian patients with MASLD"
+        }
+      ],
+      "patents": [
+        {
+          "note": "Haisco Pharmaceutical has filed patents for THR-β agonists. Specific HSK-31679 patent numbers not verified in public searches."
+        }
+      ],
+      "pubmed_papers": [
+        {
+          "pmid": "40846146",
+          "journal": "Clin Gastroenterol Hepatol",
+          "year": "2026",
+          "title": "Efficacy and Safety of HSK31679 in Asian Patients With MASLD: A Randomized Controlled Trial",
+          "doi": "10.1016/j.cgh.2025.08.009"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "Source: 药渡推测"
+      "key_findings": "HSK-31679 is a THR-β agonist from Haisco Pharmaceutical. Phase 2a trial (NCT05795517) showed significant hepatic fat reduction: -14.0% (40mg), -22.7% (80mg), -29.2% (160mg) vs -4.1% placebo (12 weeks). 80mg and 160mg doses statistically significant (p=0.002 and p<0.001). Well tolerated with diarrhea as most common TEAE (26-38% vs 4.8% placebo). No drug-related SAEs. 1 PubMed publication (Clin Gastroenterol Hepatol 2026).",
+      "data_quality": "verified",
+      "notes": "Phase 2a completed. NCT05795517 verified. Hepatic fat reduction -22.7% to -29.2% at 80-160mg doses. Well tolerated."
     },
     {
       "chem_name": "TERN-501",
