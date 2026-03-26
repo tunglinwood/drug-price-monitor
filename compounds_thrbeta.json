@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:47:59.677126",
+    "last_updated": "2026-03-27T00:48:52.546360",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_ASC-41_PARTIAL",
+    "git_commit": "THR_BETA_KH-629_NOT_FOUND",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -211,23 +211,23 @@
     },
     {
       "chem_name": "KH-629",
-      "company": "Kanghong Pharmaceutical",
-      "stage": "Phase I",
+      "company": "Kanghong Pharmaceutical (康弘药业)",
+      "stage": "Unknown (no public data)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "No public data found. Kanghong primarily known for ophthalmology drugs (conbercept/Lumitin), not NASH therapies."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "No public data found for KH-629. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, and Google Patents returned no results. Kanghong Pharmaceutical is primarily known for ophthalmology drugs (anti-VEGF for AMD/DME/PCV), not NASH/MASH therapies. Compound may be very early preclinical, internal code name, or confidential development.",
+      "data_quality": "not_found",
+      "notes": "No public data. Kanghong not known for NASH pipeline."
     },
     {
       "chem_name": "HEC169584",
