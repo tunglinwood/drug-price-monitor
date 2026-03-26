@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T01:02:27.885471",
+    "last_updated": "2026-03-27T01:04:43.443814",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_ZB-129_NOT_FOUND",
+    "git_commit": "THR_BETA_CVI-2742_PARTIAL",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -314,22 +314,35 @@
     {
       "chem_name": "CVI-2742",
       "company": "CVI Pharmaceuticals",
-      "stage": "Phase I",
+      "stage": "Phase 1",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "THR-beta selective agonist with enhanced liver-targeting properties"
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06368077",
+          "phase": "Phase 1",
+          "status": "Active (first patient dosed ~2024)",
+          "url": "https://clinicaltrials.gov/study/NCT06368077",
+          "note": "Phase 1 study for NASH/MASH"
+        }
+      ],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "note": "Referenced in HEPATOLOGY 2024 (AASLD Liver Meeting presentation). Not directly indexed in PubMed."
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "CVI-2742 is a THR-beta selective agonist from CVI Pharmaceuticals in Phase 1 development for NASH/MASH. NCT06368077 registered. Enhanced liver-targeting properties demonstrated in non-human primates (HEPATOLOGY 2024 presentation). First patient dosed ~2024. Limited public efficacy data (Phase 1 stage). Company website not accessible.",
+      "data_quality": "partial",
+      "notes": "Phase 1. NCT06368077. 1 conference presentation (HEPATOLOGY 2024)."
     },
     {
       "chem_name": "CVI‑301",
