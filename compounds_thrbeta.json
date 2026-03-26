@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "last_updated": "2026-03-26T16:35:00+08:00",
+    "last_updated": "2026-03-27T00:18:31.032756",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_INITIAL_LIST",
+    "git_commit": "THR_BETA_RESMETIROM_VERIFIED",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
-    "note": "Initial THR-beta compound list from user Excel file. Data pending verification."
+    "note": "Resmetirom (REZDIFFRA) fully verified - FDA approved Mar 14, 2024. First THR-beta agonist for NASH/MASH."
   },
   "summary": {
-    "verified_trials": 0,
+    "verified_trials": 2,
     "pending_verification": 19,
     "no_trials_early_stage": 0,
     "terminated": 0,
@@ -22,7 +22,14 @@
       "chem_name": "ZB-129",
       "company": "Shanghai Institute of Materia Medica (SIMM)",
       "stage": "Unknown",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -34,21 +41,86 @@
     {
       "chem_name": "Resmetirom (MGL-3196)",
       "company": "Madrigal Pharmaceuticals",
-      "stage": "FDA Approved (Mar 2024)",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "THR-β Agonist. Brand name: Rezdiffra"},
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
+      "stage": "FDA Approved (Mar 14, 2024)",
+      "chemical_identifiers": {
+        "pubchem_cid": "15981237",
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": "435.22 g/mol",
+        "molecular_formula": "C17H12Cl2N6O4",
+        "cas_number": "920509-32-6",
+        "notes": "Selective thyroid hormone receptor beta (THR-β) agonist. Brand name: REZDIFFRA®"
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT03900429",
+          "phase": "Phase 3",
+          "status": "Active, ongoing 54-month trial",
+          "url": "https://clinicaltrials.gov/study/NCT03900429",
+          "trial_name": "MAESTRO-NASH",
+          "note": "Primary efficacy trial for FDA approval"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT04197479",
+          "phase": "Phase 3",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/show/NCT04197479",
+          "trial_name": "MAESTRO-NAFLD-1",
+          "note": "52-week safety trial"
+        }
+      ],
+      "patents": [
+        {
+          "note": "THR-β agonist compounds, pharmaceutical compositions, and methods of treating NASH/MASH. Owned by Madrigal Pharmaceuticals. Patent search: https://patents.google.com/?q=Resmetirom+Madrigal"
+        }
+      ],
+      "pubmed_papers": [
+        {
+          "pmid": "38324483",
+          "journal": "N Engl J Med",
+          "year": "2024",
+          "title": "A Phase 3, Randomized, Controlled Trial of Resmetirom in NASH with Liver Fibrosis (MAESTRO-NASH)",
+          "doi": "10.1056/NEJMoa2309023"
+        },
+        {
+          "pmid": "37845512",
+          "journal": "Nat Med",
+          "year": "2023",
+          "title": "Resmetirom for nonalcoholic fatty liver disease: a randomized, double-blind, placebo-controlled phase 3 trial (MAESTRO-NAFLD-1)"
+        },
+        {
+          "pmid": "31727409",
+          "journal": "Lancet",
+          "year": "2019",
+          "title": "Resmetirom (MGL-3196) for the treatment of non-alcoholic steatohepatitis: a multicentre, randomised, double-blind, placebo-controlled, phase 2 trial"
+        },
+        {
+          "pmid": "38771485",
+          "journal": "Drugs",
+          "year": "2024",
+          "title": "Resmetirom: First Approval"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "First FDA-approved THR-beta agonist for NASH/MASH (Mar 2024). Brand name: Rezdiffra.",
-      "data_quality": "pending",
-      "notes": "FDA Approved Mar 2024. Source: 药渡提供"
+      "key_findings": "Resmetirom (REZDIFFRA®) is the FIRST FDA-approved THR-β agonist for MASH/NASH (Mar 14, 2024). MAESTRO-NASH Phase 3 trial showed 25.9-29.9% NASH resolution vs 9.7% placebo (p<0.001), and 24.2-25.9% fibrosis improvement vs 14.2% placebo (p<0.001). Secondary endpoints: LDL-C reduction -13.6% to -16.3%, hepatic fat reduction -34.9% to -38.6%. FDA designations: Breakthrough Therapy, Fast Track, Priority Review. 373+ PubMed publications. EMA approved August 2025.",
+      "data_quality": "verified",
+      "notes": "FDA Approved Mar 14, 2024. First treatment for NASH/MASH with liver fibrosis (F2-F3). Brand name: REZDIFFRA®. 80mg and 100mg oral tablets, once daily. Most common AEs: diarrhea (23-33%), nausea (15-18%)."
     },
     {
       "chem_name": "ECC-4703",
       "company": "Eccogene Pharmaceuticals",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -61,7 +133,14 @@
       "chem_name": "CS-060380",
       "company": "Kaisi Kaidi Pharmaceuticals",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -74,7 +153,14 @@
       "chem_name": "Kylo-0603",
       "company": "Kylonova Biopharma",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -87,7 +173,14 @@
       "chem_name": "CS-060304",
       "company": "Kaisi Kaidi Pharmaceuticals",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -100,7 +193,14 @@
       "chem_name": "RJ-4287",
       "company": "Orimos Therapeutics",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -113,7 +213,14 @@
       "chem_name": "KH-629",
       "company": "Kanghong Pharmaceutical",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -126,7 +233,14 @@
       "chem_name": "HEC169584",
       "company": "Sunshine Lake Pharma",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -139,7 +253,14 @@
       "chem_name": "ASC-43F",
       "company": "Ascletis Pharma",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -152,7 +273,14 @@
       "chem_name": "KPC000154",
       "company": "KPC Pharmaceuticals",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -165,7 +293,14 @@
       "chem_name": "CVI-2742",
       "company": "CVI Pharmaceuticals",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -178,7 +313,14 @@
       "chem_name": "CVI‑301",
       "company": "Hallucidem",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -191,7 +333,14 @@
       "chem_name": "HP-515",
       "company": "Hinova",
       "stage": "Phase I",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -204,7 +353,14 @@
       "chem_name": "VK2809",
       "company": "Viking Therapeutics",
       "stage": "Phase II",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "THR-β Agonist"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "THR-β Agonist"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -217,7 +373,14 @@
       "chem_name": "ALG-055009",
       "company": "Aligos Therapeutics",
       "stage": "Phase II",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "THR-β Agonist"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "THR-β Agonist"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -230,7 +393,14 @@
       "chem_name": "ASC-41",
       "company": "Ascletis Pharma",
       "stage": "Phase II",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -243,7 +413,14 @@
       "chem_name": "HSK-31679",
       "company": "Haisco Pharmaceutical",
       "stage": "Phase II",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "THR-β Agonist"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "THR-β Agonist"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
@@ -256,7 +433,14 @@
       "chem_name": "TERN-501",
       "company": "Terns Pharmaceuticals",
       "stage": "Phase II",
-      "chemical_identifiers": {"pubchem_cid": null, "smiles": null, "inchikey": null, "iupac": null, "molecular_weight": null, "notes": "Pending verification"},
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pending verification"
+      },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
