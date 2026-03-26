@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T01:07:31.863668",
+    "last_updated": "2026-03-27T01:11:11.220460",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_CS-060304_VERIFIED",
+    "git_commit": "THR_BETA_KPC000154_PARTIAL",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -297,23 +297,36 @@
     },
     {
       "chem_name": "KPC000154",
-      "company": "KPC Pharmaceuticals",
-      "stage": "Unknown (no public data)",
+      "company": "KPC Pharmaceuticals (昆药集团, 600422.SH)",
+      "stage": "Phase 1 (NMPA IND Nov 2024)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "No public data found. May be preclinical/early discovery."
+        "notes": "THR-β selective agonist. Class 1 new chemical drug. Tablet formulation."
       },
-      "clinical_trials": [],
-      "patents": [],
+      "clinical_trials": [
+        {
+          "registry": "China NMPA",
+          "trial_id": "IND approved (2024LP02631, 2024LP02632)",
+          "phase": "Phase 1",
+          "status": "Active (IND approved Nov 2024)",
+          "url": "",
+          "note": "NMPA IND approved November 2024. Supplemental application accepted Jan 9, 2026 (CXHB2600010). Phase I clinical trial service tender launched Nov 2024."
+        }
+      ],
+      "patents": [
+        {
+          "note": "Patent applications likely filed but not yet publicly disclosed."
+        }
+      ],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "No public data found for KPC000154. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, Google Patents, and pharmaceutical databases returned no results. Company website not resolving. Compound may be preclinical/early discovery not yet publicly disclosed. May require access to proprietary databases (Cortellis, PharmaProjects).",
-      "data_quality": "not_found",
-      "notes": "No public data. Website not resolving."
+      "key_findings": "KPC000154 is a THR-β selective agonist from KPC Pharmaceuticals (昆药集团, 600422.SH) for NASH/MASH. NMPA IND approved Nov 2024 (2024LP02631, 2024LP02632). Phase I clinical trial service tender launched Nov 2024. Supplemental application accepted Jan 9, 2026 (CXHB2600010). KPC is a top 100 Chinese pharma company (market cap ~9.2B CNY, revenue ~9B CNY). Major shareholder: China Resources Sanjiu (华润三九) since Dec 2022. No efficacy data or publications yet (Phase I stage).",
+      "data_quality": "partial",
+      "notes": "Phase 1. NMPA IND Nov 2024. KPC Pharma (600422.SH, ~9.2B CNY market cap)."
     },
     {
       "chem_name": "CVI-2742",
