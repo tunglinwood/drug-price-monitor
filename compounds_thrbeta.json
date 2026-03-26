@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T01:00:44.063696",
+    "last_updated": "2026-03-27T01:02:27.885471",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_KPC000154_NOT_FOUND",
+    "git_commit": "THR_BETA_ZB-129_NOT_FOUND",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -21,22 +21,22 @@
     {
       "chem_name": "ZB-129",
       "company": "Shanghai Institute of Materia Medica (SIMM)",
-      "stage": "Unknown",
+      "stage": "Unknown (no public data)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "No public data found. May be early-stage/preclinical or internal SIMM code."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "No public data found for ZB-129. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, Google Patents, and pharmaceutical databases returned no results. Compound may be early-stage/preclinical, internal SIMM development code, or confidential program not yet publicly disclosed.",
+      "data_quality": "not_found",
+      "notes": "No public data. SIMM internal code."
     },
     {
       "chem_name": "Resmetirom (MGL-3196)",
