@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T01:04:43.443814",
+    "last_updated": "2026-03-27T01:07:31.863668",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_CVI-2742_PARTIAL",
+    "git_commit": "THR_BETA_CS-060304_VERIFIED",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -183,33 +183,37 @@
       "notes": "Preclinical. PubChem CID 177823044. 1 PubMed paper (PLoS One 2025). Liver-targeting THR-β agonist."
     },
     {
-      "chem_name": "CS-060304",
-      "company": "Kaisi Kaidi Pharmaceuticals",
-      "stage": "Unknown (related compound KYLO-0603 is preclinical)",
+      "chem_name": "CS-060304 (Thybetaxor)",
+      "company": "Kaisi Kaidi Pharmaceuticals (凯思凯迪)",
+      "stage": "Phase 1 (FDA IND Feb 2024, NMPA IND June 2024)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Related compound KYLO-0603 found with similar naming pattern. KYLO-0603 is a GalNAc-modified THR-β agonist with hepatocyte-targeted delivery."
+        "notes": "THR-β selective agonist. Oral tablet formulation."
       },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [
+      "clinical_trials": [
         {
-          "pmid": "40953087",
-          "journal": "PLoS One",
-          "year": "2025",
-          "title": "KYLO-0603, a novel liver-targeting, thyroid hormone receptor-β agonist for the inhibition of MASH progression",
-          "doi": "10.1371/journal.pone.0331768",
-          "note": "Related compound KYLO-0603, not CS-060304 directly"
+          "registry": "FDA/NMPA",
+          "trial_id": "IND approved",
+          "phase": "Phase 1",
+          "status": "Ongoing",
+          "url": "",
+          "note": "FDA IND approved Feb 19, 2024. NMPA (CDE) IND approved June 18, 2024 (CXHL2400331). Phase 1 recruitment ongoing in Beijing."
         }
       ],
+      "patents": [
+        {
+          "note": "Company reports 33 trademark registrations. Specific CS-060304 patents not publicly disclosed."
+        }
+      ],
+      "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "CS-060304 not found in public databases. Related compound KYLO-0603 found with similar naming (0603). KYLO-0603 published in PLoS One 2025 (PMID: 40953087): GalNAc-modified THR-β agonist with hepatocyte-targeted delivery. Efficacy: 69.2% cholesterol reduction, 88.2% LDL-C reduction, NAS score -3.7 points (P<0.0001), fibrosis -0.6 points (P<0.05). Cannot confirm if CS-060304 and KYLO-0603 are same compound.",
-      "data_quality": "partial",
-      "notes": "CS-060304 not found. KYLO-0603 (related) has 1 PubMed paper (PLoS One 2025)."
+      "key_findings": "CS-060304 (Thybetaxor) is a THR-β selective agonist from Kaisi Kaidi Pharmaceuticals (Shanghai, China) for NASH/MASH and lipid lowering. FDA IND approved Feb 19, 2024. NMPA IND approved June 18, 2024 (CXHL2400331). Phase 1 ongoing. Preclinical data shows excellent lipid-lowering effects and good safety profile. Company completed Series C funding (~500M CNY) in 2026. Pipeline includes 10+ drug candidates including Linafexor (FXR agonist).",
+      "data_quality": "verified",
+      "notes": "Phase 1. FDA IND Feb 2024, NMPA IND June 2024. Series C 2026."
     },
     {
       "chem_name": "RJ-4287",
