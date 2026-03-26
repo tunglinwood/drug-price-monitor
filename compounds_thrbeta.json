@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:43:43.584438",
+    "last_updated": "2026-03-27T00:47:59.677126",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_HP-515_NOT_FOUND",
+    "git_commit": "THR_BETA_ASC-41_PARTIAL",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -463,23 +463,23 @@
     },
     {
       "chem_name": "ASC-41",
-      "company": "Ascletis Pharma",
-      "stage": "Phase II",
+      "company": "Ascletis Pharma Inc. (1672.HK)",
+      "stage": "Phase 2a (reported)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "THR-β agonist for NASH/MASH"
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "ASC-41 is a THR-β agonist from Ascletis Pharma (1672.HK). Reported Phase 2a for NASH/MASH. Specific efficacy data, trial numbers, and publications not accessible due to website restrictions (404 errors, Cloudflare blocks). Company focuses on metabolic diseases with AI-assisted drug discovery platform.",
+      "data_quality": "partial",
+      "notes": "Phase 2a reported but not verified. Access restrictions on company website and clinical trial databases."
     },
     {
       "chem_name": "HSK-31679",
