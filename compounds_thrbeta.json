@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "last_updated": "2026-03-26T15:35:00+08:00",
+    "total_compounds": 0,
+    "extracted_via": "pending",
+    "extraction_method": "pending",
+    "git_commit": "THR_BETA_PLACEHOLDER",
+    "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
+    "format": "hierarchical_json",
+    "board": "THR-Beta Agonists",
+    "note": "Placeholder file - awaiting THR-beta compound list from user"
+  },
+  "summary": {
+    "verified_trials": 0,
+    "pending_verification": 0,
+    "no_trials_early_stage": 0,
+    "terminated": 0,
+    "approved": 0
+  },
+  "compounds": []
+}
