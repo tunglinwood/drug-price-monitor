@@ -14,11 +14,28 @@ from simple_auth import require_login, show_user_info, has_permission
 
 # 页面配置
 st.set_page_config(
-    page_title="GLP-1 化合物监控系统",
+    page_title="化合物监控系统",
     page_icon="🧪",
     layout="wide",
     initial_sidebar_state="expanded"
 )
+
+# ========== SIDEBAR NAVIGATION ==========
+st.sidebar.title("🧭 Tracking Boards")
+board = st.sidebar.radio(
+    "Select Board",
+    ["🧪 GLP-1 Compounds", "🦋 THR-Beta Compounds"]
+)
+
+# Load data based on selection
+if board == "🧪 GLP-1 Compounds":
+    compounds_file = "compounds.json"
+    board_title = "🧪 GLP-1 Receptor Agonists Tracking"
+    board_icon = "🧪"
+else:
+    compounds_file = "compounds_thrbeta.json"
+    board_title = "🦋 THR-Beta Agonists Tracking"
+    board_icon = "🦋"
 
 # 自定义 CSS
 st.markdown("""
@@ -67,7 +84,7 @@ show_user_info()
 # 用户已登录，继续加载 Dashboard
 
 # 标题
-st.title("🧪 GLP-1 化合物监控系统")
+st.title(board_title)
 st.markdown(f"**更新时间:** {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
 
 # Display data version info
@@ -76,12 +93,12 @@ if 'data_loaded_at' in st.session_state:
 
 # 加载数据
 @st.cache_data
-def load_data():
+def load_data(compounds_file='compounds.json'):
     """加载最新的监控数据 from JSON"""
     import os
     
     # 尝试从本地文件加载（本地开发）
-    json_path = Path('compounds.json')
+    json_path = Path(compounds_file)
     if json_path.exists():
         try:
             with open(json_path, 'r', encoding='utf-8') as f:
@@ -110,10 +127,15 @@ def load_data():
         st.error(f"加载 GitHub 数据失败：{e}")
         return None
 
-dashboard = load_data()
+# Load data for selected board
+dashboard = load_data(compounds_file)
 
 if dashboard is None:
-    st.error("❌ 未找到监控数据，请先运行监控系统")
+    if board == "🦋 THR-Beta Compounds":
+        st.warning(f"⚠️ {compounds_file} not found yet. Please provide THR-beta compound list to create this file.")
+        st.info("💡 Switch to 🧪 GLP-1 Compounds board to view GLP-1 data.")
+    else:
+        st.error("❌ 未找到监控数据，请先运行监控系统")
     st.stop()
 
 # 提取化合物列表
