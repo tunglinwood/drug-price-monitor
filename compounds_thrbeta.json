@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:54:26.968416",
+    "last_updated": "2026-03-27T00:55:50.544608",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_CS-060304_PARTIAL",
+    "git_commit": "THR_BETA_KYLO-0603_VERIFIED",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -151,23 +151,36 @@
     },
     {
       "chem_name": "Kylo-0603",
-      "company": "Kylonova Biopharma",
-      "stage": "Phase I",
+      "company": "Kylonova (Xiamen) Biopharma Co., Ltd",
+      "stage": "Preclinical",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "177823044",
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "molecular_formula": "C81H134N8O28",
+        "notes": "GalNAc-modified THR-β agonist with hepatocyte-targeted delivery (ASGPR ligands)"
       },
       "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
+      "patents": [
+        {
+          "note": "No specific patent documents identified in public searches. Patent applications may be pending."
+        }
+      ],
+      "pubmed_papers": [
+        {
+          "pmid": "40953087",
+          "journal": "PLoS One",
+          "year": "2025",
+          "title": "KYLO-0603, a novel liver-targeting, thyroid hormone receptor-β agonist for the inhibition of MASH progression",
+          "doi": "10.1371/journal.pone.0331768"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "Kylo-0603 is a liver-targeting THR-β agonist from Kylonova Biopharma (Xiamen, China). Preclinical data (PLoS One 2025, PMID: 40953087) shows: serum cholesterol ↓69.2%, LDL-C ↓88.2%, steatosis -1.3 points (P<0.001), inflammation -1.8 points (P<0.0001), ballooning -0.8 points (P<0.01), NAS score -3.7 points (P<0.0001), fibrosis -0.6 points (P<0.05). GalNAc-modified with ASGPR ligands for hepatocyte-targeted delivery. Not yet in human clinical trials. 1 PubMed publication + 1 bioRxiv preprint.",
+      "data_quality": "verified",
+      "notes": "Preclinical. PubChem CID 177823044. 1 PubMed paper (PLoS One 2025). Liver-targeting THR-β agonist."
     },
     {
       "chem_name": "CS-060304",
