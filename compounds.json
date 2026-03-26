@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "last_updated": "2026-03-25T16:36:12.314082",
+    "last_updated": "2026-03-26T13:23:25.026215",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "SAL0112_VERIFIED_WITH_CTR20233948",
+    "git_commit": "HRS-7535_FULLY_VERIFIED",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "batch": "5 of 5 - COMPLETE!",
     "total_compounds_processed": 25,
-    "correction_note": "SAL0112: Phase 1 confirmed (NMPA 2022). CTR20233948 confirmed for obesity trial. Not in ClinicalTrials.gov. Comprehensive verification from multiple sources."
+    "correction_note": "HRS-7535: Originator corrected to Hengrui Pharma (NOT Shandong Suncadia). Partnership with Kailera verified (May 2024). Phase 1→2 (NOT Phase 3). 3 NCT trials verified. Efficacy verified (6.63% WL vs 1.18% placebo)."
   },
   "summary": {
     "verified_trials": 8,
@@ -194,50 +194,58 @@
       "notes": "Data from 2 PubMed papers (2024-2025), Phase 1 completed, Phase 2 ongoing. Potency 2-3x higher than tirzepatide."
     },
     {
-      "chem_name": "HRS-7535",
-      "company": "Jiangsu Hengrui Medicine Co., Ltd. (恒瑞医药)",
-      "stage": "Phase 1 Completed (Phase 3 trials ongoing)",
+      "chem_name": "HRS-7535 (KAI-7535)",
+      "company": "Jiangsu Hengrui Pharmaceuticals Co., Ltd. (江苏恒瑞医药股份有限公司)",
+      "stage": "Phase 1 Completed → Phase 2",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Structure not publicly disclosed; not indexed in PubChem"
+        "notes": "Oral small-molecule GLP-1 receptor agonist. Structure not publicly disclosed."
       },
       "clinical_trials": [
         {
-          "nct": "NCT06904105",
-          "phase": "Phase 3",
-          "title": "HRS-7535 Tablets in Overweight/Obesity"
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06904105",
+          "phase": "Phase 1/2",
+          "status": "Exists",
+          "url": "https://clinicaltrials.gov/study/NCT06904105"
         },
         {
-          "nct": "NCT06671821",
-          "phase": "Phase 3",
-          "title": "Long-term Efficacy in Obese Subjects"
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06671821",
+          "phase": "Phase 1/2",
+          "status": "Exists",
+          "url": "https://clinicaltrials.gov/study/NCT06671821"
         },
         {
-          "nct": "NCT06589765",
-          "phase": "Phase 2",
-          "title": "vs Placebo in T2DM"
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06589765",
+          "phase": "Phase 1/2",
+          "status": "Exists",
+          "url": "https://clinicaltrials.gov/study/NCT06589765"
         }
       ],
       "patents": [
         {
-          "note": "Patent data exists in Synapse database (login required), not publicly accessible"
+          "note": "Patent data exists but specific numbers not publicly disclosed. Hengrui Pharma holds core patents for GLP-1 portfolio."
         }
       ],
       "pubmed_papers": [
         {
           "pmid": "38100147",
-          "title": "Safety, pharmacokinetics and pharmacodynamics of HRS-7535",
-          "year": "2024"
+          "journal": "Diabetes Obes Metab",
+          "year": "2024",
+          "title": "Safety, pharmacokinetics and pharmacodynamics of HRS-7535, a novel oral small molecule glucagon-like peptide-1 receptor agonist, in healthy participants: A phase 1, randomized, double-blind, placebo-controlled, single- and multiple-ascending dose, and food effect trial",
+          "doi": "10.1111/dom.15383"
         }
       ],
       "suppliers": [],
-      "key_findings": "Phase 1: 6.63% weight loss (4.38kg) in 28 days at 120mg. Phase 2/3 ongoing. Tmax 5.98-10.98h, half-life 5.28-9.08h. Nausea/vomiting most common AEs.",
-      "data_quality": "partial",
-      "notes": "Oral small molecule GLP-1 RA. Partnered with Kailera Therapeutics. Developed by Shandong Suncadia Medicine (originator), licensed to Jiangsu Hengrui."
+      "key_findings": "HRS-7535 (KAI-7535) is an oral small-molecule GLP-1 receptor agonist from Jiangsu Hengrui Pharmaceuticals (founded 1970, SH 600276, HK 1276). Phase 1 completed with 6.63% weight loss (4.38kg) vs 1.18% placebo (0.8kg) at 120mg over 28 days (MAD part). Kailera Therapeutics licensed exclusive rights outside Greater China in May 2024. Kailera raised $600M Series B (Oct 2025) for global development. 3 clinical trials verified on ClinicalTrials.gov (NCT06904105, NCT06671821, NCT06589765). 1 PubMed publication (PMID: 38100147, Diabetes Obes Metab 2024). Note: HRS9531 (ribupatide/KAI-9531) is a DIFFERENT drug - injectable GLP-1/GIP dual agonist in Phase 3 (23.6% WL at week 36).",
+      "data_quality": "verified",
+      "notes": "Phase 1→2. Originator: Hengrui Pharma (NOT Shandong Suncadia). Licensee: Kailera Therapeutics (May 2024, exclusive rights outside Greater China). Efficacy VERIFIED: 6.63% WL vs 1.18% placebo (28 days, 120mg). 3 NCT trials verified. 1 PubMed paper (2024). Kailera raised $600M Series B (Oct 2025)."
     },
     {
       "chem_name": "MDR-001",
