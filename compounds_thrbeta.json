@@ -1,18 +1,18 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:18:31.032756",
+    "last_updated": "2026-03-27T00:22:22.867875",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_RESMETIROM_VERIFIED",
+    "git_commit": "THR_BETA_VK2809_VERIFIED",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
-    "note": "Resmetirom (REZDIFFRA) fully verified - FDA approved Mar 14, 2024. First THR-beta agonist for NASH/MASH."
+    "note": "Resmetirom (REZDIFFRA) and VK2809 fully verified."
   },
   "summary": {
-    "verified_trials": 2,
-    "pending_verification": 19,
+    "verified_trials": 4,
+    "pending_verification": 17,
     "no_trials_early_stage": 0,
     "terminated": 0,
     "approved": 1
@@ -350,24 +350,67 @@
       "notes": "From user THR-beta tracking list"
     },
     {
-      "chem_name": "VK2809",
+      "chem_name": "VK2809 (MB07811)",
       "company": "Viking Therapeutics",
-      "stage": "Phase II",
+      "stage": "Phase 2b completed (VOYAGE trial)",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "15942005",
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "THR-β Agonist"
+        "molecular_formula": "C28H32ClO5P",
+        "notes": "Liver-selective TRβ agonist prodrug (HepDirect technology). Also known as MB07811."
       },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT04173065",
+          "phase": "Phase 2b",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT04173065",
+          "trial_name": "VOYAGE",
+          "note": "Primary efficacy trial for NASH/fibrosis"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT02912260",
+          "phase": "Phase 2a",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT02912260",
+          "trial_name": "NAFLD/elevated LDL-C",
+          "note": "12-week safety and efficacy trial"
+        }
+      ],
+      "patents": [
+        {
+          "note": "HepDirect prodrug technology patents. Key patents: Erion MD et al. PNAS 2007;104(39):15490-15495 (PMID: 17878314). Viking Therapeutics holds patents on TRβ agonists and liver-targeting thyromimetics."
+        }
+      ],
+      "pubmed_papers": [
+        {
+          "pmid": "31337282",
+          "journal": "PNAS",
+          "year": "2019",
+          "title": "A Liver-Specific Thyromimetic, VK2809, Decreases Hepatosteatosis in Glycogen Storage Disease Type Ia"
+        },
+        {
+          "pmid": "17878314",
+          "journal": "PNAS",
+          "year": "2007",
+          "title": "Targeting Thyroid Hormone Receptor-Beta Agonists to the Liver Reduces Cholesterol and Triglycerides"
+        },
+        {
+          "pmid": "37487290",
+          "journal": "J Pharm Biomed Anal",
+          "year": "2023",
+          "title": "Development and validation for bioanalysis of VK2809"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "Source: 药渡提供"
+      "key_findings": "VK2809 is a liver-selective TRβ agonist prodrug (HepDirect technology) from Viking Therapeutics. Phase 2b VOYAGE trial showed 38-55% hepatic fat reduction (12 weeks), 63-75% NASH resolution vs 29% placebo (52 weeks), 44-57% fibrosis improvement vs 34% placebo. LDL-C reduction 11-20% placebo-adjusted. 94% of AEs mild/moderate, excellent GI tolerability. Mechanism: liver-targeted prodrug cleaved by CYP450 to active TRβ agonist (MB07344). 11 PubMed publications.",
+      "data_quality": "verified",
+      "notes": "Phase 2b completed. VOYAGE trial (NCT04173065). Also known as MB07811. HepDirect prodrug technology minimizes cardiac/thyroid effects."
     },
     {
       "chem_name": "ALG-055009",
