@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:50:21.097302",
+    "last_updated": "2026-03-27T00:51:35.597427",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_RJ-4287_NOT_FOUND",
+    "git_commit": "THR_BETA_CS-060380_NOT_FOUND",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -132,22 +132,22 @@
     {
       "chem_name": "CS-060380",
       "company": "Kaisi Kaidi Pharmaceuticals",
-      "stage": "Phase I",
+      "stage": "Unknown (no public data)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "No public data found. Company not found in public databases."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "No public data found for CS-060380. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, Google Patents, and Chinese pharma databases returned no results. Company 'Kaisi Kaidi Pharmaceuticals' not found in public databases. Compound may be very early-stage/preclinical or information not yet publicly disclosed.",
+      "data_quality": "not_found",
+      "notes": "No public data. Company not found in public databases."
     },
     {
       "chem_name": "Kylo-0603",
