@@ -1,15 +1,15 @@
 {
   "metadata": {
-    "last_updated": "2026-03-26T13:23:25.026215",
+    "last_updated": "2026-03-26T13:50:17.839749",
     "total_compounds": 25,
     "extracted_via": "two_step_extraction",
     "extraction_method": "subagent_reads_unstructured_search_and_extracts_structured_json",
-    "git_commit": "HRS-7535_FULLY_VERIFIED",
+    "git_commit": "BGM0504_VERIFIED_PHASE3_PATENTS",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "batch": "5 of 5 - COMPLETE!",
     "total_compounds_processed": 25,
-    "correction_note": "HRS-7535: Originator corrected to Hengrui Pharma (NOT Shandong Suncadia). Partnership with Kailera verified (May 2024). Phase 1→2 (NOT Phase 3). 3 NCT trials verified. Efficacy verified (6.63% WL vs 1.18% placebo)."
+    "correction_note": "BGM0504: Stage updated to Phase 1/2/3. 3 trials added (CTR20230120, NCT06911203, NCT06704581). Patents added (US granted 2025, China granted). Cholestatic hepatitis claim removed (not supported)."
   },
   "summary": {
     "verified_trials": 8,
@@ -157,14 +157,14 @@
     {
       "chem_name": "BGM0504",
       "company": "BrightGene Bio-Medical Technology Co., Ltd. (博瑞生物)",
-      "stage": "Phase 2",
+      "stage": "Phase 1 completed; Phase 2 and Phase 3 ongoing (injection, obesity/T2DM)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "GLP-1/GIP dual agonist peptide"
+        "notes": "Peptide dual GLP-1R/GIPR agonist; detailed structure not publicly disclosed."
       },
       "clinical_trials": [
         {
@@ -172,26 +172,49 @@
           "trial_id": "CTR20230120",
           "phase": "Phase 1",
           "status": "Completed",
-          "url": ""
+          "url": "",
+          "note": "Phase Ia, 40 healthy volunteers, randomized double-blind placebo-controlled"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06911203",
+          "phase": "Phase 2",
+          "status": "Recruiting",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT06911203",
+          "note": "BGM0504 vs tirzepatide in adults with obesity (no diabetes), SC once weekly"
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT06704581",
+          "phase": "Phase 3",
+          "status": "Recruiting",
+          "url": "https://clinicaltrials.gov/ct2/show/NCT06704581",
+          "note": "Phase III, multicenter, randomized, double-blind, placebo-controlled, overweight/obese Chinese adults, SC once weekly, recruiting since 2024-10-28"
         }
       ],
-      "patents": [],
+      "patents": [
+        {
+          "note": "BGM0504 is a patented dual GLP-1R/GIPR agonist. A core compound patent has been granted in the United States (2025), with corresponding patents granted in China; exact CN/US numbers are not clearly disclosed in open sources."
+        }
+      ],
       "pubmed_papers": [
         {
           "pmid": "39840511",
-          "title": "The safety, tolerability, pharmacokinetics and pharmacodynamics of an optimized dual GLP-1/GIP receptor agonist (BGM0504) in healthy volunteers: A dose-escalation Phase I study",
-          "year": "2025"
+          "journal": "Diabetes Obes Metab",
+          "year": "2025",
+          "title": "The safety, tolerability, pharmacokinetics and pharmacodynamics of an optimized dual GLP-1/GIP receptor agonist (BGM0504) in healthy volunteers: A dose-escalation Phase I study"
         },
         {
           "pmid": "39030216",
-          "title": "Molecular dynamics-guided optimization of BGM0504 enhances dual-target agonism for combating diabetes and obesity",
-          "year": "2024"
+          "journal": "Sci Rep",
+          "year": "2024",
+          "title": "Molecular dynamics-guided optimization of BGM0504 enhances dual-target agonism for combating diabetes and obesity"
         }
       ],
       "suppliers": [],
-      "key_findings": "BGM0504 is a GLP-1/GIP dual agonist developed by BrightGene Bio-Medical. Phase 1 study (40 volunteers) showed dose-dependent weight loss: -8.30% at 15mg, -7.09% at 10mg, -6.26% at 5mg, -3.24% at 2.5mg. Half-life 4 days supports once-weekly dosing. Preclinical data shows 2-3x more potent than tirzepatide at GLP-1R/GIPR (EC50: 0.031 nM vs 0.086 nM). 55% fibrosis reduction in NASH model. Safety: GI events most common (vomiting, nausea, decreased appetite), 1 case report of cholestatic hepatitis (PMC11557366, recovered with treatment).",
-      "data_quality": "verified",
-      "notes": "Data from 2 PubMed papers (2024-2025), Phase 1 completed, Phase 2 ongoing. Potency 2-3x higher than tirzepatide."
+      "key_findings": "BGM0504 is a synthetic peptide dual GLP-1R/GIPR agonist developed by BrightGene. In a randomized, double-blind Phase I study in 40 healthy volunteers (CTR20230120), once-weekly SC dosing produced dose-dependent weight loss (-3.24%, -6.26%, -7.09%, -8.30% at 2.5, 5, 10, 15 mg), with a PK profile supporting weekly administration. Preclinical data show approximately 2-3-fold higher agonistic activity at both GLP-1R and GIPR compared with tirzepatide, with superior efficacy in diabetic and NASH mouse models, including marked reductions in liver fibrosis and improved metabolic parameters. Safety data to date indicate predominantly gastrointestinal adverse events (vomiting, nausea, decreased appetite, diarrhea, abdominal distension), and the drug is generally safe and well tolerated.",
+      "data_quality": "partial",
+      "notes": "Data from 2 PubMed papers (2024-2025) and Chinese/US/ClinicalTrials.gov registries indicate Phase 1 completion and ongoing Phase 2-3 programs. Potency advantage vs tirzepatide is supported qualitatively (approximately 2-3x higher agonistic activity). US compound patent granted 2025, China patents granted."
     },
     {
       "chem_name": "HRS-7535 (KAI-7535)",
