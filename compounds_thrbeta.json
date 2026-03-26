@@ -1,17 +1,17 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:22:22.867875",
+    "last_updated": "2026-03-27T00:26:22.167058",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_VK2809_VERIFIED",
+    "git_commit": "THR_BETA_ALG-055009_VERIFIED",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
-    "note": "Resmetirom (REZDIFFRA) and VK2809 fully verified."
+    "note": "Resmetirom, VK2809, and ALG-055009 fully verified."
   },
   "summary": {
-    "verified_trials": 4,
+    "verified_trials": 5,
     "pending_verification": 17,
     "no_trials_early_stage": 0,
     "terminated": 0,
@@ -415,22 +415,51 @@
     {
       "chem_name": "ALG-055009",
       "company": "Aligos Therapeutics",
-      "stage": "Phase II",
+      "stage": "Phase 1 completed (advancing to Phase 2)",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "71025419",
         "smiles": null,
         "inchikey": null,
-        "iupac": null,
+        "iupac": "6-amino-2-[3,5-dichloro-4-[(6-oxo-5-propan-2-yl-1H-pyridazin-3-yl)oxy]phenyl]-1,2,4-triazine-3,5-dione",
         "molecular_weight": null,
-        "notes": "THR-β Agonist"
+        "molecular_formula": "C16H14Cl2N6O4",
+        "notes": "Selective THR-β agonist for MASH"
       },
-      "clinical_trials": [],
-      "patents": [],
-      "pubmed_papers": [],
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05982396",
+          "phase": "Phase 1",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/search?term=ALG-055009",
+          "note": "Phase 1 study in healthy participants/hyperlipidemic"
+        }
+      ],
+      "patents": [
+        {
+          "note": "Specific ALG-055009 patent numbers not verified in public searches."
+        }
+      ],
+      "pubmed_papers": [
+        {
+          "pmid": "39221768",
+          "journal": "J Med Chem",
+          "year": "2024",
+          "title": "Discovery and Preclinical Profile of ALG-055009, a Potent and Selective Thyroid Hormone Receptor Beta (THR-β) Agonist for the Treatment of MASH",
+          "doi": "10.1021/acs.jmedchem.4c01029"
+        },
+        {
+          "pmid": "40971152",
+          "journal": "Clin Pharmacol Drug Dev",
+          "year": "2026",
+          "title": "A multipart phase 1 study of the safety, pharmacodynamics and pharmacokinetics of ALG-055009, a novel thyroid hormone receptor beta (THR-β) agonist for metabolic dysfunction-associated steatohepatitis (MASH), in healthy participants",
+          "doi": "10.1002/cpdd.1606"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "Source: 药渡提供"
+      "key_findings": "ALG-055009 is a selective THR-β agonist from Aligos Therapeutics. Phase 1 completed (Clin Pharmacol Drug Dev 2026). Dose-dependent decreases in ApoB and LDL-C observed. Increases in SHBG. Half-life ~20 hours, rapid absorption, low variability. Well tolerated with mostly mild/moderate AEs. NO hepatic fat/NASH/fibrosis data yet (Phase 2 not started). 2 PubMed publications (2024, 2026).",
+      "data_quality": "verified",
+      "notes": "Phase 1 completed. Phase 2 not yet started. Lipid lowering (ApoB, LDL-C) and SHBG increase verified. No histological efficacy data available yet."
     },
     {
       "chem_name": "ASC-41",
