@@ -20,23 +20,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# ========== SIDEBAR NAVIGATION ==========
-st.sidebar.title("🧭 Tracking Boards")
-board = st.sidebar.radio(
-    "Select Board",
-    ["🧪 GLP-1 Compounds", "🦋 THR-Beta Compounds"]
-)
-
-# Load data based on selection
-if board == "🧪 GLP-1 Compounds":
-    compounds_file = "compounds.json"
-    board_title = "🧪 GLP-1 Receptor Agonists Tracking"
-    board_icon = "🧪"
-else:
-    compounds_file = "compounds_thrbeta.json"
-    board_title = "🦋 THR-Beta Agonists Tracking"
-    board_icon = "🦋"
-
 # 自定义 CSS
 st.markdown("""
 <style>
@@ -82,6 +65,21 @@ if not require_login():
 show_user_info()
 
 # 用户已登录，继续加载 Dashboard
+
+# ========== SIDEBAR NAVIGATION (ONLY VISIBLE AFTER LOGIN) ==========
+st.sidebar.title("🧭 Tracking Boards")
+board = st.sidebar.radio(
+    "Select Board",
+    ["🧪 GLP-1 Compounds", "🦋 THR-Beta Compounds"]
+)
+
+# Load data based on selection
+if board == "🧪 GLP-1 Compounds":
+    compounds_file = "compounds.json"
+    board_title = "🧪 GLP-1 Receptor Agonists Tracking"
+else:
+    compounds_file = "compounds_thrbeta.json"
+    board_title = "🦋 THR-Beta Agonists Tracking"
 
 # 标题
 st.title(board_title)
