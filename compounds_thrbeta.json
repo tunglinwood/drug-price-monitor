@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T01:14:11.152641",
+    "last_updated": "2026-03-27T01:25:55.675370",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_HEC169584_MINIMAL",
+    "git_commit": "THR_BETA_ASC-43F_NOT_FOUND",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -277,23 +277,23 @@
     },
     {
       "chem_name": "ASC-43F",
-      "company": "Ascletis Pharma",
-      "stage": "Phase I",
+      "company": "Ascletis Pharma Inc. (1672.HK)",
+      "stage": "Unknown (no public data)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "No public data found. Ascletis has other liver disease candidates (ASC42 FXR agonist for NASH, ASC30 GLP-1R, ASC35 GLP-1R/GIPR, etc.)."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "No public data found for ASC-43F. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, EU CTR, and patents returned no results. Ascletis Pharma (1672.HK) has other liver disease candidates including ASC42 (FXR agonist for NASH/PBC), ASC30 (GLP-1R), ASC35 (GLP-1R/GIPR), ASC36 (Amylin), ASC37 (Triple agonist), ASC39 (Oral amylin). ASC-43F may be very early-stage/preclinical or known by different code name.",
+      "data_quality": "not_found",
+      "notes": "No public data. Ascletis (1672.HK) has other liver/metabolic candidates."
     },
     {
       "chem_name": "KPC000154",
