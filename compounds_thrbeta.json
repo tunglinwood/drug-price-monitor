@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:38:01.121668",
+    "last_updated": "2026-03-27T00:43:43.584438",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_HSK-31679_VERIFIED",
+    "git_commit": "THR_BETA_HP-515_NOT_FOUND",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -331,23 +331,23 @@
     },
     {
       "chem_name": "HP-515",
-      "company": "Hinova",
-      "stage": "Phase I",
+      "company": "Hinova Pharmaceuticals (海创药业)",
+      "stage": "Unknown (likely early-stage/preclinical)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "No public data available. Compound may be in early discovery or known by alternative code name."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "No public data found for HP-515. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, Google Patents, and company website returned no results. Likely very early-stage compound with limited public disclosure.",
+      "data_quality": "not_found",
+      "notes": "No public data. Search recommended: Chinese regulatory databases (NMPA/CDE), CNIPA patents, recent Chinese pharma news."
     },
     {
       "chem_name": "VK2809 (MB07811)",
