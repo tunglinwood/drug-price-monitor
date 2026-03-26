@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T00:55:50.544608",
+    "last_updated": "2026-03-27T00:58:52.647963",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_KYLO-0603_VERIFIED",
+    "git_commit": "THR_BETA_KH-629_NOT_FOUND",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
@@ -241,15 +241,15 @@
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "No public data found. Kanghong primarily known for ophthalmology drugs (conbercept/Lumitin), not NASH therapies."
+        "notes": "Kanghong primarily known for ophthalmology drugs (conbercept/KH902 for AMD/DME). No public data for KH-629 as THR-beta agonist."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "No public data found for KH-629. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, and Google Patents returned no results. Kanghong Pharmaceutical is primarily known for ophthalmology drugs (anti-VEGF for AMD/DME/PCV), not NASH/MASH therapies. Compound may be very early preclinical, internal code name, or confidential development.",
+      "key_findings": "No public data found for KH-629 as THR-beta agonist. Kanghong Pharmaceutical (Chengdu, China) is primarily known for ophthalmology drugs, specifically conbercept (KH902) - an approved anti-VEGF therapy for AMD, DME, and retinal diseases. 24+ PubMed publications exist for conbercept, but ZERO for KH-629. Compound may be early preclinical, internal code, or confidential THR-beta program not yet disclosed.",
       "data_quality": "not_found",
-      "notes": "No public data. Kanghong not known for NASH pipeline."
+      "notes": "No public data. Kanghong known for ophthalmology (conbercept), not NASH."
     },
     {
       "chem_name": "HEC169584",
