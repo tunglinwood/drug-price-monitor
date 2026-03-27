@@ -70,16 +70,19 @@ show_user_info()
 st.sidebar.title("Tracking Boards")
 board = st.sidebar.radio(
     "Select Board",
-    ["GLP-1 Compounds", "THR-Beta Compounds"]
+    ["GLP-1 Compounds", "THR-Beta Compounds", "FGF21 Analogues"]
 )
 
 # Load data based on selection
 if board == "GLP-1 Compounds":
     compounds_file = "compounds.json"
     board_title = "GLP-1 Receptor Agonists Tracking"
-else:
+elif board == "THR-Beta Compounds":
     compounds_file = "compounds_thrbeta.json"
     board_title = "THR-Beta Agonists Tracking"
+else:  # FGF21 Analogues
+    compounds_file = "compounds_fgf21.json"
+    board_title = "FGF21 Analogues Tracking"
 
 # 标题
 st.title(board_title)
@@ -132,6 +135,9 @@ if dashboard is None:
     if board == "THR-Beta Compounds":
         st.warning(f"⚠️ {compounds_file} not found yet. Please provide THR-beta compound list to create this file.")
         st.info("💡 Switch to GLP-1 Compounds board to view GLP-1 data.")
+    elif board == "FGF21 Analogues":
+        st.warning(f"⚠️ {compounds_file} not found yet. Please provide FGF21 analogue compound list to create this file.")
+        st.info("💡 Switch to GLP-1 Compounds or THR-Beta Compounds board to view existing data.")
     else:
         st.error("❌ 未找到监控数据，请先运行监控系统")
     st.stop()
