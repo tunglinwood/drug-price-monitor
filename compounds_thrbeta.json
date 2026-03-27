@@ -1,42 +1,46 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T01:25:55.675370",
+    "last_updated": "2026-03-27T07:50:04.312207",
     "total_compounds": 19,
     "extracted_via": "pending",
     "extraction_method": "pending",
-    "git_commit": "THR_BETA_ASC-43F_NOT_FOUND",
+    "git_commit": "THR_BETA_ZB-129_NOT_FOUND",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "THR-Beta Agonists",
     "note": "Resmetirom, VK2809, ALG-055009, and HSK-31679 fully verified."
   },
   "summary": {
-    "verified_trials": 6,
-    "pending_verification": 17,
-    "no_trials_early_stage": 0,
-    "terminated": 0,
-    "approved": 1
+    "total_compounds": 19,
+    "verified": 8,
+    "partial": 2,
+    "not_found": 8,
+    "last_updated": "2026-03-27T07:50:04.312176"
   },
   "compounds": [
     {
       "chem_name": "ZB-129",
-      "company": "Shanghai Institute of Materia Medica (SIMM)",
-      "stage": "Unknown (no public data)",
+      "company": "Shanghai Institute of Materia Medica (SIMM, Chinese Academy of Sciences)",
+      "stage": "Preclinical/Early-stage",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "No public data found. May be early-stage/preclinical or internal SIMM code."
+        "notes": "No public data found. Likely early-stage/preclinical THR-β agonist. May be internal designation for compound in discovery/optimization phase. Related to SIMM's 2023 J Med Chem publication (PMID: 36799411) describing 'compound 15' with excellent liver-to-serum ratio (93:1), higher potency/selectivity than resmetirom."
       },
       "clinical_trials": [],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "note": "No direct publications for ZB-129. Related SIMM research: Hu L, et al. 'Discovery of Highly Potent and Selective Thyroid Hormone Receptor β Agonists for the Treatment of Nonalcoholic Steatohepatitis.' J Med Chem. 2023;66(5):3284-3300. PMID: 36799411 - describes 'compound 15' with excellent liver-to-serum ratio (93:1), higher potency/selectivity than MGL-3196 (resmetirom)."
+        }
+      ],
       "suppliers": [],
-      "key_findings": "No public data found for ZB-129. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, Google Patents, and pharmaceutical databases returned no results. Compound may be early-stage/preclinical, internal SIMM development code, or confidential program not yet publicly disclosed.",
+      "key_findings": "No public data found for ZB-129. Comprehensive search of PubChem (no CID), ClinicalTrials.gov (no trials), PubMed (no direct publications), Google Patents (no patents) returned no results. SIMM (Shanghai Institute of Materia Medica, Chinese Academy of Sciences) verified company with active NASH drug discovery program, particularly THR-β agonists. ZB-129 appears to be early-stage/preclinical THR-β agonist, possibly internal designation for compound in discovery/optimization phase. Related to SIMM's 2023 J Med Chem publication (PMID: 36799411) describing 'compound 15' with excellent liver-to-serum ratio (93:1), higher potency/selectivity than resmetirom.",
       "data_quality": "not_found",
-      "notes": "No public data. SIMM internal code."
+      "notes": "No public data. Early-stage/preclinical. Related to J Med Chem 2023 (PMID: 36799411)."
     },
     {
       "chem_name": "Resmetirom (MGL-3196)",
@@ -111,23 +115,46 @@
     },
     {
       "chem_name": "ECC-4703",
-      "company": "Eccogene Pharmaceuticals",
-      "stage": "Phase I",
+      "company": "Eccogene (Boston, MA / Shanghai, China)",
+      "stage": "Phase 2a (MOSAIC & MIST trials)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "notes": "Oral, once-daily, highly selective liver-targeting THR-β full agonist. No PubChem CID yet (typical for early clinical)."
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {
+          "registry": "Company Pipeline",
+          "trial_id": "MOSAIC trial",
+          "phase": "Phase 2a",
+          "status": "Active (FDA cleared IND November 2024)",
+          "url": "https://www.eccogene.com/news/",
+          "indication": "MASH",
+          "note": "Adults with MRI-based or clinically defined MASH"
+        },
+        {
+          "registry": "Company Pipeline",
+          "trial_id": "MIST trial",
+          "phase": "Phase 2a",
+          "status": "Active (first patient enrolled November 2024)",
+          "url": "https://www.eccogene.com/news/",
+          "indication": "Obesity",
+          "note": "Adjunct to semaglutide in adults with obesity"
+        }
+      ],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "note": "No PubMed publications yet. Phase 1 data presented at ADA 2024 (late-breaking poster) and AASLD November 2024 (two late-breaking abstracts). Typical for early clinical development."
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "ECC-4703 is an oral, once-daily, highly selective liver-targeting THR-β full agonist from Eccogene (Boston/Shanghai, dual headquarters). Phase 2a MOSAIC trial (MASH) FDA cleared IND November 2024. Phase 2a MIST trial (obesity adjunct to semaglutide) first patient enrolled November 2024. Phase 1 data presented at ADA 2024 and AASLD November 2024. Improved PK/PD and safety profiles. Suitable for combination with GLP-1 RAs. Eccogene licensed ECC5004/AZD5004 (oral GLP-1 RA) to AstraZeneca October 2024 ($60M milestone). Other pipeline: ECC0509 (SSAO inhibitor for OA Pain/MASH) Phase 2a.",
+      "data_quality": "verified",
+      "notes": "Phase 2a. MOSAIC (MASH) & MIST (obesity) trials. ADA 2024, AASLD 2024 presentations."
     },
     {
       "chem_name": "CS-060380",
@@ -257,43 +284,43 @@
     },
     {
       "chem_name": "HEC169584",
-      "company": "Sunshine Lake Pharma (HEC, SEHK:6887)",
-      "stage": "Unknown (likely preclinical/early-stage)",
+      "company": "Sunshine Lake Pharma Co., Ltd. (东阳光药, 1530.HK)",
+      "stage": "Preclinical/Undisclosed",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "THR-β selective agonist for NASH/MASH. Partnership with Apollo Therapeutics (Cambridge, England)."
+        "notes": "No public data found. Likely preclinical or not yet publicly disclosed. Likely THR-beta agonist based on company pipeline focus."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "HEC169584 is a THR-β selective agonist from Sunshine Lake Pharma (HEC, SEHK:6887, Dongguan, China) for NASH/MASH. Partnership announced with Apollo Therapeutics Group Limited (Cambridge, England). No PubChem CID, clinical trials, publications, or patents found in public databases. Likely very early-stage/preclinical compound. Many searches blocked by CAPTCHA.",
+      "key_findings": "No public data found for HEC169584. Comprehensive search of PubChem (no CID), ClinicalTrials.gov (no trials), PubMed (no publications), WIPO PATENTSCOPE (no patents), Chinese Drug Trials Registry (no trials), ChemicalBook, Google Scholar, HKEX News, BioWorld, FierceBiotech, Pharmaceutical Technology, and Chinese pharmaceutical databases (yaozh.com, dxy.cn, pharmcube.com) returned no results. Compound likely in preclinical development or not yet publicly disclosed. Likely THR-beta agonist for metabolic disease based on company pipeline focus. Information may only be available through subscription databases (PharmCube, NextPharma, Insight DXY) or company press releases in Chinese.",
       "data_quality": "not_found",
-      "notes": "Minimal data. SEHK:6887. Apollo Therapeutics partnership."
+      "notes": "No public data. Preclinical/undisclosed."
     },
     {
       "chem_name": "ASC-43F",
-      "company": "Ascletis Pharma Inc. (1672.HK)",
-      "stage": "Unknown (no public data)",
+      "company": "Ascletis Pharma Inc. (1672.HK, Hong Kong)",
+      "stage": "Preclinical/Undisclosed",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "No public data found. Ascletis has other liver disease candidates (ASC42 FXR agonist for NASH, ASC30 GLP-1R, ASC35 GLP-1R/GIPR, etc.)."
+        "notes": "No public data found. May be preclinical or internal compound code not yet publicly disclosed. Likely THR-β agonist based on context."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "No public data found for ASC-43F. Comprehensive search of PubChem, ClinicalTrials.gov, PubMed, EU CTR, and patents returned no results. Ascletis Pharma (1672.HK) has other liver disease candidates including ASC42 (FXR agonist for NASH/PBC), ASC30 (GLP-1R), ASC35 (GLP-1R/GIPR), ASC36 (Amylin), ASC37 (Triple agonist), ASC39 (Oral amylin). ASC-43F may be very early-stage/preclinical or known by different code name.",
+      "key_findings": "No public data found for ASC-43F. Comprehensive search of PubChem (no CID), ClinicalTrials.gov (no trials), EU Clinical Trials Register (no trials), PubMed (0 results), Europe PMC (no results), Google Patents (no patents), PR Newswire, GlobeNewswire, Chemical databases (ChemWhat, LookChem, Chemsrc) returned no results. Ascletis Pharma (1672.HK, Hong Kong) verified company with focus on metabolic diseases. Key technologies: AISBDD, ULAP, POTENT platforms. Publicly disclosed pipeline: ASC30, ASC35, ASC36, ASC37, ASC39 (weight management programs). ASC-43F appears to be either preclinical candidate, internal compound code, or THR-β agonist program in early development. Information may only be available through specialized paid databases (Cortellis, Pharmaprojects) or direct company contact.",
       "data_quality": "not_found",
-      "notes": "No public data. Ascletis (1672.HK) has other liver/metabolic candidates."
+      "notes": "No public data. Preclinical/undisclosed."
     },
     {
       "chem_name": "KPC000154",
@@ -331,35 +358,22 @@
     {
       "chem_name": "CVI-2742",
       "company": "CVI Pharmaceuticals",
-      "stage": "Phase 1",
+      "stage": "Unknown (technical limitations prevented data collection)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "THR-beta selective agonist with enhanced liver-targeting properties"
+        "notes": "Search attempted but technical limitations prevented data collection. Company website DNS failures, ClinicalTrials.gov content extraction failed."
       },
-      "clinical_trials": [
-        {
-          "registry": "ClinicalTrials.gov",
-          "trial_id": "NCT06368077",
-          "phase": "Phase 1",
-          "status": "Active (first patient dosed ~2024)",
-          "url": "https://clinicaltrials.gov/study/NCT06368077",
-          "note": "Phase 1 study for NASH/MASH"
-        }
-      ],
+      "clinical_trials": [],
       "patents": [],
-      "pubmed_papers": [
-        {
-          "note": "Referenced in HEPATOLOGY 2024 (AASLD Liver Meeting presentation). Not directly indexed in PubMed."
-        }
-      ],
+      "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "CVI-2742 is a THR-beta selective agonist from CVI Pharmaceuticals in Phase 1 development for NASH/MASH. NCT06368077 registered. Enhanced liver-targeting properties demonstrated in non-human primates (HEPATOLOGY 2024 presentation). First patient dosed ~2024. Limited public efficacy data (Phase 1 stage). Company website not accessible.",
-      "data_quality": "partial",
-      "notes": "Phase 1. NCT06368077. 1 conference presentation (HEPATOLOGY 2024)."
+      "key_findings": "Search for CVI-2742 encountered significant technical limitations. PubChem returned no CID. ClinicalTrials.gov NCT05986885 appears related but details inaccessible due to JavaScript rendering limitations. CVI Pharmaceuticals website inaccessible (DNS failures). PubMed returned no publications. Google Patents content extraction failed. Compound may be very early-stage or data behind paywalls.",
+      "data_quality": "not_found",
+      "notes": "Technical limitations: website DNS failures, ClinicalTrials.gov extraction failed."
     },
     {
       "chem_name": "CVI‑301",
@@ -576,23 +590,42 @@
     },
     {
       "chem_name": "TERN-501",
-      "company": "Terns Pharmaceuticals",
-      "stage": "Phase II",
+      "company": "Terns Pharmaceuticals, Inc. (TERN, NASDAQ)",
+      "stage": "Phase 2a completed (DUET trial)",
       "chemical_identifiers": {
-        "pubchem_cid": null,
+        "pubchem_cid": "146402726",
         "smiles": null,
         "inchikey": null,
-        "iupac": null,
+        "iupac": "N-[3,5-dichloro-4-(1-methyl-6-oxo-5-propan-2-ylpyridazin-3-yl)oxyphenyl]-5-oxo-4H-1,2,4-oxadiazole-3-carboxamide",
         "molecular_weight": null,
-        "notes": "Pending verification"
+        "molecular_formula": "C17H15Cl2N5O5",
+        "notes": "Highly selective THR-β agonist (23-fold vs THR-α)"
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05415722",
+          "phase": "Phase 2a",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT05415722",
+          "trial_name": "DUET trial",
+          "note": "12-week, randomized, double-blind, placebo-controlled, multicenter Phase 2a study in MASH"
+        }
+      ],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "pmid": "40500414",
+          "journal": "Nature Medicine",
+          "year": "2025",
+          "title": "TERN-501 monotherapy and combination therapy with TERN-101 in metabolic dysfunction-associated steatohepatitis: the randomized phase 2a DUET trial",
+          "doi": "10.1038/s41591-025-03722-7"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Pending verification",
-      "data_quality": "pending",
-      "notes": "From user THR-beta tracking list"
+      "key_findings": "TERN-501 is a highly selective THR-β agonist (23-fold vs THR-α) from Terns Pharmaceuticals (TERN, NASDAQ) for MASH/NASH. Phase 2a DUET trial completed. Dose-dependent, significant reductions in MRI-PDFF: -15.4% (1mg), -27.5% (3mg, P=0.0036), -44.8% (6mg, P<0.0001) vs placebo -4.0%. Incidence of AEs similar to placebo. PubChem CID 146402726. Molecular formula C17H15Cl2N5O5. Published in Nature Medicine July 2025 (PMID: 40500414).",
+      "data_quality": "verified",
+      "notes": "Phase 2a completed. PubChem CID 146402726. Nature Medicine 2025."
     }
   ]
 }
