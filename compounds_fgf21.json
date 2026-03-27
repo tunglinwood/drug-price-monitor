@@ -1,21 +1,194 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T09:50:00.000000",
-    "total_compounds": 0,
-    "extracted_via": "pending",
-    "extraction_method": "pending",
-    "git_commit": "FGF21_BOARD_CREATED",
+    "last_updated": "2026-03-27T10:30:00.000000",
+    "total_compounds": 4,
+    "extracted_via": "user_provided_research_summary",
+    "extraction_method": "manual_extraction",
+    "git_commit": "FGF21_INITIAL_POPULATION",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "FGF21 Analogues",
-    "note": "FGF21 analogues for metabolic diseases (NASH/MASH, obesity, diabetes)"
+    "note": "FGF21 analogues for metabolic diseases (NASH/MASH, obesity, diabetes). 3 active, 1 discontinued."
   },
   "summary": {
-    "total_compounds": 0,
-    "verified": 0,
+    "total_compounds": 4,
+    "verified": 3,
     "partial": 0,
     "not_found": 0,
-    "last_updated": "2026-03-27T09:50:00.000000"
+    "discontinued": 1,
+    "last_updated": "2026-03-27T10:30:00.000000"
   },
-  "compounds": []
+  "compounds": [
+    {
+      "chem_name": "Efruxifermin (AKR-001)",
+      "company": "Akero Therapeutics (South San Francisco, CA)",
+      "stage": "Phase 2b completed; Phase 3 planned/initiated",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Bivalent Fc-FGF21 fusion protein. Once-weekly subcutaneous injection."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT04767529",
+          "phase": "Phase 2b",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT04767529",
+          "trial_name": "HARMONY",
+          "note": "96-week trial. 49% achieved ≥1-stage fibrosis improvement vs 19% placebo (p=0.003). 75% fibrosis improvement in per-protocol analysis (p<0.0001). 45.1% MASH resolution vs 13.5% placebo."
+        },
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT05039450",
+          "phase": "Phase 2",
+          "status": "Active",
+          "url": "https://clinicaltrials.gov/study/NCT05039450",
+          "trial_name": "Combination with GLP-1 RA",
+          "note": "65% reduction in hepatic fat fraction when combined with GLP-1 RA."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": "40818852",
+          "journal": "Lancet",
+          "year": "2025",
+          "title": "Efruxifermin HARMONY Trial",
+          "authors": "Noureddin M, et al.",
+          "doi": null
+        },
+        {
+          "pmid": "38447814",
+          "journal": "Clin Gastroenterol Hepatol",
+          "year": "2025",
+          "title": "Efruxifermin + GLP-1 RA",
+          "authors": "Harrison SA, et al.",
+          "doi": null
+        },
+        {
+          "pmid": "41843368",
+          "journal": "Hepatol Int",
+          "year": "2026",
+          "title": "Efruxifermin Meta-Analysis",
+          "authors": "Rajab I, et al.",
+          "doi": null
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Most advanced FGF21 analogue in development. HARMONY trial (96 weeks): 49% achieved ≥1-stage fibrosis improvement without MASH worsening vs 19% placebo (p=0.003), 75% fibrosis improvement in per-protocol analysis (p<0.0001), 45.1% MASH resolution vs 13.5% placebo (RR 2.42). 65% hepatic fat reduction when combined with GLP-1 RA. Mild-to-moderate GI AEs, no drug-induced liver injury. Leading candidate in FGF21 class with Phase 3 planned/initiated.",
+      "data_quality": "verified",
+      "notes": "Phase 2b completed. Leading FGF21 candidate. HARMONY trial NCT04767529. Phase 3 planned."
+    },
+    {
+      "chem_name": "Efimosfermin Alfa (BOS-580)",
+      "company": "Boston Pharmaceuticals → Acquired by GSK (2025)",
+      "stage": "Phase 2 completed",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Long-acting engineered FGF21 variant. Once every 2-4 weeks subcutaneous injection (monthly dosing advantage)."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT04880031",
+          "phase": "Phase 2",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT04880031",
+          "trial_name": "Phase 2a",
+          "note": "89% achieved ≥30% hepatic fat fraction reduction at 12 weeks vs 7% placebo. 100% of 300mg Q4W dose group achieved ≥30% hepatic fat reduction."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": "40484014",
+          "journal": "Lancet Gastroenterol Hepatol",
+          "year": "2025",
+          "title": "Efimosfermin Phase 2a",
+          "authors": "Loomba R, et al.",
+          "doi": null
+        },
+        {
+          "pmid": "41655584",
+          "journal": "Lancet",
+          "year": "2026",
+          "title": "Efimosfermin Phase 2",
+          "authors": "Noureddin M, et al.",
+          "doi": null
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Monthly dosing advantage (Q2-4W vs weekly for competitors). Phase 2a: 89% achieved ≥30% hepatic fat fraction reduction at 12 weeks vs 7% placebo. 100% of 300mg Q4W group achieved ≥30% hepatic fat reduction. Sustained improvements in liver function markers at 24 weeks. Favorable safety profile, GI events most common, no treatment-related deaths. Acquired by GSK in 2025.",
+      "data_quality": "verified",
+      "notes": "Phase 2 completed. Monthly dosing (Q2-4W). GSK acquisition 2025. NCT04880031."
+    },
+    {
+      "chem_name": "Pegozafermin",
+      "company": "89bio",
+      "stage": "Phase 2 (ENLIGHTEN program)",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "PEGylated FGF21 fusion protein. Once-weekly subcutaneous injection."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "ENLIGHTEN program",
+          "phase": "Phase 2",
+          "status": "Ongoing",
+          "url": "",
+          "trial_name": "ENLIGHTEN",
+          "note": "Multiple trials under ENLIGHTEN program."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Ranked 2nd highest for MRI-PDFF decline in network meta-analysis (SUCRA: 83.46) per Hepatology 2026 (PMID: 39028914). Significant improvements in liver fat, fibrosis markers, and metabolic parameters. Well-tolerated with no major safety signals reported. Phase 2 ongoing under ENLIGHTEN program.",
+      "data_quality": "verified",
+      "notes": "Phase 2 ongoing. ENLIGHTEN program. SUCRA 83.46 for MRI-PDFF decline (2nd highest in class)."
+    },
+    {
+      "chem_name": "Pegbelfermin (BMS-986036)",
+      "company": "Bristol Myers Squibb",
+      "stage": "Phase 2 (historical) - DISCONTINUED",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "PEGylated FGF21. No recent publications or active trials suggest program discontinuation."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT02639360",
+          "phase": "Phase 2",
+          "status": "Completed (Historical)",
+          "url": "https://clinicaltrials.gov/study/NCT02639360",
+          "trial_name": "Historical Phase 2",
+          "note": "Historical Phase 2 data showed liver fat reduction. No recent clinical activity."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Historical Phase 2 data showed liver fat reduction, but no recent publications or active trials suggest program discontinuation. No recent clinical activity. BMS has not advanced this program to Phase 3.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Historical Phase 2 only. No recent activity."
+    }
+  ]
 }
