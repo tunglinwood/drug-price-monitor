@@ -67,19 +67,19 @@ show_user_info()
 # 用户已登录，继续加载 Dashboard
 
 # ========== SIDEBAR NAVIGATION (ONLY VISIBLE AFTER LOGIN) ==========
-st.sidebar.title("🧭 Tracking Boards")
+st.sidebar.title("Tracking Boards")
 board = st.sidebar.radio(
     "Select Board",
-    ["🧪 GLP-1 Compounds", "🦋 THR-Beta Compounds"]
+    ["GLP-1 Compounds", "THR-Beta Compounds"]
 )
 
 # Load data based on selection
-if board == "🧪 GLP-1 Compounds":
+if board == "GLP-1 Compounds":
     compounds_file = "compounds.json"
-    board_title = "🧪 GLP-1 Receptor Agonists Tracking"
+    board_title = "GLP-1 Receptor Agonists Tracking"
 else:
     compounds_file = "compounds_thrbeta.json"
-    board_title = "🦋 THR-Beta Agonists Tracking"
+    board_title = "THR-Beta Agonists Tracking"
 
 # 标题
 st.title(board_title)
@@ -129,9 +129,9 @@ def load_data(compounds_file='compounds.json'):
 dashboard = load_data(compounds_file)
 
 if dashboard is None:
-    if board == "🦋 THR-Beta Compounds":
+    if board == "THR-Beta Compounds":
         st.warning(f"⚠️ {compounds_file} not found yet. Please provide THR-beta compound list to create this file.")
-        st.info("💡 Switch to 🧪 GLP-1 Compounds board to view GLP-1 data.")
+        st.info("💡 Switch to GLP-1 Compounds board to view GLP-1 data.")
     else:
         st.error("❌ 未找到监控数据，请先运行监控系统")
     st.stop()
