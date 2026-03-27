@@ -76,39 +76,45 @@ SEARCH STRATEGY:
 - Search both English and Chinese sources
 - Look for recent data (2025-2026)
 
-OUTPUT FORMAT:
-Return ALL findings as detailed text notes. Do NOT format as JSON.
-Include URLs, specific numbers, dates, and sources.
-Be comprehensive - more detail is better!
+OUTPUT FORMAT - TWO PARTS:
 
-Example output format:
-```
+==========================================
+# PART 1: RAW SEARCH SNIPPETS (UNPROCESSED)
+==========================================
+
+For EACH search query, save the RAW snippets:
+
+## Search Query: "NN9487 Amycretin PubChem"
+[RAW GOOGLE SEARCH RESULTS]
+1. [Title] ... [URL] ... [Snippet] ...
+2. [Title] ... [URL] ... [Snippet] ...
+
+## Search Query: "NN9487 site:clinicaltrials.gov"
+[RAW CLINICALTRIALS.GOV RESULTS]
+[Full trial details as shown on website]
+
+## Search Query: "Amycretin PubMed 2025"
+[RAW PUBMED RESULTS]
+PMID: XXXXX | Title | Journal | Date | Abstract snippet
+
+... (ALL raw search results for every query)
+
+==========================================
+# PART 2: ORGANIZED SUMMARY (PROCESSED)
+==========================================
+
+Then provide organized summary:
+
 === CHEMICAL IDENTIFIERS ===
-PubChem CID: 168438219
-URL: https://pubchem.ncbi.nlm.nih.gov/compound/168438219
-SMILES: Not found (proprietary peptide)
-Notes: Structure not publicly disclosed
+...
 
 === CLINICAL TRIALS ===
-Trial 1: NCT05369390
-Phase: Phase 1
-Status: Completed
-URL: https://clinicaltrials.gov/study/NCT05369390
-Indication: Obesity
-
-Trial 2: NCT06064006
-Phase: Phase 1b/2a
-Status: Active
-URL: https://clinicaltrials.gov/study/NCT06064006
+...
 
 === KEY FINDINGS ===
-- 24.3% weight loss at 60mg dose (week 36)
-- 22.0% weight loss at 20mg dose (week 36)
-- Published in Lancet, July 2025
-- Mechanism: Dual agonist (GLP-1 + Amylin)
-```
+...
 
-Return comprehensive search results as text. No JSON formatting needed!
+This ensures NO data is lost - raw snippets preserved for re-extraction!
 """
 
 

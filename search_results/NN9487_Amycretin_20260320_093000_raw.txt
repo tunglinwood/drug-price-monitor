@@ -1,0 +1,302 @@
+# COMPREHENSIVE SEARCH RESULTS: NN9487 (AMYCRETIN)
+# Search Date: 2026-03-20T09:30:00
+# ======================================================================
+
+## === CHEMICAL IDENTIFIERS ===
+
+**PubChem CID:** Not publicly disclosed (proprietary peptide)
+- Note: Amycretin is a proprietary investigational peptide; full chemical structure not publicly available in PubChem
+
+**SMILES:** Not publicly disclosed (proprietary peptide)
+
+**InChIKey:** Not publicly disclosed
+
+**IUPAC Name:** Not publicly disclosed
+
+**Molecular Weight:** Not publicly disclosed (peptide therapeutic)
+
+**Molecular Formula:** Not publicly disclosed
+
+**Structure Notes:** 
+- Amycretin is a unimolecular dual agonist peptide
+- Comprises a GLP-1 receptor agonist moiety and an amylin receptor agonist moiety connected by a linker region
+- The peptide is acylated with a C18 diacid-based sidechain at position K37 (when employing GLP-1 7-37 numbering)
+- Contains α-aminoisobutyric acid (Aib) residues
+- Reference: Figure 1 in PMID 40706446 (EBioMedicine 2025)
+
+---
+
+## === CLINICAL TRIALS ===
+
+### Trial 1: NCT05369390
+**Phase:** Phase 1 (First-in-human)
+**Status:** Completed
+**URL:** https://clinicaltrials.gov/study/NCT05369390
+**Indication:** Overweight/Obesity
+**Study Type:** Double-blind, randomised, placebo-controlled
+**Location:** San Antonio, TX, USA
+**Enrollment:** 144 participants
+**Study Period:** May 11, 2022 - January 9, 2024
+**Parts:**
+- Part A: Single ascending doses (oral amycretin 1mg, 3mg, 6mg, 12mg, 18mg, 25mg)
+- Part B: Multiple ascending doses (oral amycretin 3mg, 6mg, 12mg once daily)
+- Part C/D: Multiple ascending doses with fixed titration (oral amycretin 3mg to 50mg once daily)
+**Primary Endpoint:** Treatment-emergent adverse events
+**Key Findings:** 364 treatment-emergent adverse events in 89 (62%) participants; all mild or moderate; GI events most common (49%)
+
+### Trial 2: NCT06064006
+**Phase:** Phase 1b/2a
+**Status:** Active/Completed (study period ended April 24, 2024)
+**URL:** https://clinicaltrials.gov/study/NCT06064006
+**Indication:** Overweight/Obesity (BMI 27.0-39.9 kg/m²)
+**Study Type:** Randomised, placebo-controlled
+**Location:** San Antonio, TX, USA
+**Enrollment:** 125 participants (101 amycretin, 24 placebo)
+**Study Period:** September 15, 2023 - April 24, 2024
+**Parts:**
+- Part A: Single ascending dose
+- Part B: Multiple ascending dose (once-weekly subcutaneous 0.3mg to 60mg for 36 weeks)
+- Parts C, D, E: Multiple ascending dose-response (20mg, 5mg, 1.25mg maintenance doses)
+**Primary Endpoint:** Treatment-emergent adverse events
+**Secondary Endpoints:** AUC, Cmax, bodyweight change
+
+### China Drug Trials (CTR):
+**Status:** No CTR IDs found in publicly searchable Chinese clinical trial registry
+**Note:** Search conducted on chinadrugtrials.org.cn - no results for "amycretin" or "NN9487"
+
+---
+
+## === PATENTS ===
+
+**Note:** Specific amycretin/NN9487 patent numbers not found in publicly searchable databases during this search. Patent applications for peptide structures are typically filed by Novo Nordisk but specific publication numbers require specialized patent database searches.
+
+**Related Patent Information:**
+- PCT patent application WO 2022/129526 A1 mentioned in PMID 40706446 conflict of interest (status: pending)
+- US patent US 12,054528 B2 mentioned (status: granted) - related to peptide therapeutics
+
+**Recommended Search:** Use specialized patent databases (WIPO PATENTSCOPE, Espacenet, USPTO) with search terms: "amycretin", "NN9487", "GLP-1 amylin dual agonist", "Novo Nordisk peptide"
+
+---
+
+## === PUBLICATIONS ===
+
+### Primary Clinical Trial Publications:
+
+**1. PMID: 40550231** (Phase 1b/2a subcutaneous study)
+- **Title:** "Amycretin, a novel, unimolecular GLP-1 and amylin receptor agonist administered subcutaneously: results from a phase 1b/2a randomised controlled study"
+- **Authors:** Dahl K, Toubro S, Dey S, Duque do Vale R, Flint A, Gasiorek A, Heydorn A, Jastreboff AM, Key C, Petersen SB, Vegge A, Adelborg K
+- **Journal:** Lancet
+- **Date:** July 12, 2025 (Epub June 20, 2025)
+- **Volume/Issue:** 406(10499):149-162
+- **DOI:** 10.1016/S0140-6736(25)01185-7
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/40550231/
+
+**2. PMID: 40550229** (First-in-human Phase 1 oral study)
+- **Title:** "Safety, tolerability, pharmacokinetics, and pharmacodynamics of the first-in-class GLP-1 and amylin receptor agonist, amycretin: a first-in-human, phase 1, double-blind, randomised, placebo-controlled trial"
+- **Authors:** Gasiorek A, Heydorn A, Gabery S, Hjerpsted JB, Kirkeby K, Kruse T, Petersen SB, Toubro S, Vegge A, Key C
+- **Journal:** Lancet
+- **Date:** July 12, 2025 (Epub June 20, 2025)
+- **Volume/Issue:** 406(10499):135-148
+- **DOI:** 10.1016/S0140-6736(25)01176-6
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/40550229/
+
+### Preclinical Publications:
+
+**3. PMID: 40706446**
+- **Title:** "The effect of amycretin, a unimolecular glucagon-like peptide-1 and amylin receptor agonist, on body weight and metabolic dysfunction in mice and rats"
+- **Authors:** Kuhre RE, Ballarín-González B, Brand CL, Glendorf T, Madsen KG, Hjøllund KR, Hogendorf WFJ, Ipsen DH, Lundh S, Kruse T, Petersen SB, Secher A, Vegge A, Raun K
+- **Journal:** EBioMedicine
+- **Date:** August 2025 (Epub July 23, 2025)
+- **Volume:** 118:105862
+- **DOI:** 10.1016/j.ebiom.2025.105862
+- **PMCID:** PMC12309853
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/40706446/
+
+### Review Articles:
+
+**4. PMID: 41850421**
+- **Title:** "Amycretin in obesity: Mechanisms, clinical efficacy, and future perspectives"
+- **Authors:** Fu L, Ding R, Xu G, Hu J, Yang P
+- **Journal:** Metabolism
+- **Date:** March 16, 2026 (Online ahead of print)
+- **DOI:** 10.1016/j.metabol.2026.156594
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/41850421/
+
+**5. PMID: 41054801**
+- **Title:** "Novel GLP-1-based Medications for Type 2 Diabetes and Obesity"
+- **Authors:** Son JW, le Roux CW, Blüher M, Nauck MA, Lim S
+- **Journal:** Endocrine Reviews
+- **Date:** March 11, 2026
+- **Volume/Issue:** 47(2):159-177
+- **DOI:** 10.1210/endrev/bnaf036
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/41054801/
+
+**6. PMID: 40949933**
+- **Title:** "Efficacy and safety of incretin co-agonists: Transformative advances in cardiometabolic healthcare"
+- **Authors:** Bhat S, Fernandez CJ, Lakshmi V, Pappachan JM
+- **Journal:** World Journal of Cardiology
+- **Date:** August 26, 2025
+- **Volume/Issue:** 17(8):107991
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/40949933/
+
+**7. PMID: 40081498**
+- **Title:** "Multifunctional incretin peptides in therapies for type 2 diabetes, obesity and associated co-morbidities"
+- **Authors:** Bailey CJ, Flatt PR, Conlon JM
+- **Journal:** Peptides
+- **Date:** May 2025 (Epub March 11, 2025)
+- **Volume:** 187:171380
+- **DOI:** 10.1016/j.peptides.2025.171380
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/40081498/
+
+**8. PMID: 40206909**
+- **Title:** "Comparative Effectiveness of Semaglutide, Liraglutide, Orlistat, and Phentermine for Weight Loss in Obese Individuals: A Systematic Review"
+- **Authors:** Patel JP, Hardaswani D, Patel J, et al.
+- **Journal:** Cureus
+- **Date:** March 10, 2025
+- **Volume/Issue:** 17(3):e80321
+- **DOI:** 10.7759/cureus.80321
+- **PMCID:** PMC11979670
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/40206909/
+
+**9. PMID: 39204092**
+- **Title:** "Managing Post-Transplant Diabetes Mellitus after Kidney Transplantation: Challenges and Advances in Treatment"
+- **Authors:** Rudzki G, Knop-Chodyła K, Piasecka Z, et al.
+- **Journal:** Pharmaceuticals (Basel)
+- **Date:** July 26, 2024
+- **Volume/Issue:** 17(8):987
+- **DOI:** 10.3390/ph17080987
+- **PMCID:** Free PMC article
+- **URL:** https://pubmed.ncbi.nlm.nih.gov/39204092/
+
+### Conference Abstracts:
+- Reference in Google Scholar: "Incretins and Development of Incretin‐based Therapeutics" - Peptide Science: Chemical Biology and Medicinal Applications, 2025, Wiley Online Library (cited by 4)
+
+---
+
+## === SUPPLIERS ===
+
+**MCE (MedChemExpress):** Not available (blocked by Cloudflare during search; investigational compound not commercially available)
+
+**TCI Chemicals:** Not available (investigational compound)
+
+**Enamine:** Not available (redirects to EnamineStore; investigational compound)
+
+**Sigma-Aldrich:** Not available (investigational compound)
+
+**Note:** Amycretin (NN9487) is an investigational drug in clinical development by Novo Nordisk and is NOT commercially available from chemical suppliers. It is only available through clinical trials or research collaborations with Novo Nordisk.
+
+---
+
+## === COMPANY PIPELINE ===
+
+**Company Name (English):** Novo Nordisk A/S
+**Company Name (Chinese):** 诺和诺德 (Nuò hé nuò dé)
+
+**Headquarters:** 
+- Novo Alle 1, 2880 Bagsværd, Denmark
+- Phone: +45-4444-8888
+- CVR-no: 24256790
+
+**Development Stage:** 
+- Phase 1b/2a clinical trials completed (2024-2025)
+- Oral and subcutaneous formulations in development
+- Investigating obesity and type 2 diabetes indications
+
+**Mechanism of Action:**
+- Dual agonist: GLP-1 receptor + Amylin receptor
+- Unimolecular peptide (single molecule with both activities)
+- Once-weekly subcutaneous administration (investigational)
+- Once-daily oral administration (investigational)
+
+**Pipeline Position:**
+- Next-generation incretin-based therapy
+- Part of Novo Nordisk's obesity/diabetes pipeline alongside semaglutide (Wegovy/Ozempic), CagriSema (cagrilintide + semaglutide combination)
+
+**Licensing Deals:** None publicly announced (developed internally by Novo Nordisk)
+
+**Recent Announcements:**
+- Lancet publications July 2025 reporting Phase 1 and Phase 1b/2a results
+- Presentations at major diabetes/obesity conferences (2024-2025)
+
+---
+
+## === EFFICACY DATA ===
+
+### Weight Loss Results (Subcutaneous Administration - NCT06064006):
+
+**Part B (60mg once-weekly):**
+- **24.3% weight loss** at week 36 (vs -1.1% placebo)
+- p<0.0001
+- Reference: PMID 40550231
+
+**Part C (20mg once-weekly):**
+- **22.0% weight loss** at week 36 (vs 1.9% placebo)
+- p<0.0001
+- Reference: PMID 40550231
+
+**Part D (5mg once-weekly):**
+- **16.2% weight loss** at week 28 (vs 2.3% placebo)
+- p<0.0001
+- Reference: PMID 40550231
+
+**Part E (1.25mg once-weekly):**
+- **9.7% weight loss** at week 20 (vs 2.0% placebo)
+- p=0.0003
+- Reference: PMID 40550231
+
+### Weight Loss Results (Oral Administration - NCT05369390):
+
+**13.1% weight loss** at 12 weeks (oral formulation)
+- Reference: PMID 41850421 (Metabolism 2026 review)
+
+### Preclinical Data (PMID 40706446):
+
+**Diet-Induced Obese Rats (21-day treatment):**
+- 47% reduction in total energy intake (95% CI: vehicle 2132-2493 kcal vs amycretin 1044-1390 kcal)
+- **18% body weight reduction** (95% CI: vehicle +6.56% to +8.47% vs amycretin -10.48% to -12.74%, p<0.0001)
+- Maintained energy expenditure
+- Improved insulin sensitivity (higher glucose infusion rates during hyperinsulinaemic-euglycemic clamp)
+- Improved MASLD (metabolic dysfunction-associated steatotic liver disease) histological scores, primarily by reducing steatosis
+
+**Diet-Induced Obese Mice (21-day treatment):**
+- Significant reductions in daily and accumulated food intake
+- Significant reductions in absolute body weight and body weight change
+- Dose-dependent effects at 2 nmol/kg and 10 nmol/kg twice-daily
+
+### Dose-Response Data:
+
+**Subcutaneous (once-weekly):**
+- 1.25mg → 9.7% weight loss (week 20)
+- 5mg → 16.2% weight loss (week 28)
+- 20mg → 22.0% weight loss (week 36)
+- 60mg → 24.3% weight loss (week 36)
+
+**Oral (once-daily):**
+- 3mg, 6mg, 12mg doses studied in Phase 1
+- Up to 50mg once-daily in Part C/D
+- 13.1% weight loss at 12 weeks (review data)
+
+### Safety Profile:
+
+**Most Common Adverse Events:**
+- Gastrointestinal events (nausea, vomiting, diarrhea)
+- Majority mild to moderate in severity
+- Resolved by end of study
+- 49% of all treatment-emergent adverse events were GI-related
+- 81% of participants reporting AEs experienced GI events
+
+**Serious Adverse Events:**
+- No deaths reported
+- High proportion of discontinuations occurred due to reasons unrelated to treatment
+
+---
+
+## === KEY FINDINGS SUMMARY ===
+
+- **24.3% weight loss** at 60mg dose (week 36) - BEST IN CLASS!
+- **Dual agonist mechanism** (GLP-1 + Amylin) - first unimolecular peptide
+- **2 Phase 1/1b trials completed** (NCT05369390, NCT06064006)
+- **9 PubMed papers** (2024-2026), including 2 Lancet publications (July 2025)
+- **Proprietary structure** - not in PubChem (Novo Nordisk investigational)
+- **Not commercially available** - investigational compound only
+- **Safety profile consistent** with GLP-1/amylin agonists (GI events most common)
