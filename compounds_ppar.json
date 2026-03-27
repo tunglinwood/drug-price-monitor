@@ -1,0 +1,21 @@
+{
+  "metadata": {
+    "last_updated": "2026-03-27T10:35:00.000000",
+    "total_compounds": 0,
+    "extracted_via": "pending",
+    "extraction_method": "pending",
+    "git_commit": "PPAR_BOARD_CREATED",
+    "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
+    "format": "hierarchical_json",
+    "board": "Pan-PPAR Agonists",
+    "note": "Pan-PPAR agonists for metabolic diseases (NASH/MASH, diabetes, dyslipidemia)"
+  },
+  "summary": {
+    "total_compounds": 0,
+    "verified": 0,
+    "partial": 0,
+    "not_found": 0,
+    "last_updated": "2026-03-27T10:35:00.000000"
+  },
+  "compounds": []
+}
