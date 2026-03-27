@@ -1,94 +1,342 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T10:50:00.000000",
-    "total_compounds": 3,
+    "last_updated": "2026-03-27T11:40:00.000000",
+    "total_compounds": 10,
     "extracted_via": "user_provided_research_summary",
     "extraction_method": "manual_extraction",
-    "git_commit": "PPAR_INITIAL_POPULATION",
+    "git_commit": "PPAR_COMPREHENSIVE_UPDATE",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "Pan-PPAR Agonists",
-    "note": "Pan-PPAR agonists activate all three PPAR subtypes (α, β/δ, γ) for metabolic diseases (NASH/MASH, diabetes, dyslipidemia)"
+    "note": "Pan-PPAR agonists activate all three PPAR subtypes (α, β/δ, γ) for metabolic diseases (NASH/MASH, diabetes, dyslipidemia). 1 marketed, 2 clinical, 1 discontinued, 6 preclinical."
   },
   "summary": {
-    "total_compounds": 3,
-    "verified": 3,
+    "total_compounds": 10,
+    "verified": 10,
     "partial": 0,
     "not_found": 0,
-    "approved": 2,
-    "in_development": 1,
-    "last_updated": "2026-03-27T10:50:00.000000"
+    "marketed": 1,
+    "clinical": 2,
+    "discontinued": 1,
+    "preclinical": 6,
+    "last_updated": "2026-03-27T11:40:00.000000"
   },
   "compounds": [
     {
-      "chem_name": "Lanifibranor",
-      "company": "Inventiva Pharma",
-      "stage": "Phase III",
+      "chem_name": "Bezafibrate (Bezalip)",
+      "company": "Multiple manufacturers",
+      "stage": "Marketed (Global, 1978)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Pan-PPAR agonist designed to activate all three PPAR subtypes (α, β/δ, γ) with balanced potency."
+        "notes": "First clinically tested pan-PPAR activator. Historically classified as fibrate (primarily PPARα), but pan-PPAR activity (α, β/δ, γ) confirmed in multiple studies."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": "16168052",
+          "journal": "PubMed",
+          "year": "2005",
+          "title": "Dual and pan-peroxisome proliferator-activated receptor co-activation in metabolic disorders",
+          "doi": null
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "First clinically tested pan-PPAR activator stimulating PPAR-α, PPAR-β/δ, and PPAR-γ. Marketed globally since 1978 for hypertriglyceridemia and mixed dyslipidemia. Clinical data show increases in HDL-C, reductions in triglycerides, improved insulin sensitivity, and reduced cardiovascular events and incident diabetes in metabolic syndrome patients. Pan-PPAR activity was recognized retrospectively.",
+      "data_quality": "verified",
+      "notes": "Marketed since 1978. Brand: Bezalip. First clinically tested pan-PPAR."
+    },
+    {
+      "chem_name": "Lanifibranor (IVA-337)",
+      "company": "Inventiva Pharma",
+      "stage": "Phase 3 (NATiV3 trial)",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pan-PPAR agonist with moderate, well-balanced profile (fuller activation of α and δ, partial γ)."
       },
       "clinical_trials": [
         {
           "registry": "ClinicalTrials.gov",
-          "trial_id": "NATIVE trial",
-          "phase": "Phase III",
+          "trial_id": "NATiV3",
+          "phase": "Phase 3",
           "status": "Active",
           "url": "",
-          "trial_name": "NATIVE",
-          "note": "Phase III trial for NASH/MASH with liver fibrosis. Promising results in improving both steatohepatitis and fibrosis scores."
+          "trial_name": "NATiV3",
+          "note": "Phase 3 trial in MASH with fibrosis. Multiple Phase 2 studies completed."
         }
       ],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "pmid": null,
+          "journal": "N Engl J Med",
+          "year": "2021",
+          "title": "A Randomized, Controlled Trial of the Pan-PPAR Agonist Lanifibranor in NASH",
+          "doi": "10.1056/NEJMoa2036205"
+        },
+        {
+          "pmid": null,
+          "journal": "Nat Commun",
+          "year": "2024",
+          "title": "The pan-PPAR agonist lanifibranor improves cardiometabolic health in patients with MASH",
+          "doi": "10.1038/s41467-024-47919-9"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "Most advanced pan-PPAR agonist in development. Specifically designed to activate all three PPAR subtypes (α, β/δ, γ) with balanced potency. Phase III NATIVE trial for NASH/MASH has shown promising results in improving both steatohepatitis and fibrosis scores. Represents the most promising candidate for future global approval in the NASH/MASH indication.",
+      "key_findings": "Most advanced pan-PPAR agonist in development. Phase 3 NATiV3 trial for MASH with fibrosis. Repeatedly described as pan-PPAR agonist activating all three isoforms with moderate, well-balanced profile (fuller activation of α and δ, partial γ). Improves insulin sensitivity, lipids, steatohepatitis, liver fibrosis, portal hypertension and broader cardiometabolic endpoints in clinical and preclinical data. Only clearly pan-PPAR agent in late-stage development for liver disease.",
       "data_quality": "verified",
-      "notes": "Phase III. NATIVE trial for NASH/MASH. Most promising pan-PPAR candidate."
+      "notes": "Phase 3 NATiV3. Most advanced pan-PPAR for MASH. NEJM 2021, Nat Commun 2024."
     },
     {
-      "chem_name": "Chiglitazar (Bilessglu)",
+      "chem_name": "Chiglitazar (Carfloglitazar, Bilessglu)",
       "company": "Chipscreen Biosciences",
-      "stage": "Approved (China, October 2021)",
+      "stage": "Phase 3 completed (China approval pursued)",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "First pan-PPAR agonist specifically approved for type 2 diabetes treatment in China. Demonstrates balanced activation across all three PPAR subtypes."
+        "notes": "Non-TZD structured PPAR modulator. PPAR pan-agonist with activation of PPAR-α, PPAR-δ, and PPAR-γ."
       },
-      "clinical_trials": [],
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "Phase 3 vs Sitagliptin",
+          "phase": "Phase 3",
+          "status": "Completed",
+          "url": "",
+          "trial_name": "T2DM Phase 3",
+          "note": "Non-inferior HbA1c reduction (~-1.4% at 24 weeks) vs sitagliptin. Greater improvements in fasting/postprandial glucose and fasting insulin than sitagliptin."
+        }
+      ],
       "patents": [],
-      "pubmed_papers": [],
+      "pubmed_papers": [
+        {
+          "pmid": "36654287",
+          "journal": "PubMed",
+          "year": "2023",
+          "title": "Efficacy and Safety of Chiglitazar, a Novel Peroxisome Proliferator–Activated Receptor Pan-Agonist",
+          "doi": null
+        },
+        {
+          "pmid": null,
+          "journal": "Biomed Pharmacother",
+          "year": "2025",
+          "title": "Chiglitazar, a PPAR pan-agonist: impacts on type 2 diabetes",
+          "doi": "10.1016/j.biopha.2025.117044"
+        }
+      ],
       "suppliers": [],
-      "key_findings": "First pan-PPAR agonist approved for type 2 diabetes (China, October 2021). Brand name: Bilessglu. Represents a significant milestone as the first pan-PPAR agonist specifically approved for T2DM treatment. Demonstrates balanced activation across all three PPAR subtypes (α, β/δ, γ). Only approved in China as of 2026.",
+      "key_findings": "PPAR pan-agonist with activation of PPAR-α, PPAR-δ, and PPAR-γ. Multiple Phase 3 trials completed for T2DM. Phase 3 vs sitagliptin: non-inferior HbA1c reduction (~-1.4% at 24 weeks), with greater improvements in fasting and postprandial glucose and fasting insulin than sitagliptin. Being explored in MASLD/MASH with T2DM. Real-world and mechanistic studies emphasize balanced, triple-isoform activity with favorable metabolic effects.",
       "data_quality": "verified",
-      "notes": "Approved China Oct 2021. Brand: Bilessglu. First pan-PPAR for T2DM."
+      "notes": "Phase 3 completed. T2DM indication. Balanced triple-isoform activity. PMID: 36654287."
     },
     {
-      "chem_name": "Bezafibrate (Bezalip)",
-      "company": "Multiple manufacturers",
-      "stage": "Approved (Global, 1978)",
+      "chem_name": "Indeglitazar (PPM-204)",
+      "company": "Pfizer (originator)",
+      "stage": "Phase 2 completed - DISCONTINUED",
       "chemical_identifiers": {
         "pubchem_cid": null,
         "smiles": null,
         "inchikey": null,
         "iupac": null,
         "molecular_weight": null,
-        "notes": "Historically classified as a fibrate (primarily PPARα), but has demonstrated pan-PPAR activity in multiple studies. In clinical use for over 45 years."
+        "notes": "Rationally designed pan-PPAR-active ligand with EC₅₀ values of ~0.85–1.3 µM for PPAR-α/δ/γ."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "Phase 2 (discontinued)",
+          "phase": "Phase 2",
+          "status": "Discontinued",
+          "url": "",
+          "trial_name": "T2DM Phase 2",
+          "note": "Phase 2 diabetes program stopped due to safety and benefit-risk concerns, in line with broader setbacks for glitazar-type drugs."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": null,
+          "journal": "PNAS",
+          "year": "2009",
+          "title": "Scaffold-based discovery of indeglitazar, a PPAR pan-active anti-diabetic agent",
+          "doi": "10.1073/pnas.0811325106"
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Rationally designed pan-PPAR-active ligand with EC₅₀ values of ~0.85–1.3 µM for PPAR-α/δ/γ. Advanced to Phase 2 clinical trials for T2DM, then development was discontinued. Structural studies show indeglitazar bound to each subtype's ligand-binding domain, confirming true pan-agonist binding. Less adipogenic than full PPAR-γ agonists, only partially up-regulates adiponectin, but still improves glucose, triglycerides, cholesterol, and weight in animal models. Phase 2 program stopped due to safety and benefit-risk concerns.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Phase 2 completed. Pfizer. Safety/benefit-risk concerns. PNAS 2009."
+    },
+    {
+      "chem_name": "MHY2013",
+      "company": "Research compound (academic)",
+      "stage": "Preclinical",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Synthetic small-molecule PPAR ligand. Identified as strongest pan-PPAR agonist among derivative series."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": null,
+          "journal": "Semantic Scholar",
+          "year": "2013",
+          "title": "Physiological characterization of a novel PPAR pan agonist, MHY2013",
+          "doi": null
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Identified as strongest pan-PPAR agonist among derivative series, activating all three PPARs in PPRE-luciferase assays to levels comparable with WY-14643 (α), GW501516 (δ), and rosiglitazone (γ). In db/db mice, oral MHY2013 improved insulin resistance, dyslipidemia, and hepatic steatosis without weight gain and without hepatic/renal toxicity at study doses. Mechanistically increased FGF21 and adiponectin, promoted adipose browning, and enhanced fatty-acid oxidation in liver, adipose and muscle.",
+      "data_quality": "verified",
+      "notes": "Preclinical. Strongest pan-PPAR in series. db/db mice efficacy. FGF21/adiponectin elevation."
+    },
+    {
+      "chem_name": "ZBH",
+      "company": "Research compound (academic)",
+      "stage": "Preclinical",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": "(E)-5-(3-methoxy-5-(4-methoxystyryl)phenoxy)-2,2-dimethylpentanoic acid",
+        "molecular_weight": null,
+        "notes": "Hybrid of fibrate pharmacophore and resveratrol scaffold. EC₅₀: 1.75 µM (α), 19.2 µM (δ), 25.3 µM (γ)."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": null,
+          "journal": "PLoS One",
+          "year": "2014",
+          "title": "Novel PPAR pan agonist, ZBH ameliorates hyperlipidemia and insulin resistance",
+          "doi": "10.1371/journal.pone.0096056"
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Hybrid of fibrate pharmacophore and resveratrol scaffold. Directly binds PPAR-α, PPAR-δ and PPAR-γ ligand-binding domains in SPR assays; KD values comparable to or better than bezafibrate. Cell-based transactivation: EC₅₀ ≈ 1.75 µM (α), 19.2 µM (δ), 25.3 µM (γ), much more potent than bezafibrate, especially at PPAR-α. In hyperlipidemic hamsters, 5-week treatment significantly reduced TG, TC, LDL-C, FFA and hyperinsulinemia, improved insulin sensitivity more than bezafibrate, without worsening liver or muscle enzymes. Also up-regulated SIRT1 and multiple fatty-acid oxidation genes in liver and muscle.",
+      "data_quality": "verified",
+      "notes": "Preclinical. Fibrate-resveratrol hybrid. EC₅₀: 1.75/19.2/25.3 µM (α/δ/γ). SIRT1 activation."
+    },
+    {
+      "chem_name": "TIPP-703",
+      "company": "Research reagent (commercial)",
+      "stage": "Preclinical (Laboratory tool)",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": "(S)-2-(3-((4-(1-adamantyl)benzamido)methyl)-4-propoxybenzyl)butanoic acid",
+        "molecular_weight": null,
+        "notes": "Phenylpropionic-acid-type ligand. EC₅₀: 61 nM (α), 120 nM (δ), 43 nM (γ) - very high potency."
       },
       "clinical_trials": [],
       "patents": [],
       "pubmed_papers": [],
       "suppliers": [],
-      "key_findings": "Legacy pan-PPAR agonist approved globally since 1978. Brand name: Bezalip. Historically classified as a fibrate (primarily PPARα), but multiple studies have demonstrated pan-PPAR activity (α, β/δ, γ). In clinical use for over 45 years for hyperlipidemia and metabolic syndrome. Pan-PPAR activity was recognized retrospectively.",
+      "key_findings": "Phenylpropionic-acid-type ligand sold as research reagent. Explicitly described as pan agonist that activates all three PPAR subtypes. In biochemical assays: EC₅₀ 61 nM (α), 120 nM (δ), 43 nM (γ) - very high potency across all isoforms. Used as positive control for PPAR assays and in structural biology work to study how a single ligand can adapt to different LBD shapes of PPAR-α, -δ, and -γ.",
       "data_quality": "verified",
-      "notes": "Approved globally since 1978. Brand: Bezalip. Pan-PPAR activity recognized retrospectively."
+      "notes": "Research reagent. Tool compound. EC₅₀: 61/120/43 nM (α/δ/γ). Positive control for PPAR assays."
+    },
+    {
+      "chem_name": "BP-2",
+      "company": "Research compound (academic)",
+      "stage": "Preclinical (Lead candidate)",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Prenylated benzopyran derivative. Strong PPAR-α, moderate PPAR-β/δ, weak but present PPAR-γ activity."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": "36586645",
+          "journal": "PubMed",
+          "year": "2022",
+          "title": "Anti-inflammatory effects and improved metabolic derangements in ob/ob mice by BP-2",
+          "doi": null
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Newly synthesized prenylated benzopyran with pan-PPAR activity. Transactivation profile: strong PPAR-α, moderate PPAR-β/δ, weak but present PPAR-γ activity. In endothelial cells, decreased TNF-α-induced ICAM-1, VCAM-1, and fractalkine, reduced p38-MAPK/NF-κB activation via PPARβ/δ-RXRα interactions. In ob/ob mice, improved glucose and triglycerides, reduced liver and adipose inflammation, shifted macrophages toward M2-like phenotype (↑CD206).",
+      "data_quality": "verified",
+      "notes": "Preclinical lead. Prenylated benzopyran. Strong α, moderate β/δ, weak γ. PMID: 36586645."
+    },
+    {
+      "chem_name": "Polydatin (trans-piceid)",
+      "company": "Natural product",
+      "stage": "Preclinical",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Natural glycoside of resveratrol. Identified as top pan-PPAR ligand via high-throughput virtual screening."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": null,
+          "journal": "Sci Rep (Nature)",
+          "year": "2025",
+          "title": "In silico and in vitro investigations reveal pan-PPAR agonist activity and anti-NAFLD efficacy of Polydatin",
+          "doi": "10.1038/s41598-025-12357-0"
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Natural glycoside of resveratrol. High-throughput virtual screening against all three PPAR LBDs identified Polydatin as top pan-PPAR ligand, with balanced Glide scores and stable MD simulations in PPAR-α, -β/δ, and -γ. Nuclear pan-PPAR DNA-binding assays in steatotic HepG2 cells showed marked increases in PPAR-β/δ and PPAR-γ activity and PPAR-α at least comparable to reference hepatoprotective agent. Increased protein levels of PPAR-α, -β/δ, and -γ, activated AMPK, decreased ACC1 and FASN, increased CPT1α, and up-regulated GLUT2. Reduced lipid accumulation (Oil Red O), ROS, MDA and ALT in OA-induced steatotic cells more effectively than silymarin.",
+      "data_quality": "verified",
+      "notes": "Preclinical. Natural resveratrol glycoside. HTVS-identified pan-PPAR. Anti-NAFLD efficacy."
+    },
+    {
+      "chem_name": "Bavachinin (BVC; 7-O-Methylbavachin)",
+      "company": "Natural product (Psoralea corylifolia)",
+      "stage": "Preclinical",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Prenylated isoflavone. EC₅₀: 0.74 µM (γ), 4.00 µM (α), 8.07 µM (β/δ) in 293T cells."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [
+        {
+          "pmid": null,
+          "journal": "Semantic Scholar",
+          "year": "2020",
+          "title": "Development of heterocyclic PPAR ligands for potential therapeutic applications - Bavachinin section",
+          "doi": null
+        }
+      ],
+      "suppliers": [],
+      "key_findings": "Prenylated isoflavone from Psoralea corylifolia. Novel natural pan-PPAR agonist with EC₅₀ values in 293T cells of 0.74 µM (PPAR-γ), 4.00 µM (PPAR-α), 8.07 µM (PPAR-β/δ). SAR work shows specific A-ring substitutions (C-6 isopentenyl, C-7 methoxy) and B-ring modifications tune pan-PPAR potency. Bavachinin analog (compound 41) has even higher α/β activity while maintaining γ potency, noted as more powerful pan-PPAR analog.",
+      "data_quality": "verified",
+      "notes": "Preclinical. Natural prenylated isoflavone. EC₅₀: 0.74/4.00/8.07 µM (γ/α/β/δ). SAR optimized."
     }
   ]
 }
