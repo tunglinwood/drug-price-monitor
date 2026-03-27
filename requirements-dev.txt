@@ -1,0 +1,64 @@
+# Development Dependencies
+# Install: pip install -r requirements-dev.txt
+
+# =============================================================================
+# LINTING & FORMATTING
+# =============================================================================
+
+# Ruff - Fast Python linter and formatter
+ruff>=0.3.0
+
+# Pre-commit hooks
+pre-commit>=3.6.0
+
+# =============================================================================
+# TYPE CHECKING
+# =============================================================================
+
+# Mypy - Static type checker
+mypy>=1.8.0
+
+# Type stubs for better type checking
+types-requests>=2.31.0
+types-PyYAML>=6.0.0
+types-bcrypt>=4.0.0
+
+# =============================================================================
+# TESTING
+# =============================================================================
+
+# Pytest - Testing framework
+pytest>=8.0.0
+
+# Pytest plugins
+pytest-cov>=4.1.0  # Coverage reporting
+pytest-asyncio>=0.23.0  # Async test support
+
+# =============================================================================
+# DEBUGGING
+# =============================================================================
+
+# Debugger (optional)
+# debugpy>=1.8.0
+
+# =============================================================================
+# INSTALLATION
+# =============================================================================
+# 
+# Setup pre-commit hooks:
+#   pip install -r requirements-dev.txt
+#   pre-commit install
+#
+# Run linter manually:
+#   ruff check .
+#   ruff format .
+#
+# Run type checker:
+#   mypy .
+#
+# Run tests:
+#   pytest
+#
+# Run all checks:
+#   pre-commit run --all-files
+# =============================================================================

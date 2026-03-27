@@ -4,9 +4,6 @@ __pycache__/
 *$py.class
 *.so
 .Python
-env/
-venv/
-ENV/
 build/
 develop-eggs/
 dist/
@@ -22,22 +19,13 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+MANIFEST
 
-# 数据文件
-monitor_output/*.json
-monitor_output/*.csv
-monitor_output/*.md
-monitor_output/*.txt
-!monitor_output/.gitkeep
-*.log
-compound_monitor.log
-
-# 敏感信息
-.env
-.env.local
-*.key
-*.pem
-credentials.json
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
 
 # IDE
 .vscode/
@@ -45,19 +33,68 @@ credentials.json
 *.swp
 *.swo
 *~
+.project
+.pydevproject
+.settings/
 
 # OS
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 
-# 大型文件
+# Logs
+*.log
+logs/
+
+# Environment variables (keep .env.example)
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+credentials.json
+auth_config.yaml
+
+# Data & Results (keep structure, ignore content)
+search_results/*.txt
+search_results/*.md
+validation_results/*.json
+subagent_results/*.json
+monitor_output/*.json
+monitor_output/*.csv
+monitor_output/*.md
+monitor_output/*.txt
+!monitor_output/.gitkeep
+task_*.txt
+
+# Test artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Ruff & Mypy
+.ruff_cache/
+.mypy_cache/
+
+# Pre-commit
+.pre-commit/
+
+# Large files
 *.png
 *.jpg
 *.jpeg
 *.gif
-!*.md
+*.pdf
+*.zip
+*.tar.gz
 
-# 测试文件
-test_*.py
-*_test.py
-# Force rebuild
+# Temporary files
+*.tmp
+*.bak
+*.swp

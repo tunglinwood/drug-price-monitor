@@ -5,14 +5,15 @@ Extraction Agent - Extract structured JSON from raw search results
 输入：原始搜索文本文件
 输出：结构化 JSON
 """
+
 import json
-from pathlib import Path
 from datetime import datetime
+from pathlib import Path
 
 
 def create_extraction_prompt(raw_search_text: str, compound: str) -> str:
     """创建提取任务提示（从原始文本提取 JSON）"""
-    
+
     return f"""You are a DATA EXTRACTION specialist.
 
 READ the raw search results below and extract structured information into JSON format.
@@ -91,52 +92,60 @@ READ the raw search results below and extract structured information into JSON f
 """
 
 
-def extract_from_raw(raw_filepath: str, compound: str, output_dir: str = "extracted_json") -> str:
+def extract_from_raw(
+    raw_filepath: str, compound: str, output_dir: str = "extracted_json"
+) -> str:
     """从原始搜索结果提取 JSON 并保存"""
-    
+
     # Load raw search results
     raw_text = ""
-    with open(raw_filepath, 'r', encoding='utf-8') as f:
+    with open(raw_filepath, encoding="utf-8") as f:
         raw_text = f.read()
-    
+
     # Create extraction prompt
     prompt = create_extraction_prompt(raw_text, compound)
-    
+
     # Save prompt to file (for sessions_spawn)
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True)
-    
+
     # Create filename from compound name
-    safe_name = compound.replace('/', '_').replace('(', '').replace(')', '').replace(' ', '_')
+    safe_name = (
+        compound.replace("/", "_").replace("(", "").replace(")", "").replace(" ", "_")
+    )
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    
+
     # Save extraction prompt
     prompt_filepath = output_path / f"{safe_name}_{timestamp}_extraction_prompt.txt"
-    with open(prompt_filepath, 'w', encoding='utf-8') as f:
+    with open(prompt_filepath, "w", encoding="utf-8") as f:
         f.write(prompt)
-    
+
     print(f"✅ Extraction prompt saved to: {prompt_filepath}")
     print(f"📝 Raw search file: {raw_filepath}")
-    
+
     return str(prompt_filepath)
 
 
-def save_extracted_json(compound: str, json_data: dict, output_dir: str = "extracted_json") -> str:
+def save_extracted_json(
+    compound: str, json_data: dict, output_dir: str = "extracted_json"
+) -> str:
     """保存提取的 JSON 到文件"""
-    
+
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True)
-    
+
     # Create filename from compound name
-    safe_name = compound.replace('/', '_').replace('(', '').replace(')', '').replace(' ', '_')
+    safe_name = (
+        compound.replace("/", "_").replace("(", "").replace(")", "").replace(" ", "_")
+    )
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = f"{safe_name}_{timestamp}_extracted.json"
-    
+
     # Save JSON
     filepath = output_path / filename
-    with open(filepath, 'w', encoding='utf-8') as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         json.dump(json_data, f, indent=2, ensure_ascii=False)
-    
+
     print(f"✅ Extracted JSON saved to: {filepath}")
     return str(filepath)
 
@@ -146,16 +155,16 @@ if __name__ == "__main__":
     # Example: Extract from NN9487 raw search results
     raw_file = "search_results/NN9487_Amycretin_20260320_092000_raw.txt"
     compound = "NN9487 (Amycretin)"
-    
-    print("="*70)
+
+    print("=" * 70)
     print("EXTRACTION AGENT WORKFLOW:")
-    print("="*70)
+    print("=" * 70)
     print(f"1. Load raw search results: {raw_file}")
-    print(f"2. Create extraction prompt")
-    print(f"3. Spawn extraction subagent (60s timeout)")
-    print(f"4. Save extracted JSON")
-    print("="*70)
-    
+    print("2. Create extraction prompt")
+    print("3. Spawn extraction subagent (60s timeout)")
+    print("4. Save extracted JSON")
+    print("=" * 70)
+
     # Create extraction prompt
     prompt_file = extract_from_raw(raw_file, compound)
     print(f"\n✅ Ready to spawn extraction subagent with: {prompt_file}")

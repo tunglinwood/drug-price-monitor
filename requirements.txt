@@ -1,11 +1,29 @@
-# Streamlit Cloud 专用依赖 (Python 3.14 兼容)
+# Drug Price API - Dependencies
+# For production: pip install -r requirements.txt
+# For development: pip install -r requirements-dev.txt
 
-# 核心依赖 - 不指定版本，让 Streamlit 自动选择
-streamlit
-pandas
-pubchempy
-python-dotenv
+# =============================================================================
+# CORE DEPENDENCIES
+# =============================================================================
 
-# 认证和权限 (简化版)
+# Dashboard
+streamlit>=1.30.0
+pandas>=2.0.0
+
+# Chemical data
+pubchempy>=1.0.4
+
+# Authentication
 bcrypt>=4.0.0
 pyyaml>=6.0
+
+# HTTP requests
+requests>=2.31.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# =============================================================================
+# OPTIONAL: Quality & Development Tools (not needed for Streamlit Cloud)
+# =============================================================================
+# Install separately: pip install -r requirements-dev.txt

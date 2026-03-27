@@ -1,0 +1,58 @@
+# Pre-commit configuration
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
+      - id: check-yaml
+      - id: check-json
+      - id: check-added-large-files
+        args: ['--maxkb=1000']
+      - id: check-merge-conflict
+      - id: detect-private-key
+      - id: fix-encoding-pragma
+        args: ['--remove']
+
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.3.0
+    hooks:
+      # Run the linter
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+      # Run the formatter
+      - id: ruff-format
+
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
+    hooks:
+      - id: mypy
+        name: mypy-streamlit
+        files: ^streamlit_app\.py$
+        args: [--ignore-missing-imports, --disable-error-code=var-annotated]
+        additional_dependencies: [
+          "streamlit>=1.30.0",
+          "pandas>=2.0.0",
+          "pydantic>=2.0.0",
+        ]
+      - id: mypy
+        name: mypy-pipeline
+        files: ^(single_agent_search|extraction_agent|subagent_validator|process_queue)\.py$
+        args: [--ignore-missing-imports, --disable-error-code=var-annotated]
+        additional_dependencies: [
+          "requests>=2.31.0",
+          "pydantic>=2.0.0",
+        ]
+
+  - repo: local
+    hooks:
+      - id: pytest-check
+        name: pytest-check
+        entry: pytest
+        language: system
+        pass_filenames: false
+        always_run: true
+        args: [--collect-only]

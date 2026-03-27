@@ -12,14 +12,15 @@ Single Agent Search - Returns raw search data (unstructured)
 
 输出：原始搜索结果保存到文本文件
 """
-from pathlib import Path
+
 from datetime import datetime
+from pathlib import Path
 
 
 def create_search_prompt(compound: str, company: str = "") -> str:
     """创建搜索任务提示（返回原始数据，不要 JSON）"""
-    
-    return f"""Comprehensive web search for {compound} {f'({company})' if company else ''}.
+
+    return f"""Comprehensive web search for {compound} {f"({company})" if company else ""}.
 
 SEARCH FOR ALL AVAILABLE INFORMATION:
 
@@ -118,33 +119,37 @@ This ensures NO data is lost - raw snippets preserved for re-extraction!
 """
 
 
-def save_raw_search_results(compound: str, search_output: str, output_dir: str = "search_results") -> str:
+def save_raw_search_results(
+    compound: str, search_output: str, output_dir: str = "search_results"
+) -> str:
     """保存原始搜索结果到文本文件"""
-    
+
     # Create output directory
     output_path = Path(output_dir)
     output_path.mkdir(exist_ok=True)
-    
+
     # Create filename from compound name
-    safe_name = compound.replace('/', '_').replace('(', '').replace(')', '').replace(' ', '_')
+    safe_name = (
+        compound.replace("/", "_").replace("(", "").replace(")", "").replace(" ", "_")
+    )
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     filename = f"{safe_name}_{timestamp}_raw.txt"
-    
+
     # Save to file
     filepath = output_path / filename
-    with open(filepath, 'w', encoding='utf-8') as f:
+    with open(filepath, "w", encoding="utf-8") as f:
         f.write(f"# Compound: {compound}\n")
         f.write(f"# Search Date: {datetime.now().isoformat()}\n")
-        f.write(f"# {'='*70}\n\n")
+        f.write(f"# {'=' * 70}\n\n")
         f.write(search_output)
-    
+
     print(f"✅ Raw search results saved to: {filepath}")
     return str(filepath)
 
 
 def load_raw_search_results(filepath: str) -> str:
     """从文本文件加载原始搜索结果"""
-    with open(filepath, 'r', encoding='utf-8') as f:
+    with open(filepath, encoding="utf-8") as f:
         return f.read()
 
 
@@ -152,14 +157,14 @@ def load_raw_search_results(filepath: str) -> str:
 if __name__ == "__main__":
     compound = "NN9487 (Amycretin)"
     company = "Novo Nordisk"
-    
+
     # Create search prompt
     prompt = create_search_prompt(compound, company)
-    
-    print("="*70)
+
+    print("=" * 70)
     print("SEARCH PROMPT FOR SINGLE AGENT:")
-    print("="*70)
+    print("=" * 70)
     print(prompt)
-    print("="*70)
+    print("=" * 70)
     print("\nThis prompt will be sent to sessions_spawn()")
     print("Raw search results will be saved to search_results/ directory")

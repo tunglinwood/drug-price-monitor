@@ -1,0 +1,71 @@
+# Ruff configuration for drug-price-api
+# https://docs.astral.sh/ruff/configuration/
+
+# Line length for formatter and linter
+line-length = 120
+
+[lint]
+# Enable pycodestyle (`E`), Pyflakes (`F`), and isort (`I`)
+select = ["E", "F", "I", "W", "B", "UP", "C4", "SIM", "ARG", "COM", "BLE"]
+ignore = [
+    "E501",  # Line too long (common in strings/URLs, handled by formatter)
+    "COM812",  # Missing trailing comma (handled by formatter)
+]
+
+# Allow autofix for all enabled rules
+fixable = ["ALL"]
+unfixable = []
+
+# Exclude legacy and generated files
+exclude = [
+    ".git",
+    ".streamlit",
+    "__pycache__",
+    "*.md",
+    "*.json",
+    "*.yaml",
+    "*.yml",
+    "*.txt",
+    "*.log",
+    "search_results",
+    "validation_results",
+    "subagent_results",
+    "monitor_output",
+]
+
+# Allow unused variables for underscore-prefixed
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+[lint.per-file-ignores]
+# Streamlit apps often have unused imports for UI components
+"streamlit_app.py" = ["F401", "E402"]
+"simple_auth.py" = ["F401"]
+# Pipeline agents may have unused parameters
+"single_agent_search.py" = ["ARG001"]
+"extraction_agent.py" = ["ARG001"]
+"subagent_validator.py" = ["ARG001"]
+"process_queue.py" = ["ARG001"]
+
+[format]
+# Use 4 spaces for indentation
+indent-style = "space"
+
+# Use double quotes for strings
+quote-style = "double"
+
+# Automatically fix trailing commas
+line-ending = "auto"
+
+# Skip files that are generated
+exclude = [
+    "*.json",
+    "*.md",
+    "search_results/*",
+    "validation_results/*",
+]
+
+[lint.isort]
+# Sort imports alphabetically
+force-sort-within-sections = true
+known-first-party = []
+combine-as-imports = true
