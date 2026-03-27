@@ -1,21 +1,94 @@
 {
   "metadata": {
-    "last_updated": "2026-03-27T10:35:00.000000",
-    "total_compounds": 0,
-    "extracted_via": "pending",
-    "extraction_method": "pending",
-    "git_commit": "PPAR_BOARD_CREATED",
+    "last_updated": "2026-03-27T10:50:00.000000",
+    "total_compounds": 3,
+    "extracted_via": "user_provided_research_summary",
+    "extraction_method": "manual_extraction",
+    "git_commit": "PPAR_INITIAL_POPULATION",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "Pan-PPAR Agonists",
-    "note": "Pan-PPAR agonists for metabolic diseases (NASH/MASH, diabetes, dyslipidemia)"
+    "note": "Pan-PPAR agonists activate all three PPAR subtypes (α, β/δ, γ) for metabolic diseases (NASH/MASH, diabetes, dyslipidemia)"
   },
   "summary": {
-    "total_compounds": 0,
-    "verified": 0,
+    "total_compounds": 3,
+    "verified": 3,
     "partial": 0,
     "not_found": 0,
-    "last_updated": "2026-03-27T10:35:00.000000"
+    "approved": 2,
+    "in_development": 1,
+    "last_updated": "2026-03-27T10:50:00.000000"
   },
-  "compounds": []
+  "compounds": [
+    {
+      "chem_name": "Lanifibranor",
+      "company": "Inventiva Pharma",
+      "stage": "Phase III",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Pan-PPAR agonist designed to activate all three PPAR subtypes (α, β/δ, γ) with balanced potency."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NATIVE trial",
+          "phase": "Phase III",
+          "status": "Active",
+          "url": "",
+          "trial_name": "NATIVE",
+          "note": "Phase III trial for NASH/MASH with liver fibrosis. Promising results in improving both steatohepatitis and fibrosis scores."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Most advanced pan-PPAR agonist in development. Specifically designed to activate all three PPAR subtypes (α, β/δ, γ) with balanced potency. Phase III NATIVE trial for NASH/MASH has shown promising results in improving both steatohepatitis and fibrosis scores. Represents the most promising candidate for future global approval in the NASH/MASH indication.",
+      "data_quality": "verified",
+      "notes": "Phase III. NATIVE trial for NASH/MASH. Most promising pan-PPAR candidate."
+    },
+    {
+      "chem_name": "Chiglitazar (Bilessglu)",
+      "company": "Chipscreen Biosciences",
+      "stage": "Approved (China, October 2021)",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "First pan-PPAR agonist specifically approved for type 2 diabetes treatment in China. Demonstrates balanced activation across all three PPAR subtypes."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "First pan-PPAR agonist approved for type 2 diabetes (China, October 2021). Brand name: Bilessglu. Represents a significant milestone as the first pan-PPAR agonist specifically approved for T2DM treatment. Demonstrates balanced activation across all three PPAR subtypes (α, β/δ, γ). Only approved in China as of 2026.",
+      "data_quality": "verified",
+      "notes": "Approved China Oct 2021. Brand: Bilessglu. First pan-PPAR for T2DM."
+    },
+    {
+      "chem_name": "Bezafibrate (Bezalip)",
+      "company": "Multiple manufacturers",
+      "stage": "Approved (Global, 1978)",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Historically classified as a fibrate (primarily PPARα), but has demonstrated pan-PPAR activity in multiple studies. In clinical use for over 45 years."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Legacy pan-PPAR agonist approved globally since 1978. Brand name: Bezalip. Historically classified as a fibrate (primarily PPARα), but multiple studies have demonstrated pan-PPAR activity (α, β/δ, γ). In clinical use for over 45 years for hyperlipidemia and metabolic syndrome. Pan-PPAR activity was recognized retrospectively.",
+      "data_quality": "verified",
+      "notes": "Approved globally since 1978. Brand: Bezalip. Pan-PPAR activity recognized retrospectively."
+    }
+  ]
 }
