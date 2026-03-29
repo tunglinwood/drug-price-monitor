@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-夜间化合物搜索队列处理器 - 全部 58 个化合物 (4 boards, 带验证代理)
-Overnight Compound Search Queue Processor - ALL 58 COMPOUNDS DAILY (4 boards, with Validation Agent)
+夜间化合物搜索队列处理器 - 全部 67 个化合物 (5 boards, 带验证代理)
+Overnight Compound Search Queue Processor - ALL 67 COMPOUNDS DAILY (5 boards, with Validation Agent)
 
-从 compound_queue.txt 读取化合物列表 (GLP-1 + THR-Beta + FGF21 + Pan-PPAR)
+从 compound_queue.txt 读取化合物列表 (GLP-1 + THR-Beta + FGF21 + Pan-PPAR + GKA)
 批量启动 Subagent 进行搜索
 验证代理比较新数据与现有库存
 自动保存结果并更新 Dashboard

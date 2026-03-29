@@ -7,6 +7,7 @@
 # - THR-Beta (19 compounds)
 # - FGF21 (4 compounds)
 # - Pan-PPAR (10 compounds)
+# - Glucokinase Activators (9 compounds)
 
 NN9487 (Amycretin)
 SAL0112
@@ -66,3 +67,14 @@ TIPP-703
 BP-2
 Polydatin (trans-piceid)
 Bavachinin (BVC; 7-O-Methylbavachin)
+
+# Glucokinase Activators (GKA)
+Dorzagliatin (HMS5552)
+TTP399 (Mitoglitazone)
+PF-04937319
+AZD1656
+LY2121117
+MK-0941
+JNJ-63974574
+AZD6370
+RO5021992
