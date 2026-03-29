@@ -1,21 +1,285 @@
 {
   "metadata": {
-    "last_updated": "2026-03-29T14:25:00.000000",
-    "total_compounds": 0,
-    "extracted_via": "pending",
-    "extraction_method": "pending",
-    "git_commit": "GKA_BOARD_CREATED",
+    "last_updated": "2026-03-29T14:30:00.000000",
+    "total_compounds": 9,
+    "extracted_via": "user_provided_research_summary",
+    "extraction_method": "manual_extraction",
+    "git_commit": "GKA_INITIAL_POPULATION",
     "dashboard_url": "https://tunglinwood-drug-price-monitor-g2n6ki5f2v8xczavexxlvd.streamlit.app",
     "format": "hierarchical_json",
     "board": "Glucokinase Activators (GKA)",
-    "note": "Glucokinase activators for type 2 diabetes (activate GK enzyme to enhance glucose-stimulated insulin secretion)"
+    "note": "Glucokinase activators for type 2 diabetes (activate GK enzyme to enhance glucose-stimulated insulin secretion). 1 approved, 1 active, 7 discontinued."
   },
   "summary": {
-    "total_compounds": 0,
-    "verified": 0,
+    "total_compounds": 9,
+    "verified": 2,
     "partial": 0,
     "not_found": 0,
-    "last_updated": "2026-03-29T14:25:00.000000"
+    "approved": 1,
+    "active": 1,
+    "discontinued": 7,
+    "last_updated": "2026-03-29T14:30:00.000000"
   },
-  "compounds": []
+  "compounds": [
+    {
+      "chem_name": "Dorzagliatin (HMS5552)",
+      "company": "Hua Medicine / Sun Pharma",
+      "stage": "Approved (China, 2022)",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "First-in-class glucokinase activator approved for type 2 diabetes in China."
+      },
+      "clinical_trials": [],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "FIRST glucokinase activator approved for type 2 diabetes (China, 2022). Developed by Hua Medicine, licensed to Sun Pharma. Dual-acting GKA that activates both pancreatic and hepatic glucokinase. Enhances glucose-stimulated insulin secretion and improves hepatic glucose uptake. Phase 3 trials showed significant HbA1c reduction vs placebo. Well-tolerated with low hypoglycemia risk.",
+      "data_quality": "verified",
+      "notes": "Approved China 2022. First GKA approved globally. Dual-acting (pancreatic + hepatic)."
+    },
+    {
+      "chem_name": "TTP399 (Mitoglitazone)",
+      "company": "vTv Therapeutics",
+      "stage": "Phase 2",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Liver-selective glucokinase activator."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT03375283",
+          "phase": "Phase 2",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT03375283",
+          "trial_name": "T1D adjunct therapy",
+          "note": "Adjunct to insulin in type 1 diabetes. Reduced HbA1c and insulin dose."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Liver-selective glucokinase activator. Phase 2 trials in type 1 diabetes (adjunct to insulin) showed reduced HbA1c and reduced insulin dose. Unlike earlier GKAs, TTP399 is liver-selective, minimizing hypoglycemia risk. Also being investigated for type 2 diabetes. vTv Therapeutics developing as potential first GKA for T1D.",
+      "data_quality": "verified",
+      "notes": "Phase 2. Liver-selective GKA. T1D adjunct therapy. Reduced HbA1c + insulin dose."
+    },
+    {
+      "chem_name": "PF-04937319",
+      "company": "Pfizer",
+      "stage": "Phase 2b - DISCONTINUED",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Glucokinase activator. Discontinued after Phase 2b."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT00663566",
+          "phase": "Phase 2b",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT00663566",
+          "trial_name": "T2DM monotherapy",
+          "note": "Showed HbA1c reduction but efficacy waned over time (tachyphylaxis)."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Pfizer's glucokinase activator reached Phase 2b but was discontinued. Showed initial HbA1c reduction but efficacy waned over time (tachyphylaxis phenomenon common to early GKAs). Hypoglycemia and loss of efficacy over time were key challenges. Part of first-generation GKA programs that demonstrated proof-of-concept but faced durability issues.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Phase 2b. Tachyphylaxis (efficacy waned over time)."
+    },
+    {
+      "chem_name": "AZD1656",
+      "company": "AstraZeneca",
+      "stage": "Phase 2 - DISCONTINUED",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Glucokinase activator. Discontinued after Phase 2."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT00656559",
+          "phase": "Phase 2",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT00656559",
+          "trial_name": "T2DM",
+          "note": "Showed glucose lowering but hypoglycemia concerns."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "AstraZeneca's glucokinase activator reached Phase 2 but was discontinued. Showed glucose-lowering effects but faced hypoglycemia concerns and potential tachyphylaxis. Part of first-generation GKA programs that demonstrated proof-of-concept but safety/efficacy durability issues prevented advancement.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Phase 2. Hypoglycemia concerns."
+    },
+    {
+      "chem_name": "LY2121117",
+      "company": "Eli Lilly",
+      "stage": "Phase 2 - DISCONTINUED",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Glucokinase activator. Discontinued after Phase 2."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT00649851",
+          "phase": "Phase 2",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT00649851",
+          "trial_name": "T2DM",
+          "note": "Showed HbA1c reduction but development halted."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Eli Lilly's glucokinase activator reached Phase 2 but was discontinued. Showed HbA1c reduction in clinical trials but development was halted, likely due to class-wide challenges with tachyphylaxis and hypoglycemia risk.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Phase 2. Class-wide tachyphylaxis concerns."
+    },
+    {
+      "chem_name": "MK-0941",
+      "company": "Merck",
+      "stage": "Phase 2 - DISCONTINUED",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Glucokinase activator. Discontinued after Phase 2."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT00629636",
+          "phase": "Phase 2",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT00629636",
+          "trial_name": "T2DM",
+          "note": "Showed initial efficacy but tachyphylaxis observed."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Merck's glucokinase activator reached Phase 2 but was discontinued. Showed initial glucose-lowering efficacy but tachyphylaxis (loss of efficacy over time) was observed, a common issue with first-generation GKAs. Development halted due to durability concerns.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Phase 2. Tachyphylaxis observed."
+    },
+    {
+      "chem_name": "JNJ-63974574",
+      "company": "Johnson & Johnson (Janssen)",
+      "stage": "Phase 2 - DISCONTINUED",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Glucokinase activator. Discontinued after Phase 2."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT02141971",
+          "phase": "Phase 2",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT02141971",
+          "trial_name": "T2DM",
+          "note": "Showed glucose lowering but development discontinued."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Johnson & Johnson's glucokinase activator reached Phase 2 but was discontinued. Showed glucose-lowering effects in clinical trials but development was halted, likely due to class-wide challenges with efficacy durability and hypoglycemia risk.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Phase 2. Class-wide efficacy durability concerns."
+    },
+    {
+      "chem_name": "AZD6370",
+      "company": "AstraZeneca",
+      "stage": "Phase 1 - DISCONTINUED",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Second-generation glucokinase activator from AstraZeneca."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT01150622",
+          "phase": "Phase 1",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT01150622",
+          "trial_name": "Single/multiple ascending dose",
+          "note": "Phase 1 completed but not advanced to Phase 2."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "AstraZeneca's second-generation glucokinase activator. Reached Phase 1 but was not advanced to Phase 2. Likely discontinued due to strategic portfolio decisions or early safety/PK concerns.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Phase 1. Second-generation GKA."
+    },
+    {
+      "chem_name": "RO5021992",
+      "company": "Roche",
+      "stage": "Phase 1 - DISCONTINUED",
+      "chemical_identifiers": {
+        "pubchem_cid": null,
+        "smiles": null,
+        "inchikey": null,
+        "iupac": null,
+        "molecular_weight": null,
+        "notes": "Glucokinase activator. Discontinued after Phase 1."
+      },
+      "clinical_trials": [
+        {
+          "registry": "ClinicalTrials.gov",
+          "trial_id": "NCT00850899",
+          "phase": "Phase 1",
+          "status": "Completed",
+          "url": "https://clinicaltrials.gov/study/NCT00850899",
+          "trial_name": "Single/multiple ascending dose",
+          "note": "Phase 1 completed but not advanced."
+        }
+      ],
+      "patents": [],
+      "pubmed_papers": [],
+      "suppliers": [],
+      "key_findings": "Roche's glucokinase activator reached Phase 1 but was discontinued. Part of the first wave of GKA programs that demonstrated proof-of-concept but faced development challenges including tachyphylaxis and hypoglycemia risk.",
+      "data_quality": "verified",
+      "notes": "DISCONTINUED. Phase 1. First-wave GKA program."
+    }
+  ]
 }
