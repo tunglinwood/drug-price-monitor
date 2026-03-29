@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 # 配置
 COMPOUND_QUEUE = Path(__file__).parent / "compound_queue.txt"
-DELAY_BETWEEN_BATCHES = 300  # 5 分钟间隔
+DELAY_BETWEEN_BATCHES = 180  # 3 分钟间隔 (58 compounds)
 MAX_CONCURRENT = 5  # 最多 5 个并发搜索
 VALIDATION_ENABLED = True  # 启用验证代理
 

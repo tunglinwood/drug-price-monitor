@@ -1,6 +1,12 @@
-# GLP-1 Compound Queue - 25 Compounds
+# ALL Compounds Queue - 58 Compounds (4 boards)
 # Daily search executes at 02:00 GMT+8
 # Format: One compound name per line
+#
+# Boards:
+# - GLP-1 (25 compounds)
+# - THR-Beta (19 compounds)
+# - FGF21 (4 compounds)
+# - Pan-PPAR (10 compounds)
 
 NN9487 (Amycretin)
 SAL0112
@@ -27,3 +33,36 @@ AZD5004/ECC5004
 GZR18 (Bofanglutide/博方格鲁肽)
 DA-302168S
 PF-06882961 (Danuglipron)
+ZB-129
+Resmetirom (MGL-3196)
+ECC-4703
+CS-060380
+Kylo-0603
+CS-060304 (Thybetaxor)
+RJ-4287
+KH-629
+HEC169584
+ASC-43F
+KPC000154
+CVI-2742
+CVI‑301
+HP-515
+VK2809 (MB07811)
+ALG-055009
+ASC-41
+HSK-31679
+TERN-501
+Efruxifermin (AKR-001)
+Efimosfermin Alfa (BOS-580)
+Pegozafermin
+Pegbelfermin (BMS-986036)
+Bezafibrate (Bezalip)
+Lanifibranor (IVA-337)
+Chiglitazar (Carfloglitazar, Bilessglu)
+Indeglitazar (PPM-204)
+MHY2013
+ZBH
+TIPP-703
+BP-2
+Polydatin (trans-piceid)
+Bavachinin (BVC; 7-O-Methylbavachin)
