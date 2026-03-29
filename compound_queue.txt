@@ -1,0 +1,29 @@
+# GLP-1 Compound Queue - 25 Compounds
+# Daily search executes at 02:00 GMT+8
+# Format: One compound name per line
+
+NN9487 (Amycretin)
+SAL0112
+BGM0504
+HRS-7535 (KAI-7535)
+MDR-001
+HDM1002
+LY3502970 (Orforglipron)
+LY3549492 (Naperiglipron)
+THDBH110
+HSK34890
+VCT220/CX11
+HS-10501
+HS-10501-2
+ZT006
+MWN109
+SYH2067
+APH01727
+BPYT-01
+RGT-274
+RO7795081/CT-996
+司美格鲁肽片 (Semaglutide/Rybelsus)
+AZD5004/ECC5004
+GZR18 (Bofanglutide/博方格鲁肽)
+DA-302168S
+PF-06882961 (Danuglipron)
